@@ -1,0 +1,139 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Shuai Xin's site</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'css/bootstrap.css' %}" rel='stylesheet' />
+
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/main.css' %}" rel='stylesheet' />
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="{% static 'js/hover.zoom.js' %}"></script>
+    <script src="{% static 'js/hover.zoom.conf.js' %}"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="">Shuai Xin's Site</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+          	<!--
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About</a></li>  -->
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<!-- +++++ Welcome Section +++++ -->
+	<div id="about">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 centered">
+					<img src="{% static 'img/shuai.jpg' %}" alt="shuai" />
+					<h1>安安，我是帥昕。</h1>
+          <p>
+            台灣新北新莊人，新泰國小、新莊國中、建國中學畢業，目前就讀國立台灣大學物理治療學系，同時在嘗試取得資工輔系學憑。<br/>
+            帥昕乃自冠花名（取其義），本名劉昕。致力（掙扎）於發展自己的獨特價值，至於終有一天要脫離總是只能拾人牙慧的無文明產出狀態。<br/>
+            當下的興趣是彈唱、編曲、資訊工程、教育、游泳，也許不久之後會考一張街頭藝人執照，新月橋見？<br/>
+            有五年以上國高中教育經驗，有興趣合作或想被教（用過都說好，真的啦），聯絡資訊見底欄。<br/>
+            不相信福利主義，但也不知道是否存在更好的辦法。對於歷史和文化保有好奇與理解，但不准叫我選邊站。喜歡接觸邏輯完整有序的人事物，然而自己並沒有此等高度所以懊惱著。喜歡自我感覺良好的時候的自己，但同時又患得患失深怕被看破手腳。<br/>
+            順帶一提，照片裡的兩顆是膝蓋，不是奶子。<br/>
+          </p>
+					<h1>Hi, I am Shuai Xin.</h1>
+					<p>
+            Hello. I'm Shuai Xin, Taiwanese. "Shuai" means handsome in Chinese, so you can
+             comprehend my name as "Handsome Xin". (Actually, my given name is Liu Xin, of
+             which "Liu" is my family name.) Being a student in National Taiwan University,
+              I'm now majoring in physical therapy while sometimes playing around with other stuff
+              such as computer science, music composition and production. Emm... If you want
+            to learn more about me, try reading Chinese.
+          </p>
+          <h2>統一回答</h2>
+          <p>
+            網站怎架的 → Django + Apache，伺服器租 Google cloud platform。<br/>
+            輸入法 → Windows 使用微軟新注音；MacOS 使用百度拼音（內建的注音實在沙雕）。<br/>
+            畢業沒 → 還沒的說，中途有休學過。預計 2021 年初完成學業。<br/>
+            畢業後要幹麻 → 哇阿災，嫁給你吧？<br/>
+            ㄩㄇ → ㄩ。
+          </p>
+          <h2>創作作品</h2>
+          <p></p>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689036623&color=%2351769c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+				</div><!-- /col-lg-8 -->
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /ww -->
+	
+	<!-- +++++ Projects Section +++++ -->
+
+	<!-- +++++ Footer Section +++++ -->
+
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h4>Contact Info</h4>
+					<p>
+						cel: 0908551223 <br/>
+						lineID: awesomexin <br/>
+            email: xinver22@gmail.com <br/>
+						city: XinZhuang, NewTaipei <br/>
+					</p>
+				</div><!-- /col-lg-4 -->
+
+				<div class="col-lg-4">
+					<h4>My Links</h4>
+					<p>
+						<a href="https://www.instagram.com/_shuai_xin/">Instagram</a><br/>
+						<a href="https://www.facebook.com/profile.php?id=100002572402623">Facebook</a><br/>
+						<a href="https://peing.net/zh-TW/shuaixin?event=0">peing提問箱</a>
+					</p>
+				</div><!-- /col-lg-4 -->
+
+				<div class="col-lg-4">
+					<h4>Zz(´-ω-`*)</h4>
+					<p>zzZ</p>
+				</div><!-- /col-lg-4 -->
+
+			</div>
+
+		</div>
+	</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  </body>
+</html>
