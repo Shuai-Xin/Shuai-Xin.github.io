@@ -10,9 +10,11 @@
 
     <title>Shuai Xin's site</title>
 
+    <!-- 引進google提供的思源黑字體(然後去css那邊使用字體) -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap&subset=chinese-traditional" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
     <link href="./static/css/bootstrap.css" rel='stylesheet' />
-
 
     <!-- Custom styles for this template -->
     <link href="./static/css/main.css" rel='stylesheet' />
@@ -27,7 +29,8 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 	  
-    <!---- Global site tag (gtag.js) - Google Analytics 額試用一下 google 分析 ----------->
+    <!---- Global site tag (gtag.js) - Google Analytics 額試用一下 google 分析 ------
+    	-------------------------------------------------------------------------->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154605966-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -36,7 +39,7 @@
 
   gtag('config', 'UA-154605966-1');
 </script>
-    <!----------------------- google 分析 ---------------------------------->
+    <!----------------------- google 分析 ------------------------------------------>
 
   </head>
 
@@ -58,8 +61,9 @@
           	<!--
             <li><a href="work.html">Work</a></li>
             <li><a href="about.html">About</a></li>  -->
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">關於</a></li>
+            <li><a href="#work">個人作品</a></li>
+            <li><a href="#contact">聯絡資訊</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -77,7 +81,7 @@
             帥昕乃自冠花名（取其義），本名劉昕。致力（掙扎）於發展自己的獨特價值，至於終有一天要脫離總是只能拾人牙慧的無文明產出狀態。<br/>
             當下的興趣是彈唱、編曲、資訊工程、教育、游泳，也許不久之後會考一張街頭藝人執照，新月橋見？<br/>
             有五年以上國高中教育經驗，有興趣合作或想被教（用過都說好，真的啦），聯絡資訊見底欄。<br/>
-            不相信福利主義，但也不知道是否存在更好的辦法。對於歷史和文化保有好奇與理解，但不准叫我選邊站。喜歡接觸邏輯完整有序的人事物，然而自己並沒有此等高度所以懊惱著。喜歡自我感覺良好的時候的自己，但同時又患得患失深怕被看破手腳。<br/>
+            不相信福利主義，但也不知道是否存在更好的辦法。對於歷史和文化保有好奇與理解，但還沒做好功課去選邊站。喜歡接觸邏輯完整有序的人事物，然而又因自己並沒有此等高度所以懊惱著。喜歡自我感覺良好的時候的自己，但同時又患得患失深怕被看破手腳。<br/>
             順帶一提，照片裡的兩顆是膝蓋，不是奶子。<br/>
           </p>
 					<h1>Hi, I am Shuai Xin.</h1>
@@ -89,25 +93,34 @@
               such as computer science, music composition and production. Emm... If you want
             to learn more about me, try reading Chinese.
           </p>
-          <h2>統一回答</h2>
+          <h1>統一回答</h1>
           <p>
             網站怎架的 → Django + Apache，伺服器租 Google cloud platform。<br/>
-            輸入法 → Windows 使用微軟新注音；MacOS 使用百度拼音（內建的注音實在沙雕）。<br/>
             畢業沒 → 還沒的說，中途有休學過。預計 2021 年初完成學業。<br/>
-            畢業後要幹麻 → 哇阿災，嫁給你吧？<br/>
-            ㄩㄇ → ㄩ。
+            畢業後要幹麻 → 再說。<br/>
           </p>
-          <h2>創作作品</h2>
-          <p>《吃我的大便》是我的第一個完整編制，算是練手之作。歌詞可進soundcloud觀看，不過反正也沒啥營養，隨意聽之即可。</p>
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689036623&color=%2351769c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-	  <p>《保持雙眼皮》因為右眼的眼皮一直降維成單眼皮，不勝其擾，一氣之下創作而成。僅費時一個下午，之後再也沒出現過此等效率。</p>
-	    <iframe width="100%" height="265" src="https://clyp.it/daaluxau/widget" frameborder="0"></iframe>			
+         
 				</div><!-- /col-lg-8 -->
 			</div><!-- /row -->
 	    </div> <!-- /container -->
 	</div><!-- /ww -->
 	
 	<!-- +++++ Projects Section +++++ -->
+
+	<div id="work">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 centered">
+					 <h1>創作作品</h1>
+	          			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689036623&color=%2351769c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+	          			<p>《吃我的大便》是我的第一個完整編制，算是練手之作。歌詞可進soundcloud觀看，不過反正也沒啥營養，隨意聽之即可。</p>
+	          			<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/736703992&color=%23c0cfa0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+	         			<p>《保持雙眼皮》因為右眼的眼皮一直降維成單眼皮，不勝其擾，一氣之下創作而成。僅費時一個下午，之後再也沒出現過此等效率。</p>			
+
+				</div><!-- /col-lg-8 -->
+			</div>
+		</div>
+	</div>
 
 	<!-- +++++ Footer Section +++++ -->
 
@@ -119,7 +132,7 @@
 					<p>
 						cel: 0908551223 <br/>
 						lineID: awesomexin <br/>
-            email: xinver22@gmail.com <br/>
+            			email: xinver22@gmail.com <br/>
 						city: XinZhuang, NewTaipei <br/>
 					</p>
 				</div><!-- /col-lg-4 -->
@@ -129,7 +142,7 @@
 					<p>
 						<a href="https://www.instagram.com/_shuai_xin/">Instagram</a><br/>
 						<a href="https://www.facebook.com/profile.php?id=100002572402623">Facebook</a><br/>
-						<a href="https://peing.net/zh-TW/shuaixin?event=0">peing提問箱</a>
+						<a href="https://peing.net/zh-TW/shuaixin?event=0">匿名留言提問</a>
 					</p>
 				</div><!-- /col-lg-4 -->
 
