@@ -7,11 +7,11 @@
  * URL: http://blacktie.co
  */
 
-/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700); <--- 這個我不知道是什麼用法 */
+/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700); <--- 聽說九成不用這招 */
 
 body {
   	background-color: #ffffff;
-	font-family: 'Noto Sans TC', sans-serif;
+  	font-family: 'Noto Sans TC', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -143,15 +143,20 @@ a:after {
 
 #about {
 	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 	background-color: #f2f2f2;
 }
 
+#work {
+	padding-top: 30px;
+	padding-bottom: 70px;
+	background-color: #fafafa;
+}
 
 #contact {
 	background-color: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
 
 #contact p {
