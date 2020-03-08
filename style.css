@@ -6,7 +6,10 @@
 body{
 	margin:0;
 	padding:0;
-    background:#FFFFFF;
+	background: linear-gradient(288deg, #ffb6b9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px),
+	 #FAE3D9 45%,
+	  rgba(178, 204, 198, 0.521) calc(45% + 1px), rgba(178, 204, 198, 0.521) 65%,
+	  rgba(176, 178, 214, 0.596) calc(65% + 1px), rgb(176, 178, 214, 0.596) 100%);
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
