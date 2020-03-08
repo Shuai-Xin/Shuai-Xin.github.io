@@ -364,7 +364,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     .bloc{padding-left: constant(safe-area-inset-left);padding-right: constant(safe-area-inset-right);} /* iPhone X Notch Support*/
     .bloc-group, .bloc-group .bloc{display:block;width:100%;}
 }
-@media (max-width: 767px)
+@media (max-width: 650px)
 {
     .page-container{
         overflow-x: hidden;
@@ -405,7 +405,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	   height: 320px;
     }
 }
-@media (max-width: 575px){
+@media (max-width: 500px){
 	.h3-style{
 		font-size:23px;
 	}
