@@ -6,10 +6,12 @@
     <meta name="author" content="劉昕">
     <meta name="keywords" content="劉昕,帥昕,shuai,shuaixin,shuai xin,華語流行音樂最後希望">
     <meta name="copyright" CONTENT="本網頁著作權歸劉昕所有">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?8771">
-	<link rel="stylesheet" type="text/css" href="style.css?7992">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?2022">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 
 
@@ -20,8 +22,8 @@
 	<!-- 引進google提供的思源黑字體(然後去css那邊使用字體) 
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet"> -->
 
-
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	
 
 
 <!-- Analytics -->
@@ -79,17 +81,20 @@
 				<h1 class="mg-md text-center h1-hi-我劉昕-style">
 					Hi 我劉昕
 				</h1>
+				<div id="typed-strings">
 				<h3 class="mg-md float-none text-center h3-bloc-1-style">
 					<span class="element"></span>最後希望。<br>媽祖說我將會是推進地球文明的那個關鍵人物，不敢忤逆祂的我就這樣半推半就地入世了…<br>同胞們，且待我拯救眾生吧！<br>
 				</h3>
-				  <script>
-					var typed = new Typed('.element', {
-					  strings: ["華語流行樂","台服琴女","矮品系智人","台灣補教"], //输入内容, 支持html标签
-					  typeSpeed: 100, //打字速度
-					  backSpeed: 50, //回退速度
-					  loop: true
-					});
-				</script>
+			</div>
+			<span id="typed"></span>
+			<script>
+				var typed = new Typed('.element', {
+				  strings: ["華語流行樂","台服琴女","矮品系智人","台灣補教"], //输入内容, 支持html标签
+				  typeSpeed: 100, //打字速度
+				  backSpeed: 50, //回退速度
+				  loop: true
+				});
+			</script>
 			</div>
 
 		</div>
@@ -222,9 +227,9 @@
 <!-- Main container END -->
     
 
-<script src="./js/jquery-3.3.1.min.js?2533"></script>
-<script src="./js/bootstrap.bundle.min.js?1120"></script>
-<script src="./js/blocs.min.js?2187"></script>
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/blocs.min.js"></script>
 <script src="./js/lazysizes.min.js" defer></script>
 <!-- Additional JS END -->
 
