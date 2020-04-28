@@ -435,3 +435,8 @@ p{
 .centered {
     text-align: center;
 }
+
+#bulletin {
+	color: #d60606;
+	font-size: medium;
+}
