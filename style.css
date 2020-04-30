@@ -37,17 +37,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face {
-	font-family:'oppo';
-	src: url('./fonts/OPPOsans.ttf');
-	src: url('./fonts/OPPOsans.ttf') format('truetype')，
-	url('./fonts/OPPOsans.eot?#font-spider') format('embedded-opentype'),
-    url('./fonts/OPPOsans.woff2') format('woff2'),
-    url('./fonts/OPPOsans.woff') format('woff'),
-    url('./fonts/OPPOsans.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+
 
 /* = Blocs
 -------------------------------------------------------------- */
@@ -289,12 +279,12 @@ button{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,label,.btn,a{
-	font-family: 'oppo';
+	font-family: 'Noto Sans TC', sans-serif;
 	font-weight: 400;
 }
 
 p{
-	font-family: 'oppo';
+	font-family: 'Noto Sans TC', sans-serif;
 	line-height: 28px;
     margin-bottom: 25px;
     font-size: 16px;
@@ -317,7 +307,7 @@ p{
 	width:100%;
 }
 .listfont{
-	font-family: 'oppo';
+	font-family: 'Noto Sans TC', sans-serif;
 }
 .img-bloc-1-style{
 	width:222px;
@@ -438,5 +428,6 @@ p{
 
 #bulletin {
 	color: #d60606;
-	font-size: medium;
+	font-family: 'HanyiSentyZhao';
+	font-size: large;
 }
