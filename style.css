@@ -10,6 +10,15 @@ body{
 	 #FAE3D9 45%,
 	  rgba(178, 204, 198, 0.521) calc(45% + 1px), rgba(178, 204, 198, 0.521) 65%,
 	  rgba(176, 178, 214, 0.596) calc(65% + 1px), rgb(176, 178, 214, 0.596) 100%);
+	  /* 網格效果背景
+	  background-color: #EEE;
+  background-image:
+    linear-gradient(rgba(250,250,250,.5) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(250,250,250,.5) 2px, transparent 2px),
+    linear-gradient(rgba(250,250,250,.28) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(250,250,250,.28) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;*/
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -363,6 +372,14 @@ blockquote:after {
   color: #e74c3c;
 }
 
+
+.announcement {
+  padding: 10px 15px 0px;
+  border: 1px solid #e1e1e1;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
 /* = Colour
 -------------------------------------------------------------- */
 
@@ -465,5 +482,5 @@ blockquote:after {
 #bulletin {
 	color: #d60606;
 	font-family: 'HanyiSentyZhao';
-	font-size: large;
+	font-size: 25px;
 }
