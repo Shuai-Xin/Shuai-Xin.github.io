@@ -21,7 +21,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Preloader */
 
-.page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/loading.svg") no-repeat center center;}
+/*.page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/loading.svg") no-repeat center center;}*/
 
 /* = Web Fonts
 -------------------------------------------------------------- */
