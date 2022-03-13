@@ -1,0 +1,197 @@
+<!DOCTYPE html><html lang="zh-TW" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Hexo 架設之疑難雜症小筆記 | Hi 我劉昕</title><meta name="keywords" content="Hexo"><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="前言：架站…究竟架在哪兒好？在網際網路上居無定所了多年，到處漂流。從 Apache HTTP server 到簡單的單頁式 Github Page，後來投入好像很多人在用的 Wordpress，然而最後還是飄到了 Hexo 這裡。 簡單評註一下，供參考：  Apache：可以從底層建構一個伺服器，很好玩，但很折騰。 單頁式靜態網頁：很適合當做個人形象頁面，方便管理，也有很多免費的實踐方法。 Wor">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo 架設之疑難雜症小筆記">
+<meta property="og:url" content="https://shuaixin.cc/blog/hexo%E7%96%91%E9%9B%A3%E9%9B%9C%E7%97%87">
+<meta property="og:site_name" content="Hi 我劉昕">
+<meta property="og:description" content="前言：架站…究竟架在哪兒好？在網際網路上居無定所了多年，到處漂流。從 Apache HTTP server 到簡單的單頁式 Github Page，後來投入好像很多人在用的 Wordpress，然而最後還是飄到了 Hexo 這裡。 簡單評註一下，供參考：  Apache：可以從底層建構一個伺服器，很好玩，但很折騰。 單頁式靜態網頁：很適合當做個人形象頁面，方便管理，也有很多免費的實踐方法。 Wor">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+<meta property="article:published_time" content="2022-03-04T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-03-12T13:20:31.629Z">
+<meta property="article:author" content="Shuai">
+<meta property="article:tag" content="Hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link rel="canonical" href="https://shuaixin.cc/blog/hexo%E7%96%91%E9%9B%A3%E9%9B%9C%E7%97%87"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta/><link rel="stylesheet" href="/blog/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/blog/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":false,"highlightLang":false,"highlightHeightLimit":false},
+  copy: {
+    success: '複製成功',
+    error: '複製錯誤',
+    noSupport: '瀏覽器不支援'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '剛剛',
+    min: '分鐘前',
+    hour: '小時前',
+    day: '天前',
+    month: '個月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: Shuai","link":"連結: ","source":"來源: Hi 我劉昕","info":"著作權歸作者所有。商業轉載請聯絡作者獲得授權，非商業轉載請註明出處。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切換為繁體","cht_to_chs":"你已切換為簡體","day_to_night":"你已切換為深色模式","night_to_day":"你已切換為淺色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Hexo 架設之疑難雜症小筆記',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-03-12 21:20:31'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"><meta name="generator" content="Hexo 6.0.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/blog/img/shuai_ava.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">16</div></a></div><div class="data-item"><a href="/blog/tags/"><div class="headline">標籤</div><div class="length-num">40</div></a></div><div class="data-item"><a href="/blog/categories/"><div class="headline">分類</div><div class="length-num">9</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/Hi/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/blog/works/"><i class="fa-fw fas fa-folder-open"></i><span> 作品集</span></a></div><div class="menus_item"><a class="site-page" href="/blog/links/"><i class="fa-fw fas fa-link"></i><span> 傳送門</span></a></div><div class="menus_item"><a class="site-page" href="/blog/about/"><i class="fa-fw fas fa-heart"></i><span> 關於我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/blog/">Hi 我劉昕</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/Hi/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/blog/works/"><i class="fa-fw fas fa-folder-open"></i><span> 作品集</span></a></div><div class="menus_item"><a class="site-page" href="/blog/links/"><i class="fa-fw fas fa-link"></i><span> 傳送門</span></a></div><div class="menus_item"><a class="site-page" href="/blog/about/"><i class="fa-fw fas fa-heart"></i><span> 關於我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Hexo 架設之疑難雜症小筆記</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">發表於</span><time class="post-meta-date-created" datetime="2022-03-04T16:00:00.000Z" title="發表於 2022-03-05 00:00:00">2022-03-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新於</span><time class="post-meta-date-updated" datetime="2022-03-12T13:20:31.629Z" title="更新於 2022-03-12 21:20:31">2022-03-12</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/blog/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/">架站筆記</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Hexo 架設之疑難雜症小筆記"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">閱讀量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div><article class="post-content" id="article-container"><h2 id="前言：架站…究竟架在哪兒好？"><a href="#前言：架站…究竟架在哪兒好？" class="headerlink" title="前言：架站…究竟架在哪兒好？"></a>前言：架站…究竟架在哪兒好？</h2><p>在網際網路上居無定所了多年，到處漂流。從 <em>Apache HTTP server</em> 到簡單的單頁式 <em>Github Page</em>，後來投入好像很多人在用的 <em>Wordpress</em>，然而最後還是飄到了 <em>Hexo</em> 這裡。</p>
+<p>簡單評註一下，供參考：</p>
+<ul>
+<li>Apache：可以從底層建構一個伺服器，很好玩，但很折騰。</li>
+<li>單頁式靜態網頁：很適合當做個人形象頁面，方便管理，也有很多免費的實踐方法。</li>
+<li>Wordpress：想寫部落格又想自己當主人（痞客邦之類的真的很醜欸），就非常適合。但缺點是，幾乎不可能免費做到。</li>
+<li>Hexo + Github Page：想要兼併靜態網頁的簡單美好，又想稍微寫寫部落格，分享一些內容？那這就是一個不錯的選擇。</li>
+</ul>
+<p>其實 Wordpress 蠻好用的，很多 Plug-in 可以玩轉。但用了一陣子後，沒想到他比想象中要吃資源。我的 Wordpress 部落格幾乎沒有人造訪，也沒放多少文章上去，但在 GCP 上租的主機就每個月吃掉我 200NTD 以上，利弊衡量之下實在是無法接受，就果斷砍掉了。</p>
+<h2 id="Hexo-架設之疑難雜症小筆記"><a href="#Hexo-架設之疑難雜症小筆記" class="headerlink" title="Hexo  架設之疑難雜症小筆記"></a>Hexo  架設之疑難雜症小筆記</h2><p>這裡記錄一些我的需求與其解決方法。</p>
+<h3 id="字體好醜！怎麼換？"><a href="#字體好醜！怎麼換？" class="headerlink" title="字體好醜！怎麼換？"></a>字體好醜！怎麼換？</h3><p>身為一個襯線體控，還是比較想換上思源宋體，該怎麼做？此處以主題 Butterfly 為例。</p>
+<p>打開 <code>theme/butterfly</code> 裡的 <code>_config.yml</code>，修改：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"># Inject</span><br><span class="line"># Insert the code to head (before &#x27;&lt;/head&gt;&#x27; tag) and the bottom (before &#x27;&lt;/body&gt;&#x27; tag)</span><br><span class="line"># 插入代码到头部 &lt;/head&gt; 之前 和 底部 &lt;/body&gt; 之前</span><br><span class="line">inject:</span><br><span class="line">  head:</span><br><span class="line">    # - &lt;link rel=&quot;stylesheet&quot; href=&quot;/xxx.css&quot;&gt;</span><br><span class="line">      - &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;</span><br><span class="line">      - &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;</span><br><span class="line">      - &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</span><br><span class="line"></span><br><span class="line">  bottom:</span><br><span class="line">    # - &lt;script src=&quot;xxxx&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<p>你會問，啊不就好在 butterfly 本身有提供這樣的修改入口？</p>
+<p><del>嗯，對欸，不然我還真的不知道怎麼去添加，哈哈。</del></p>
+<p>此時要渲染的 HTML 頁面就有字體可以引用了，於是我們可以在同一個 <code>_config.yml</code> 中修改：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Global font settings</span><br><span class="line"># Don&#x27;t modify the following settings unless you know how they work (非必要不要修改)</span><br><span class="line">font:</span><br><span class="line">  global-font-size: 15px</span><br><span class="line">  code-font-size: 15px</span><br><span class="line">  font-family: Noto Serif TC</span><br><span class="line">  code-font-family: Noto Serif TC</span><br></pre></td></tr></table></figure>
+
+<p>然後成功了！</p>
+<h3 id="圖片的引用方式跟-Markdown-不一樣，怎麼辦？"><a href="#圖片的引用方式跟-Markdown-不一樣，怎麼辦？" class="headerlink" title="圖片的引用方式跟 Markdown 不一樣，怎麼辦？"></a>圖片的引用方式跟 Markdown 不一樣，怎麼辦？</h3><p>你會說，我就是因為平常用 Markdown 來寫文章才投入 Hexo 的懷抱的啊！為什麼圖片引用的規則不一樣啦？</p>
+<p>好問題，莫名其妙。</p>
+<p>這個問題只好從平常寫 Markdown 的 App 端的設定，加上 Hexo 的外掛插件 <code>hexo-asset-image</code> 來搞定。</p>
+<p>此處以 Typora 作為例子，設定如下：</p>
+<p><img src="/blog/hexo%E7%96%91%E9%9B%A3%E9%9B%9C%E7%97%87/Typora%E8%A8%AD%E5%AE%9A.png" alt="Typora設定"></p>
+<p>再到部落格根目錄裡的 <code>_config.yml</code> 修改：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure>
+
+<p>接著安裝外掛：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+
+<p>然後就能兼具 Typora 無腦貼圖與 Hexo 無腦渲染了！</p>
+<p>嗎？還有一個要注意的點，就是：</p>
+<blockquote>
+<p>圖片名稱不能存在空格。</p>
+</blockquote>
+<h3 id="Tags-頁面跟-Categories-頁面怎麼都不存在？"><a href="#Tags-頁面跟-Categories-頁面怎麼都不存在？" class="headerlink" title="Tags 頁面跟 Categories 頁面怎麼都不存在？"></a>Tags 頁面跟 Categories 頁面怎麼都不存在？</h3><p>雖然主題都會提供相關入口，但其實這些都算是 Hexo 裡面的 Pages，我們必須自己手動添加才是。</p>
+<p>故上述這些都得：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+
+<p>從而產生 <code>/source/tags/index.md</code> 與 <code>/source/categories/index.md</code> ，頁面才會存在。</p>
+<p>接著我們要在 <code>index.md</code> 裡改一下 front-matter，讓 hexo 知道這個 index 是個特殊 pages：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">隨意</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">categories</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">categories</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
+<p>然後就好了。</p>
+<h3 id="怎麼置頂文章？"><a href="#怎麼置頂文章？" class="headerlink" title="怎麼置頂文章？"></a>怎麼置頂文章？</h3><p>這就有趣了，Hexo 某個版本之後支援了 <code>top</code> 這個 front-matter 屬性，但是…… 設定之後，文章置頂了卻又沒置頂。</p>
+<p>蛤？</p>
+<p>就是文章列表上它會被標註成「置頂」，但實際上沒有物理上被「置頂」。我暈。</p>
+<p>好在，一個好的開源項目就是會有社群的力量站出來解決一些鳥事。我們可以安裝 <code>hexo-generator-index-pin-top</code> 來處理這事兒，操作如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-generator-index --save</span><br><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
+
+<p>然後就可以正常置頂了。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Shuai</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章連結: </span><span class="post-copyright-info"><a href="https://shuaixin.cc/blog/hexo%E7%96%91%E9%9B%A3%E9%9B%9C%E7%97%87">https://shuaixin.cc/blog/hexo疑難雜症</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版權聲明: </span><span class="post-copyright-info">本部落格所有文章除特別聲明外，均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 許可協議。轉載請註明來自 <a href="https://shuaixin.cc/blog" target="_blank">Hi 我劉昕</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/blog/tags/Hexo/">Hexo</a></div><div class="post_share"><div class="social-share" data-image="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/blog/img/shuai_ava.jpg" onerror="this.onerror=null;this.src='/blog/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Shuai</div><div class="author-info__description">Hi 我劉昕啦！Shuai 是我的英文名字，唸作帥，取其義。</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">16</div></a></div><div class="card-info-data-item"><a href="/blog/tags/"><div class="headline">標籤</div><div class="length-num">40</div></a></div><div class="card-info-data-item"><a href="/blog/categories/"><div class="headline">分類</div><div class="length-num">9</div></a></div></div><a id="card-info-btn" href="https://shuaixin.cc/about"><i class="fas fa-heart"></i><span>關於我</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><i><b>新朋友 </b></i>一律建議先音樂串流平台搜尋<b>「劉昕」</b>聽我的歌。</br>至於<b><i> 老朋友 </b></i>呢，再去複習一輪我的歌吧？</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目錄</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80%EF%BC%9A%E6%9E%B6%E7%AB%99%E2%80%A6%E7%A9%B6%E7%AB%9F%E6%9E%B6%E5%9C%A8%E5%93%AA%E5%85%92%E5%A5%BD%EF%BC%9F"><span class="toc-number">1.</span> <span class="toc-text">前言：架站…究竟架在哪兒好？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-%E6%9E%B6%E8%A8%AD%E4%B9%8B%E7%96%91%E9%9B%A3%E9%9B%9C%E7%97%87%E5%B0%8F%E7%AD%86%E8%A8%98"><span class="toc-number">2.</span> <span class="toc-text">Hexo  架設之疑難雜症小筆記</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E9%AB%94%E5%A5%BD%E9%86%9C%EF%BC%81%E6%80%8E%E9%BA%BC%E6%8F%9B%EF%BC%9F"><span class="toc-number">2.1.</span> <span class="toc-text">字體好醜！怎麼換？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%96%E7%89%87%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F%E8%B7%9F-Markdown-%E4%B8%8D%E4%B8%80%E6%A8%A3%EF%BC%8C%E6%80%8E%E9%BA%BC%E8%BE%A6%EF%BC%9F"><span class="toc-number">2.2.</span> <span class="toc-text">圖片的引用方式跟 Markdown 不一樣，怎麼辦？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tags-%E9%A0%81%E9%9D%A2%E8%B7%9F-Categories-%E9%A0%81%E9%9D%A2%E6%80%8E%E9%BA%BC%E9%83%BD%E4%B8%8D%E5%AD%98%E5%9C%A8%EF%BC%9F"><span class="toc-number">2.3.</span> <span class="toc-text">Tags 頁面跟 Categories 頁面怎麼都不存在？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%8E%E9%BA%BC%E7%BD%AE%E9%A0%82%E6%96%87%E7%AB%A0%EF%BC%9F"><span class="toc-number">2.4.</span> <span class="toc-text">怎麼置頂文章？</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2022 By Shuai</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="淺色和深色模式轉換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目錄"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到頂部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/blog/js/utils.js"></script><script src="/blog/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="120" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js" data-mobile="true" data-text="Youtube搜尋劉昕,Spotify搜尋劉昕,KKbox搜尋劉昕" data-fontsize="14px" data-random="true" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
