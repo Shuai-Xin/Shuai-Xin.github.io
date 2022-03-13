@@ -277,84 +277,7 @@ export default class Typed {
         curStrPos--;
         // loop the function
         this.backspace(curString, curStrPos);
-      } else if (curStrPos <= this.stopNum) {
-        // if the stop number has been reached, increase
-        // array position to next string
-        this.arrayPos++;
-        // When looping, begin at the beginning after backspace complete
-        if (this.arrayPos === this.strings.length) {
-          this.arrayPos = 0;
-          this.options.onLastStringBackspaced();
-          this.shuffleStringsIfNeeded();
-          this.begin();
-        } else {
-          this.typewrite(this.strings[this.sequence[this.arrayPos]], curStrPos);
-        }
-      }
-      // humanized value for typing
-    }, humanize);
-  }
-
-  /**
-   * Full animation is complete
-   * @private
-   */
-  complete() {
-    this.options.onComplete(this);
-    if (this.loop) {
-      this.curLoop++;
-    } else {
-      this.typingComplete = true;
-    }
-  }
-
-  /**
-   * Has the typing been stopped
-   * @param {string} curString the current string in the strings array
-   * @param {number} curStrPos the current position in the curString
-   * @param {boolean} isTyping
-   * @private
-   */
-  setPauseStatus(curString, curStrPos, isTyping) {
-    this.pause.typewrite = isTyping;
-    this.pause.curString = curString;
-    this.pause.curStrPos = curStrPos;
-  }
-
-  /**
-   * Toggle the blinking cursor
-   * @param {boolean} isBlinking
-   * @private
-   */
-  toggleBlinking(isBlinking) {
-    if (!this.cursor) return;
-    // if in paused state, don't toggle blinking a 2nd time
-    if (this.pause.status) return;
-    if (this.cursorBlinking === isBlinking) return;
-    this.cursorBlinking = isBlinking;
-    if (isBlinking) {
-      this.cursor.classList.add('typed-cursor--blink');
-    } else {
-      this.cursor.classList.remove('typed-cursor--blink');
-    }
-  }
-
-  /**
-   * Speed in MS to type
-   * @param {number} speed
-   * @private
-   */
-  humanizer(speed) {
-    return Math.round((Math.random() * speed) / 2) + speed;
-  }
-
-  /**
-   * Shuffle the sequence of the strings array
-   * @private
-   */
-  shuffleStringsIfNeeded() {
-    if (!this.shuffle) return;
-    this.sequence = this.sequence.sort(() => Math.random() - 0.5);
+      } else if (curStrPos <= this.stopnum) { if the stop number has been reached, increase array position to next string this.arraypos++; when looping, begin at beginning after backspace complete (this.arraypos="==" this.strings.length) this.arraypos="0;" this.options.onlaststringbackspaced(); this.shufflestringsifneeded(); this.begin(); } else this.typewrite(this.strings[this.sequence[this.arraypos]], curstrpos); humanized value for typing }, humanize); ** * full animation is @private complete() this.options.oncomplete(this); (this.loop) this.curloop++; this.typingcomplete="true;" stopped @param {string} curstring current in strings {number} curstrpos {boolean} istyping setpausestatus(curstring, curstrpos, istyping) this.pause.typewrite="isTyping;" this.pause.curstring="curString;" this.pause.curstrpos="curStrPos;" toggle blinking cursor isblinking toggleblinking(isblinking) (!this.cursor) return; paused state, don't a 2nd time (this.pause.status) (this.cursorblinking="==" isblinking) this.cursorblinking="isBlinking;" (isblinking) this.cursor.classlist.add('typed-cursor--blink'); this.cursor.classlist.remove('typed-cursor--blink'); speed ms type humanizer(speed) return math.round((math.random() speed) 2) + speed; shuffle sequence of shufflestringsifneeded() (!this.shuffle) this.sequence="this.sequence.sort(()" => Math.random() - 0.5);
   }
 
   /**
@@ -430,3 +353,4 @@ export default class Typed {
       this.el.parentNode.insertBefore(this.cursor, this.el.nextSibling);
   }
 }
+</=>

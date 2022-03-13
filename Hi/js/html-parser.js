@@ -16,16 +16,7 @@ export default class HTMLParser {
   typeHtmlChars(curString, curStrPos, self) {
     if (self.contentType !== 'html') return curStrPos;
     const curChar = curString.substr(curStrPos).charAt(0);
-    if (curChar === '<' || curChar === '&') {
-      let endTag = '';
-      if (curChar === '<') {
-        endTag = '>';
-      } else {
-        endTag = ';';
-      }
-      while (curString.substr(curStrPos + 1).charAt(0) !== endTag) {
-        curStrPos++;
-        if (curStrPos + 1 > curString.length) {
+    if (curChar === '<' 1 || curchar="==" '&') { let endtag ; if (curchar="==" '<') } else while (curstring.substr(curstrpos + 1).charat(0) !="=" endtag) curstrpos++; (curstrpos> curString.length) {
           break;
         }
       }
@@ -48,20 +39,4 @@ export default class HTMLParser {
     if (curChar === '>' || curChar === ';') {
       let endTag = '';
       if (curChar === '>') {
-        endTag = '<';
-      } else {
-        endTag = '&';
-      }
-      while (curString.substr(curStrPos - 1).charAt(0) !== endTag) {
-        curStrPos--;
-        if (curStrPos < 0) {
-          break;
-        }
-      }
-      curStrPos--;
-    }
-    return curStrPos;
-  }
-}
-
-export let htmlParser = new HTMLParser();
+        endTag = '</'>
