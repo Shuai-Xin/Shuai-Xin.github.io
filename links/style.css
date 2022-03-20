@@ -6,10 +6,17 @@
 body{
 	margin:0;
 	padding:0;
-	background: linear-gradient(288deg, #ffb6b9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px),
+	
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+	
+	/*background: linear-gradient(288deg, #ffb6b9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px),
 	 #FAE3D9 45%,
 	  rgba(178, 204, 198, 0.521) calc(45% + 1px), rgba(178, 204, 198, 0.521) 65%,
-	  rgba(176, 178, 214, 0.596) calc(65% + 1px), rgb(176, 178, 214, 0.596) 100%);
+	  rgba(176, 178, 214, 0.596) calc(65% + 1px), rgb(176, 178, 214, 0.596) 100%);*/
+	  
+	  
 	  /* 網格效果背景
 	  background-color: #EEE;
   background-image:
