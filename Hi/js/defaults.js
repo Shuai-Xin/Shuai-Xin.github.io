@@ -162,4 +162,3 @@ const defaults = {
 };
 
 export default defaults;
-</head>

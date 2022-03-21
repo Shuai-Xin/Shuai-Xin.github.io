@@ -1255,7 +1255,18 @@
     _handleSwipe() {
       const absDeltax = Math.abs(this.touchDeltaX);
 
-      if (absDeltax <= swipe_threshold) { return; } const direction="absDeltax" this.touchdeltax; this.touchdeltax="0;" if (!direction) this._slide(direction> 0 ? DIRECTION_RIGHT : DIRECTION_LEFT);
+      if (absDeltax <= SWIPE_THRESHOLD) {
+        return;
+      }
+
+      const direction = absDeltax / this.touchDeltaX;
+      this.touchDeltaX = 0;
+
+      if (!direction) {
+        return;
+      }
+
+      this._slide(direction > 0 ? DIRECTION_RIGHT : DIRECTION_LEFT);
     }
 
     _addEventListeners() {
@@ -2116,7 +2127,51 @@
     var width = element.offsetWidth;
     var height = element.offsetHeight;
 
-    if (Math.abs(clientRect.width - width) <= 1) { width="clientRect.width;" } if (math.abs(clientrect.height - height) <="1)" height="clientRect.height;" return x: element.offsetleft, y: element.offsettop, width: width, height: }; function contains(parent, child) var rootnode="child.getRootNode" && child.getrootnode(); first, attempt with faster native method (parent.contains(child)) true; then fallback to custom implementation shadow dom support else (rootnode isshadowroot(rootnode)) next="child;" do (next parent.issamenode(next)) $flowfixme[prop-missing]: need a better way handle this... || next.host; while (next); give up, the result is false false; getcomputedstyle$1(element) getwindow(element).getcomputedstyle(element); istableelement(element) ['table', 'td', 'th'].indexof(getnodename(element))>= 0;
+    if (Math.abs(clientRect.width - width) <= 1) {
+      width = clientRect.width;
+    }
+
+    if (Math.abs(clientRect.height - height) <= 1) {
+      height = clientRect.height;
+    }
+
+    return {
+      x: element.offsetLeft,
+      y: element.offsetTop,
+      width: width,
+      height: height
+    };
+  }
+
+  function contains(parent, child) {
+    var rootNode = child.getRootNode && child.getRootNode(); // First, attempt with faster native method
+
+    if (parent.contains(child)) {
+      return true;
+    } // then fallback to custom implementation with Shadow DOM support
+    else if (rootNode && isShadowRoot(rootNode)) {
+        var next = child;
+
+        do {
+          if (next && parent.isSameNode(next)) {
+            return true;
+          } // $FlowFixMe[prop-missing]: need a better way to handle this...
+
+
+          next = next.parentNode || next.host;
+        } while (next);
+      } // Give up, the result is false
+
+
+    return false;
+  }
+
+  function getComputedStyle$1(element) {
+    return getWindow(element).getComputedStyle(element);
+  }
+
+  function isTableElement(element) {
+    return ['table', 'td', 'th'].indexOf(getNodeName(element)) >= 0;
   }
 
   function getDocumentElement(element) {
@@ -2402,7 +2457,144 @@
     if (gpuAcceleration) {
       var _Object$assign;
 
-      return Object.assign({}, commonStyles, (_Object$assign = {}, _Object$assign[sideY] = hasY ? '0' : '', _Object$assign[sideX] = hasX ? '0' : '', _Object$assign.transform = (win.devicePixelRatio || 1) <= 0 1 ? "translate(" + x "px, " y "px)" : "translate3d(" 0)", _object$assign)); } return object.assign({}, commonstyles, (_object$assign2="{}," _object$assign2[sidey]="hasY" "px" '', _object$assign2[sidex]="hasX" _object$assign2.transform , _object$assign2)); function computestyles(_ref4) { var state="_ref4.state," options="_ref4.options;" _options$gpuaccelerat="options.gpuAcceleration," gpuacceleration="_options$gpuAccelerat" =="=" void true _options$gpuaccelerat, _options$adaptive="options.adaptive," adaptive="_options$adaptive" _options$adaptive, _options$roundoffsets="options.roundOffsets," roundoffsets="_options$roundOffsets" _options$roundoffsets; commonstyles="{" placement: getbaseplacement(state.placement), variation: getvariation(state.placement), popper: state.elements.popper, popperrect: state.rects.popper, gpuacceleration: }; if (state.modifiersdata.popperoffsets !="null)" state.styles.popper="Object.assign({}," state.styles.popper, maptostyles(object.assign({}, offsets: state.modifiersdata.popperoffsets, position: state.options.strategy, adaptive: adaptive, roundoffsets: }))); (state.modifiersdata.arrow state.styles.arrow="Object.assign({}," state.styles.arrow, state.modifiersdata.arrow, 'absolute', false, state.attributes.popper="Object.assign({}," state.attributes.popper, 'data-popper-placement': state.placement }); eslint-disable-next-line import no-unused-modules const computestyles$1="{" name: 'computestyles', enabled: true, phase: 'beforewrite', fn: computestyles, data: {} passive="{" passive: effect(_ref) instance="_ref.instance," _options$scroll="options.scroll," scroll="_options$scroll" _options$scroll, _options$resize="options.resize," resize="_options$resize" _options$resize; window="getWindow(state.elements.popper);" scrollparents="[].concat(state.scrollParents.reference," state.scrollparents.popper); (scroll) scrollparents.foreach(function (scrollparent) scrollparent.addeventlistener('scroll', instance.update, passive); (resize) window.addeventlistener('resize', () scrollparent.removeeventlistener('scroll', window.removeeventlistener('resize', eventlisteners="{" 'eventlisteners', 'write', fn() {}, effect: effect, hash$1="{" left: 'right', right: 'left', bottom: 'top', top: 'bottom' getoppositeplacement(placement) placement.replace( left|right|bottom|top g, (matched) hash$1[matched]; hash="{" start: 'end', end: 'start' getoppositevariationplacement(placement) start|end hash[matched]; getwindowscroll(node) win="getWindow(node);" scrollleft="win.pageXOffset;" scrolltop="win.pageYOffset;" scrollleft: scrollleft, scrolltop: getwindowscrollbarx(element) <html> has a CSS width greater than the viewport, then this will be
+      return Object.assign({}, commonStyles, (_Object$assign = {}, _Object$assign[sideY] = hasY ? '0' : '', _Object$assign[sideX] = hasX ? '0' : '', _Object$assign.transform = (win.devicePixelRatio || 1) <= 1 ? "translate(" + x + "px, " + y + "px)" : "translate3d(" + x + "px, " + y + "px, 0)", _Object$assign));
+    }
+
+    return Object.assign({}, commonStyles, (_Object$assign2 = {}, _Object$assign2[sideY] = hasY ? y + "px" : '', _Object$assign2[sideX] = hasX ? x + "px" : '', _Object$assign2.transform = '', _Object$assign2));
+  }
+
+  function computeStyles(_ref4) {
+    var state = _ref4.state,
+        options = _ref4.options;
+    var _options$gpuAccelerat = options.gpuAcceleration,
+        gpuAcceleration = _options$gpuAccelerat === void 0 ? true : _options$gpuAccelerat,
+        _options$adaptive = options.adaptive,
+        adaptive = _options$adaptive === void 0 ? true : _options$adaptive,
+        _options$roundOffsets = options.roundOffsets,
+        roundOffsets = _options$roundOffsets === void 0 ? true : _options$roundOffsets;
+
+    var commonStyles = {
+      placement: getBasePlacement(state.placement),
+      variation: getVariation(state.placement),
+      popper: state.elements.popper,
+      popperRect: state.rects.popper,
+      gpuAcceleration: gpuAcceleration
+    };
+
+    if (state.modifiersData.popperOffsets != null) {
+      state.styles.popper = Object.assign({}, state.styles.popper, mapToStyles(Object.assign({}, commonStyles, {
+        offsets: state.modifiersData.popperOffsets,
+        position: state.options.strategy,
+        adaptive: adaptive,
+        roundOffsets: roundOffsets
+      })));
+    }
+
+    if (state.modifiersData.arrow != null) {
+      state.styles.arrow = Object.assign({}, state.styles.arrow, mapToStyles(Object.assign({}, commonStyles, {
+        offsets: state.modifiersData.arrow,
+        position: 'absolute',
+        adaptive: false,
+        roundOffsets: roundOffsets
+      })));
+    }
+
+    state.attributes.popper = Object.assign({}, state.attributes.popper, {
+      'data-popper-placement': state.placement
+    });
+  } // eslint-disable-next-line import/no-unused-modules
+
+
+  const computeStyles$1 = {
+    name: 'computeStyles',
+    enabled: true,
+    phase: 'beforeWrite',
+    fn: computeStyles,
+    data: {}
+  };
+
+  var passive = {
+    passive: true
+  };
+
+  function effect(_ref) {
+    var state = _ref.state,
+        instance = _ref.instance,
+        options = _ref.options;
+    var _options$scroll = options.scroll,
+        scroll = _options$scroll === void 0 ? true : _options$scroll,
+        _options$resize = options.resize,
+        resize = _options$resize === void 0 ? true : _options$resize;
+    var window = getWindow(state.elements.popper);
+    var scrollParents = [].concat(state.scrollParents.reference, state.scrollParents.popper);
+
+    if (scroll) {
+      scrollParents.forEach(function (scrollParent) {
+        scrollParent.addEventListener('scroll', instance.update, passive);
+      });
+    }
+
+    if (resize) {
+      window.addEventListener('resize', instance.update, passive);
+    }
+
+    return function () {
+      if (scroll) {
+        scrollParents.forEach(function (scrollParent) {
+          scrollParent.removeEventListener('scroll', instance.update, passive);
+        });
+      }
+
+      if (resize) {
+        window.removeEventListener('resize', instance.update, passive);
+      }
+    };
+  } // eslint-disable-next-line import/no-unused-modules
+
+
+  const eventListeners = {
+    name: 'eventListeners',
+    enabled: true,
+    phase: 'write',
+    fn: function fn() {},
+    effect: effect,
+    data: {}
+  };
+
+  var hash$1 = {
+    left: 'right',
+    right: 'left',
+    bottom: 'top',
+    top: 'bottom'
+  };
+  function getOppositePlacement(placement) {
+    return placement.replace(/left|right|bottom|top/g, function (matched) {
+      return hash$1[matched];
+    });
+  }
+
+  var hash = {
+    start: 'end',
+    end: 'start'
+  };
+  function getOppositeVariationPlacement(placement) {
+    return placement.replace(/start|end/g, function (matched) {
+      return hash[matched];
+    });
+  }
+
+  function getWindowScroll(node) {
+    var win = getWindow(node);
+    var scrollLeft = win.pageXOffset;
+    var scrollTop = win.pageYOffset;
+    return {
+      scrollLeft: scrollLeft,
+      scrollTop: scrollTop
+    };
+  }
+
+  function getWindowScrollBarX(element) {
+    // If <html> has a CSS width greater than the viewport, then this will be
     // incorrect for RTL.
     // Popper 1 is broken in this case and never had a bug report so let's assume
     // it's not an issue. I don't think anyone ever specifies width on <html>
@@ -2419,7 +2611,38 @@
     var width = html.clientWidth;
     var height = html.clientHeight;
     var x = 0;
-    var y = 0; // NB: This isn't supported on iOS <= 0 12. if the keyboard is open, popper can be obscured underneath it. also, `html.clientheight` adds bottom bar height in safari ios, even it isn't so this available, will detected to overflow of screen too early. (visualviewport) { width="visualViewport.width;" uses layout viewport (like chrome; does not currently) chrome, returns a value very close (+ -) but contains rounding errors due floating point numbers, we need check precision. number <="0," usually -1 when pinch-zoomed feature detection fails mobile emulation mode chrome. math.abs(win.innerwidth visualviewport.scale - visualviewport.width) 0.001 fallback here: "not safari" useragent (! ^((?!chrome|android).)*safari i.test(navigator.useragent)) x="visualViewport.offsetLeft;" y="visualViewport.offsetTop;" } return width: width, height: height, x: + getwindowscrollbarx(element), y: }; `<html>` and `<body>` rect bounds if horizontally scrollable
+    var y = 0; // NB: This isn't supported on iOS <= 12. If the keyboard is open, the popper
+    // can be obscured underneath it.
+    // Also, `html.clientHeight` adds the bottom bar height in Safari iOS, even
+    // if it isn't open, so if this isn't available, the popper will be detected
+    // to overflow the bottom of the screen too early.
+
+    if (visualViewport) {
+      width = visualViewport.width;
+      height = visualViewport.height; // Uses Layout Viewport (like Chrome; Safari does not currently)
+      // In Chrome, it returns a value very close to 0 (+/-) but contains rounding
+      // errors due to floating point numbers, so we need to check precision.
+      // Safari returns a number <= 0, usually < -1 when pinch-zoomed
+      // Feature detection fails in mobile emulation mode in Chrome.
+      // Math.abs(win.innerWidth / visualViewport.scale - visualViewport.width) <
+      // 0.001
+      // Fallback here: "Not Safari" userAgent
+
+      if (!/^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
+        x = visualViewport.offsetLeft;
+        y = visualViewport.offsetTop;
+      }
+    }
+
+    return {
+      width: width,
+      height: height,
+      x: x + getWindowScrollBarX(element),
+      y: y
+    };
+  }
+
+  // of the `<html>` and `<body>` rect bounds if horizontally scrollable
 
   function getDocumentRect(element) {
     var _element$ownerDocumen;
@@ -2789,7 +3012,46 @@
       var checks = [];
 
       if (checkMainAxis) {
-        checks.push(overflow[_basePlacement] <= 3 0); } if (checkaltaxis) { checks.push(overflow[mainvariationside] <="0," overflow[altvariationside] (checks.every(function (check) return check; })) firstfittingplacement="placement;" makefallbackchecks="false;" break; checksmap.set(placement, checks); (makefallbackchecks) `2` may be desired in some cases – research later var numberofchecks="flipVariations" ? : 1; _loop="function" _loop(_i) fittingplacement="placements.find(function" (placement) checks="checksMap.get(placement);" (checks) checks.slice(0, _i).every(function }); (fittingplacement) "break"; }; for (var _i="numberOfChecks;"> 0; _i--) {
+        checks.push(overflow[_basePlacement] <= 0);
+      }
+
+      if (checkAltAxis) {
+        checks.push(overflow[mainVariationSide] <= 0, overflow[altVariationSide] <= 0);
+      }
+
+      if (checks.every(function (check) {
+        return check;
+      })) {
+        firstFittingPlacement = placement;
+        makeFallbackChecks = false;
+        break;
+      }
+
+      checksMap.set(placement, checks);
+    }
+
+    if (makeFallbackChecks) {
+      // `2` may be desired in some cases – research later
+      var numberOfChecks = flipVariations ? 3 : 1;
+
+      var _loop = function _loop(_i) {
+        var fittingPlacement = placements.find(function (placement) {
+          var checks = checksMap.get(placement);
+
+          if (checks) {
+            return checks.slice(0, _i).every(function (check) {
+              return check;
+            });
+          }
+        });
+
+        if (fittingPlacement) {
+          firstFittingPlacement = fittingPlacement;
+          return "break";
+        }
+      };
+
+      for (var _i = numberOfChecks; _i > 0; _i--) {
         var _ret = _loop(_i);
 
         if (_ret === "break") break;
@@ -6546,4 +6808,4 @@
 
   return index_umd;
 
-}));</nav></ul></=></body></=></html></=></=></a></=>
+}));

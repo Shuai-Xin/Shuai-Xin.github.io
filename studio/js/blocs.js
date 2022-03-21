@@ -18,14 +18,71 @@ document.addEventListener('DOMContentLoaded', function()
 	document.querySelectorAll(".nav-item [data-active-page]").forEach(function(targetObj){targetObj.classList.add(targetObj.getAttribute('data-active-page'));}); // Apply Active Link Classes
 
 	// Internet Explorer Polyfill .closest()
-	window.Element&&!Element.prototype.closest&&(Element.prototype.closest=function(e){var t,o=(this.document||this.ownerDocument).querySelectorAll(e),n=this;do{for(t=o.length;--t>=0&&o.item(t)!==n;);}while(t<0&&(n=n.parentElement));return n}); internet explorer polyfill .matches() if (!element.prototype.matches) {element.prototype.matches="Element.prototype.msMatchesSelector" || element.prototype.webkitmatchesselector;}; dark mode (window.matchmedia("(prefers-color-scheme: dark)").matches) {document.body.classlist.add("dark-theme");} & safari .scrollto() - animates scrolltopolyfill(); }) loading page complete window.addeventlistener("load", function() { hideall(); inviewcheck(); window.addeventlistener("scroll", scrollbtnvisible(); stickynavtoggle(); }); var preloader="document.getElementById('page-loading-blocs-notifaction');" remove ui (preloader) preloader.classlist.add('preloader-complete'); } set up special navbars function setupspecialnavs() document.queryselectorall(".navbar-toggler").foreach(function(targetobj) targetobj.addeventlistener("click", function(e) targetjsnav="e.target.closest('nav');" targetmenu="targetJSNav.querySelector('ul.site-navigation');" menuhtml="targetMenu.parentNode.innerHTML;" (targetmenu.parentnode.matches('.fullscreen-nav, .sidebar-nav')) navigation menu e.stoppropagation(); dont do this is normal in use targetmenu.parentnode.classlist.add('nav-special'); (!e.target.classlist.contains('selected-nav')) open e.target.classlist.add('selected-nav'); navclasses="targetJSNav.getAttribute('class').replace('navbar','').replace('row','').replace('hover-open-submenu','');" menuclasses="targetMenu.parentNode.getAttribute('class').replace('navbar-collapse','').replace('collapse','').replace('collapsing','');" (!document.queryselector('.content-tint')) document.body.insertadjacenthtml("beforeend","<div class="\"content-tint\"">");
+	window.Element&&!Element.prototype.closest&&(Element.prototype.closest=function(e){var t,o=(this.document||this.ownerDocument).querySelectorAll(e),n=this;do{for(t=o.length;--t>=0&&o.item(t)!==n;);}while(t<0&&(n=n.parentElement));return n});
+
+	// Internet Explorer Polyfill .matches()
+	if (!Element.prototype.matches) {Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;};
+
+	// Dark Mode
+	if (window.matchMedia("(prefers-color-scheme: dark)").matches) {document.body.classList.add("dark-theme");}
+
+	// Internet Explorer & Safari Polyfill .ScrollTo() - Animates
+	scrollToPolyFill();
+})
+
+// Loading page complete
+window.addEventListener("load", function() 
+{
+	hideAll();
+	inViewCheck();
+	
+	window.addEventListener("scroll", function() {
+		inViewCheck();
+		scrollBtnVisible();
+		stickyNavToggle();
+	});	
+
+	var preloader = document.getElementById('page-loading-blocs-notifaction');
+	
+	// Remove page loading UI
+	if (preloader)
+	{
+		preloader.classList.add('preloader-complete');
+	}
+})
+
+// Set Up Special NavBars 
+function setUpSpecialNavs()
+{
+	document.querySelectorAll(".navbar-toggler").forEach(function(targetObj)
+	{
+		targetObj.addEventListener("click", function(e)
+		{
+			var targetJSNav = e.target.closest('nav');
+			var targetMenu = targetJSNav.querySelector('ul.site-navigation');
+			var menuHTML = targetMenu.parentNode.innerHTML;
+	
+			if (targetMenu.parentNode.matches('.fullscreen-nav, .sidebar-nav')) // Special navigation menu
+			{
+				e.stopPropagation(); // Dont do this is normal menu in use
+				targetMenu.parentNode.classList.add('nav-special');
+				
+				if (!e.target.classList.contains('selected-nav')) // Open menu
+				{
+					e.target.classList.add('selected-nav');
+					var navClasses = targetJSNav.getAttribute('class').replace('navbar','').replace('row','').replace('hover-open-submenu','');
+					var menuClasses = targetMenu.parentNode.getAttribute('class').replace('navbar-collapse','').replace('collapse','').replace('collapsing','');
+
+					if (!document.querySelector('.content-tint'))
+					{
+						document.body.insertAdjacentHTML("beforeend","<div class=\"content-tint\"></div>");
 					}
 
 					// Add menu HTML
-					document.querySelector(".page-container").insertAdjacentHTML("beforebegin","<div class="\"blocsapp-special-menu" "+navclasses+"\"><blocsnav class="\""+menuClasses+"\"">"+menuHTML+"</blocsnav></div>");
+					document.querySelector(".page-container").insertAdjacentHTML("beforebegin","<div class=\"blocsapp-special-menu "+navClasses+"\"><blocsnav class=\""+menuClasses+"\">"+menuHTML+"</div>");
 
 					// Add close button
-					document.querySelector("blocsnav").insertAdjacentHTML("afterbegin","<a class="\"close-special-menu" animated fadein animdelay06\"><div class="\"close-icon\""></div></a>");
+					document.querySelector("blocsnav").insertAdjacentHTML("afterbegin","<a class=\"close-special-menu animated fadeIn animDelay06\"><div class=\"close-icon\"></div></a>");
 					
 					animateNavItems();
 					document.querySelector("blocsnav").querySelectorAll(".dropdown").forEach(function(dropdown){addDropdownEvent(dropdown);})
@@ -507,12 +564,12 @@ function setUpLightBox()
 			}
 
 			// Navigation icons
-			var leftArrow = '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 32 32"><path class="lightbox-nav-icon lightbox-prev-icon" d="M22,2L9,16,22,30"/></svg>';
-			var rightArrow = '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 32 32"><path class="lightbox-nav-icon lightbox-next-icon" d="M10.344,2l13,14-13,14"/></svg>';
-			var closeIcon = '<svg class="lightbox-close-svg" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 32 32"><path class="lightbox-close-icon" d="M4,4L28,28"/><path class="lightbox-close-icon" d="M28,4L4,28"/></svg>';
+			var leftArrow = '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="lightbox-nav-icon lightbox-prev-icon" d="M22,2L9,16,22,30"/></svg>';
+			var rightArrow = '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="lightbox-nav-icon lightbox-next-icon" d="M10.344,2l13,14-13,14"/></svg>';
+			var closeIcon = '<svg class="lightbox-close-svg" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 32 32"><path class="lightbox-close-icon" d="M4,4L28,28"/><path class="lightbox-close-icon" d="M28,4L4,28"/></svg>';
 
 			
-			var customModal = '<div id="lightbox-modal" class="modal fade"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content '+lightBoxFrame+' blocs-lb-container"><button id="blocs-lightbox-close-btn" type="button" class="close-lightbox" data-bs-dismiss="modal" aria-label="Close">'+closeIcon+'</button><div class="modal-body"><a href="#" class="prev-lightbox" aria-label="prev">'+leftArrow+'</a><a href="#" class="next-lightbox" aria-label="next">'+rightArrow+'</a><img id="lightbox-image" class="img-fluid mx-auto '+protectionClass+'" src="/studio/js/blocs.j/'+lightBoxPath+'"><div id="lightbox-video-container" class="embed-responsive embed-responsive-16by9"><video controls '+autoplay+' class="embed-responsive-item"><source id="lightbox-video" src="'+lightBoxPath+'" type="video/mp4"></video></div><p class="lightbox-caption">'+caption+'</p></div></div></div></div>';
+			var customModal = '<div id="lightbox-modal" class="modal fade"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content '+lightBoxFrame+' blocs-lb-container"><button id="blocs-lightbox-close-btn" type="button" class="close-lightbox" data-bs-dismiss="modal" aria-label="Close">'+closeIcon+'</button><div class="modal-body"><a href="#" class="prev-lightbox" aria-label="prev">'+leftArrow+'</a><a href="#" class="next-lightbox" aria-label="next">'+rightArrow+'</a><img id="lightbox-image" class="img-fluid mx-auto '+protectionClass+'" src="'+lightBoxPath+'"><div id="lightbox-video-container" class="embed-responsive embed-responsive-16by9"><video controls '+autoplay+' class="embed-responsive-item"><source id="lightbox-video" src="'+lightBoxPath+'" type="video/mp4"></video></div><p class="lightbox-caption">'+caption+'</p></div></div></div></div>';
 		    document.body.insertAdjacentHTML("beforeend",customModal);
 		    setUpLightboxNavigation();
 		    setUpLightboxSwipe();
@@ -524,7 +581,7 @@ function setUpLightBox()
 			{
 				lbModal.classList.add("fullscreen-modal");
 				document.querySelector("#blocs-lightbox-close-btn").remove();
-				lbModal.insertAdjacentHTML('beforeend',"<a class="\"close-full-screen-modal" animated fadein\" style="\"animation-delay:0.5s;\"" data-bs-dismiss="\"modal\"">"+closeIcon+"</a>");
+				lbModal.insertAdjacentHTML('beforeend',"<a class=\"close-full-screen-modal animated fadeIn\" style=\"animation-delay:0.5s;\" data-bs-dismiss=\"modal\">"+closeIcon+"</a>");
 			}
 
 			setLightboxUI();
@@ -605,7 +662,7 @@ function setUpLightBox()
 
 			imageUI.style.display = "none";
 			videoUI.style.display = "block";
-			videoUI.innerHTML = "<video controls "+autoplay+" class="\"embed-responsive-item\""><source id="\"lightbox-video\"" src="\""+filePath+"\"" type="\"video/mp4\""></video>";	
+			videoUI.innerHTML = "<video controls "+autoplay+" class=\"embed-responsive-item\"><source id=\"lightbox-video\" src=\""+filePath+"\" type=\"video/mp4\"></video>";	
 		}
 		else // Image Object
 		{
@@ -665,7 +722,15 @@ function setUpLightBox()
 				var prevBtn = document.querySelector(".prev-lightbox");
 				var nextBtn = document.querySelector(".next-lightbox");
 
-			    if (touchendX <= touchstartx) { if (nextbtn.style.display !="none" ) swipe left nextbtn.click(); } (touchendx>= touchstartX) // Swipe right
+			    if (touchendX <= touchstartX)
+			    {
+			        if (nextBtn.style.display != "none") // Swipe left
+					{
+						nextBtn.click();
+					}
+			    }
+			    
+			    if (touchendX >= touchstartX) // Swipe right
 			    {
 			        if (prevBtn.style.display != "none")
 					{
@@ -726,10 +791,10 @@ function reCalculateParallax()
 function addDropdownEvent(s){s.addEventListener("hide.bs.dropdown",function(s){this.classList.contains("has-child-dropdown-show")&&(this.classList.remove("has-child-dropdown-show"),s.preventDefault()),s.clickEvent&&s.clickEvent.composedPath().some(s=>s.classList&&s.classList.contains("dropdown-toggle")&&s.parentNode.closest(".dropdown-toggle"))&&s.preventDefault(),s.stopPropagation()})};
 
 // Scroll To Poly Fill
-function scrollToPolyFill(){var o=window,t=document;if(!("scrollBehavior"in t.documentElement.style&&!0!==o.__forceSmoothScrollPolyfill__)){var l,e=o.HTMLElement||o.Element,r=468,i={scroll:o.scroll||o.scrollTo,scrollBy:o.scrollBy,elementScroll:e.prototype.scroll||n,scrollIntoView:e.prototype.scrollIntoView},s=o.performance&&o.performance.now?o.performance.now.bind(o.performance):Date.now,c=(l=o.navigator.userAgent,new RegExp(["MSIE ","Trident/","Edge/"].join("|")).test(l)?1:0);o.scroll=o.scrollTo=function(){void 0!==arguments[0]&&(!0!==f(arguments[0])?v.call(o,t.body,void 0!==arguments[0].left?~~arguments[0].left:o.scrollX||o.pageXOffset,void 0!==arguments[0].top?~~arguments[0].top:o.scrollY||o.pageYOffset):i.scroll.call(o,void 0!==arguments[0].left?arguments[0].left:"object"!=typeof arguments[0]?arguments[0]:o.scrollX||o.pageXOffset,void 0!==arguments[0].top?arguments[0].top:void 0!==arguments[1]?arguments[1]:o.scrollY||o.pageYOffset))},o.scrollBy=function(){void 0!==arguments[0]&&(f(arguments[0])?i.scrollBy.call(o,void 0!==arguments[0].left?arguments[0].left:"object"!=typeof arguments[0]?arguments[0]:0,void 0!==arguments[0].top?arguments[0].top:void 0!==arguments[1]?arguments[1]:0):v.call(o,t.body,~~arguments[0].left+(o.scrollX||o.pageXOffset),~~arguments[0].top+(o.scrollY||o.pageYOffset)))},e.prototype.scroll=e.prototype.scrollTo=function(){if(void 0!==arguments[0])if(!0!==f(arguments[0])){var o=arguments[0].left,t=arguments[0].top;v.call(this,this,void 0===o?this.scrollLeft:~~o,void 0===t?this.scrollTop:~~t)}else{if("number"==typeof arguments[0]&&void 0===arguments[1])throw new SyntaxError("Value could not be converted");i.elementScroll.call(this,void 0!==arguments[0].left?~~arguments[0].left:"object"!=typeof arguments[0]?~~arguments[0]:this.scrollLeft,void 0!==arguments[0].top?~~arguments[0].top:void 0!==arguments[1]?~~arguments[1]:this.scrollTop)}},e.prototype.scrollBy=function(){void 0!==arguments[0]&&(!0!==f(arguments[0])?this.scroll({left:~~arguments[0].left+this.scrollLeft,top:~~arguments[0].top+this.scrollTop,behavior:arguments[0].behavior}):i.elementScroll.call(this,void 0!==arguments[0].left?~~arguments[0].left+this.scrollLeft:~~arguments[0]+this.scrollLeft,void 0!==arguments[0].top?~~arguments[0].top+this.scrollTop:~~arguments[1]+this.scrollTop))},e.prototype.scrollIntoView=function(){if(!0!==f(arguments[0])){var l=function(o){for(;o!==t.body&&!1===d(o);)o=o.parentNode||o.host;return o}(this),e=l.getBoundingClientRect(),r=this.getBoundingClientRect();l!==t.body?(v.call(this,l,l.scrollLeft+r.left-e.left,l.scrollTop+r.top-e.top),"fixed"!==o.getComputedStyle(l).position&&o.scrollBy({left:e.left,top:e.top,behavior:"smooth"})):o.scrollBy({left:r.left,top:r.top,behavior:"smooth"})}else i.scrollIntoView.call(this,void 0===arguments[0]||arguments[0])}}function n(o,t){this.scrollLeft=o,this.scrollTop=t}function f(o){if(null===o||"object"!=typeof o||void 0===o.behavior||"auto"===o.behavior||"instant"===o.behavior)return!0;if("object"==typeof o&&"smooth"===o.behavior)return!1;throw new TypeError("behavior member of ScrollOptions "+o.behavior+" is not a valid value for enumeration ScrollBehavior.")}function p(o,t){return"Y"===t?o.clientHeight+c<o.scrollHeight:"X"===t?o.clientWidth+c<o.scrollWidth:void 0}function a(t,l){var e="o.getComputedStyle(t,null)["overflow"+l];return"auto"===e||"scroll"===e}function" d(o){var t="p(o,"Y")&&a(o,"Y"),l=p(o,"X")&&a(o,"X");return" t||l}function h(t){var l,e,i,c,n="(s()-t.startTime)/r;c=n=n">1?1:n,l=.5*(1-Math.cos(Math.PI*c)),e=t.startX+(t.x-t.startX)*l,i=t.startY+(t.y-t.startY)*l,t.method.call(t.scrollable,e,i),e===t.x&&i===t.y||o.requestAnimationFrame(h.bind(o,t))}function v(l,e,r){var c,f,p,a,d=s();l===t.body?(c=o,f=o.scrollX||o.pageXOffset,p=o.scrollY||o.pageYOffset,a=i.scroll):(c=l,f=l.scrollLeft,p=l.scrollTop,a=n),h({scrollable:c,method:a,startTime:d,startX:f,startY:p,x:e,y:r})}}
+function scrollToPolyFill(){var o=window,t=document;if(!("scrollBehavior"in t.documentElement.style&&!0!==o.__forceSmoothScrollPolyfill__)){var l,e=o.HTMLElement||o.Element,r=468,i={scroll:o.scroll||o.scrollTo,scrollBy:o.scrollBy,elementScroll:e.prototype.scroll||n,scrollIntoView:e.prototype.scrollIntoView},s=o.performance&&o.performance.now?o.performance.now.bind(o.performance):Date.now,c=(l=o.navigator.userAgent,new RegExp(["MSIE ","Trident/","Edge/"].join("|")).test(l)?1:0);o.scroll=o.scrollTo=function(){void 0!==arguments[0]&&(!0!==f(arguments[0])?v.call(o,t.body,void 0!==arguments[0].left?~~arguments[0].left:o.scrollX||o.pageXOffset,void 0!==arguments[0].top?~~arguments[0].top:o.scrollY||o.pageYOffset):i.scroll.call(o,void 0!==arguments[0].left?arguments[0].left:"object"!=typeof arguments[0]?arguments[0]:o.scrollX||o.pageXOffset,void 0!==arguments[0].top?arguments[0].top:void 0!==arguments[1]?arguments[1]:o.scrollY||o.pageYOffset))},o.scrollBy=function(){void 0!==arguments[0]&&(f(arguments[0])?i.scrollBy.call(o,void 0!==arguments[0].left?arguments[0].left:"object"!=typeof arguments[0]?arguments[0]:0,void 0!==arguments[0].top?arguments[0].top:void 0!==arguments[1]?arguments[1]:0):v.call(o,t.body,~~arguments[0].left+(o.scrollX||o.pageXOffset),~~arguments[0].top+(o.scrollY||o.pageYOffset)))},e.prototype.scroll=e.prototype.scrollTo=function(){if(void 0!==arguments[0])if(!0!==f(arguments[0])){var o=arguments[0].left,t=arguments[0].top;v.call(this,this,void 0===o?this.scrollLeft:~~o,void 0===t?this.scrollTop:~~t)}else{if("number"==typeof arguments[0]&&void 0===arguments[1])throw new SyntaxError("Value could not be converted");i.elementScroll.call(this,void 0!==arguments[0].left?~~arguments[0].left:"object"!=typeof arguments[0]?~~arguments[0]:this.scrollLeft,void 0!==arguments[0].top?~~arguments[0].top:void 0!==arguments[1]?~~arguments[1]:this.scrollTop)}},e.prototype.scrollBy=function(){void 0!==arguments[0]&&(!0!==f(arguments[0])?this.scroll({left:~~arguments[0].left+this.scrollLeft,top:~~arguments[0].top+this.scrollTop,behavior:arguments[0].behavior}):i.elementScroll.call(this,void 0!==arguments[0].left?~~arguments[0].left+this.scrollLeft:~~arguments[0]+this.scrollLeft,void 0!==arguments[0].top?~~arguments[0].top+this.scrollTop:~~arguments[1]+this.scrollTop))},e.prototype.scrollIntoView=function(){if(!0!==f(arguments[0])){var l=function(o){for(;o!==t.body&&!1===d(o);)o=o.parentNode||o.host;return o}(this),e=l.getBoundingClientRect(),r=this.getBoundingClientRect();l!==t.body?(v.call(this,l,l.scrollLeft+r.left-e.left,l.scrollTop+r.top-e.top),"fixed"!==o.getComputedStyle(l).position&&o.scrollBy({left:e.left,top:e.top,behavior:"smooth"})):o.scrollBy({left:r.left,top:r.top,behavior:"smooth"})}else i.scrollIntoView.call(this,void 0===arguments[0]||arguments[0])}}function n(o,t){this.scrollLeft=o,this.scrollTop=t}function f(o){if(null===o||"object"!=typeof o||void 0===o.behavior||"auto"===o.behavior||"instant"===o.behavior)return!0;if("object"==typeof o&&"smooth"===o.behavior)return!1;throw new TypeError("behavior member of ScrollOptions "+o.behavior+" is not a valid value for enumeration ScrollBehavior.")}function p(o,t){return"Y"===t?o.clientHeight+c<o.scrollHeight:"X"===t?o.clientWidth+c<o.scrollWidth:void 0}function a(t,l){var e=o.getComputedStyle(t,null)["overflow"+l];return"auto"===e||"scroll"===e}function d(o){var t=p(o,"Y")&&a(o,"Y"),l=p(o,"X")&&a(o,"X");return t||l}function h(t){var l,e,i,c,n=(s()-t.startTime)/r;c=n=n>1?1:n,l=.5*(1-Math.cos(Math.PI*c)),e=t.startX+(t.x-t.startX)*l,i=t.startY+(t.y-t.startY)*l,t.method.call(t.scrollable,e,i),e===t.x&&i===t.y||o.requestAnimationFrame(h.bind(o,t))}function v(l,e,r){var c,f,p,a,d=s();l===t.body?(c=o,f=o.scrollX||o.pageXOffset,p=o.scrollY||o.pageYOffset,a=i.scroll):(c=l,f=l.scrollLeft,p=l.scrollTop,a=n),h({scrollable:c,method:a,startTime:d,startX:f,startY:p,x:e,y:r})}}
 
 // Add Event Listeners to Programically Added Elements
 function delegateSelector(e,t,c,n){t.split(" ").forEach(t=>{var a=document.querySelectorAll(e);[].forEach.call(a,function(e,a){e.addEventListener(t,function(e){e.target.matches(c)&&n(e)})})})}
 
 // http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
-window.requestAnimFrame = (function(){return  window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function( callback ){window.setTimeout(callback, 1000 / 60);};})();</o.scrollHeight:"X"===t?o.clientWidth+c<o.scrollWidth:void></=></0&&(n=n.parentElement));return>
+window.requestAnimFrame = (function(){return  window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function( callback ){window.setTimeout(callback, 1000 / 60);};})();
