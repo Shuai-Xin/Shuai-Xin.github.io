@@ -29,13 +29,12 @@ p {
 
 
 
-.container-fluid {
+.greeding {
 	max-width: 500px;
 }
 
 .shuai-title {
 	letter-spacing: 10px;
-	margin: 20px;
 	font-size: 20px;
 }
 
@@ -427,4 +426,3 @@ button{
 	}
 	
 }
-

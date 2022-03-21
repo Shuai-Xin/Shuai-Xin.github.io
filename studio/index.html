@@ -20,14 +20,13 @@
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
 	<!-- 引進google提供的思源黑字體  -->
 	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 	
     <title>帥音樂工作室 | Shuai Studio</title>
+	<meta name="description" content="唯有原創才是才是證明自身存在的最佳實踐">
 	
-	
-
-
     
 </head>
 <body>
@@ -40,16 +39,16 @@
 <!-- bloc-0 -->
 <div class="bloc l-bloc bloc-fill-screen" id="bloc-0">
 	
-	<div class="container">
+	<div class="container greeding">
 		<div class="row">
 			<div class="col">
 
 				<h1 class="mg-md shuai-title mg-md text-center animate__animated animate__fadeIn animate__slower">
 	  			<img src="img/bracket.png" alt="bracket" class="" style="
-	  			width: 50px; transform: rotate(90deg) scaleY(1.4);" />
+	  			float: left; width: 50px; transform: rotate(90deg) scaleY(1.4);" />
 	  				帥 音樂工作室
 	  			<img src="img/bracket.png" alt="bracket" class="" style="
-	  			width: 50px; transform: rotate(270deg) scaleY(1.4); " />
+	  			float: right; width: 50px; transform: rotate(270deg) scaleY(1.4); " />
 	  		</h1>
 				
 
@@ -84,7 +83,7 @@
 				<h1 class="mg-md">
 					宗旨
 				</h1>
-				<div class="blockquote">
+				<div class="blockquote" data-aos="fade-down" data-aos-duration="2000">
 					<p>
 						<i>唯有原創才是才是證明自身存在的最佳實踐。</i>
 					</p>
@@ -171,13 +170,13 @@
 				<h1 class="mg-md">
 					與我們合作
 				</h1>
-				<div class="blockquote">
+				<div class="blockquote" data-aos="fade-down" data-aos-duration="2000">
 					<p>
 						<i>一切都始於出色的想法和— —團隊合作</i>
 					</p>
 				</div>
 				<p>
-					聯絡我們，讓我們一起生產厲害的音樂。<br />
+					聯絡我們，讓我們一起創造有靈魂的音樂。<br />
 				</p>
 				<p>
 					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
@@ -199,7 +198,9 @@
 </div>
 <!-- Main container END -->
 
-<div class="footer-copyright text-center py-3"><p style="font-size: 15px;">© 2021 Copyright: <p style="letter-spacing: 3px;">帥音樂工作室</p></p></div>
+<div class="footer-copyright text-center py-3"><p style="font-size: 15px;">© <script>
+document.write(new Date().getFullYear())
+</script> Copyright: <p style="letter-spacing: 3px;">帥音樂工作室</p></p></div>
     
 
 
@@ -207,6 +208,11 @@
 <script src="./js/bootstrap.bundle.js"></script>
 <script src="./js/blocs.js"></script><!-- Additional JS END -->
 
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
