@@ -5,7 +5,7 @@ html * {
 
 body {
 	background: rgb(64,64,64);
-	background: linear-gradient(144deg, #222, #444);
+	background: linear-gradient(144deg, #181822, #474744);
 	overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -47,8 +47,6 @@ p {
 	border-left:0;
 	border-right:2px solid;
 }
-
-
 
 /*-----------------------------------------------------------------------------------
 	shuai_studio_
