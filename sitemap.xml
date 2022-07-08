@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shuaixin.cc/Logic-Pro-X-%E7%95%8C%E9%9D%A2%E6%B6%88%E5%A4%B1/</loc>
+    
+    <lastmod>2022-07-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shuaixin.cc/4-4-9-%E6%B3%95%E5%89%87-Atwater-System-%E9%A3%9F%E7%89%A9%E7%86%B1%E9%87%8F/</loc>
     
     <lastmod>2022-07-08</lastmod>
@@ -299,7 +308,7 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/%E5%9C%A8%20Logic%20Pro%20X%20%E4%B8%AD%E9%80%B2%E8%A1%8C%E3%80%8C%E5%AF%A6%E6%99%82%E7%A7%BB%E8%AA%BF%E3%80%8D%EF%BC%9A%E5%BD%88%E5%94%B1%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E5%8D%87%E9%99%8D%20Key%20%E8%80%8C%E4%B8%8D%E9%9C%80%E8%A6%81%E7%B7%B4%E7%BF%92%E5%85%B6%E4%BB%96%E8%AA%BF%E6%80%A7/</loc>
+    <loc>https://shuaixin.cc/Logic-Pro-X-%E5%AF%A6%E6%99%82%E7%A7%BB%E8%AA%BF/</loc>
     
     <lastmod>2022-03-04</lastmod>
     
@@ -1006,6 +1015,20 @@
   
   <url>
     <loc>https://shuaixin.cc/tags/Atwater-system/</loc>
+    <lastmod>2022-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Logic-Pro-X/</loc>
+    <lastmod>2022-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Main-Window/</loc>
     <lastmod>2022-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
