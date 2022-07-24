@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shuaixin.cc/%E5%8F%B0%E8%82%A1%E9%80%9A%E8%AD%98%E8%AA%B2-%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%98%E8%88%87%E6%9C%AC%E7%9B%8A%E6%AF%94/</loc>
+    
+    <lastmod>2022-07-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/%E5%8F%B0%E8%82%A1%E9%80%9A%E8%AD%98%E8%AA%B2-%E5%8D%87%E9%99%8D%E5%96%AE%E4%BD%8D/</loc>
+    
+    <lastmod>2022-07-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shuaixin.cc/%E4%B8%80%E4%BA%9BHexo%E7%9A%84%E7%96%91%E9%9B%A3%E9%9B%9C%E7%97%87/</loc>
     
     <lastmod>2022-07-24</lastmod>
@@ -1251,6 +1269,41 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%8F%B0%E8%82%A1/</loc>
+    <lastmod>2022-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%8D%87%E9%99%8D%E5%96%AE%E4%BD%8D/</loc>
+    <lastmod>2022-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/EPS/</loc>
+    <lastmod>2022-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%98/</loc>
+    <lastmod>2022-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E6%9C%AC%E7%9B%8A%E6%AF%94/</loc>
+    <lastmod>2022-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -1325,6 +1378,13 @@
   
   <url>
     <loc>https://shuaixin.cc/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/</loc>
+    <lastmod>2022-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/categories/%E5%8F%B0%E8%82%A1%E9%80%9A%E8%AD%98%E8%AA%B2/</loc>
     <lastmod>2022-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
