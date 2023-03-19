@@ -107,3 +107,14 @@ hr
 	border-radius: 10px;
 }
 
+
+.btn-light {
+  color: white;
+  background-color: #935dea;
+  border-color: #935dea;
+}
+.btn-light:hover, .btn-light:focus, .btn-light:active:hover{
+  color: white;
+  background-color: #7752d7;
+  border-color: #7752d7;
+}
