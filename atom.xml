@@ -206,9 +206,9 @@
     
     <category term="生物" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%89%A9/"/>
     
-    <category term="生理" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%90%86/"/>
-    
     <category term="3顆星書籍" scheme="https://shuaixin.site/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
+    <category term="生理" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%90%86/"/>
     
   </entry>
   
@@ -235,9 +235,9 @@
     
     <category term="4顆星書籍" scheme="https://shuaixin.site/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
-    <category term="音樂" scheme="https://shuaixin.site/tags/%E9%9F%B3%E6%A8%82/"/>
-    
     <category term="經濟" scheme="https://shuaixin.site/tags/%E7%B6%93%E6%BF%9F/"/>
+    
+    <category term="音樂" scheme="https://shuaixin.site/tags/%E9%9F%B3%E6%A8%82/"/>
     
   </entry>
   
@@ -328,9 +328,9 @@
     
     <category term="5顆星書籍" scheme="https://shuaixin.site/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
-    <category term="心靈" scheme="https://shuaixin.site/tags/%E5%BF%83%E9%9D%88/"/>
-    
     <category term="智慧" scheme="https://shuaixin.site/tags/%E6%99%BA%E6%85%A7/"/>
+    
+    <category term="心靈" scheme="https://shuaixin.site/tags/%E5%BF%83%E9%9D%88/"/>
     
   </entry>
   
@@ -389,9 +389,9 @@
     <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="心靈" scheme="https://shuaixin.site/tags/%E5%BF%83%E9%9D%88/"/>
-    
     <category term="智慧" scheme="https://shuaixin.site/tags/%E6%99%BA%E6%85%A7/"/>
+    
+    <category term="心靈" scheme="https://shuaixin.site/tags/%E5%BF%83%E9%9D%88/"/>
     
     <category term="4顆星書籍" scheme="https://shuaixin.site/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
@@ -521,7 +521,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;前言-5&quot;&gt;前言&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;前言-6&quot;&gt;前言&lt;/h2&gt;
 &lt;p&gt;網域又過期了，反正依舊是一個沒有人在意的荒島（Google 說什麼就是抓不到我的 sitemap，我快笑死），所以我就不續約，直接換網域了。&lt;/p&gt;
 &lt;p&gt;雖然不喜歡這樣，但每年都會遇到這個問題，很煩捏，所以記錄一下換網域要走的</summary>
         
@@ -579,7 +579,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;和弦配置-11&quot;&gt;和弦配置&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;和弦配置-10&quot;&gt;和弦配置&lt;/h2&gt;
 &lt;script src=&quot;https://gist.github.com/Shuai-Xin/4d8ebb11aa94707f0a88deab317f0e94.js&quot;&gt;&lt;/script&gt;
 &lt;h2</summary>
         
