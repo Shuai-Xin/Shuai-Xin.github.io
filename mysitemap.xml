@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shuaixin.site/Hexo-Local-Search-URL-issue/</loc>
+    
+    <lastmod>2023-07-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shuaixin.site/%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/</loc>
     
     <lastmod>2023-07-22</lastmod>
@@ -1918,6 +1927,20 @@
   
   <url>
     <loc>https://shuaixin.site/tags/Main-Window/</loc>
+    <lastmod>2023-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.site/tags/Local-Search/</loc>
+    <lastmod>2023-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.site/tags/url/</loc>
     <lastmod>2023-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

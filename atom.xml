@@ -6,7 +6,7 @@
   <link href="https://shuaixin.site/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.site/"/>
-  <updated>2023-07-22T16:17:36.958Z</updated>
+  <updated>2023-07-22T17:49:23.615Z</updated>
   <id>https://shuaixin.site/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解決 Hexo 本地搜尋的 url 問題</title>
+    <link href="https://shuaixin.site/Hexo-Local-Search-URL-issue/"/>
+    <id>https://shuaixin.site/Hexo-Local-Search-URL-issue/</id>
+    <published>2023-07-22T16:00:00.000Z</published>
+    <updated>2023-07-22T17:49:23.615Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;問題&quot;&gt;問題&lt;/h2&gt;
+&lt;p&gt;使用 &lt;code&gt;hexo-generator-searchdb&lt;/code&gt; 後，生成的搜尋結果的連結不正確。&lt;/p&gt;
+&lt;p&gt;例如我的一篇文章連結是</summary>
+        
+      
+    
+    
+    
+    <category term="架站筆記" scheme="https://shuaixin.site/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="Hexo" scheme="https://shuaixin.site/tags/Hexo/"/>
+    
+    <category term="Local Search" scheme="https://shuaixin.site/tags/Local-Search/"/>
+    
+    <category term="url" scheme="https://shuaixin.site/tags/url/"/>
+    
+  </entry>
   
   <entry>
     <title>巴斯卡定理的簡潔心法</title>
@@ -591,38 +622,6 @@
     
     
     <category term="大無限樂團" scheme="https://shuaixin.site/tags/%E5%A4%A7%E7%84%A1%E9%99%90%E6%A8%82%E5%9C%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>你何不教孩子什麼是快樂？</title>
-    <link href="https://shuaixin.site/%E4%BD%A0%E4%BD%95%E4%B8%8D%E6%95%99%E5%AD%A9%E5%AD%90%E4%BB%80%E9%BA%BC%E6%98%AF%E5%BF%AB%E6%A8%82%EF%BC%9F/"/>
-    <id>https://shuaixin.site/%E4%BD%A0%E4%BD%95%E4%B8%8D%E6%95%99%E5%AD%A9%E5%AD%90%E4%BB%80%E9%BA%BC%E6%98%AF%E5%BF%AB%E6%A8%82%EF%BC%9F/</id>
-    <published>2023-01-01T16:00:00.000Z</published>
-    <updated>2023-01-02T07:56:11.448Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;此篇為文章轉載，然出處難考，若有侵權，麻煩馬上告知我！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1&gt;你何不教孩子什麼是快樂？&lt;/h1&gt;
-&lt;p&gt;在面對安逸跟努力兩種選擇時，人到底為什麼要選擇努力？&lt;/p&gt;
-&lt;p&gt;前陣子開會與前輩聊天。他提到兒子有很多</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="教育" scheme="https://shuaixin.site/tags/%E6%95%99%E8%82%B2/"/>
-    
-    <category term="快樂" scheme="https://shuaixin.site/tags/%E5%BF%AB%E6%A8%82/"/>
     
   </entry>
   
