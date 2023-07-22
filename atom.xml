@@ -93,9 +93,9 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;前言-3&quot;&gt;前言&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;前言-4&quot;&gt;前言&lt;/h2&gt;
 &lt;p&gt;雖然 2023 才開始弄 RSS 好像有點返祖（？），但網站也想試試看電子報訂閱，就一起設置看看咯！&lt;/p&gt;
-&lt;h2 id=&quot;設置&quot;&gt;設置&lt;/h2&gt;
+&lt;h2 id=&quot;設置-2&quot;&gt;設置&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;首先安裝</summary>
@@ -107,11 +107,11 @@
     <category term="架站筆記" scheme="https://shuaixin.site/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/"/>
     
     
+    <category term="RSS" scheme="https://shuaixin.site/tags/RSS/"/>
+    
     <category term="Hexo" scheme="https://shuaixin.site/tags/Hexo/"/>
     
     <category term="Butterfly" scheme="https://shuaixin.site/tags/Butterfly/"/>
-    
-    <category term="RSS" scheme="https://shuaixin.site/tags/RSS/"/>
     
     <category term="atom" scheme="https://shuaixin.site/tags/atom/"/>
     
@@ -171,6 +171,8 @@
     <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
+    <category term="5顆星書籍" scheme="https://shuaixin.site/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
     <category term="生物" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%89%A9/"/>
     
     <category term="物理" scheme="https://shuaixin.site/tags/%E7%89%A9%E7%90%86/"/>
@@ -178,8 +180,6 @@
     <category term="天文" scheme="https://shuaixin.site/tags/%E5%A4%A9%E6%96%87/"/>
     
     <category term="歷史" scheme="https://shuaixin.site/tags/%E6%AD%B7%E5%8F%B2/"/>
-    
-    <category term="5顆星書籍" scheme="https://shuaixin.site/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
@@ -297,9 +297,9 @@
     <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="生物" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%89%A9/"/>
-    
     <category term="5顆星書籍" scheme="https://shuaixin.site/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
+    <category term="生物" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%89%A9/"/>
     
     <category term="生理" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%90%86/"/>
     
@@ -326,11 +326,11 @@
     <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="5顆星書籍" scheme="https://shuaixin.site/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    <category term="智慧" scheme="https://shuaixin.site/tags/%E6%99%BA%E6%85%A7/"/>
     
     <category term="心靈" scheme="https://shuaixin.site/tags/%E5%BF%83%E9%9D%88/"/>
     
-    <category term="智慧" scheme="https://shuaixin.site/tags/%E6%99%BA%E6%85%A7/"/>
+    <category term="5顆星書籍" scheme="https://shuaixin.site/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
@@ -355,9 +355,9 @@
     <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="4顆星書籍" scheme="https://shuaixin.site/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
     <category term="生涯" scheme="https://shuaixin.site/tags/%E7%94%9F%E6%B6%AF/"/>
+    
+    <category term="4顆星書籍" scheme="https://shuaixin.site/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
     <category term="應用" scheme="https://shuaixin.site/tags/%E6%87%89%E7%94%A8/"/>
     
@@ -389,11 +389,11 @@
     <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="4顆星書籍" scheme="https://shuaixin.site/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    <category term="智慧" scheme="https://shuaixin.site/tags/%E6%99%BA%E6%85%A7/"/>
     
     <category term="心靈" scheme="https://shuaixin.site/tags/%E5%BF%83%E9%9D%88/"/>
     
-    <category term="智慧" scheme="https://shuaixin.site/tags/%E6%99%BA%E6%85%A7/"/>
+    <category term="4顆星書籍" scheme="https://shuaixin.site/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
@@ -521,7 +521,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;前言-7&quot;&gt;前言&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;前言-5&quot;&gt;前言&lt;/h2&gt;
 &lt;p&gt;網域又過期了，反正依舊是一個沒有人在意的荒島（Google 說什麼就是抓不到我的 sitemap，我快笑死），所以我就不續約，直接換網域了。&lt;/p&gt;
 &lt;p&gt;雖然不喜歡這樣，但每年都會遇到這個問題，很煩捏，所以記錄一下換網域要走的</summary>
         
@@ -579,7 +579,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;和弦配置-10&quot;&gt;和弦配置&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;和弦配置-9&quot;&gt;和弦配置&lt;/h2&gt;
 &lt;script src=&quot;https://gist.github.com/Shuai-Xin/4d8ebb11aa94707f0a88deab317f0e94.js&quot;&gt;&lt;/script&gt;
 &lt;h2</summary>
         
@@ -620,9 +620,9 @@
     <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="教育" scheme="https://shuaixin.site/tags/%E6%95%99%E8%82%B2/"/>
-    
     <category term="快樂" scheme="https://shuaixin.site/tags/%E5%BF%AB%E6%A8%82/"/>
+    
+    <category term="教育" scheme="https://shuaixin.site/tags/%E6%95%99%E8%82%B2/"/>
     
   </entry>
   
