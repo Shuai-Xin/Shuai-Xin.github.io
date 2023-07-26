@@ -1,0 +1,112 @@
+<html>
+	  <head>
+		<title>這裡是 PyScript 遊樂場</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+		<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+	  </head>
+	  <body>
+		<py-repl> </py-repl>
+		<py-script>
+			print('幫您決定您一周的菜單、運動!')
+			print('輸入您的體重就可以決定這禮拜要吃什麼和運動清單，還會幫你計算熱量哦!')
+			def kcalkiller(x):
+				"""
+				#設計一個函式，輸入體重（ＫＧ）隨機決定這週吃什麼程式，
+				#並且顯示這週的進食熱量
+				#產生五個隨機運動作為本週運動清單
+				#以一週運動400分鐘為標準，隨機分配時間給運動清單並且算出大約消耗熱量
+			
+				Parameters
+				----------
+				x : TYPE
+					DESCRIPTION.
+			
+				Returns
+				-------
+				None.
+			
+				"""
+				import random
+				day=['星期一','星期二','星期三','星期四','星期五','星期六','星期天']
+				vigorous_exercise=['無氧重訓','跳繩','跑步','快速騎腳踏車','用力的打籃球','快速上樓梯']
+				moderate_exercise=['有氧運動','打羽毛球','游泳','桌球','跳舞','健走']
+				light_exercise=['散步','站著']
+				nothing_exercise=['躺著','坐著','看電視','啥都不做滑手機']
+				food_dict={
+					'麵線': 300.0,
+					'肉包': 250.0,
+					'蚵仔煎': 350.0,
+					'滷肉飯': 400.0,
+					'飯糰': 180.0,
+					'米粉湯': 250.0,
+					'蘿蔔糕': 200.0,
+					'油飯': 320.0,
+					'豬血糕': 150.0,
+					'拉麵': 560.0,
+					'牛排': 350.0,
+					'火鍋': 400.0,
+					'義大利麵': 450.0,
+					'便當': 500.0,
+				}
+				random_food = random.choice(list(food_dict.keys()))
+				kcal = food_dict[random_food]
+				
+				dict1={day[i]:random.choice(list(food_dict.keys()))for i in range(len(day))}
+				# print("為您產生這週菜單：",dict1)
+				# print("為您產生這週菜單：")
+				for day, food in dict1.items():
+					print(f"{day}: {food} ({food_dict[food]} kcal)")        
+				day=['星期一','星期二','星期三','星期四','星期五','星期六','星期天']
+				total_kcal=0
+				for i in day:
+					total_kcal+=food_dict[dict1[i]]
+				print('您本週共攝取：',total_kcal,'大卡')
+				do_item=set()
+				while len(do_item)<5:
+					random_vigorous=random.choice(vigorous_exercise)
+					random_moderate=random.choice(moderate_exercise)
+					random_light=random.choice(light_exercise)
+					random_nothing=random.choice(nothing_exercise)
+					exercise=random.choice([random_vigorous,random_moderate, random_light,random_nothing])
+					if exercise == random_vigorous:
+						do_item.add(exercise)
+					elif exercise == random_moderate:
+						do_item.add(exercise)
+					elif exercise == random_light:
+						do_item.add(exercise)
+					elif exercise == random_nothing:
+						do_item.add(exercise)
+				do_item=list(do_item)
+				do_item_str=','.join(do_item)
+				print('您本週的運動清單：',do_item_str)
+			
+				
+				do=400
+				a=[random.randint(60,100) for i in range(4) ]
+				a=a+[do-sum(a)]
+				killkcal=0
+				# x=60
+				for i in range(len(do_item)):
+					b=do_item[i]+'---'+str(a[i])+'分鐘'
+					if do_item[i] in vigorous_exercise: 
+						killkcal+=a[i]/60*11*x
+					elif do_item[i] in moderate_exercise: 
+						killkcal+=a[i]/60*6*x
+					elif do_item[i] in light_exercise: 
+						killkcal+=a[i]/60*2*x    
+					elif do_item[i] in nothing_exercise: 
+						killkcal+=a[i]/60*0.8*x   
+					print('建議您的運動分配：',b)
+				killkcal=int(killkcal)
+				print('預計共消耗',killkcal,'大卡')
+				return('')
+			
+			ans=kcalkiller(int(input('請輸入您的公斤數')))
+			
+			print(ans)
+		</py-script>
+	  </body>
+	</html>
+	
