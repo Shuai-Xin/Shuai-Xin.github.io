@@ -6,7 +6,7 @@
   <link href="https://shuaixin.site/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.site/"/>
-  <updated>2023-08-07T16:09:10.066Z</updated>
+  <updated>2023-08-23T08:32:09.005Z</updated>
   <id>https://shuaixin.site/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Logic Pro 儲存常用的 Plug-in</title>
+    <link href="https://shuaixin.site/Channel-Strip-Setting/"/>
+    <id>https://shuaixin.site/Channel-Strip-Setting/</id>
+    <published>2023-08-22T16:00:00.000Z</published>
+    <updated>2023-08-23T08:32:09.005Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;每次都要掛一次插件？&quot;&gt;每次都要掛一次插件？&lt;/h2&gt;
+&lt;p&gt;針對同一種樂器，我們通常會有幾款固定會掛上去的插件對吧。以我為例，人聲的軌道都會掛 RVOX、Fabfilter Pro-Q3、Fabfilter Pro-C2</summary>
+        
+      
+    
+    
+    
+    <category term="數位音樂製作" scheme="https://shuaixin.site/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/"/>
+    
+    
+    <category term="Channel Strip" scheme="https://shuaixin.site/tags/Channel-Strip/"/>
+    
+    <category term="Plug-in" scheme="https://shuaixin.site/tags/Plug-in/"/>
+    
+    <category term="RVOX" scheme="https://shuaixin.site/tags/RVOX/"/>
+    
+  </entry>
   
   <entry>
     <title>為什麼人類對四千赫茲的聲音最敏感？</title>
@@ -600,35 +630,6 @@
     <category term="HNC" scheme="https://shuaixin.site/tags/HNC/"/>
     
     <category term="HNC羅馬字輸入法" scheme="https://shuaixin.site/tags/HNC%E7%BE%85%E9%A6%AC%E5%AD%97%E8%BC%B8%E5%85%A5%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何出借股票？出借成功後，庫存居然消失了？</title>
-    <link href="https://shuaixin.site/%E5%8F%B0%E8%82%A1%E7%AD%86%E8%A8%98-%E9%9B%99%E5%90%91%E5%80%9F%E5%88%B8/"/>
-    <id>https://shuaixin.site/%E5%8F%B0%E8%82%A1%E7%AD%86%E8%A8%98-%E9%9B%99%E5%90%91%E5%80%9F%E5%88%B8/</id>
-    <published>2023-01-29T16:00:00.000Z</published>
-    <updated>2023-01-30T14:32:02.366Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;雙向借券：長抱股票還能多賺一筆，不賺嗎？&quot;&gt;雙向借券：長抱股票還能多賺一筆，不賺嗎？&lt;/h2&gt;
-&lt;p&gt;只要確定自己的券商有開放「雙向借券」的服務，而且手中的持股在一段時間內沒有想要進行買賣操作，那麼其實可以試試看把自己的股票「出借」出去。&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="台股筆記" scheme="https://shuaixin.site/categories/%E5%8F%B0%E8%82%A1%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="台股" scheme="https://shuaixin.site/tags/%E5%8F%B0%E8%82%A1/"/>
-    
-    <category term="雙向借券" scheme="https://shuaixin.site/tags/%E9%9B%99%E5%90%91%E5%80%9F%E5%88%B8/"/>
     
   </entry>
   
