@@ -1,0 +1,152 @@
+html *
+{
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+body
+{
+	background: linear-gradient(288deg, #ffb6b9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px),
+	 #FAE3D9 45%,
+	  rgba(178, 204, 198, 0.521) calc(45% + 1px), rgba(178, 204, 198, 0.521) 65%,
+	  rgba(176, 178, 214, 0.596) calc(65% + 1px), rgb(176, 178, 214, 0.596) 100%);
+}
+
+H1, H2, H3, H4, H5, p
+{
+	text-align: center;
+}
+
+H1
+{
+	font-family: 'Noto Serif TC', serif;
+	font-weight: 700;
+}
+
+H4 {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+H5 {
+	font-family: 'Noto Serif TC', serif;
+	font-weight: 640;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.white {
+	color: white;
+}
+
+p
+{
+	line-height: 1.7;
+	font-weight: 200;
+}
+
+.button {
+	margin-bottom: 1%;
+	font-weight: 300;
+}
+
+.murmur {
+	font-family: 'Noto Serif TC', serif;
+	font-weight: 300;
+	color: #666;
+	font-size: 10px;
+	
+	margin: 0px;
+}
+
+.shuai-title {
+	color: #999;
+	letter-spacing: 9px;
+	font-size: 17px;
+}
+
+hr
+{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.container-fluid {
+   max-width:500px;
+}
+
+.decoa {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Noto Serif TC', serif;
+	font-weight: 300;
+}
+
+.decoa:link {
+	background-position-y: 20%;
+	background-image: linear-gradient( transparent 50%, gold 50%);
+	transition: background 500ms ease;
+	background-size: 2px;
+	background-size: auto 175%;
+}
+
+
+.decoa:hover {
+	color: #666;
+	background-position-y: 100%;
+}
+
+.custom-card {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	margin-bottom: 20px;
+}
+
+.pane {
+  background: hsla(0,0%,100%,.3);  
+  position: relative;
+  overflow: hidden;
+}
+
+.pane::before {
+  content: '';
+  position: absolute;
+  top:0; right:0; bottom:0; left:0;
+  filter: blur(30px);
+  z-index: -1;
+  margin: -30px;
+}
+
+.cute {
+	border-radius: 10px;
+}
+
+
+.btn-light {
+  color: white;
+  background-color: #935dea;
+  border-color: #935dea;
+}
+.btn-light:hover, .btn-light:focus, .btn-light:active:hover{
+  color: white;
+  background-color: #7752d7;
+  border-color: #7752d7;
+}
+
+.youtube {
+  background-color: #f13345;
+}
+
+.youtube:hover {
+	background-color: #f15b6a;
+}
+
+.blog {
+	background-color: 3e7ad0;
+}
+
+.blog:hover {
+	background-color: 4a92f9;
+}
