@@ -5,10 +5,42 @@ html *
 
 body
 {
-	background: linear-gradient(288deg, #ffb6b9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px),
+	
+	 /* gradient?
+	 background-image: linear-gradient(to right top, #ffffff, #f7f7fb, #eeeff7, #e5e7f4, #dbe0f0, #d4ddef, #cddaee, #c5d7ec, #bfd7ec, #b9d7eb, #b3d8e9, #add8e7);
+	 */
+	 
+	 /* 2023 old
+	 
+	 background: linear-gradient(288deg, #ffb6b9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px),
 	 #FAE3D9 45%,
 	  rgba(178, 204, 198, 0.521) calc(45% + 1px), rgba(178, 204, 198, 0.521) 65%,
-	  rgba(176, 178, 214, 0.596) calc(65% + 1px), rgb(176, 178, 214, 0.596) 100%);
+	  rgba(176, 178, 214, 0.596) calc(65% + 1px), rgb(176, 178, 214, 0.596) 100%); 
+	  
+	 */
+	 
+	 background: linear-gradient(288deg,
+	 	#99a9c1 0%, #99a9c1 35%,
+	 	#aec0db calc(35% + 1px), #aec0db 45%,
+	 	#ccddf8 calc(45% + 1px), #ccddf8 65%,
+	 	#dce7f8 calc(65% + 1px), #dce7f8 100%); 
+
+
+}
+.first-color { 
+	background: #fffafa; 
+}
+	
+.second-color { 
+	background: #ffe0e0; 
+}
+
+.third-color { 
+	background: #ffc0d0; 
+}
+
+.fourth-color { 
+	background: #efdfbf; 
 }
 
 H1, H2, H3, H4, H5, p
@@ -101,8 +133,8 @@ hr
 .custom-card {
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-bottom: 2%;
-	margin-bottom: 20px;
+	padding-bottom: 1%;
+	margin-bottom: 1.5%;
 }
 
 .pane {
