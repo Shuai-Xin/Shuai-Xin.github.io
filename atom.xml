@@ -6,7 +6,7 @@
   <link href="https://shuaixin.site/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.site/"/>
-  <updated>2023-10-03T04:09:59.326Z</updated>
+  <updated>2023-10-10T09:18:11.705Z</updated>
   <id>https://shuaixin.site/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>淺談版稅：SP、OP代表什麼？怎麼算錢？</title>
+    <link href="https://shuaixin.site/SP-OP/"/>
+    <id>https://shuaixin.site/SP-OP/</id>
+    <published>2023-10-09T16:00:00.000Z</published>
+    <updated>2023-10-10T09:18:11.705Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;SP、OP-是什麼的縮寫？&quot;&gt;SP、OP 是什麼的縮寫？&lt;/h2&gt;
+&lt;p&gt;OP 是 Original Publishing 的縮寫。在台灣我們通常稱之為「製作公司」、「唱片公司」。&lt;/p&gt;
+&lt;p&gt;SP 是 Sub Publishing</summary>
+        
+      
+    
+    
+    
+    <category term="數位音樂製作" scheme="https://shuaixin.site/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/"/>
+    
+    
+    <category term="版稅" scheme="https://shuaixin.site/tags/%E7%89%88%E7%A8%85/"/>
+    
+    <category term="串流平台" scheme="https://shuaixin.site/tags/%E4%B8%B2%E6%B5%81%E5%B9%B3%E5%8F%B0/"/>
+    
+    <category term="唱片公司" scheme="https://shuaixin.site/tags/%E5%94%B1%E7%89%87%E5%85%AC%E5%8F%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>台語小筆記：買跟賣的變調</title>
@@ -618,36 +649,6 @@
     <category term="商業模式" scheme="https://shuaixin.site/tags/%E5%95%86%E6%A5%AD%E6%A8%A1%E5%BC%8F/"/>
     
     <category term="自媒體" scheme="https://shuaixin.site/tags/%E8%87%AA%E5%AA%92%E9%AB%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>讀書筆記：《格局，決定你的結局》</title>
-    <link href="https://shuaixin.site/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E6%A0%BC%E5%B1%80%E6%B1%BA%E5%AE%9A%E4%BD%A0%E7%9A%84%E7%B5%90%E5%B1%80/"/>
-    <id>https://shuaixin.site/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E6%A0%BC%E5%B1%80%E6%B1%BA%E5%AE%9A%E4%BD%A0%E7%9A%84%E7%B5%90%E5%B1%80/</id>
-    <published>2023-02-12T16:00:00.000Z</published>
-    <updated>2023-02-13T14:33:58.246Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;格局，決定你的結局&lt;/h1&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="4顆星書籍" scheme="https://shuaixin.site/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
-    <category term="智慧" scheme="https://shuaixin.site/tags/%E6%99%BA%E6%85%A7/"/>
-    
-    <category term="心靈" scheme="https://shuaixin.site/tags/%E5%BF%83%E9%9D%88/"/>
     
   </entry>
   
