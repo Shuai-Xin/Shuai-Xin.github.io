@@ -8,6 +8,20 @@
 
   gtag('config', 'G-WDZ4T0TNBX');
 </script>
+
+<!-- Reader Revenue Manager -->
+<script async type="application/javascript"
+src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+<script>
+(self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+basicSubscriptions.init({
+type: "NewsArticle",
+isPartOfType: ["Product"],
+isPartOfProductId: "CAowhszUCw:openaccess",
+clientOptions: { theme: "light", lang: "zh-TW" },
+});
+});
+</script>
 <!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>解決 Chrome 的 Localhost Error | Hi 我劉昕</title><meta name="keywords" content="Chrome,localhost,ERR_SSL_PROTOCOL_ERROR"><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="問題 架站時總是會先在瀏覽器上預覽效果，這時通常會採用 localhost 來訪問。 但有好一陣子我的 Chrome 就是直接一個：  這個網站無法提供安全連線， localhost 傳送的回應無效。  並且錯誤代碼為 ERR_SSL_PROTOCOL_ERROR。 原因 究其原因，其實是因為HTTP嚴格傳輸安全（HTTP Strict Transport Security, HSTS）發作了。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="解決 Chrome 的 Localhost Error">

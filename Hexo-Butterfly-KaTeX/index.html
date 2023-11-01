@@ -8,6 +8,20 @@
 
   gtag('config', 'G-WDZ4T0TNBX');
 </script>
+
+<!-- Reader Revenue Manager -->
+<script async type="application/javascript"
+src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+<script>
+(self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+basicSubscriptions.init({
+type: "NewsArticle",
+isPartOfType: ["Product"],
+isPartOfProductId: "CAowhszUCw:openaccess",
+clientOptions: { theme: "light", lang: "zh-TW" },
+});
+});
+</script>
 <!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>替 Butterfly 設置 KaTeX | Hi 我劉昕</title><meta name="keywords" content="Hexo,Butterfly,KaTeX"><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言 因為最近的家教項目以數學為主，逃不掉寫算式的命運，故來設置。 為什麼用 KaTeX 而不是 MathJax 呢？因為聽說前者的渲染速度快了不下十倍，此處直接不踩雷，果斷聽從前輩建議。 設置   與 MathJax 不兼容，若有配置需先禁用。   修改 themes\butterfly\_config.yml，加入： 1234katex:  enable: true  per_page: fa">
 <meta property="og:type" content="article">
 <meta property="og:title" content="替 Butterfly 設置 KaTeX">

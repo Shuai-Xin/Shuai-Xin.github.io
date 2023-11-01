@@ -8,6 +8,20 @@
 
   gtag('config', 'G-WDZ4T0TNBX');
 </script>
+
+<!-- Reader Revenue Manager -->
+<script async type="application/javascript"
+src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+<script>
+(self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+basicSubscriptions.init({
+type: "NewsArticle",
+isPartOfType: ["Product"],
+isPartOfProductId: "CAowhszUCw:openaccess",
+clientOptions: { theme: "light", lang: "zh-TW" },
+});
+});
+</script>
 <!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>解決 Hexo 本地搜尋的 URL 問題 | Hi 我劉昕</title><meta name="keywords" content="Hexo,Local Search,url"><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="問題 使用 hexo-generator-searchdb 後，生成的搜尋結果的連結不正確。 例如我的一篇文章連結是 https:&#x2F;&#x2F;shuaixin.site&#x2F;文章，但搜尋結果卻生成了 https:&#x2F;&#x2F;文章。 解決辦法 最後在這個 issue 裡面發現了大神路過留下的一句話，直接解決了問題。 在 _config.yml 裡面的 permalink 參數中，我本來設置的是 &#x2F;:name&#x2F;，但實際上">
 <meta property="og:type" content="article">
 <meta property="og:title" content="解決 Hexo 本地搜尋的 URL 問題">

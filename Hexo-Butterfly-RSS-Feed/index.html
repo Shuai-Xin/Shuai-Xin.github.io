@@ -8,6 +8,20 @@
 
   gtag('config', 'G-WDZ4T0TNBX');
 </script>
+
+<!-- Reader Revenue Manager -->
+<script async type="application/javascript"
+src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+<script>
+(self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+basicSubscriptions.init({
+type: "NewsArticle",
+isPartOfType: ["Product"],
+isPartOfProductId: "CAowhszUCw:openaccess",
+clientOptions: { theme: "light", lang: "zh-TW" },
+});
+});
+</script>
 <!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>替 Hexo 設置 RSS | Hi 我劉昕</title><meta name="keywords" content="RSS,Hexo,Butterfly,atom,feed"><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言 雖然 2023 才開始弄 RSS 好像有點返祖（？），但網站也想試試看電子報訂閱，就一起設置看看咯！ 設置   首先安裝 hexo-generator-feed： 1npm install --save hexo-generator-feed   接著在 _config.yml 中新增如下內容，其中參數都可自定義： 12345678910111213feed:  enable: true">
 <meta property="og:type" content="article">
 <meta property="og:title" content="替 Hexo 設置 RSS">
