@@ -6,7 +6,7 @@
   <link href="https://shuaixin.site/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.site/"/>
-  <updated>2023-11-18T06:31:43.805Z</updated>
+  <updated>2023-11-22T20:07:55.041Z</updated>
   <id>https://shuaixin.site/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>月台為什麼叫做「月台」？</title>
+    <link href="https://shuaixin.site/Why-Platform-Moon/"/>
+    <id>https://shuaixin.site/Why-Platform-Moon/</id>
+    <published>2023-11-22T16:00:00.000Z</published>
+    <updated>2023-11-22T20:07:55.041Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;突然很好奇為啥等火車、捷運的地方會叫做「月台」，一時間想不出個道理。&lt;/p&gt;
+&lt;p&gt;經查，大陸比較常用「站台」一詞，「月台」則見用於臺灣、香港、澳門跟新加坡。而「月台」這個詞的起源似乎是沒有確切的歷史記載，但有幾個說法，就順便整理給大家看看。&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="月台" scheme="https://shuaixin.site/tags/%E6%9C%88%E5%8F%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>將平方差公式視作等比級數公式的最簡例</title>
@@ -52,7 +79,7 @@
     <link href="https://shuaixin.site/2023-FPS-Monitor/"/>
     <id>https://shuaixin.site/2023-FPS-Monitor/</id>
     <published>2023-11-16T16:00:00.000Z</published>
-    <updated>2023-11-18T06:59:48.275Z</updated>
+    <updated>2023-11-18T07:04:22.470Z</updated>
     
     
       
@@ -615,36 +642,6 @@
     <category term="現沖賣" scheme="https://shuaixin.site/tags/%E7%8F%BE%E6%B2%96%E8%B3%A3/"/>
     
     <category term="現沖賣出借" scheme="https://shuaixin.site/tags/%E7%8F%BE%E6%B2%96%E8%B3%A3%E5%87%BA%E5%80%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>讀書筆記：《放屁》</title>
-    <link href="https://shuaixin.site/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E6%94%BE%E5%B1%81/"/>
-    <id>https://shuaixin.site/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E6%94%BE%E5%B1%81/</id>
-    <published>2023-07-14T16:00:00.000Z</published>
-    <updated>2023-07-15T08:09:37.177Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E6%94%BE%E5%B1%81/bullshit.jpg&quot; alt=&quot;bullshit&quot;&gt;&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="4顆星書籍" scheme="https://shuaixin.site/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
-    <category term="社會科學" scheme="https://shuaixin.site/tags/%E7%A4%BE%E6%9C%83%E7%A7%91%E5%AD%B8/"/>
-    
-    <category term="哲學" scheme="https://shuaixin.site/tags/%E5%93%B2%E5%AD%B8/"/>
     
   </entry>
   
