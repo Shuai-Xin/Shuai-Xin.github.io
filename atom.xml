@@ -67,11 +67,11 @@
     <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="5顆星書籍" scheme="https://shuaixin.site/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
     <category term="經濟" scheme="https://shuaixin.site/tags/%E7%B6%93%E6%BF%9F/"/>
     
     <category term="金融" scheme="https://shuaixin.site/tags/%E9%87%91%E8%9E%8D/"/>
+    
+    <category term="5顆星書籍" scheme="https://shuaixin.site/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
@@ -145,9 +145,9 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;前言-6&quot;&gt;前言&lt;/h2&gt;
 &lt;p&gt;最近新組了一台桌機，用的 Windows 11。配置可以看 &lt;a href=&quot;https://www.shuaixin.site/2023-PC-Build/&quot;&gt;2023 雙十一組電腦！&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;大學就投入 MacOS</summary>
+&lt;p&gt;大學就投入</summary>
         
       
     
@@ -272,9 +272,9 @@
     <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="應用" scheme="https://shuaixin.site/tags/%E6%87%89%E7%94%A8/"/>
-    
     <category term="智慧" scheme="https://shuaixin.site/tags/%E6%99%BA%E6%85%A7/"/>
+    
+    <category term="應用" scheme="https://shuaixin.site/tags/%E6%87%89%E7%94%A8/"/>
     
     <category term="3顆星書籍" scheme="https://shuaixin.site/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
@@ -438,9 +438,9 @@
     
     <category term="生物" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%89%A9/"/>
     
-    <category term="生理" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%90%86/"/>
-    
     <category term="應用" scheme="https://shuaixin.site/tags/%E6%87%89%E7%94%A8/"/>
+    
+    <category term="生理" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%90%86/"/>
     
     <category term="腦科學" scheme="https://shuaixin.site/tags/%E8%85%A6%E7%A7%91%E5%AD%B8/"/>
     
@@ -518,7 +518,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;和弦配置-17&quot;&gt;和弦配置&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;和弦配置-18&quot;&gt;和弦配置&lt;/h2&gt;
 &lt;script src=&quot;https://gist.github.com/Shuai-Xin/d37da375f968b6323050599e9cfb2e7a.js&quot;&gt;&lt;/script&gt;
 &lt;h2</summary>
         
@@ -564,9 +564,9 @@
     <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="Taxonomy" scheme="https://shuaixin.site/tags/Taxonomy/"/>
-    
     <category term="生物" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%89%A9/"/>
+    
+    <category term="Taxonomy" scheme="https://shuaixin.site/tags/Taxonomy/"/>
     
   </entry>
   
