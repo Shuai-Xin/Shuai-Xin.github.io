@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hi 我劉昕</title>
-  <icon>https://shuaixin.site/icon.png</icon>
+  <icon>https://shuai-xin.github.io/icon.png</icon>
   
-  <link href="https://shuaixin.site/atom.xml" rel="self"/>
+  <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
-  <link href="https://shuaixin.site/"/>
-  <updated>2024-01-05T06:41:56.028Z</updated>
-  <id>https://shuaixin.site/</id>
+  <link href="https://shuai-xin.github.io/"/>
+  <updated>2024-01-05T07:00:02.218Z</updated>
+  <id>https://shuai-xin.github.io/</id>
   
   <author>
     <name>Shuai</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Mac 如何 SSH 到 Linux 去開關 VirtualBox？</title>
-    <link href="https://shuaixin.site/Mac-GUI-SSH-to-Linux/"/>
-    <id>https://shuaixin.site/Mac-GUI-SSH-to-Linux/</id>
+    <link href="https://shuai-xin.github.io/Mac-GUI-SSH-to-Linux/"/>
+    <id>https://shuai-xin.github.io/Mac-GUI-SSH-to-Linux/</id>
     <published>2024-01-04T16:00:00.000Z</published>
-    <updated>2024-01-05T06:41:56.028Z</updated>
+    <updated>2024-01-05T07:00:02.218Z</updated>
     
     
       
@@ -35,29 +35,29 @@
     
     
     
-    <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="Linux" scheme="https://shuaixin.site/tags/Linux/"/>
+    <category term="Linux" scheme="https://shuai-xin.github.io/tags/Linux/"/>
     
-    <category term="Mac" scheme="https://shuaixin.site/tags/Mac/"/>
+    <category term="Mac" scheme="https://shuai-xin.github.io/tags/Mac/"/>
     
-    <category term="GUI" scheme="https://shuaixin.site/tags/GUI/"/>
+    <category term="GUI" scheme="https://shuai-xin.github.io/tags/GUI/"/>
     
-    <category term="SSH" scheme="https://shuaixin.site/tags/SSH/"/>
+    <category term="SSH" scheme="https://shuai-xin.github.io/tags/SSH/"/>
     
-    <category term="X11" scheme="https://shuaixin.site/tags/X11/"/>
+    <category term="X11" scheme="https://shuai-xin.github.io/tags/X11/"/>
     
-    <category term="Xquartz" scheme="https://shuaixin.site/tags/Xquartz/"/>
+    <category term="Xquartz" scheme="https://shuai-xin.github.io/tags/Xquartz/"/>
     
-    <category term="VirtualBox" scheme="https://shuaixin.site/tags/VirtualBox/"/>
+    <category term="VirtualBox" scheme="https://shuai-xin.github.io/tags/VirtualBox/"/>
     
   </entry>
   
   <entry>
     <title>將代謝當量（MET）換算成功率（W）</title>
-    <link href="https://shuaixin.site/MET-to-Watt/"/>
-    <id>https://shuaixin.site/MET-to-Watt/</id>
+    <link href="https://shuai-xin.github.io/MET-to-Watt/"/>
+    <id>https://shuai-xin.github.io/MET-to-Watt/</id>
     <published>2023-12-27T16:00:00.000Z</published>
     <updated>2023-12-30T09:14:53.742Z</updated>
     
@@ -72,19 +72,19 @@
     
     
     
-    <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="MET" scheme="https://shuaixin.site/tags/MET/"/>
+    <category term="MET" scheme="https://shuai-xin.github.io/tags/MET/"/>
     
-    <category term="Watt" scheme="https://shuaixin.site/tags/Watt/"/>
+    <category term="Watt" scheme="https://shuai-xin.github.io/tags/Watt/"/>
     
   </entry>
   
   <entry>
     <title>自交、互交、雜交、試交</title>
-    <link href="https://shuaixin.site/inbreeding-reciprocal-cross-hybrid-test-cross/"/>
-    <id>https://shuaixin.site/inbreeding-reciprocal-cross-hybrid-test-cross/</id>
+    <link href="https://shuai-xin.github.io/inbreeding-reciprocal-cross-hybrid-test-cross/"/>
+    <id>https://shuai-xin.github.io/inbreeding-reciprocal-cross-hybrid-test-cross/</id>
     <published>2023-12-22T16:00:00.000Z</published>
     <updated>2023-12-23T07:30:55.338Z</updated>
     
@@ -99,21 +99,21 @@
     
     
     
-    <category term="家教筆記" scheme="https://shuaixin.site/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/"/>
+    <category term="家教筆記" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/"/>
     
-    <category term="高中生物" scheme="https://shuaixin.site/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9/"/>
+    <category term="高中生物" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9/"/>
     
     
-    <category term="孟德爾" scheme="https://shuaixin.site/tags/%E5%AD%9F%E5%BE%B7%E7%88%BE/"/>
+    <category term="孟德爾" scheme="https://shuai-xin.github.io/tags/%E5%AD%9F%E5%BE%B7%E7%88%BE/"/>
     
-    <category term="遺傳" scheme="https://shuaixin.site/tags/%E9%81%BA%E5%82%B3/"/>
+    <category term="遺傳" scheme="https://shuai-xin.github.io/tags/%E9%81%BA%E5%82%B3/"/>
     
   </entry>
   
   <entry>
     <title>在 Mac 上安裝 Home Assistant</title>
-    <link href="https://shuaixin.site/Home-Assistant-On-Mac/"/>
-    <id>https://shuaixin.site/Home-Assistant-On-Mac/</id>
+    <link href="https://shuai-xin.github.io/Home-Assistant-On-Mac/"/>
+    <id>https://shuai-xin.github.io/Home-Assistant-On-Mac/</id>
     <published>2023-12-14T16:00:00.000Z</published>
     <updated>2023-12-17T07:21:07.508Z</updated>
     
@@ -130,19 +130,19 @@
     
     
     
-    <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="Home Assistant" scheme="https://shuaixin.site/tags/Home-Assistant/"/>
+    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
     
-    <category term="智能家居" scheme="https://shuaixin.site/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    <category term="智能家居" scheme="https://shuai-xin.github.io/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
     
   </entry>
   
   <entry>
     <title>讀書筆記：《致富的特權》</title>
-    <link href="https://shuaixin.site/Privilege-ZhiFuDeTeQuan/"/>
-    <id>https://shuaixin.site/Privilege-ZhiFuDeTeQuan/</id>
+    <link href="https://shuai-xin.github.io/Privilege-ZhiFuDeTeQuan/"/>
+    <id>https://shuai-xin.github.io/Privilege-ZhiFuDeTeQuan/</id>
     <published>2023-12-03T16:00:00.000Z</published>
     <updated>2023-12-04T07:27:41.389Z</updated>
     
@@ -158,21 +158,21 @@
     
     
     
-    <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="經濟" scheme="https://shuaixin.site/tags/%E7%B6%93%E6%BF%9F/"/>
+    <category term="5顆星書籍" scheme="https://shuai-xin.github.io/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
-    <category term="金融" scheme="https://shuaixin.site/tags/%E9%87%91%E8%9E%8D/"/>
+    <category term="經濟" scheme="https://shuai-xin.github.io/tags/%E7%B6%93%E6%BF%9F/"/>
     
-    <category term="5顆星書籍" scheme="https://shuaixin.site/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    <category term="金融" scheme="https://shuai-xin.github.io/tags/%E9%87%91%E8%9E%8D/"/>
     
   </entry>
   
   <entry>
     <title>月台為什麼叫做「月台」？</title>
-    <link href="https://shuaixin.site/Why-Platform-Moon/"/>
-    <id>https://shuaixin.site/Why-Platform-Moon/</id>
+    <link href="https://shuai-xin.github.io/Why-Platform-Moon/"/>
+    <id>https://shuai-xin.github.io/Why-Platform-Moon/</id>
     <published>2023-11-22T16:00:00.000Z</published>
     <updated>2023-11-22T20:07:55.041Z</updated>
     
@@ -189,17 +189,17 @@
     
     
     
-    <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="月台" scheme="https://shuaixin.site/tags/%E6%9C%88%E5%8F%B0/"/>
+    <category term="月台" scheme="https://shuai-xin.github.io/tags/%E6%9C%88%E5%8F%B0/"/>
     
   </entry>
   
   <entry>
     <title>將平方差公式視作等比級數公式的最簡例</title>
-    <link href="https://shuaixin.site/Geometric-Series-Formula/"/>
-    <id>https://shuaixin.site/Geometric-Series-Formula/</id>
+    <link href="https://shuai-xin.github.io/Geometric-Series-Formula/"/>
+    <id>https://shuai-xin.github.io/Geometric-Series-Formula/</id>
     <published>2023-11-17T16:00:00.000Z</published>
     <updated>2023-11-18T06:31:43.805Z</updated>
     
@@ -216,21 +216,21 @@
     
     
     
-    <category term="家教筆記" scheme="https://shuaixin.site/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/"/>
+    <category term="家教筆記" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/"/>
     
-    <category term="高中數學" scheme="https://shuaixin.site/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E6%95%B8%E5%AD%B8/"/>
+    <category term="高中數學" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E6%95%B8%E5%AD%B8/"/>
     
     
-    <category term="等比級數" scheme="https://shuaixin.site/tags/%E7%AD%89%E6%AF%94%E7%B4%9A%E6%95%B8/"/>
+    <category term="等比級數" scheme="https://shuai-xin.github.io/tags/%E7%AD%89%E6%AF%94%E7%B4%9A%E6%95%B8/"/>
     
-    <category term="乘法公式" scheme="https://shuaixin.site/tags/%E4%B9%98%E6%B3%95%E5%85%AC%E5%BC%8F/"/>
+    <category term="乘法公式" scheme="https://shuai-xin.github.io/tags/%E4%B9%98%E6%B3%95%E5%85%AC%E5%BC%8F/"/>
     
   </entry>
   
   <entry>
     <title>如何監控遊戲的實時 FPS？</title>
-    <link href="https://shuaixin.site/2023-FPS-Monitor/"/>
-    <id>https://shuaixin.site/2023-FPS-Monitor/</id>
+    <link href="https://shuai-xin.github.io/2023-FPS-Monitor/"/>
+    <id>https://shuai-xin.github.io/2023-FPS-Monitor/</id>
     <published>2023-11-16T16:00:00.000Z</published>
     <updated>2023-11-18T07:04:22.470Z</updated>
     
@@ -239,27 +239,27 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;前言-6&quot;&gt;前言&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
 &lt;p&gt;最近新組了一台桌機，用的 Windows 11。配置可以看 &lt;a href=&quot;https://www.shuaixin.site/2023-PC-Build/&quot;&gt;2023 雙十一組電腦！&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;大學就投入</summary>
+&lt;p&gt;大學就投入 MacOS</summary>
         
       
     
     
     
-    <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="FPS" scheme="https://shuaixin.site/tags/FPS/"/>
+    <category term="FPS" scheme="https://shuai-xin.github.io/tags/FPS/"/>
     
-    <category term="FrameView" scheme="https://shuaixin.site/tags/FrameView/"/>
+    <category term="FrameView" scheme="https://shuai-xin.github.io/tags/FrameView/"/>
     
   </entry>
   
   <entry>
     <title>2023 雙十一組電腦！</title>
-    <link href="https://shuaixin.site/2023-PC-Build/"/>
-    <id>https://shuaixin.site/2023-PC-Build/</id>
+    <link href="https://shuai-xin.github.io/2023-PC-Build/"/>
+    <id>https://shuai-xin.github.io/2023-PC-Build/</id>
     <published>2023-11-14T16:00:00.000Z</published>
     <updated>2023-11-18T05:49:13.311Z</updated>
     
@@ -278,17 +278,17 @@
     
     
     
-    <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="CPU" scheme="https://shuaixin.site/tags/CPU/"/>
+    <category term="CPU" scheme="https://shuai-xin.github.io/tags/CPU/"/>
     
   </entry>
   
   <entry>
     <title>如何看自己電腦的 CPU 規格</title>
-    <link href="https://shuaixin.site/Terminal-CPU-Spec/"/>
-    <id>https://shuaixin.site/Terminal-CPU-Spec/</id>
+    <link href="https://shuai-xin.github.io/Terminal-CPU-Spec/"/>
+    <id>https://shuai-xin.github.io/Terminal-CPU-Spec/</id>
     <published>2023-11-09T16:00:00.000Z</published>
     <updated>2023-11-10T14:37:49.669Z</updated>
     
@@ -305,19 +305,19 @@
     
     
     
-    <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="CPU" scheme="https://shuaixin.site/tags/CPU/"/>
+    <category term="CPU" scheme="https://shuai-xin.github.io/tags/CPU/"/>
     
-    <category term="Terminal" scheme="https://shuaixin.site/tags/Terminal/"/>
+    <category term="Terminal" scheme="https://shuai-xin.github.io/tags/Terminal/"/>
     
   </entry>
   
   <entry>
     <title>替網站裝設 Reader Revenue Manager</title>
-    <link href="https://shuaixin.site/Reader_Revenue_Manager/"/>
-    <id>https://shuaixin.site/Reader_Revenue_Manager/</id>
+    <link href="https://shuai-xin.github.io/Reader_Revenue_Manager/"/>
+    <id>https://shuai-xin.github.io/Reader_Revenue_Manager/</id>
     <published>2023-11-01T16:00:00.000Z</published>
     <updated>2023-11-09T14:39:18.410Z</updated>
     
@@ -333,21 +333,21 @@
     
     
     
-    <category term="架站筆記" scheme="https://shuaixin.site/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/"/>
+    <category term="架站筆記" scheme="https://shuai-xin.github.io/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="Google" scheme="https://shuaixin.site/tags/Google/"/>
+    <category term="Google" scheme="https://shuai-xin.github.io/tags/Google/"/>
     
-    <category term="Reader Revenue Manager" scheme="https://shuaixin.site/tags/Reader-Revenue-Manager/"/>
+    <category term="Reader Revenue Manager" scheme="https://shuai-xin.github.io/tags/Reader-Revenue-Manager/"/>
     
-    <category term="電子報" scheme="https://shuaixin.site/tags/%E9%9B%BB%E5%AD%90%E5%A0%B1/"/>
+    <category term="電子報" scheme="https://shuai-xin.github.io/tags/%E9%9B%BB%E5%AD%90%E5%A0%B1/"/>
     
   </entry>
   
   <entry>
     <title>讀書筆記：《逆思維》</title>
-    <link href="https://shuaixin.site/Think-Again/"/>
-    <id>https://shuaixin.site/Think-Again/</id>
+    <link href="https://shuai-xin.github.io/Think-Again/"/>
+    <id>https://shuai-xin.github.io/Think-Again/</id>
     <published>2023-10-28T16:00:00.000Z</published>
     <updated>2023-11-09T14:38:55.774Z</updated>
     
@@ -363,21 +363,21 @@
     
     
     
-    <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="智慧" scheme="https://shuaixin.site/tags/%E6%99%BA%E6%85%A7/"/>
+    <category term="智慧" scheme="https://shuai-xin.github.io/tags/%E6%99%BA%E6%85%A7/"/>
     
-    <category term="應用" scheme="https://shuaixin.site/tags/%E6%87%89%E7%94%A8/"/>
+    <category term="應用" scheme="https://shuai-xin.github.io/tags/%E6%87%89%E7%94%A8/"/>
     
-    <category term="3顆星書籍" scheme="https://shuaixin.site/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    <category term="3顆星書籍" scheme="https://shuai-xin.github.io/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
   <entry>
     <title>三次函數：111數A怎麼考？反正就是不考計算</title>
-    <link href="https://shuaixin.site/cubic-function-GSAT-111-math-A/"/>
-    <id>https://shuaixin.site/cubic-function-GSAT-111-math-A/</id>
+    <link href="https://shuai-xin.github.io/cubic-function-GSAT-111-math-A/"/>
+    <id>https://shuai-xin.github.io/cubic-function-GSAT-111-math-A/</id>
     <published>2023-10-23T16:00:00.000Z</published>
     <updated>2023-10-24T09:55:08.727Z</updated>
     
@@ -386,7 +386,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;108課綱的三次函數&quot;&gt;108課綱的三次函數&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;108課綱的三次函數-2&quot;&gt;108課綱的三次函數&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;108 課綱之後開始討論「三次函數」的函數圖形。&lt;/li&gt;
 &lt;li&gt;因為是新東西，學測很容易被出題，合情合理。&lt;/li&gt;
@@ -397,23 +397,23 @@
     
     
     
-    <category term="家教筆記" scheme="https://shuaixin.site/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/"/>
+    <category term="家教筆記" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/"/>
     
-    <category term="高中數學" scheme="https://shuaixin.site/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E6%95%B8%E5%AD%B8/"/>
+    <category term="高中數學" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E6%95%B8%E5%AD%B8/"/>
     
     
-    <category term="108課綱" scheme="https://shuaixin.site/tags/108%E8%AA%B2%E7%B6%B1/"/>
+    <category term="三次函數" scheme="https://shuai-xin.github.io/tags/%E4%B8%89%E6%AC%A1%E5%87%BD%E6%95%B8/"/>
     
-    <category term="三次函數" scheme="https://shuaixin.site/tags/%E4%B8%89%E6%AC%A1%E5%87%BD%E6%95%B8/"/>
+    <category term="108課綱" scheme="https://shuai-xin.github.io/tags/108%E8%AA%B2%E7%B6%B1/"/>
     
-    <category term="111學測" scheme="https://shuaixin.site/tags/111%E5%AD%B8%E6%B8%AC/"/>
+    <category term="111學測" scheme="https://shuai-xin.github.io/tags/111%E5%AD%B8%E6%B8%AC/"/>
     
   </entry>
   
   <entry>
     <title>淺談版稅：SP、OP代表什麼？怎麼算錢？</title>
-    <link href="https://shuaixin.site/SP-OP/"/>
-    <id>https://shuaixin.site/SP-OP/</id>
+    <link href="https://shuai-xin.github.io/SP-OP/"/>
+    <id>https://shuai-xin.github.io/SP-OP/</id>
     <published>2023-10-09T16:00:00.000Z</published>
     <updated>2023-10-10T10:02:53.363Z</updated>
     
@@ -430,21 +430,21 @@
     
     
     
-    <category term="數位音樂製作" scheme="https://shuaixin.site/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/"/>
+    <category term="數位音樂製作" scheme="https://shuai-xin.github.io/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/"/>
     
     
-    <category term="版稅" scheme="https://shuaixin.site/tags/%E7%89%88%E7%A8%85/"/>
+    <category term="版稅" scheme="https://shuai-xin.github.io/tags/%E7%89%88%E7%A8%85/"/>
     
-    <category term="串流平台" scheme="https://shuaixin.site/tags/%E4%B8%B2%E6%B5%81%E5%B9%B3%E5%8F%B0/"/>
+    <category term="串流平台" scheme="https://shuai-xin.github.io/tags/%E4%B8%B2%E6%B5%81%E5%B9%B3%E5%8F%B0/"/>
     
-    <category term="唱片公司" scheme="https://shuaixin.site/tags/%E5%94%B1%E7%89%87%E5%85%AC%E5%8F%B8/"/>
+    <category term="唱片公司" scheme="https://shuai-xin.github.io/tags/%E5%94%B1%E7%89%87%E5%85%AC%E5%8F%B8/"/>
     
   </entry>
   
   <entry>
     <title>台語小筆記：買跟賣的變調</title>
-    <link href="https://shuaixin.site/Taiwanese-2-buy-and-sell/"/>
-    <id>https://shuaixin.site/Taiwanese-2-buy-and-sell/</id>
+    <link href="https://shuai-xin.github.io/Taiwanese-2-buy-and-sell/"/>
+    <id>https://shuai-xin.github.io/Taiwanese-2-buy-and-sell/</id>
     <published>2023-10-02T16:00:00.000Z</published>
     <updated>2023-10-03T04:09:59.326Z</updated>
     
@@ -459,23 +459,23 @@
     
     
     
-    <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="台語" scheme="https://shuaixin.site/tags/%E5%8F%B0%E8%AA%9E/"/>
+    <category term="台語" scheme="https://shuai-xin.github.io/tags/%E5%8F%B0%E8%AA%9E/"/>
     
-    <category term="台羅" scheme="https://shuaixin.site/tags/%E5%8F%B0%E7%BE%85/"/>
+    <category term="台羅" scheme="https://shuai-xin.github.io/tags/%E5%8F%B0%E7%BE%85/"/>
     
-    <category term="變調" scheme="https://shuaixin.site/tags/%E8%AE%8A%E8%AA%BF/"/>
+    <category term="變調" scheme="https://shuai-xin.github.io/tags/%E8%AE%8A%E8%AA%BF/"/>
     
-    <category term="聲調" scheme="https://shuaixin.site/tags/%E8%81%B2%E8%AA%BF/"/>
+    <category term="聲調" scheme="https://shuai-xin.github.io/tags/%E8%81%B2%E8%AA%BF/"/>
     
   </entry>
   
   <entry>
     <title>台語變調例外其一：動詞 + 代名詞</title>
-    <link href="https://shuaixin.site/Taiwanese-1-love/"/>
-    <id>https://shuaixin.site/Taiwanese-1-love/</id>
+    <link href="https://shuai-xin.github.io/Taiwanese-1-love/"/>
+    <id>https://shuai-xin.github.io/Taiwanese-1-love/</id>
     <published>2023-09-19T16:00:00.000Z</published>
     <updated>2023-09-19T16:49:58.941Z</updated>
     
@@ -495,23 +495,23 @@
     
     
     
-    <category term="其他" scheme="https://shuaixin.site/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="台語" scheme="https://shuaixin.site/tags/%E5%8F%B0%E8%AA%9E/"/>
+    <category term="台語" scheme="https://shuai-xin.github.io/tags/%E5%8F%B0%E8%AA%9E/"/>
     
-    <category term="台羅" scheme="https://shuaixin.site/tags/%E5%8F%B0%E7%BE%85/"/>
+    <category term="台羅" scheme="https://shuai-xin.github.io/tags/%E5%8F%B0%E7%BE%85/"/>
     
-    <category term="變調" scheme="https://shuaixin.site/tags/%E8%AE%8A%E8%AA%BF/"/>
+    <category term="變調" scheme="https://shuai-xin.github.io/tags/%E8%AE%8A%E8%AA%BF/"/>
     
-    <category term="聲調" scheme="https://shuaixin.site/tags/%E8%81%B2%E8%AA%BF/"/>
+    <category term="聲調" scheme="https://shuai-xin.github.io/tags/%E8%81%B2%E8%AA%BF/"/>
     
   </entry>
   
   <entry>
     <title>讀書筆記：《為什麼要睡覺》</title>
-    <link href="https://shuaixin.site/Why-We-Sleep/"/>
-    <id>https://shuaixin.site/Why-We-Sleep/</id>
+    <link href="https://shuai-xin.github.io/Why-We-Sleep/"/>
+    <id>https://shuai-xin.github.io/Why-We-Sleep/</id>
     <published>2023-08-28T16:00:00.000Z</published>
     <updated>2023-08-29T07:44:53.507Z</updated>
     
@@ -527,25 +527,25 @@
     
     
     
-    <category term="讀書筆記" scheme="https://shuaixin.site/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="生物" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%89%A9/"/>
+    <category term="生物" scheme="https://shuai-xin.github.io/tags/%E7%94%9F%E7%89%A9/"/>
     
-    <category term="應用" scheme="https://shuaixin.site/tags/%E6%87%89%E7%94%A8/"/>
+    <category term="應用" scheme="https://shuai-xin.github.io/tags/%E6%87%89%E7%94%A8/"/>
     
-    <category term="生理" scheme="https://shuaixin.site/tags/%E7%94%9F%E7%90%86/"/>
+    <category term="腦科學" scheme="https://shuai-xin.github.io/tags/%E8%85%A6%E7%A7%91%E5%AD%B8/"/>
     
-    <category term="腦科學" scheme="https://shuaixin.site/tags/%E8%85%A6%E7%A7%91%E5%AD%B8/"/>
+    <category term="生理" scheme="https://shuai-xin.github.io/tags/%E7%94%9F%E7%90%86/"/>
     
-    <category term="4顆星書籍" scheme="https://shuaixin.site/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    <category term="4顆星書籍" scheme="https://shuai-xin.github.io/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
   <entry>
     <title>Logic Pro 儲存常用的 Plug-in</title>
-    <link href="https://shuaixin.site/Channel-Strip-Setting/"/>
-    <id>https://shuaixin.site/Channel-Strip-Setting/</id>
+    <link href="https://shuai-xin.github.io/Channel-Strip-Setting/"/>
+    <id>https://shuai-xin.github.io/Channel-Strip-Setting/</id>
     <published>2023-08-22T16:00:00.000Z</published>
     <updated>2023-08-23T08:50:32.765Z</updated>
     
@@ -561,21 +561,21 @@
     
     
     
-    <category term="數位音樂製作" scheme="https://shuaixin.site/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/"/>
+    <category term="數位音樂製作" scheme="https://shuai-xin.github.io/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/"/>
     
     
-    <category term="Channel Strip" scheme="https://shuaixin.site/tags/Channel-Strip/"/>
+    <category term="Channel Strip" scheme="https://shuai-xin.github.io/tags/Channel-Strip/"/>
     
-    <category term="Plug-in" scheme="https://shuaixin.site/tags/Plug-in/"/>
+    <category term="Plug-in" scheme="https://shuai-xin.github.io/tags/Plug-in/"/>
     
-    <category term="RVOX" scheme="https://shuaixin.site/tags/RVOX/"/>
+    <category term="RVOX" scheme="https://shuai-xin.github.io/tags/RVOX/"/>
     
   </entry>
   
   <entry>
     <title>為什麼人類對四千赫茲的聲音最敏感？</title>
-    <link href="https://shuaixin.site/4k-hertz/"/>
-    <id>https://shuaixin.site/4k-hertz/</id>
+    <link href="https://shuai-xin.github.io/4k-hertz/"/>
+    <id>https://shuai-xin.github.io/4k-hertz/</id>
     <published>2023-08-07T16:00:00.000Z</published>
     <updated>2023-08-07T16:09:10.066Z</updated>
     
@@ -593,17 +593,17 @@
     
     
     
-    <category term="數位音樂製作" scheme="https://shuaixin.site/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/"/>
+    <category term="數位音樂製作" scheme="https://shuai-xin.github.io/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/"/>
     
     
-    <category term="等響曲線" scheme="https://shuaixin.site/tags/%E7%AD%89%E9%9F%BF%E6%9B%B2%E7%B7%9A/"/>
+    <category term="等響曲線" scheme="https://shuai-xin.github.io/tags/%E7%AD%89%E9%9F%BF%E6%9B%B2%E7%B7%9A/"/>
     
   </entry>
   
   <entry>
     <title>《黑暗的巴洛克》</title>
-    <link href="https://shuaixin.site/%E5%92%8C%E5%BC%A6%E7%AD%86%E8%A8%98-%E9%BB%91%E6%9A%97%E7%9A%84%E5%B7%B4%E6%B4%9B%E5%85%8B/"/>
-    <id>https://shuaixin.site/%E5%92%8C%E5%BC%A6%E7%AD%86%E8%A8%98-%E9%BB%91%E6%9A%97%E7%9A%84%E5%B7%B4%E6%B4%9B%E5%85%8B/</id>
+    <link href="https://shuai-xin.github.io/%E5%92%8C%E5%BC%A6%E7%AD%86%E8%A8%98-%E9%BB%91%E6%9A%97%E7%9A%84%E5%B7%B4%E6%B4%9B%E5%85%8B/"/>
+    <id>https://shuai-xin.github.io/%E5%92%8C%E5%BC%A6%E7%AD%86%E8%A8%98-%E9%BB%91%E6%9A%97%E7%9A%84%E5%B7%B4%E6%B4%9B%E5%85%8B/</id>
     <published>2023-07-31T16:00:00.000Z</published>
     <updated>2023-08-01T15:30:10.864Z</updated>
     
@@ -612,7 +612,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;和弦配置-18&quot;&gt;和弦配置&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;和弦配置-16&quot;&gt;和弦配置&lt;/h2&gt;
 &lt;script src=&quot;https://gist.github.com/Shuai-Xin/d37da375f968b6323050599e9cfb2e7a.js&quot;&gt;&lt;/script&gt;
 &lt;h2</summary>
         
@@ -620,20 +620,20 @@
     
     
     
-    <category term="和弦筆記" scheme="https://shuaixin.site/categories/%E5%92%8C%E5%BC%A6%E7%AD%86%E8%A8%98/"/>
+    <category term="和弦筆記" scheme="https://shuai-xin.github.io/categories/%E5%92%8C%E5%BC%A6%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="黑暗的巴洛克" scheme="https://shuaixin.site/tags/%E9%BB%91%E6%9A%97%E7%9A%84%E5%B7%B4%E6%B4%9B%E5%85%8B/"/>
+    <category term="黑暗的巴洛克" scheme="https://shuai-xin.github.io/tags/%E9%BB%91%E6%9A%97%E7%9A%84%E5%B7%B4%E6%B4%9B%E5%85%8B/"/>
     
-    <category term="真珠美人魚" scheme="https://shuaixin.site/tags/%E7%9C%9F%E7%8F%A0%E7%BE%8E%E4%BA%BA%E9%AD%9A/"/>
+    <category term="真珠美人魚" scheme="https://shuai-xin.github.io/tags/%E7%9C%9F%E7%8F%A0%E7%BE%8E%E4%BA%BA%E9%AD%9A/"/>
     
-    <category term="唱K小魚仙" scheme="https://shuaixin.site/tags/%E5%94%B1K%E5%B0%8F%E9%AD%9A%E4%BB%99/"/>
+    <category term="唱K小魚仙" scheme="https://shuai-xin.github.io/tags/%E5%94%B1K%E5%B0%8F%E9%AD%9A%E4%BB%99/"/>
     
-    <category term="人魚的旋律" scheme="https://shuaixin.site/tags/%E4%BA%BA%E9%AD%9A%E7%9A%84%E6%97%8B%E5%BE%8B/"/>
+    <category term="人魚的旋律" scheme="https://shuai-xin.github.io/tags/%E4%BA%BA%E9%AD%9A%E7%9A%84%E6%97%8B%E5%BE%8B/"/>
     
-    <category term="延近輝之" scheme="https://shuaixin.site/tags/%E5%BB%B6%E8%BF%91%E8%BC%9D%E4%B9%8B/"/>
+    <category term="延近輝之" scheme="https://shuai-xin.github.io/tags/%E5%BB%B6%E8%BF%91%E8%BC%9D%E4%B9%8B/"/>
     
-    <category term="三井ゆきこ" scheme="https://shuaixin.site/tags/%E4%B8%89%E4%BA%95%E3%82%86%E3%81%8D%E3%81%93/"/>
+    <category term="三井ゆきこ" scheme="https://shuai-xin.github.io/tags/%E4%B8%89%E4%BA%95%E3%82%86%E3%81%8D%E3%81%93/"/>
     
   </entry>
   
