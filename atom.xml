@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-03-09T15:03:12.707Z</updated>
+  <updated>2024-03-09T15:33:51.658Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -17,23 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>日文小筆記：《紅蓮華》文法分析</title>
+    <link href="https://shuai-xin.github.io/Japanese-Lyrics-Gurenge/"/>
+    <id>https://shuai-xin.github.io/Japanese-Lyrics-Gurenge/</id>
+    <published>2024-03-08T16:00:00.000Z</published>
+    <updated>2024-03-09T15:33:51.658Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;整段歌詞-2&quot;&gt;整段歌詞&lt;/h2&gt;
+&lt;h4 id=&quot;《紅蓮華》&quot;&gt;《紅蓮華》&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;強くなれる理由を知った　僕を連れて進め&lt;br&gt;
+tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="日文" scheme="https://shuai-xin.github.io/tags/%E6%97%A5%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>日文小筆記：哆啦A夢主題曲</title>
     <link href="https://shuai-xin.github.io/Japanese-Lyrics-DoRaEMon/"/>
     <id>https://shuai-xin.github.io/Japanese-Lyrics-DoRaEMon/</id>
-    <published>2024-03-08T16:00:00.000Z</published>
-    <updated>2024-03-09T15:03:12.707Z</updated>
+    <published>2024-03-07T16:00:00.000Z</published>
+    <updated>2024-03-09T15:07:33.785Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;ドラえもんのうた&quot;&gt;ドラえもんのうた&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;整段歌詞&quot;&gt;整段歌詞&lt;/h2&gt;
+&lt;h4 id=&quot;《ドラえもんのうた》&quot;&gt;《ドラえもんのうた》&lt;/h4&gt;
+&lt;blockquote&gt;
 &lt;p&gt;こんなこと いいな できたら いいな&lt;br&gt;
 あんなゆめ こんなゆめ いっぱいあるけど&lt;br&gt;
-みんな みんな みんな かなえてくれる&lt;br&gt;
-ふしぎな ポッケで かなえてくれる&lt;br&gt;
-そらをじゆうに  </summary>
+みんな みんな みんな</summary>
         
       
     
@@ -597,36 +626,6 @@
     <category term="腦科學" scheme="https://shuai-xin.github.io/tags/%E8%85%A6%E7%A7%91%E5%AD%B8/"/>
     
     <category term="4顆星書籍" scheme="https://shuai-xin.github.io/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Logic Pro 儲存常用的 Plug-in</title>
-    <link href="https://shuai-xin.github.io/Channel-Strip-Setting/"/>
-    <id>https://shuai-xin.github.io/Channel-Strip-Setting/</id>
-    <published>2023-08-22T16:00:00.000Z</published>
-    <updated>2023-08-23T08:50:32.765Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;每次都要掛一次插件？&quot;&gt;每次都要掛一次插件？&lt;/h2&gt;
-&lt;p&gt;針對同一種樂器，我們通常會有幾款固定會掛上去的插件對吧。以我為例，人聲的軌道都會掛 RVOX、Fabfilter Pro-Q3、Fabfilter Pro-C2</summary>
-        
-      
-    
-    
-    
-    <category term="數位音樂製作" scheme="https://shuai-xin.github.io/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/"/>
-    
-    
-    <category term="Channel Strip" scheme="https://shuai-xin.github.io/tags/Channel-Strip/"/>
-    
-    <category term="Plug-in" scheme="https://shuai-xin.github.io/tags/Plug-in/"/>
-    
-    <category term="RVOX" scheme="https://shuai-xin.github.io/tags/RVOX/"/>
     
   </entry>
   
