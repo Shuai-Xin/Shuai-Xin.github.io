@@ -62,7 +62,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;整段歌詞-2&quot;&gt;整段歌詞&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;整段歌詞&quot;&gt;整段歌詞&lt;/h2&gt;
 &lt;h4 id=&quot;《紅蓮華》&quot;&gt;《紅蓮華》&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;強くなれる理由を知った　僕を連れて進め&lt;br&gt;
@@ -91,7 +91,7 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
       
         
         
-    <summary type="html">&lt;h2 id=&quot;整段歌詞&quot;&gt;整段歌詞&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;整段歌詞-2&quot;&gt;整段歌詞&lt;/h2&gt;
 &lt;h4 id=&quot;《ドラえもんのうた》&quot;&gt;《ドラえもんのうた》&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;こんなこと いいな できたら いいな&lt;br&gt;
@@ -281,11 +281,11 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
+    <category term="5顆星書籍" scheme="https://shuai-xin.github.io/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
     <category term="經濟" scheme="https://shuai-xin.github.io/tags/%E7%B6%93%E6%BF%9F/"/>
     
     <category term="金融" scheme="https://shuai-xin.github.io/tags/%E9%87%91%E8%9E%8D/"/>
-    
-    <category term="5顆星書籍" scheme="https://shuai-xin.github.io/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
@@ -486,9 +486,9 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="應用" scheme="https://shuai-xin.github.io/tags/%E6%87%89%E7%94%A8/"/>
-    
     <category term="智慧" scheme="https://shuai-xin.github.io/tags/%E6%99%BA%E6%85%A7/"/>
+    
+    <category term="應用" scheme="https://shuai-xin.github.io/tags/%E6%87%89%E7%94%A8/"/>
     
     <category term="3顆星書籍" scheme="https://shuai-xin.github.io/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
