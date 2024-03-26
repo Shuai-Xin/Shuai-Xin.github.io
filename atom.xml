@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-03-16T11:09:53.333Z</updated>
+  <updated>2024-03-25T09:17:03.283Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -17,11 +17,67 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>N5 單字全收錄 + 阿昕牌口訣</title>
+    <link href="https://shuai-xin.github.io/Japanese-N5-Vocabulary/"/>
+    <id>https://shuai-xin.github.io/Japanese-N5-Vocabulary/</id>
+    <published>2024-03-22T16:00:00.000Z</published>
+    <updated>2024-03-25T09:17:03.283Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言-8&quot;&gt;前言&lt;/h2&gt;
+&lt;p&gt;主播最近急匆匆地在學日文（為啥真的開始自稱主播啦？），爭取兩個月後去大阪玩可以用日文溝通。從五十音開始是真的感覺有點硬，後事如何，讓我們繼續看下去。&lt;/p&gt;
+&lt;p&gt;這邊就來分享一下我背 N5</summary>
+        
+      
+    
+    
+    
+    <category term="日文筆記" scheme="https://shuai-xin.github.io/categories/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="日文" scheme="https://shuai-xin.github.io/tags/%E6%97%A5%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>標註音標、標註片假名：&lt;ruby&gt;</title>
+    <link href="https://shuai-xin.github.io/Ruby/"/>
+    <id>https://shuai-xin.github.io/Ruby/</id>
+    <published>2024-03-20T16:00:00.000Z</published>
+    <updated>2024-03-22T10:00:25.571Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;ruby-前言-rt-劉昕好帥-rt-ruby&quot;&gt;&lt;ruby&gt;前言&lt;rt&gt;劉昕好帥&lt;/rt&gt;&lt;/ruby&gt;&lt;/h2&gt;
+&lt;p&gt;最近在學日文，理所當然地做點筆記放上來，因此有了標註片假名的需求。&lt;/p&gt;
+&lt;p&gt;然後就發現了</summary>
+        
+      
+    
+    
+    
+    <category term="架站筆記" scheme="https://shuai-xin.github.io/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="ruby" scheme="https://shuai-xin.github.io/tags/ruby/"/>
+    
+    <category term="html" scheme="https://shuai-xin.github.io/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
     <title>日文小筆記：動漫名場面文法解析</title>
     <link href="https://shuai-xin.github.io/Japanese-Anime-Line/"/>
     <id>https://shuai-xin.github.io/Japanese-Anime-Line/</id>
     <published>2024-03-15T16:00:00.000Z</published>
-    <updated>2024-03-16T11:09:53.333Z</updated>
+    <updated>2024-03-24T03:55:30.050Z</updated>
     
     
       
@@ -35,7 +91,7 @@
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="日文筆記" scheme="https://shuai-xin.github.io/categories/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/"/>
     
     
     <category term="安妮亞" scheme="https://shuai-xin.github.io/tags/%E5%AE%89%E5%A6%AE%E4%BA%9E/"/>
@@ -55,14 +111,14 @@
     <link href="https://shuai-xin.github.io/Japanese-Lyrics-Gurenge/"/>
     <id>https://shuai-xin.github.io/Japanese-Lyrics-Gurenge/</id>
     <published>2024-03-08T16:00:00.000Z</published>
-    <updated>2024-03-10T13:19:03.409Z</updated>
+    <updated>2024-03-24T03:55:46.135Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;整段歌詞&quot;&gt;整段歌詞&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;整段歌詞-2&quot;&gt;整段歌詞&lt;/h2&gt;
 &lt;h4 id=&quot;《紅蓮華》&quot;&gt;《紅蓮華》&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;強くなれる理由を知った　僕を連れて進め&lt;br&gt;
@@ -72,7 +128,7 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="日文筆記" scheme="https://shuai-xin.github.io/categories/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/"/>
     
     
     <category term="日文" scheme="https://shuai-xin.github.io/tags/%E6%97%A5%E6%96%87/"/>
@@ -84,14 +140,14 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <link href="https://shuai-xin.github.io/Japanese-Lyrics-DoRaEMon/"/>
     <id>https://shuai-xin.github.io/Japanese-Lyrics-DoRaEMon/</id>
     <published>2024-03-07T16:00:00.000Z</published>
-    <updated>2024-03-09T15:50:11.832Z</updated>
+    <updated>2024-03-24T03:55:37.855Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;整段歌詞-2&quot;&gt;整段歌詞&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;整段歌詞&quot;&gt;整段歌詞&lt;/h2&gt;
 &lt;h4 id=&quot;《ドラえもんのうた》&quot;&gt;《ドラえもんのうた》&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;こんなこと いいな できたら いいな&lt;br&gt;
@@ -102,7 +158,7 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="日文筆記" scheme="https://shuai-xin.github.io/categories/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/"/>
     
     
     <category term="日文" scheme="https://shuai-xin.github.io/tags/%E6%97%A5%E6%96%87/"/>
@@ -114,7 +170,7 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <link href="https://shuai-xin.github.io/Japanese-Verb-Forms/"/>
     <id>https://shuai-xin.github.io/Japanese-Verb-Forms/</id>
     <published>2024-03-04T16:00:00.000Z</published>
-    <updated>2024-03-17T08:19:20.136Z</updated>
+    <updated>2024-03-24T03:55:58.703Z</updated>
     
     
       
@@ -129,7 +185,7 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="日文筆記" scheme="https://shuai-xin.github.io/categories/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/"/>
     
     
     <category term="日文" scheme="https://shuai-xin.github.io/tags/%E6%97%A5%E6%96%87/"/>
@@ -281,11 +337,11 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="5顆星書籍" scheme="https://shuai-xin.github.io/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
     <category term="經濟" scheme="https://shuai-xin.github.io/tags/%E7%B6%93%E6%BF%9F/"/>
     
     <category term="金融" scheme="https://shuai-xin.github.io/tags/%E9%87%91%E8%9E%8D/"/>
+    
+    <category term="5顆星書籍" scheme="https://shuai-xin.github.io/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
@@ -558,68 +614,6 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <category term="串流平台" scheme="https://shuai-xin.github.io/tags/%E4%B8%B2%E6%B5%81%E5%B9%B3%E5%8F%B0/"/>
     
     <category term="唱片公司" scheme="https://shuai-xin.github.io/tags/%E5%94%B1%E7%89%87%E5%85%AC%E5%8F%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>台語小筆記：買跟賣的變調</title>
-    <link href="https://shuai-xin.github.io/Taiwanese-2-buy-and-sell/"/>
-    <id>https://shuai-xin.github.io/Taiwanese-2-buy-and-sell/</id>
-    <published>2023-10-02T16:00:00.000Z</published>
-    <updated>2023-10-03T04:09:59.326Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="台語" scheme="https://shuai-xin.github.io/tags/%E5%8F%B0%E8%AA%9E/"/>
-    
-    <category term="台羅" scheme="https://shuai-xin.github.io/tags/%E5%8F%B0%E7%BE%85/"/>
-    
-    <category term="變調" scheme="https://shuai-xin.github.io/tags/%E8%AE%8A%E8%AA%BF/"/>
-    
-    <category term="聲調" scheme="https://shuai-xin.github.io/tags/%E8%81%B2%E8%AA%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>台語變調例外其一：動詞 + 代名詞</title>
-    <link href="https://shuai-xin.github.io/Taiwanese-1-love/"/>
-    <id>https://shuai-xin.github.io/Taiwanese-1-love/</id>
-    <published>2023-09-19T16:00:00.000Z</published>
-    <updated>2024-03-17T08:13:19.870Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;動詞-代名詞&quot;&gt;動詞 +</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="台語" scheme="https://shuai-xin.github.io/tags/%E5%8F%B0%E8%AA%9E/"/>
-    
-    <category term="台羅" scheme="https://shuai-xin.github.io/tags/%E5%8F%B0%E7%BE%85/"/>
-    
-    <category term="變調" scheme="https://shuai-xin.github.io/tags/%E8%AE%8A%E8%AA%BF/"/>
-    
-    <category term="聲調" scheme="https://shuai-xin.github.io/tags/%E8%81%B2%E8%AA%BF/"/>
     
   </entry>
   
