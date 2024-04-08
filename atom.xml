@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-03-25T09:17:03.283Z</updated>
+  <updated>2024-04-08T15:19:12.213Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -17,19 +17,46 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>看《未聞花名》學日文</title>
+    <link href="https://shuai-xin.github.io/Japanese-Anohana-Line/"/>
+    <id>https://shuai-xin.github.io/Japanese-Anohana-Line/</id>
+    <published>2024-04-07T16:00:00.000Z</published>
+    <updated>2024-04-08T15:19:12.213Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言-2&quot;&gt;前言&lt;/h2&gt;
+&lt;p&gt;學習的事，能算追劇嗎？&lt;/p&gt;
+&lt;p&gt;背完 &lt;a href=&quot;https://shuai-xin.github.io/Japanese-N5-Vocabulary/&quot;&gt;N5</summary>
+        
+      
+    
+    
+    
+    <category term="日文筆記" scheme="https://shuai-xin.github.io/categories/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="未聞花名" scheme="https://shuai-xin.github.io/tags/%E6%9C%AA%E8%81%9E%E8%8A%B1%E5%90%8D/"/>
+    
+  </entry>
+  
+  <entry>
     <title>N5 單字全收錄 + 阿昕牌口訣</title>
     <link href="https://shuai-xin.github.io/Japanese-N5-Vocabulary/"/>
     <id>https://shuai-xin.github.io/Japanese-N5-Vocabulary/</id>
     <published>2024-03-22T16:00:00.000Z</published>
-    <updated>2024-03-25T09:17:03.283Z</updated>
+    <updated>2024-04-06T16:11:20.475Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;前言-8&quot;&gt;前言&lt;/h2&gt;
-&lt;p&gt;主播最近急匆匆地在學日文（為啥真的開始自稱主播啦？），爭取兩個月後去大阪玩可以用日文溝通。從五十音開始是真的感覺有點硬，後事如何，讓我們繼續看下去。&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+&lt;p&gt;主播我（？）最近急匆匆地在學日文，爭取兩個月後去大阪玩可以用日文溝通。從五十音開始是真的感覺有點硬，後事如何，讓我們繼續看下去。&lt;/p&gt;
 &lt;p&gt;這邊就來分享一下我背 N5</summary>
         
       
@@ -583,37 +610,6 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <category term="三次函數" scheme="https://shuai-xin.github.io/tags/%E4%B8%89%E6%AC%A1%E5%87%BD%E6%95%B8/"/>
     
     <category term="111學測" scheme="https://shuai-xin.github.io/tags/111%E5%AD%B8%E6%B8%AC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>淺談版稅：SP、OP代表什麼？怎麼算錢？</title>
-    <link href="https://shuai-xin.github.io/SP-OP/"/>
-    <id>https://shuai-xin.github.io/SP-OP/</id>
-    <published>2023-10-09T16:00:00.000Z</published>
-    <updated>2023-10-10T10:02:53.363Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;SP、OP-是什麼的縮寫？&quot;&gt;SP、OP 是什麼的縮寫？&lt;/h2&gt;
-&lt;p&gt;OP 是 Original Publishing 的縮寫。在台灣我們通常稱之為「製作公司」、「唱片公司」。&lt;/p&gt;
-&lt;p&gt;SP 是 Sub Publishing</summary>
-        
-      
-    
-    
-    
-    <category term="數位音樂製作" scheme="https://shuai-xin.github.io/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/"/>
-    
-    
-    <category term="版稅" scheme="https://shuai-xin.github.io/tags/%E7%89%88%E7%A8%85/"/>
-    
-    <category term="串流平台" scheme="https://shuai-xin.github.io/tags/%E4%B8%B2%E6%B5%81%E5%B9%B3%E5%8F%B0/"/>
-    
-    <category term="唱片公司" scheme="https://shuai-xin.github.io/tags/%E5%94%B1%E7%89%87%E5%85%AC%E5%8F%B8/"/>
     
   </entry>
   
