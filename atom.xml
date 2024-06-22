@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-04-13T07:10:55.761Z</updated>
+  <updated>2024-06-22T08:18:22.659Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>讀書筆記：《思考101》</title>
+    <link href="https://shuai-xin.github.io/Thinking-101/"/>
+    <id>https://shuai-xin.github.io/Thinking-101/</id>
+    <published>2024-06-21T16:00:00.000Z</published>
+    <updated>2024-06-22T08:18:22.659Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/Thinking-101/thinking101.webp&quot; alt=&quot;thinking101&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;阿萊悖論與確定性效應&quot;&gt;阿萊悖論與確定性效應&lt;/h3&gt;
+&lt;p&gt;試想以下賭局：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;賭局</summary>
+        
+      
+    
+    
+    
+    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="4顆星書籍" scheme="https://shuai-xin.github.io/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>看《未聞花名》學日文</title>
@@ -574,42 +603,6 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <category term="應用" scheme="https://shuai-xin.github.io/tags/%E6%87%89%E7%94%A8/"/>
     
     <category term="3顆星書籍" scheme="https://shuai-xin.github.io/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>三次函數：111數A怎麼考？反正就是不考計算</title>
-    <link href="https://shuai-xin.github.io/cubic-function-GSAT-111-math-A/"/>
-    <id>https://shuai-xin.github.io/cubic-function-GSAT-111-math-A/</id>
-    <published>2023-10-23T16:00:00.000Z</published>
-    <updated>2023-10-24T09:55:08.727Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;108課綱的三次函數-2&quot;&gt;108課綱的三次函數&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;108 課綱之後開始討論「三次函數」的函數圖形。&lt;/li&gt;
-&lt;li&gt;因為是新東西，學測很容易被出題，合情合理。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="家教筆記" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/"/>
-    
-    <category term="高中數學" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E6%95%B8%E5%AD%B8/"/>
-    
-    
-    <category term="108課綱" scheme="https://shuai-xin.github.io/tags/108%E8%AA%B2%E7%B6%B1/"/>
-    
-    <category term="三次函數" scheme="https://shuai-xin.github.io/tags/%E4%B8%89%E6%AC%A1%E5%87%BD%E6%95%B8/"/>
-    
-    <category term="111學測" scheme="https://shuai-xin.github.io/tags/111%E5%AD%B8%E6%B8%AC/"/>
     
   </entry>
   
