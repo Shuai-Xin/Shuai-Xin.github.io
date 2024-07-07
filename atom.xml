@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-06-22T08:24:01.500Z</updated>
+  <updated>2024-07-07T08:52:43.609Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hi 我劉昕啦：部落格導覽</title>
+    <link href="https://shuai-xin.github.io/Hi%E6%88%91%E5%8A%89%E6%98%95%E5%95%A6-%E9%83%A8%E8%90%BD%E6%A0%BC%E5%B0%8E%E8%A6%BD/"/>
+    <id>https://shuai-xin.github.io/Hi%E6%88%91%E5%8A%89%E6%98%95%E5%95%A6-%E9%83%A8%E8%90%BD%E6%A0%BC%E5%B0%8E%E8%A6%BD/</id>
+    <published>2024-07-06T16:00:00.000Z</published>
+    <updated>2024-07-07T08:52:43.609Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;這裡是哪？&quot;&gt;這裡是哪？&lt;/h3&gt;
+&lt;p&gt;這裡是劉昕的個人部落格，由 Hexo 渲染而成，並託管於 GitHub Pages。&lt;/p&gt;
+&lt;h3 id=&quot;劉昕是誰？&quot;&gt;劉昕是誰？&lt;/h3&gt;
+&lt;p&gt;請查看 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="架站筆記" scheme="https://shuai-xin.github.io/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>讀書筆記：《上班前的關鍵一小時》</title>
+    <link href="https://shuai-xin.github.io/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E4%B8%8A%E7%8F%AD%E5%89%8D%E7%9A%84%E9%97%9C%E9%8D%B5%E4%B8%80%E5%B0%8F%E6%99%82/"/>
+    <id>https://shuai-xin.github.io/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E4%B8%8A%E7%8F%AD%E5%89%8D%E7%9A%84%E9%97%9C%E9%8D%B5%E4%B8%80%E5%B0%8F%E6%99%82/</id>
+    <published>2024-07-06T16:00:00.000Z</published>
+    <updated>2024-07-07T08:39:04.887Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="3顆星書籍" scheme="https://shuai-xin.github.io/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
+    <category term="生涯規劃" scheme="https://shuai-xin.github.io/tags/%E7%94%9F%E6%B6%AF%E8%A6%8F%E5%8A%83/"/>
+    
+    <category term="勵志" scheme="https://shuai-xin.github.io/tags/%E5%8B%B5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>讀書筆記：《思考101》</title>
@@ -543,66 +598,6 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <category term="CPU" scheme="https://shuai-xin.github.io/tags/CPU/"/>
     
     <category term="Terminal" scheme="https://shuai-xin.github.io/tags/Terminal/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>替網站裝設 Reader Revenue Manager</title>
-    <link href="https://shuai-xin.github.io/Reader_Revenue_Manager/"/>
-    <id>https://shuai-xin.github.io/Reader_Revenue_Manager/</id>
-    <published>2023-11-01T16:00:00.000Z</published>
-    <updated>2023-11-09T14:39:18.410Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;讀者收益管理工具-Reader-Revenue-Manager&quot;&gt;讀者收益管理工具 Reader Revenue Manager&lt;/h2&gt;
-&lt;p&gt;沒錯，Google 又推出了一項新的服務，看起來是想跟各個網站跟 Google News</summary>
-        
-      
-    
-    
-    
-    <category term="架站筆記" scheme="https://shuai-xin.github.io/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="Google" scheme="https://shuai-xin.github.io/tags/Google/"/>
-    
-    <category term="Reader Revenue Manager" scheme="https://shuai-xin.github.io/tags/Reader-Revenue-Manager/"/>
-    
-    <category term="電子報" scheme="https://shuai-xin.github.io/tags/%E9%9B%BB%E5%AD%90%E5%A0%B1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>讀書筆記：《逆思維》</title>
-    <link href="https://shuai-xin.github.io/Think-Again/"/>
-    <id>https://shuai-xin.github.io/Think-Again/</id>
-    <published>2023-10-28T16:00:00.000Z</published>
-    <updated>2023-11-09T14:38:55.774Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/Think-Again/%E9%80%86%E6%80%9D%E7%B6%AD.jpg&quot; alt=&quot;逆思維&quot;&gt;&lt;/p&gt;
-&lt;h3</summary>
-        
-      
-    
-    
-    
-    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="智慧" scheme="https://shuai-xin.github.io/tags/%E6%99%BA%E6%85%A7/"/>
-    
-    <category term="應用" scheme="https://shuai-xin.github.io/tags/%E6%87%89%E7%94%A8/"/>
-    
-    <category term="3顆星書籍" scheme="https://shuai-xin.github.io/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
