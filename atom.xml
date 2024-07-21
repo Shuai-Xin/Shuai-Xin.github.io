@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-07-15T05:22:26.868Z</updated>
+  <updated>2024-07-15T13:44:01.613Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://shuai-xin.github.io/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E7%95%B6%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F/"/>
     <id>https://shuai-xin.github.io/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E7%95%B6%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F/</id>
     <published>2024-07-14T16:00:00.000Z</published>
-    <updated>2024-07-15T05:22:26.868Z</updated>
+    <updated>2024-07-15T13:44:01.613Z</updated>
     
     
       
@@ -330,6 +330,33 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
   </entry>
   
   <entry>
+    <title>讀書筆記：《最高學以致用法》</title>
+    <link href="https://shuai-xin.github.io/The-Power-Of-Output/"/>
+    <id>https://shuai-xin.github.io/The-Power-Of-Output/</id>
+    <published>2024-02-24T16:00:00.000Z</published>
+    <updated>2024-07-21T08:40:33.587Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/The-Power-Of-Output/output.png&quot; alt=&quot;output&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;知識點要用到才會形成長期記憶&quot;&gt;知識點要用到才會形成長期記憶&lt;/h3&gt;
+&lt;p&gt;兩週內運用超過三次的記憶，會轉變成長期記憶。雖然沒附</summary>
+        
+      
+    
+    
+    
+    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="4顆星書籍" scheme="https://shuai-xin.github.io/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Mac 如何 SSH 到 Linux 去開關 VirtualBox？</title>
     <link href="https://shuai-xin.github.io/Mac-GUI-SSH-to-Linux/"/>
     <id>https://shuai-xin.github.io/Mac-GUI-SSH-to-Linux/</id>
@@ -566,35 +593,6 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <category term="FPS" scheme="https://shuai-xin.github.io/tags/FPS/"/>
     
     <category term="FrameView" scheme="https://shuai-xin.github.io/tags/FrameView/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2023 雙十一組電腦！</title>
-    <link href="https://shuai-xin.github.io/2023-PC-Build/"/>
-    <id>https://shuai-xin.github.io/2023-PC-Build/</id>
-    <published>2023-11-14T16:00:00.000Z</published>
-    <updated>2023-11-18T05:49:13.311Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;看配置猜價格&quot;&gt;看配置猜價格&lt;/h2&gt;
-&lt;p&gt;若來者是內行人，不妨先看看我這套配置，估個價？&lt;/p&gt;
-&lt;h4 id=&quot;CPU&quot;&gt;CPU&lt;/h4&gt;
-&lt;p&gt;Intel® Core™ i5-13400F 處理器&lt;/p&gt;
-&lt;h4</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="CPU" scheme="https://shuai-xin.github.io/tags/CPU/"/>
     
   </entry>
   
