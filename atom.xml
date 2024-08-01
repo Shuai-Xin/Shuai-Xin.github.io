@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-07-27T09:14:02.157Z</updated>
+  <updated>2024-08-01T06:59:53.145Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智能家居 EP1：架設 Home Assistant</title>
+    <link href="https://shuai-xin.github.io/HA-1-setup/"/>
+    <id>https://shuai-xin.github.io/HA-1-setup/</id>
+    <published>2024-07-30T16:00:00.000Z</published>
+    <updated>2024-08-01T06:59:53.145Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;先說說我的智能家居終極目標吧&quot;&gt;先說說我的智能家居終極目標吧&lt;/h3&gt;
+&lt;p&gt;把家中的設備們變聰明是為了什麼？我的幾個願景是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全部的設備要能集中管理，最好是能集成到 Apple Home</summary>
+        
+      
+    
+    
+    
+    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+    
+    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    
+  </entry>
   
   <entry>
     <title>讀書筆記：《為什麼我們這樣生活，那樣工作？》</title>
@@ -558,37 +586,6 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     
     
     <category term="月台" scheme="https://shuai-xin.github.io/tags/%E6%9C%88%E5%8F%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>將平方差公式視作等比級數公式的最簡例</title>
-    <link href="https://shuai-xin.github.io/Geometric-Series-Formula/"/>
-    <id>https://shuai-xin.github.io/Geometric-Series-Formula/</id>
-    <published>2023-11-17T16:00:00.000Z</published>
-    <updated>2023-11-18T06:31:43.805Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;等比級數公式&quot;&gt;等比級數公式&lt;/h2&gt;
-&lt;p&gt;先看一眼等比級數公式。&lt;/p&gt;
-&lt;p&gt;若首項為 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
-        
-      
-    
-    
-    
-    <category term="家教筆記" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/"/>
-    
-    <category term="高中數學" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E6%95%B8%E5%AD%B8/"/>
-    
-    
-    <category term="等比級數" scheme="https://shuai-xin.github.io/tags/%E7%AD%89%E6%AF%94%E7%B4%9A%E6%95%B8/"/>
-    
-    <category term="乘法公式" scheme="https://shuai-xin.github.io/tags/%E4%B9%98%E6%B3%95%E5%85%AC%E5%BC%8F/"/>
     
   </entry>
   
