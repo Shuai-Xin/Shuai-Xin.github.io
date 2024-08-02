@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-08-01T06:59:53.145Z</updated>
+  <updated>2024-08-02T00:45:38.576Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>智能家居 EP2：安裝 HACS</title>
+    <link href="https://shuai-xin.github.io/HA-2-HACS/"/>
+    <id>https://shuai-xin.github.io/HA-2-HACS/</id>
+    <published>2024-08-01T16:00:00.000Z</published>
+    <updated>2024-08-02T00:45:38.576Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;為何安裝-HACS&quot;&gt;為何安裝 HACS&lt;/h3&gt;
+&lt;p&gt;HACS 全名 Home Assistant Community Store，沒錯，社群的力量無限大。&lt;/p&gt;
+&lt;p&gt;為了後續我們要把米家裝置連進 HA、Zigbee 連進 HA、裝置們橋接進 Apple</summary>
+        
+      
+    
+    
+    
+    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+    
+    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    
+  </entry>
+  
+  <entry>
     <title>智能家居 EP1：架設 Home Assistant</title>
     <link href="https://shuai-xin.github.io/HA-1-setup/"/>
     <id>https://shuai-xin.github.io/HA-1-setup/</id>
     <published>2024-07-30T16:00:00.000Z</published>
-    <updated>2024-08-01T06:59:53.145Z</updated>
+    <updated>2024-08-02T00:14:05.641Z</updated>
     
     
       
@@ -559,33 +586,6 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <category term="金融" scheme="https://shuai-xin.github.io/tags/%E9%87%91%E8%9E%8D/"/>
     
     <category term="5顆星書籍" scheme="https://shuai-xin.github.io/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>月台為什麼叫做「月台」？</title>
-    <link href="https://shuai-xin.github.io/Why-Platform-Moon/"/>
-    <id>https://shuai-xin.github.io/Why-Platform-Moon/</id>
-    <published>2023-11-22T16:00:00.000Z</published>
-    <updated>2023-11-22T20:07:55.041Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;突然很好奇為啥等火車、捷運的地方會叫做「月台」，一時間想不出個道理。&lt;/p&gt;
-&lt;p&gt;經查，大陸比較常用「站台」一詞，「月台」則見用於臺灣、香港、澳門跟新加坡。而「月台」這個詞的起源似乎是沒有確切的歷史記載，但有幾個說法，就順便整理給大家看看。&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="月台" scheme="https://shuai-xin.github.io/tags/%E6%9C%88%E5%8F%B0/"/>
     
   </entry>
   
