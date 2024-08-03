@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-08-02T07:29:49.928Z</updated>
+  <updated>2024-08-03T00:19:04.788Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智能家居 EP5：Zigbee 設備參戰</title>
+    <link href="https://shuai-xin.github.io/HA-5-Zigbee/"/>
+    <id>https://shuai-xin.github.io/HA-5-Zigbee/</id>
+    <published>2024-08-03T16:00:00.000Z</published>
+    <updated>2024-08-03T00:19:04.788Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;ok 來捋一下現在的進度：&lt;/p&gt;
+&lt;p&gt;現在我們有一台 HA 伺服器，拿到了米家設備的掌控權，並且把這些掌控權進一步橋接給了 Apple Home。&lt;/p&gt;
+&lt;p&gt;所以我們目前已經可以透過「HA 的網頁」、「Siri」跟「家庭</summary>
+        
+      
+    
+    
+    
+    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+    
+    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    
+  </entry>
   
   <entry>
     <title>智能家居 EP4：給 Siri 控制權！</title>
@@ -48,7 +75,7 @@
     <link href="https://shuai-xin.github.io/HA-3-miot/"/>
     <id>https://shuai-xin.github.io/HA-3-miot/</id>
     <published>2024-08-01T16:00:00.000Z</published>
-    <updated>2024-08-02T07:16:16.903Z</updated>
+    <updated>2024-08-02T23:33:37.565Z</updated>
     
     
       
@@ -56,11 +83,10 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;如果你手上沒有小米設備可以跳過此篇&lt;/p&gt;
+&lt;p&gt;如果你手上沒有小米設備可以跳過此篇，先去 EP5 添加 Zigbee 設備是個不錯的開始&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;安裝-Xiaomi-Miot&quot;&gt;安裝 Xiaomi Miot&lt;/h3&gt;
-&lt;p&gt;我們上篇已經弄出了 HACS，現在我們就要來發揮它的妙用啦！&lt;/p&gt;
-&lt;p&gt;在</summary>
+&lt;p&gt;我們上篇已經弄出了</summary>
         
       
     
@@ -555,35 +581,6 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <category term="MET" scheme="https://shuai-xin.github.io/tags/MET/"/>
     
     <category term="Watt" scheme="https://shuai-xin.github.io/tags/Watt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>自交、互交、雜交、試交</title>
-    <link href="https://shuai-xin.github.io/inbreeding-reciprocal-cross-hybrid-test-cross/"/>
-    <id>https://shuai-xin.github.io/inbreeding-reciprocal-cross-hybrid-test-cross/</id>
-    <published>2023-12-22T16:00:00.000Z</published>
-    <updated>2023-12-23T07:30:55.338Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;自交、互交、雜交、試交，這幾個交法常見於題幹，對吧？但說句實在話，其實高中生物根本就沒有好好定義過這幾個名詞。更不用說甚至有題幹根本就直接誤用，112 學測第 18</summary>
-        
-      
-    
-    
-    
-    <category term="家教筆記" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/"/>
-    
-    <category term="高中生物" scheme="https://shuai-xin.github.io/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9/"/>
-    
-    
-    <category term="孟德爾" scheme="https://shuai-xin.github.io/tags/%E5%AD%9F%E5%BE%B7%E7%88%BE/"/>
-    
-    <category term="遺傳" scheme="https://shuai-xin.github.io/tags/%E9%81%BA%E5%82%B3/"/>
     
   </entry>
   
