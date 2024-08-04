@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-08-03T00:19:04.788Z</updated>
+  <updated>2024-08-04T11:26:19.417Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智能家居 EP6：設定自動化</title>
+    <link href="https://shuai-xin.github.io/HA-6-Automation/"/>
+    <id>https://shuai-xin.github.io/HA-6-Automation/</id>
+    <published>2024-08-04T16:00:00.000Z</published>
+    <updated>2024-08-04T11:26:19.417Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;上一篇我們把無線開關納入 HA 版圖了，但這些開關目前還沒有任何的控制功能。我們這邊就要來透過自動化，去指定開關對應到的動作。&lt;/p&gt;
+&lt;h3 id=&quot;設定自動化&quot;&gt;設定自動化&lt;/h3&gt;
+&lt;p&gt;側邊欄「設定」→「自動化與場景」→</summary>
+        
+      
+    
+    
+    
+    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+    
+    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    
+  </entry>
   
   <entry>
     <title>智能家居 EP5：Zigbee 設備參戰</title>
@@ -554,33 +581,6 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     <category term="Xquartz" scheme="https://shuai-xin.github.io/tags/Xquartz/"/>
     
     <category term="VirtualBox" scheme="https://shuai-xin.github.io/tags/VirtualBox/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>將代謝當量（MET）換算成功率（W）</title>
-    <link href="https://shuai-xin.github.io/MET-to-Watt/"/>
-    <id>https://shuai-xin.github.io/MET-to-Watt/</id>
-    <published>2023-12-27T16:00:00.000Z</published>
-    <updated>2023-12-30T09:14:53.742Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;運動生理學中有所謂的&lt;strong&gt;代謝當量&lt;/strong&gt;（Metabolic Equivalent of Task，簡稱 MET），用以估算從事某活動時的代謝水平。如果我們將坐著休息不動時的代謝當量定義為 1</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="MET" scheme="https://shuai-xin.github.io/tags/MET/"/>
-    
-    <category term="Watt" scheme="https://shuai-xin.github.io/tags/Watt/"/>
     
   </entry>
   
