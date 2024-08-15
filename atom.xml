@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-08-04T11:26:19.417Z</updated>
+  <updated>2024-08-15T08:32:49.730Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智能家居失敗其一：遠端控制</title>
+    <link href="https://shuai-xin.github.io/HA-X-Remote/"/>
+    <id>https://shuai-xin.github.io/HA-X-Remote/</id>
+    <published>2024-08-14T16:00:00.000Z</published>
+    <updated>2024-08-15T08:32:49.730Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;此篇「遠端控制」失敗收場，目前未解，若有高手還請救救我QQ&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;為實現遠端連線，參考了以下三篇：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+    
+    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    
+  </entry>
   
   <entry>
     <title>智能家居 EP6：設定自動化</title>
@@ -543,44 +573,6 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     
     
     <category term="4顆星書籍" scheme="https://shuai-xin.github.io/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac 如何 SSH 到 Linux 去開關 VirtualBox？</title>
-    <link href="https://shuai-xin.github.io/Mac-GUI-SSH-to-Linux/"/>
-    <id>https://shuai-xin.github.io/Mac-GUI-SSH-to-Linux/</id>
-    <published>2024-01-04T16:00:00.000Z</published>
-    <updated>2024-01-05T07:00:02.218Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;環境&quot;&gt;環境&lt;/h2&gt;
-&lt;p&gt;想直接從 Mac 控制 Linux 去開關一個運行著 Home Assistant OS 的 VirtualBox</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="Linux" scheme="https://shuai-xin.github.io/tags/Linux/"/>
-    
-    <category term="Mac" scheme="https://shuai-xin.github.io/tags/Mac/"/>
-    
-    <category term="GUI" scheme="https://shuai-xin.github.io/tags/GUI/"/>
-    
-    <category term="SSH" scheme="https://shuai-xin.github.io/tags/SSH/"/>
-    
-    <category term="X11" scheme="https://shuai-xin.github.io/tags/X11/"/>
-    
-    <category term="Xquartz" scheme="https://shuai-xin.github.io/tags/Xquartz/"/>
-    
-    <category term="VirtualBox" scheme="https://shuai-xin.github.io/tags/VirtualBox/"/>
     
   </entry>
   
