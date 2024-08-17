@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-08-17T02:34:08.266Z</updated>
+  <updated>2024-08-17T07:45:09.755Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>讀書筆記：《欲望分子多巴胺》</title>
+    <link href="https://shuai-xin.github.io/The-Molecule-of-More/"/>
+    <id>https://shuai-xin.github.io/The-Molecule-of-More/</id>
+    <published>2024-08-16T16:00:00.000Z</published>
+    <updated>2024-08-17T07:45:09.755Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/The-Molecule-of-More/more.png&quot; alt=&quot;more&quot;&gt;&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="5顆星書籍" scheme="https://shuai-xin.github.io/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
+    <category term="生理" scheme="https://shuai-xin.github.io/tags/%E7%94%9F%E7%90%86/"/>
+    
+    <category term="腦科學" scheme="https://shuai-xin.github.io/tags/%E8%85%A6%E7%A7%91%E5%AD%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>智能家居失敗其一：遠端控制</title>
@@ -216,7 +246,7 @@
     <link href="https://shuai-xin.github.io/The-Power-of-Habit/"/>
     <id>https://shuai-xin.github.io/The-Power-of-Habit/</id>
     <published>2024-07-19T16:00:00.000Z</published>
-    <updated>2024-07-27T09:14:02.157Z</updated>
+    <updated>2024-08-17T07:52:26.334Z</updated>
     
     
       
@@ -240,17 +270,17 @@
   
   <entry>
     <title>讀書筆記：《當下的力量》</title>
-    <link href="https://shuai-xin.github.io/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E7%95%B6%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F/"/>
-    <id>https://shuai-xin.github.io/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E7%95%B6%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F/</id>
+    <link href="https://shuai-xin.github.io/The-Power-of-Now/"/>
+    <id>https://shuai-xin.github.io/The-Power-of-Now/</id>
     <published>2024-07-14T16:00:00.000Z</published>
-    <updated>2024-07-23T07:11:36.841Z</updated>
+    <updated>2024-08-17T07:51:46.371Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E7%95%B6%E4%B8%8B%E7%9A%84%E5%8A%9B%E9%87%8F/now.png&quot; alt=&quot;now&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/The-Power-of-Now/now.png&quot; alt=&quot;now&quot;&gt;&lt;/p&gt;
 &lt;h3</summary>
         
       
@@ -546,33 +576,6 @@ tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
     
     
     <category term="日文" scheme="https://shuai-xin.github.io/tags/%E6%97%A5%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>讀書筆記：《最高學以致用法》</title>
-    <link href="https://shuai-xin.github.io/The-Power-Of-Output/"/>
-    <id>https://shuai-xin.github.io/The-Power-Of-Output/</id>
-    <published>2024-02-24T16:00:00.000Z</published>
-    <updated>2024-07-21T08:45:34.115Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/The-Power-Of-Output/output.png&quot; alt=&quot;output&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;知識點要用到才會形成長期記憶&quot;&gt;知識點要用到才會形成長期記憶&lt;/h3&gt;
-&lt;p&gt;兩週內運用超過三次的記憶，會轉變成長期記憶。雖然沒附</summary>
-        
-      
-    
-    
-    
-    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="4顆星書籍" scheme="https://shuai-xin.github.io/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
