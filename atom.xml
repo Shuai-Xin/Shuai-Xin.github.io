@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-11-13T15:42:43.677Z</updated>
+  <updated>2024-11-26T07:45:05.789Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>勞動力發展署北基宜花金馬分署物聯網AI系統整合實務筆試詳解</title>
+    <link href="https://shuai-xin.github.io/iot-exam-note/"/>
+    <id>https://shuai-xin.github.io/iot-exam-note/</id>
+    <published>2024-11-25T16:00:00.000Z</published>
+    <updated>2024-11-26T07:45:05.789Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;以下題目為「勞動力發展署北基宜花金馬分署 113 年度自辦職前訓練：物聯網-AI 系統整合實務（泰山）第 1 期考題」。&lt;/p&gt;
+&lt;p&gt;而以下詳解都是我自己隨手寫下的，僅供參考咯。&lt;/p&gt;
+&lt;p&gt;當然，如果有誤還請提點，感謝！&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="iot" scheme="https://shuai-xin.github.io/tags/iot/"/>
+    
+    <category term="internet" scheme="https://shuai-xin.github.io/tags/internet/"/>
+    
+  </entry>
   
   <entry>
     <title>讀書筆記：《大腦簡史》</title>
@@ -543,36 +573,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;強くなれる理由を知った　僕を連れて進め&lt;br&gt;
 tsuyoku nareru riyuu wo shitta boku wo tsurete</summary>
-        
-      
-    
-    
-    
-    <category term="日文筆記" scheme="https://shuai-xin.github.io/categories/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="日文" scheme="https://shuai-xin.github.io/tags/%E6%97%A5%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日文小筆記：《哆啦A夢主題曲》文法解析</title>
-    <link href="https://shuai-xin.github.io/Japanese-Lyrics-DoRaEMon/"/>
-    <id>https://shuai-xin.github.io/Japanese-Lyrics-DoRaEMon/</id>
-    <published>2024-03-07T16:00:00.000Z</published>
-    <updated>2024-03-24T03:55:37.855Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;整段歌詞&quot;&gt;整段歌詞&lt;/h2&gt;
-&lt;h4 id=&quot;《ドラえもんのうた》&quot;&gt;《ドラえもんのうた》&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;こんなこと いいな できたら いいな&lt;br&gt;
-あんなゆめ こんなゆめ いっぱいあるけど&lt;br&gt;
-みんな みんな みんな</summary>
         
       
     
