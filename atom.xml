@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-12-20T13:27:51.493Z</updated>
+  <updated>2024-12-25T07:52:58.537Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用 Ventoy 取代 Rufus</title>
+    <link href="https://shuai-xin.github.io/rufus-vs-ventoy/"/>
+    <id>https://shuai-xin.github.io/rufus-vs-ventoy/</id>
+    <published>2024-12-24T16:00:00.000Z</published>
+    <updated>2024-12-25T07:52:58.537Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Rufus-不好嗎？&quot;&gt;Rufus 不好嗎？&lt;/h3&gt;
+&lt;p&gt;自己灌過系統的都知道，用 Rufus 製作開機隨身碟雖然不麻煩，但同一時間、同一支隨身碟將無法挪作他用。假設你要用 Rufus 做一個 Ubuntu 開機碟，即使你的隨身碟有 1TB 的容量好了，就算</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="Ventoy" scheme="https://shuai-xin.github.io/tags/Ventoy/"/>
+    
+    <category term="Rufus" scheme="https://shuai-xin.github.io/tags/Rufus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://shuai-xin.github.io/internet-note/"/>
+    <id>https://shuai-xin.github.io/internet-note/</id>
+    <published>2024-12-23T16:00:00.000Z</published>
+    <updated>2024-12-25T07:46:39.569Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;OSI-七層模型&quot;&gt;OSI 七層模型&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;應用程式層：Http, DNS, POP3, Telnet, FTP,</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="internet" scheme="https://shuai-xin.github.io/tags/internet/"/>
+    
+  </entry>
   
   <entry>
     <title>停止 Windows 自動更新</title>
@@ -516,69 +571,6 @@
     
     
     <category term="日文" scheme="https://shuai-xin.github.io/tags/%E6%97%A5%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>標註音標、標註片假名：&lt;ruby&gt;</title>
-    <link href="https://shuai-xin.github.io/Ruby/"/>
-    <id>https://shuai-xin.github.io/Ruby/</id>
-    <published>2024-03-20T16:00:00.000Z</published>
-    <updated>2024-03-22T10:00:25.571Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;ruby-前言-rt-劉昕好帥-rt-ruby&quot;&gt;&lt;ruby&gt;前言&lt;rt&gt;劉昕好帥&lt;/rt&gt;&lt;/ruby&gt;&lt;/h2&gt;
-&lt;p&gt;最近在學日文，理所當然地做點筆記放上來，因此有了標註片假名的需求。&lt;/p&gt;
-&lt;p&gt;然後就發現了</summary>
-        
-      
-    
-    
-    
-    <category term="架站筆記" scheme="https://shuai-xin.github.io/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="ruby" scheme="https://shuai-xin.github.io/tags/ruby/"/>
-    
-    <category term="html" scheme="https://shuai-xin.github.io/tags/html/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日文小筆記：動漫名場面文法解析</title>
-    <link href="https://shuai-xin.github.io/Japanese-Anime-Line/"/>
-    <id>https://shuai-xin.github.io/Japanese-Anime-Line/</id>
-    <published>2024-03-15T16:00:00.000Z</published>
-    <updated>2024-03-24T03:55:30.050Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;安妮亞沒有媽媽好寂寞&quot;&gt;安妮亞沒有媽媽好寂寞&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/Japanese-Anime-Line/anya.png&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="日文筆記" scheme="https://shuai-xin.github.io/categories/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="安妮亞" scheme="https://shuai-xin.github.io/tags/%E5%AE%89%E5%A6%AE%E4%BA%9E/"/>
-    
-    <category term="北斗神拳" scheme="https://shuai-xin.github.io/tags/%E5%8C%97%E6%96%97%E7%A5%9E%E6%8B%B3/"/>
-    
-    <category term="一袋米要扛幾樓" scheme="https://shuai-xin.github.io/tags/%E4%B8%80%E8%A2%8B%E7%B1%B3%E8%A6%81%E6%89%9B%E5%B9%BE%E6%A8%93/"/>
-    
-    <category term="勞動就是狗屎" scheme="https://shuai-xin.github.io/tags/%E5%8B%9E%E5%8B%95%E5%B0%B1%E6%98%AF%E7%8B%97%E5%B1%8E/"/>
-    
-    <category term="娜娜明" scheme="https://shuai-xin.github.io/tags/%E5%A8%9C%E5%A8%9C%E6%98%8E/"/>
     
   </entry>
   
