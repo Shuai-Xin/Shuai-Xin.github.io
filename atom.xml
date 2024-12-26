@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-12-25T07:52:58.537Z</updated>
+  <updated>2024-12-25T07:56:50.154Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://shuai-xin.github.io/rufus-vs-ventoy/"/>
     <id>https://shuai-xin.github.io/rufus-vs-ventoy/</id>
     <published>2024-12-24T16:00:00.000Z</published>
-    <updated>2024-12-25T07:52:58.537Z</updated>
+    <updated>2024-12-25T07:56:50.154Z</updated>
     
     
       
@@ -29,7 +29,7 @@
         
         
     <summary type="html">&lt;h3 id=&quot;Rufus-不好嗎？&quot;&gt;Rufus 不好嗎？&lt;/h3&gt;
-&lt;p&gt;自己灌過系統的都知道，用 Rufus 製作開機隨身碟雖然不麻煩，但同一時間、同一支隨身碟將無法挪作他用。假設你要用 Rufus 做一個 Ubuntu 開機碟，即使你的隨身碟有 1TB 的容量好了，就算</summary>
+&lt;p&gt;自己灌過系統的都知道，用 Rufus 製作開機隨身碟雖然不麻煩，但同一時間、同一支隨身碟將無法挪作他用。假設你要用 Rufus 做一個 Ubuntu 開機碟，即使你的隨身碟有 1TB 的容量好了，雖然</summary>
         
       
     
@@ -45,18 +45,18 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>網際網路小筆記</title>
     <link href="https://shuai-xin.github.io/internet-note/"/>
     <id>https://shuai-xin.github.io/internet-note/</id>
     <published>2024-12-23T16:00:00.000Z</published>
-    <updated>2024-12-25T07:46:39.569Z</updated>
+    <updated>2024-12-26T07:04:54.583Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;OSI-七層模型&quot;&gt;OSI 七層模型&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;OSI-七層模型懶人包&quot;&gt;OSI 七層模型懶人包&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;應用程式層：Http, DNS, POP3, Telnet, FTP,</summary>
         
