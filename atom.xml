@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-12-27T06:51:44.567Z</updated>
+  <updated>2024-12-31T05:42:20.948Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用 OrCAD Capture 設計電路</title>
+    <link href="https://shuai-xin.github.io/OrCAD-Capture-Demo/"/>
+    <id>https://shuai-xin.github.io/OrCAD-Capture-Demo/</id>
+    <published>2024-12-30T16:00:00.000Z</published>
+    <updated>2024-12-31T05:42:20.948Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;OrCAD Capture 一打開，密密麻麻的選單，如何開始？&lt;/p&gt;
+&lt;p&gt;這裡簡單帶大家畫兩組電路來運作，給大家一點方向。走起！&lt;/p&gt;
+&lt;h3 id=&quot;實際操作&quot;&gt;實際操作&lt;/h3&gt;
+&lt;p&gt;打開 OrCAD Capture，起始頁面選擇 New</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="OrCAD" scheme="https://shuai-xin.github.io/tags/OrCAD/"/>
+    
+    <category term="Capture" scheme="https://shuai-xin.github.io/tags/Capture/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>關於 C 語言</title>
+    <link href="https://shuai-xin.github.io/C-note/"/>
+    <id>https://shuai-xin.github.io/C-note/</id>
+    <published>2024-12-29T16:00:00.000Z</published>
+    <updated>2024-12-30T02:06:36.015Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;遊戲引擎&quot;&gt;遊戲引擎&lt;/h3&gt;
+&lt;p&gt;很多遊戲引擎都是用C語言開發的，虛幻引擎、Unity就是用C++。&lt;/p&gt;
+&lt;p&gt;後續的效能優化是對組合語言慢慢刪減調整。&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="C++" scheme="https://shuai-xin.github.io/tags/C/"/>
+    
+  </entry>
   
   <entry>
     <title>透過 AIDA64 將 AX206 作為 Windows 的監控副屏</title>
@@ -522,59 +580,6 @@
     <category term="生涯規劃" scheme="https://shuai-xin.github.io/tags/%E7%94%9F%E6%B6%AF%E8%A6%8F%E5%8A%83/"/>
     
     <category term="勵志" scheme="https://shuai-xin.github.io/tags/%E5%8B%B5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>讀書筆記：《思考101》</title>
-    <link href="https://shuai-xin.github.io/Thinking-101/"/>
-    <id>https://shuai-xin.github.io/Thinking-101/</id>
-    <published>2024-06-21T16:00:00.000Z</published>
-    <updated>2024-07-22T04:53:32.226Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/Thinking-101/thinking101.webp&quot; alt=&quot;thinking101&quot;&gt;&lt;/p&gt;
-&lt;h3</summary>
-        
-      
-    
-    
-    
-    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="4顆星書籍" scheme="https://shuai-xin.github.io/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>看《未聞花名》學日文</title>
-    <link href="https://shuai-xin.github.io/Japanese-Anohana-Line/"/>
-    <id>https://shuai-xin.github.io/Japanese-Anohana-Line/</id>
-    <published>2024-04-07T16:00:00.000Z</published>
-    <updated>2024-04-13T07:10:55.761Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
-&lt;p&gt;學習的事，能算追劇嗎？&lt;/p&gt;
-&lt;p&gt;背完 &lt;a href=&quot;https://shuai-xin.github.io/Japanese-N5-Vocabulary/&quot;&gt;N5</summary>
-        
-      
-    
-    
-    
-    <category term="日文筆記" scheme="https://shuai-xin.github.io/categories/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="未聞花名" scheme="https://shuai-xin.github.io/tags/%E6%9C%AA%E8%81%9E%E8%8A%B1%E5%90%8D/"/>
     
   </entry>
   
