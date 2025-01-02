@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2024-12-31T05:42:20.948Z</updated>
+  <updated>2025-01-02T03:33:13.187Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>同位異音、互補分佈、自由變體</title>
+    <link href="https://shuai-xin.github.io/phoneme-allophone-variation/"/>
+    <id>https://shuai-xin.github.io/phoneme-allophone-variation/</id>
+    <published>2025-01-01T16:00:00.000Z</published>
+    <updated>2025-01-02T03:33:13.187Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/phoneme-allophone-variation/allophone_mermaid.png&quot; alt=&quot;mermaid&quot;&gt;&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="語言筆記" scheme="https://shuai-xin.github.io/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="同位異音" scheme="https://shuai-xin.github.io/tags/%E5%90%8C%E4%BD%8D%E7%95%B0%E9%9F%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>使用 OrCAD Capture 設計電路</title>
@@ -549,37 +575,6 @@
     
     <category term="架站筆記" scheme="https://shuai-xin.github.io/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>讀書筆記：《上班前的關鍵一小時》（早起的奇跡）</title>
-    <link href="https://shuai-xin.github.io/The-Miracle-Morning/"/>
-    <id>https://shuai-xin.github.io/The-Miracle-Morning/</id>
-    <published>2024-07-06T16:00:00.000Z</published>
-    <updated>2024-07-27T08:54:27.269Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/The-Miracle-Morning/miracle_morning.jpg&quot; alt=&quot;miracle_morning&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;早起的奇跡&quot;&gt;早起的奇跡&lt;/h3&gt;
-&lt;p&gt;原文書名 The Miracle</summary>
-        
-      
-    
-    
-    
-    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="2顆星書籍" scheme="https://shuai-xin.github.io/tags/2%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
-    <category term="生涯規劃" scheme="https://shuai-xin.github.io/tags/%E7%94%9F%E6%B6%AF%E8%A6%8F%E5%8A%83/"/>
-    
-    <category term="勵志" scheme="https://shuai-xin.github.io/tags/%E5%8B%B5%E5%BF%97/"/>
     
   </entry>
   
