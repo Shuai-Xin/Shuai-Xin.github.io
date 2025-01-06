@@ -73,21 +73,20 @@
   </entry>
   
   <entry>
-    <title>關於 C 語言</title>
-    <link href="https://shuai-xin.github.io/C-note/"/>
-    <id>https://shuai-xin.github.io/C-note/</id>
+    <title>關於 C 與 Python</title>
+    <link href="https://shuai-xin.github.io/C-Python-note/"/>
+    <id>https://shuai-xin.github.io/C-Python-note/</id>
     <published>2024-12-29T16:00:00.000Z</published>
-    <updated>2024-12-30T02:06:36.015Z</updated>
+    <updated>2025-01-06T03:25:12.579Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;遊戲引擎&quot;&gt;遊戲引擎&lt;/h3&gt;
-&lt;p&gt;很多遊戲引擎都是用C語言開發的，虛幻引擎、Unity就是用C++。&lt;/p&gt;
-&lt;p&gt;後續的效能優化是對組合語言慢慢刪減調整。&lt;/p&gt;
-&lt;h3</summary>
+    <summary type="html">&lt;h3 id=&quot;弱型別-強型別&quot;&gt;弱型別 &amp;amp; 強型別&lt;/h3&gt;
+&lt;p&gt;Python 是弱型別語言，變數的型別在執行時才決定。所以你可以反覆橫跳也不會報錯：&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
         
       
     
@@ -97,6 +96,8 @@
     
     
     <category term="C++" scheme="https://shuai-xin.github.io/tags/C/"/>
+    
+    <category term="Python" scheme="https://shuai-xin.github.io/tags/Python/"/>
     
   </entry>
   
