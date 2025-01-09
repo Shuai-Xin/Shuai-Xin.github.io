@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2025-01-03T00:19:44.955Z</updated>
+  <updated>2025-01-09T10:42:34.577Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>韓文小筆記之零：為什麼韓語發音那麼難？</title>
+    <link href="https://shuai-xin.github.io/Korean-X-IPA-Vowel/"/>
+    <id>https://shuai-xin.github.io/Korean-X-IPA-Vowel/</id>
+    <published>2025-01-08T16:00:00.000Z</published>
+    <updated>2025-01-09T10:42:34.577Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/Korean-X-IPA-Vowel/ipa_shuai-6384514.jpg&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="語言筆記" scheme="https://shuai-xin.github.io/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/"/>
+    
+    <category term="韓文筆記" scheme="https://shuai-xin.github.io/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E9%9F%93%E6%96%87%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="日文" scheme="https://shuai-xin.github.io/tags/%E6%97%A5%E6%96%87/"/>
+    
+    <category term="韓文" scheme="https://shuai-xin.github.io/tags/%E9%9F%93%E6%96%87/"/>
+    
+    <category term="IPA" scheme="https://shuai-xin.github.io/tags/IPA/"/>
+    
+  </entry>
   
   <entry>
     <title>同位異音、互補分佈、自由變體</title>
@@ -551,31 +582,6 @@
     
     
     <category term="4顆星書籍" scheme="https://shuai-xin.github.io/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hi 我劉昕啦：部落格導覽</title>
-    <link href="https://shuai-xin.github.io/Hi%E6%88%91%E5%8A%89%E6%98%95%E5%95%A6-%E9%83%A8%E8%90%BD%E6%A0%BC%E5%B0%8E%E8%A6%BD/"/>
-    <id>https://shuai-xin.github.io/Hi%E6%88%91%E5%8A%89%E6%98%95%E5%95%A6-%E9%83%A8%E8%90%BD%E6%A0%BC%E5%B0%8E%E8%A6%BD/</id>
-    <published>2024-07-06T16:00:00.000Z</published>
-    <updated>2024-07-30T03:34:21.276Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;長話短說&quot;&gt;長話短說&lt;/h3&gt;
-&lt;p&gt;這裡是劉昕的個人部落格，由 Hexo 渲染而成，並託管於 GitHub Pages。&lt;/p&gt;
-&lt;p&gt;至於劉昕是誰請查看&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="架站筆記" scheme="https://shuai-xin.github.io/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/"/>
-    
     
   </entry>
   
