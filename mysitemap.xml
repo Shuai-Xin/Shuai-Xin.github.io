@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shuai-xin.github.io/HA-7-File-Editor/</loc>
+    
+    <lastmod>2025-01-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shuai-xin.github.io/HA-6-Automation%E6%8B%B7%E8%B2%9D/</loc>
     
     <lastmod>2025-01-13</lastmod>
