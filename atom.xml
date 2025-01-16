@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2025-01-13T07:02:12.324Z</updated>
+  <updated>2025-01-16T07:23:30.052Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智能家居 EP8：讓燈光隨著晝夜節律改變色溫</title>
+    <link href="https://shuai-xin.github.io/HA-8-Circadian-Light/"/>
+    <id>https://shuai-xin.github.io/HA-8-Circadian-Light/</id>
+    <published>2025-01-15T16:00:00.000Z</published>
+    <updated>2025-01-16T07:23:30.052Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;如何讓家裡的燈光色溫與自然的晝夜節律同步呢？此篇就來實作！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本來這個需求我們選用了 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+    
+    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    
+  </entry>
   
   <entry>
     <title>智能家居 EP7：File Editor</title>
@@ -135,7 +162,7 @@
     <link href="https://shuai-xin.github.io/C-Python-note/"/>
     <id>https://shuai-xin.github.io/C-Python-note/</id>
     <published>2024-12-29T16:00:00.000Z</published>
-    <updated>2025-01-11T10:29:05.614Z</updated>
+    <updated>2025-01-16T02:59:19.625Z</updated>
     
     
       
@@ -556,33 +583,6 @@
     
     
     <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>讀書筆記：《為什麼我們這樣生活，那樣工作？》</title>
-    <link href="https://shuai-xin.github.io/The-Power-of-Habit/"/>
-    <id>https://shuai-xin.github.io/The-Power-of-Habit/</id>
-    <published>2024-07-19T16:00:00.000Z</published>
-    <updated>2024-08-17T07:55:35.772Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/The-Power-of-Habit/habit.png&quot; alt=&quot;habit&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;不需要海馬迴也能「記得」你的習慣&quot;&gt;不需要海馬迴也能「記得」你的習慣&lt;/h3&gt;
-&lt;p&gt;根據一生致力於記憶領域的 Squire</summary>
-        
-      
-    
-    
-    
-    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="4顆星書籍" scheme="https://shuai-xin.github.io/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
