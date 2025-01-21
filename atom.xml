@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2025-01-21T03:07:11.279Z</updated>
+  <updated>2025-01-16T07:23:30.052Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,32 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>智能家居 EP9：利用DDNS、通訊埠轉發進行遠端控制</title>
-    <link href="https://shuai-xin.github.io/HA-X-Remote/"/>
-    <id>https://shuai-xin.github.io/HA-X-Remote/</id>
-    <published>2025-01-19T16:00:00.000Z</published>
-    <updated>2025-01-21T03:07:11.279Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;出門在外也能控制-Home-Assistant-嗎？&quot;&gt;出門在外也能控制 Home Assistant 嗎？&lt;/h2&gt;
-&lt;p&gt;出門在外也能控制 Home Assistant</summary>
-        
-      
-    
-    
-    
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
-    
-  </entry>
   
   <entry>
     <title>智能家居 EP8：讓燈光隨著晝夜節律改變色溫</title>
@@ -414,6 +388,32 @@
     <category term="腦科學" scheme="https://shuai-xin.github.io/tags/%E8%85%A6%E7%A7%91%E5%AD%B8/"/>
     
     <category term="5顆星書籍" scheme="https://shuai-xin.github.io/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>智能家居 EP9：利用DDNS、通訊埠轉發進行遠端控制</title>
+    <link href="https://shuai-xin.github.io/HA-X-Remote/"/>
+    <id>https://shuai-xin.github.io/HA-X-Remote/</id>
+    <published>2024-08-14T16:00:00.000Z</published>
+    <updated>2025-01-21T03:23:13.687Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;出門在外也能控制-Home-Assistant-嗎？&quot;&gt;出門在外也能控制 Home Assistant 嗎？&lt;/h2&gt;
+&lt;p&gt;出門在外也能控制 Home Assistant</summary>
+        
+      
+    
+    
+    
+    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+    
+    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
     
   </entry>
   
