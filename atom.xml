@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2025-01-21T03:26:00.023Z</updated>
+  <updated>2025-01-21T08:18:35.029Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OrCAD Capture 透過 Parameters 討論變數</title>
+    <link href="https://shuai-xin.github.io/OrCAD-Capture-Para/"/>
+    <id>https://shuai-xin.github.io/OrCAD-Capture-Para/</id>
+    <published>2025-01-20T16:00:00.000Z</published>
+    <updated>2025-01-21T08:18:35.029Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在&lt;a href=&quot;https://shuai-xin.github.io/OrCAD-Capture-Demo/&quot;&gt;使用 OrCAD Capture 設計電路&lt;/a&gt;中我們已經學會如何繪製電路圖，並且使用 PSpice</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="OrCAD" scheme="https://shuai-xin.github.io/tags/OrCAD/"/>
+    
+    <category term="Capture" scheme="https://shuai-xin.github.io/tags/Capture/"/>
+    
+  </entry>
   
   <entry>
     <title>智能家居 EP9：利用DDNS、通訊埠轉發進行遠端控制</title>
@@ -47,7 +74,7 @@
     <link href="https://shuai-xin.github.io/HA-8-Circadian-Light/"/>
     <id>https://shuai-xin.github.io/HA-8-Circadian-Light/</id>
     <published>2025-01-15T16:00:00.000Z</published>
-    <updated>2025-01-16T07:23:30.052Z</updated>
+    <updated>2025-01-21T05:16:22.496Z</updated>
     
     
       
@@ -542,34 +569,6 @@
     <summary type="html">&lt;h3 id=&quot;為何安裝-HACS&quot;&gt;為何安裝 HACS&lt;/h3&gt;
 &lt;p&gt;HACS 全名 Home Assistant Community Store，沒錯，社群的力量無限大。&lt;/p&gt;
 &lt;p&gt;為了後續我們要把米家裝置連進 HA、Zigbee 連進 HA、裝置們橋接進 Apple</summary>
-        
-      
-    
-    
-    
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>智能家居 EP1：架設 Home Assistant</title>
-    <link href="https://shuai-xin.github.io/HA-1-setup/"/>
-    <id>https://shuai-xin.github.io/HA-1-setup/</id>
-    <published>2024-07-30T16:00:00.000Z</published>
-    <updated>2024-08-02T00:14:05.641Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;先說說我的智能家居終極目標吧&quot;&gt;先說說我的智能家居終極目標吧&lt;/h3&gt;
-&lt;p&gt;把家中的設備們變聰明是為了什麼？我的幾個願景是：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;全部的設備要能集中管理，最好是能集成到 Apple Home</summary>
         
       
     
