@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2025-01-21T08:18:35.029Z</updated>
+  <updated>2025-01-23T05:49:00.937Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智能家居 EP10：將多盞燈組合成燈組</title>
+    <link href="https://shuai-xin.github.io/HA-10-Light-Group/"/>
+    <id>https://shuai-xin.github.io/HA-10-Light-Group/</id>
+    <published>2025-01-22T16:00:00.000Z</published>
+    <updated>2025-01-23T05:49:00.937Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;隨著我們的設備越來越多，會發現其實有些裝置總是同進同出，不太有分開來操作的需求，比如說同一組吊燈上的燈泡。&lt;/p&gt;
+&lt;p&gt;此時，我們就可以用到 Group 這個功能。&lt;/p&gt;
+&lt;p&gt;本來認為這應該是很常用，設定上應該要很簡單才對的功能，但 HA</summary>
+        
+      
+    
+    
+    
+    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+    
+    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    
+  </entry>
   
   <entry>
     <title>OrCAD Capture 透過 Parameters 討論變數</title>
@@ -542,33 +569,6 @@
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;安裝-Xiaomi-Miot&quot;&gt;安裝 Xiaomi Miot&lt;/h3&gt;
 &lt;p&gt;我們上篇已經弄出了</summary>
-        
-      
-    
-    
-    
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>智能家居 EP2：安裝 HACS</title>
-    <link href="https://shuai-xin.github.io/HA-2-HACS/"/>
-    <id>https://shuai-xin.github.io/HA-2-HACS/</id>
-    <published>2024-07-31T16:00:00.000Z</published>
-    <updated>2024-08-02T04:36:57.721Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;為何安裝-HACS&quot;&gt;為何安裝 HACS&lt;/h3&gt;
-&lt;p&gt;HACS 全名 Home Assistant Community Store，沒錯，社群的力量無限大。&lt;/p&gt;
-&lt;p&gt;為了後續我們要把米家裝置連進 HA、Zigbee 連進 HA、裝置們橋接進 Apple</summary>
         
       
     
