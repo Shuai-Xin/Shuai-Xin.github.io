@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2025-01-23T06:03:36.420Z</updated>
+  <updated>2025-02-03T02:51:05.977Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OrCAD Capture 二極管半波整流</title>
+    <link href="https://shuai-xin.github.io/OrCAD-Diode/"/>
+    <id>https://shuai-xin.github.io/OrCAD-Diode/</id>
+    <published>2025-02-02T16:00:00.000Z</published>
+    <updated>2025-02-03T02:51:05.977Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本篇我們來看看半導體的整流。基礎操作請見&lt;a href=&quot;https://shuai-xin.github.io/OrCAD-Capture-Demo/&quot;&gt;使用 OrCAD Capture 設計電路&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我們這次選用 1N4148</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="OrCAD" scheme="https://shuai-xin.github.io/tags/OrCAD/"/>
+    
+    <category term="Capture" scheme="https://shuai-xin.github.io/tags/Capture/"/>
+    
+  </entry>
   
   <entry>
     <title>智能家居 EP10：將多盞燈組合成燈組</title>
@@ -540,35 +568,6 @@
     <summary type="html">&lt;p&gt;目前為止，我們已經把一些基礎設備加進 HA。&lt;/p&gt;
 &lt;p&gt;現在我們要把這些設備進一步導入到 Apple Home 裡面，如此一來我們家 Siri 就可以控制這些設備了！&lt;/p&gt;
 &lt;h3 id=&quot;安裝-HomeKit-Bridge&quot;&gt;安裝 HomeKit</summary>
-        
-      
-    
-    
-    
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>智能家居 EP3：將小米裝置加入 HA</title>
-    <link href="https://shuai-xin.github.io/HA-3-miot/"/>
-    <id>https://shuai-xin.github.io/HA-3-miot/</id>
-    <published>2024-08-01T16:00:00.000Z</published>
-    <updated>2024-08-02T23:33:37.565Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;如果你手上沒有小米設備可以跳過此篇，先去 EP5 添加 Zigbee 設備是個不錯的開始&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;安裝-Xiaomi-Miot&quot;&gt;安裝 Xiaomi Miot&lt;/h3&gt;
-&lt;p&gt;我們上篇已經弄出了</summary>
         
       
     
