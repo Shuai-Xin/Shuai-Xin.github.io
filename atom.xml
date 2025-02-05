@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2025-02-03T02:51:05.977Z</updated>
+  <updated>2025-02-05T05:50:17.176Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>將米家藍牙溫濕度計 2 刷成 Zigbee</title>
+    <link href="https://shuai-xin.github.io/Mi_Thermometer_Zigbee_LYWSD03MMC/"/>
+    <id>https://shuai-xin.github.io/Mi_Thermometer_Zigbee_LYWSD03MMC/</id>
+    <published>2025-02-04T16:00:00.000Z</published>
+    <updated>2025-02-05T05:50:17.176Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本文將引導大家「免接線」將「米家藍牙溫濕度計 2」（型號：LYWSD03MMC）刷成 Zigbee，方便後續透過 Zigbee2MQTT 接入 Home Assistant。&lt;/p&gt;
+&lt;p&gt;小米官方在韌體更新到 2.1.1_0159 後（2024</summary>
+        
+      
+    
+    
+    
+    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+    
+    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    
+  </entry>
   
   <entry>
     <title>OrCAD Capture 二極管半波整流</title>
@@ -270,7 +296,7 @@
     <link href="https://shuai-xin.github.io/C-Python-note/"/>
     <id>https://shuai-xin.github.io/C-Python-note/</id>
     <published>2024-12-29T16:00:00.000Z</published>
-    <updated>2025-01-16T02:59:19.625Z</updated>
+    <updated>2025-02-05T05:00:12.350Z</updated>
     
     
       
@@ -541,33 +567,6 @@
     <summary type="html">&lt;p&gt;ok 來捋一下現在的進度：&lt;/p&gt;
 &lt;p&gt;現在我們有一台 HA 伺服器，拿到了米家設備的掌控權，並且把這些掌控權進一步橋接給了 Apple Home。&lt;/p&gt;
 &lt;p&gt;所以我們目前已經可以透過「HA 的網頁」、「Siri」跟「家庭</summary>
-        
-      
-    
-    
-    
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>智能家居 EP4：給 Siri 控制權！</title>
-    <link href="https://shuai-xin.github.io/HA-4-HomeKit/"/>
-    <id>https://shuai-xin.github.io/HA-4-HomeKit/</id>
-    <published>2024-08-02T16:00:00.000Z</published>
-    <updated>2024-08-02T07:29:49.928Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;目前為止，我們已經把一些基礎設備加進 HA。&lt;/p&gt;
-&lt;p&gt;現在我們要把這些設備進一步導入到 Apple Home 裡面，如此一來我們家 Siri 就可以控制這些設備了！&lt;/p&gt;
-&lt;h3 id=&quot;安裝-HomeKit-Bridge&quot;&gt;安裝 HomeKit</summary>
         
       
     
