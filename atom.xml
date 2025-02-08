@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2025-02-05T05:57:20.686Z</updated>
+  <updated>2025-02-08T10:29:33.549Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>讀書筆記：《人生順利的簡單法則》</title>
+    <link href="https://shuai-xin.github.io/Lessons-to-Achieve-Great-Results/"/>
+    <id>https://shuai-xin.github.io/Lessons-to-Achieve-Great-Results/</id>
+    <published>2025-02-07T16:00:00.000Z</published>
+    <updated>2025-02-08T10:29:33.549Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/Lessons-to-Achieve-Great-Results/lessons.jpeg&quot; alt=&quot;lessons&quot;&gt;&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="3顆星書籍" scheme="https://shuai-xin.github.io/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>將米家藍牙溫濕度計 2 刷成 Zigbee</title>
@@ -540,33 +566,6 @@
     <summary type="html">&lt;p&gt;上一篇我們把無線開關納入 HA 版圖了，但這些開關目前還沒有任何的控制功能。我們這邊就要來透過自動化，去指定開關對應到的動作。&lt;/p&gt;
 &lt;h3 id=&quot;設定自動化&quot;&gt;設定自動化&lt;/h3&gt;
 &lt;p&gt;側邊欄「設定」→「自動化與場景」→</summary>
-        
-      
-    
-    
-    
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>智能家居 EP5：Zigbee 設備參戰</title>
-    <link href="https://shuai-xin.github.io/HA-5-Zigbee/"/>
-    <id>https://shuai-xin.github.io/HA-5-Zigbee/</id>
-    <published>2024-08-03T16:00:00.000Z</published>
-    <updated>2024-08-03T00:19:04.788Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;ok 來捋一下現在的進度：&lt;/p&gt;
-&lt;p&gt;現在我們有一台 HA 伺服器，拿到了米家設備的掌控權，並且把這些掌控權進一步橋接給了 Apple Home。&lt;/p&gt;
-&lt;p&gt;所以我們目前已經可以透過「HA 的網頁」、「Siri」跟「家庭</summary>
         
       
     
