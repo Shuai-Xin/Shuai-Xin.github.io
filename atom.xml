@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2025-02-08T10:29:33.549Z</updated>
+  <updated>2025-02-20T03:04:57.645Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OrCAD Capture 利用電晶體實作 Not Gate</title>
+    <link href="https://shuai-xin.github.io/OrCAD-BJT/"/>
+    <id>https://shuai-xin.github.io/OrCAD-BJT/</id>
+    <published>2025-02-19T16:00:00.000Z</published>
+    <updated>2025-02-20T03:04:57.645Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;平常我們都把邏輯閘當做最小單位在把玩，但邏輯閘內部是怎麼實踐的呢？我們用電晶體來實作一個反向器看看，走起！（基礎操作請見&lt;a href=&quot;https://shuai-xin.github.io/OrCAD-Capture-Demo/&quot;&gt;使用 OrCAD Capture</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="OrCAD" scheme="https://shuai-xin.github.io/tags/OrCAD/"/>
+    
+    <category term="Capture" scheme="https://shuai-xin.github.io/tags/Capture/"/>
+    
+  </entry>
   
   <entry>
     <title>讀書筆記：《人生順利的簡單法則》</title>
@@ -548,33 +575,6 @@
     <category term="腦科學" scheme="https://shuai-xin.github.io/tags/%E8%85%A6%E7%A7%91%E5%AD%B8/"/>
     
     <category term="5顆星書籍" scheme="https://shuai-xin.github.io/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>智能家居 EP6：設定自動化</title>
-    <link href="https://shuai-xin.github.io/HA-6-Automation/"/>
-    <id>https://shuai-xin.github.io/HA-6-Automation/</id>
-    <published>2024-08-04T16:00:00.000Z</published>
-    <updated>2024-08-04T11:26:19.417Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;上一篇我們把無線開關納入 HA 版圖了，但這些開關目前還沒有任何的控制功能。我們這邊就要來透過自動化，去指定開關對應到的動作。&lt;/p&gt;
-&lt;h3 id=&quot;設定自動化&quot;&gt;設定自動化&lt;/h3&gt;
-&lt;p&gt;側邊欄「設定」→「自動化與場景」→</summary>
-        
-      
-    
-    
-    
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
     
   </entry>
   
