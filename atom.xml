@@ -6,7 +6,7 @@
   <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
   
   <link href="https://shuai-xin.github.io/"/>
-  <updated>2025-03-10T03:22:25.825Z</updated>
+  <updated>2025-03-15T09:17:20.933Z</updated>
   <id>https://shuai-xin.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>讀書筆記：《知識的錯覺》</title>
+    <link href="https://shuai-xin.github.io/The-Knowledge-Illusion/"/>
+    <id>https://shuai-xin.github.io/The-Knowledge-Illusion/</id>
+    <published>2025-03-14T16:00:00.000Z</published>
+    <updated>2025-03-15T09:17:20.933Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/The-Knowledge-Illusion/knowledge.jpg&quot; alt=&quot;knowledge&quot;&gt;&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="3顆星書籍" scheme="https://shuai-xin.github.io/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>利用 EasyButton 跟 OneButton 來防彈跳、判斷雙擊、長按</title>
@@ -33,6 +59,37 @@
 &lt;p&gt;你來不及放開按鍵之前，程式已經來問第二次了，所以程式不知道你是按了第二次，還是你單純還沒放開。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;如果你懶得管那麼多，不妨直接在 loop 裡面加入</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="ESP32" scheme="https://shuai-xin.github.io/tags/ESP32/"/>
+    
+    <category term="Arduino" scheme="https://shuai-xin.github.io/tags/Arduino/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ESP32 小筆記</title>
+    <link href="https://shuai-xin.github.io/ESP32-WROOM/"/>
+    <id>https://shuai-xin.github.io/ESP32-WROOM/</id>
+    <published>2025-03-05T16:00:00.000Z</published>
+    <updated>2025-03-14T02:55:53.927Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;電源供應&quot;&gt;電源供應&lt;/h3&gt;
+&lt;p&gt;可以直接從 VIN 供電。&lt;/p&gt;
+&lt;p&gt;但如果你接上 USB，VIN 就變成 5V 的輸出。&lt;/p&gt;
+&lt;h3 id=&quot;Touch（內建電容觸控）&quot;&gt;Touch（內建電容觸控）&lt;/h3&gt;
+&lt;p&gt;Touch 1 通常沒有</summary>
         
       
     
@@ -514,62 +571,6 @@
     
     <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
-    
-    <category term="internet" scheme="https://shuai-xin.github.io/tags/internet/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>停止 Windows 自動更新</title>
-    <link href="https://shuai-xin.github.io/stop-windows-auto-update/"/>
-    <id>https://shuai-xin.github.io/stop-windows-auto-update/</id>
-    <published>2024-12-19T16:00:00.000Z</published>
-    <updated>2024-12-20T13:27:51.493Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;停止-Windows-自動更新&quot;&gt;停止 Windows 自動更新&lt;/h3&gt;
-&lt;p&gt;眾所周知，微軟並不希望我們把 windows</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="windows" scheme="https://shuai-xin.github.io/tags/windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>勞動力發展署北基宜花金馬分署物聯網AI系統整合實務筆試詳解</title>
-    <link href="https://shuai-xin.github.io/iot-exam-note/"/>
-    <id>https://shuai-xin.github.io/iot-exam-note/</id>
-    <published>2024-11-25T16:00:00.000Z</published>
-    <updated>2024-11-27T13:53:38.489Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;以下題目為「勞動力發展署北基宜花金馬分署 113 年度自辦職前訓練：物聯網-AI 系統整合實務（泰山）第 1 期考題」。&lt;/p&gt;
-&lt;p&gt;而以下詳解都是我自己隨手寫下的，僅供參考咯。&lt;/p&gt;
-&lt;p&gt;當然，如果有誤還請提點，感謝！&lt;/p&gt;
-&lt;h3</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="iot" scheme="https://shuai-xin.github.io/tags/iot/"/>
     
     <category term="internet" scheme="https://shuai-xin.github.io/tags/internet/"/>
     
