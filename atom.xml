@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hi 我劉昕</title>
-  <icon>https://shuai-xin.github.io/icon.png</icon>
+  <icon>https://shuaixin.cc/icon.png</icon>
   
-  <link href="https://shuai-xin.github.io/atom.xml" rel="self"/>
+  <link href="https://shuaixin.cc/atom.xml" rel="self"/>
   
-  <link href="https://shuai-xin.github.io/"/>
+  <link href="https://shuaixin.cc/"/>
   <updated>2025-04-06T07:23:21.986Z</updated>
-  <id>https://shuai-xin.github.io/</id>
+  <id>https://shuaixin.cc/</id>
   
   <author>
     <name>Shuai</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>讀書筆記：《為何三歲開始說謊？》</title>
-    <link href="https://shuai-xin.github.io/Why-3-Lie/"/>
-    <id>https://shuai-xin.github.io/Why-3-Lie/</id>
+    <link href="https://shuaixin.cc/Why-3-Lie/"/>
+    <id>https://shuaixin.cc/Why-3-Lie/</id>
     <published>2025-04-05T16:00:00.000Z</published>
     <updated>2025-04-06T07:23:21.986Z</updated>
     
@@ -35,19 +35,19 @@
     
     
     
-    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    <category term="讀書筆記" scheme="https://shuaixin.cc/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="腦科學" scheme="https://shuai-xin.github.io/tags/%E8%85%A6%E7%A7%91%E5%AD%B8/"/>
+    <category term="腦科學" scheme="https://shuaixin.cc/tags/%E8%85%A6%E7%A7%91%E5%AD%B8/"/>
     
-    <category term="4顆星書籍" scheme="https://shuai-xin.github.io/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    <category term="4顆星書籍" scheme="https://shuaixin.cc/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
   <entry>
     <title>抉擇的心法</title>
-    <link href="https://shuai-xin.github.io/Decision-Making-Dharma/"/>
-    <id>https://shuai-xin.github.io/Decision-Making-Dharma/</id>
+    <link href="https://shuaixin.cc/Decision-Making-Dharma/"/>
+    <id>https://shuaixin.cc/Decision-Making-Dharma/</id>
     <published>2025-03-17T16:00:00.000Z</published>
     <updated>2025-03-18T04:58:06.567Z</updated>
     
@@ -63,15 +63,15 @@
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
   </entry>
   
   <entry>
     <title>讀書筆記：《知識的錯覺》</title>
-    <link href="https://shuai-xin.github.io/The-Knowledge-Illusion/"/>
-    <id>https://shuai-xin.github.io/The-Knowledge-Illusion/</id>
+    <link href="https://shuaixin.cc/The-Knowledge-Illusion/"/>
+    <id>https://shuaixin.cc/The-Knowledge-Illusion/</id>
     <published>2025-03-14T16:00:00.000Z</published>
     <updated>2025-03-17T00:19:59.341Z</updated>
     
@@ -87,17 +87,17 @@
     
     
     
-    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    <category term="讀書筆記" scheme="https://shuaixin.cc/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="3顆星書籍" scheme="https://shuai-xin.github.io/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    <category term="3顆星書籍" scheme="https://shuaixin.cc/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
   <entry>
     <title>利用 EasyButton 跟 OneButton 來防彈跳、判斷雙擊、長按</title>
-    <link href="https://shuai-xin.github.io/Button-Library-Debounce/"/>
-    <id>https://shuai-xin.github.io/Button-Library-Debounce/</id>
+    <link href="https://shuaixin.cc/Button-Library-Debounce/"/>
+    <id>https://shuaixin.cc/Button-Library-Debounce/</id>
     <published>2025-03-09T16:00:00.000Z</published>
     <updated>2025-03-10T03:22:25.825Z</updated>
     
@@ -116,19 +116,19 @@
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="ESP32" scheme="https://shuai-xin.github.io/tags/ESP32/"/>
+    <category term="ESP32" scheme="https://shuaixin.cc/tags/ESP32/"/>
     
-    <category term="Arduino" scheme="https://shuai-xin.github.io/tags/Arduino/"/>
+    <category term="Arduino" scheme="https://shuaixin.cc/tags/Arduino/"/>
     
   </entry>
   
   <entry>
     <title>ESP32 小筆記</title>
-    <link href="https://shuai-xin.github.io/ESP32-WROOM/"/>
-    <id>https://shuai-xin.github.io/ESP32-WROOM/</id>
+    <link href="https://shuaixin.cc/ESP32-WROOM/"/>
+    <id>https://shuaixin.cc/ESP32-WROOM/</id>
     <published>2025-03-05T16:00:00.000Z</published>
     <updated>2025-04-21T05:46:38.028Z</updated>
     
@@ -147,19 +147,19 @@
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="ESP32" scheme="https://shuai-xin.github.io/tags/ESP32/"/>
+    <category term="ESP32" scheme="https://shuaixin.cc/tags/ESP32/"/>
     
-    <category term="Arduino" scheme="https://shuai-xin.github.io/tags/Arduino/"/>
+    <category term="Arduino" scheme="https://shuaixin.cc/tags/Arduino/"/>
     
   </entry>
   
   <entry>
     <title>Linux 系統架設 MQTT 伺服器</title>
-    <link href="https://shuai-xin.github.io/Mosquitto-MQTT/"/>
-    <id>https://shuai-xin.github.io/Mosquitto-MQTT/</id>
+    <link href="https://shuaixin.cc/Mosquitto-MQTT/"/>
+    <id>https://shuaixin.cc/Mosquitto-MQTT/</id>
     <published>2025-03-03T16:00:00.000Z</published>
     <updated>2025-03-07T06:09:31.347Z</updated>
     
@@ -176,19 +176,19 @@
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="MQTT" scheme="https://shuai-xin.github.io/tags/MQTT/"/>
+    <category term="MQTT" scheme="https://shuaixin.cc/tags/MQTT/"/>
     
-    <category term="Mosquitto" scheme="https://shuai-xin.github.io/tags/Mosquitto/"/>
+    <category term="Mosquitto" scheme="https://shuaixin.cc/tags/Mosquitto/"/>
     
   </entry>
   
   <entry>
     <title>OrCAD Capture 利用電晶體實作 Not Gate</title>
-    <link href="https://shuai-xin.github.io/OrCAD-BJT/"/>
-    <id>https://shuai-xin.github.io/OrCAD-BJT/</id>
+    <link href="https://shuaixin.cc/OrCAD-BJT/"/>
+    <id>https://shuaixin.cc/OrCAD-BJT/</id>
     <published>2025-02-19T16:00:00.000Z</published>
     <updated>2025-02-20T03:04:57.645Z</updated>
     
@@ -203,19 +203,19 @@
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="OrCAD" scheme="https://shuai-xin.github.io/tags/OrCAD/"/>
+    <category term="OrCAD" scheme="https://shuaixin.cc/tags/OrCAD/"/>
     
-    <category term="Capture" scheme="https://shuai-xin.github.io/tags/Capture/"/>
+    <category term="Capture" scheme="https://shuaixin.cc/tags/Capture/"/>
     
   </entry>
   
   <entry>
     <title>讀書筆記：《人生順利的簡單法則》</title>
-    <link href="https://shuai-xin.github.io/Lessons-to-Achieve-Great-Results/"/>
-    <id>https://shuai-xin.github.io/Lessons-to-Achieve-Great-Results/</id>
+    <link href="https://shuaixin.cc/Lessons-to-Achieve-Great-Results/"/>
+    <id>https://shuaixin.cc/Lessons-to-Achieve-Great-Results/</id>
     <published>2025-02-07T16:00:00.000Z</published>
     <updated>2025-02-08T10:29:33.549Z</updated>
     
@@ -231,17 +231,17 @@
     
     
     
-    <category term="讀書筆記" scheme="https://shuai-xin.github.io/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    <category term="讀書筆記" scheme="https://shuaixin.cc/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="3顆星書籍" scheme="https://shuai-xin.github.io/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    <category term="3顆星書籍" scheme="https://shuaixin.cc/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
     
   </entry>
   
   <entry>
     <title>將米家藍牙溫濕度計 2 刷成 Zigbee</title>
-    <link href="https://shuai-xin.github.io/Mi_Thermometer_Zigbee_LYWSD03MMC/"/>
-    <id>https://shuai-xin.github.io/Mi_Thermometer_Zigbee_LYWSD03MMC/</id>
+    <link href="https://shuaixin.cc/Mi_Thermometer_Zigbee_LYWSD03MMC/"/>
+    <id>https://shuaixin.cc/Mi_Thermometer_Zigbee_LYWSD03MMC/</id>
     <published>2025-02-04T16:00:00.000Z</published>
     <updated>2025-02-05T05:57:20.686Z</updated>
     
@@ -257,17 +257,17 @@
     
     
     
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    <category term="智能家居" scheme="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
     
     
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
     
   </entry>
   
   <entry>
     <title>OrCAD Capture 二極管半波整流</title>
-    <link href="https://shuai-xin.github.io/OrCAD-Diode/"/>
-    <id>https://shuai-xin.github.io/OrCAD-Diode/</id>
+    <link href="https://shuaixin.cc/OrCAD-Diode/"/>
+    <id>https://shuaixin.cc/OrCAD-Diode/</id>
     <published>2025-02-02T16:00:00.000Z</published>
     <updated>2025-02-03T02:51:05.977Z</updated>
     
@@ -283,19 +283,19 @@
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="OrCAD" scheme="https://shuai-xin.github.io/tags/OrCAD/"/>
+    <category term="OrCAD" scheme="https://shuaixin.cc/tags/OrCAD/"/>
     
-    <category term="Capture" scheme="https://shuai-xin.github.io/tags/Capture/"/>
+    <category term="Capture" scheme="https://shuaixin.cc/tags/Capture/"/>
     
   </entry>
   
   <entry>
     <title>智能家居 EP10：將多盞燈組合成燈組</title>
-    <link href="https://shuai-xin.github.io/HA-10-Light-Group/"/>
-    <id>https://shuai-xin.github.io/HA-10-Light-Group/</id>
+    <link href="https://shuaixin.cc/HA-10-Light-Group/"/>
+    <id>https://shuaixin.cc/HA-10-Light-Group/</id>
     <published>2025-01-22T16:00:00.000Z</published>
     <updated>2025-01-23T06:03:36.420Z</updated>
     
@@ -312,17 +312,17 @@
     
     
     
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    <category term="智能家居" scheme="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
     
     
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
     
   </entry>
   
   <entry>
     <title>OrCAD Capture 透過 Parameters 討論變數</title>
-    <link href="https://shuai-xin.github.io/OrCAD-Capture-Para/"/>
-    <id>https://shuai-xin.github.io/OrCAD-Capture-Para/</id>
+    <link href="https://shuaixin.cc/OrCAD-Capture-Para/"/>
+    <id>https://shuaixin.cc/OrCAD-Capture-Para/</id>
     <published>2025-01-20T16:00:00.000Z</published>
     <updated>2025-01-21T08:18:35.029Z</updated>
     
@@ -337,19 +337,19 @@
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="OrCAD" scheme="https://shuai-xin.github.io/tags/OrCAD/"/>
+    <category term="OrCAD" scheme="https://shuaixin.cc/tags/OrCAD/"/>
     
-    <category term="Capture" scheme="https://shuai-xin.github.io/tags/Capture/"/>
+    <category term="Capture" scheme="https://shuaixin.cc/tags/Capture/"/>
     
   </entry>
   
   <entry>
     <title>智能家居 EP9：利用DDNS、通訊埠轉發進行遠端控制</title>
-    <link href="https://shuai-xin.github.io/HA-X-Remote/"/>
-    <id>https://shuai-xin.github.io/HA-X-Remote/</id>
+    <link href="https://shuaixin.cc/HA-X-Remote/"/>
+    <id>https://shuaixin.cc/HA-X-Remote/</id>
     <published>2025-01-19T16:00:00.000Z</published>
     <updated>2025-01-21T03:26:00.023Z</updated>
     
@@ -365,17 +365,17 @@
     
     
     
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    <category term="智能家居" scheme="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
     
     
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
     
   </entry>
   
   <entry>
     <title>智能家居 EP8：讓燈光隨著晝夜節律改變色溫</title>
-    <link href="https://shuai-xin.github.io/HA-8-Circadian-Light/"/>
-    <id>https://shuai-xin.github.io/HA-8-Circadian-Light/</id>
+    <link href="https://shuaixin.cc/HA-8-Circadian-Light/"/>
+    <id>https://shuaixin.cc/HA-8-Circadian-Light/</id>
     <published>2025-01-15T16:00:00.000Z</published>
     <updated>2025-01-21T05:16:22.496Z</updated>
     
@@ -392,17 +392,17 @@
     
     
     
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    <category term="智能家居" scheme="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
     
     
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
     
   </entry>
   
   <entry>
     <title>智能家居 EP7：File Editor</title>
-    <link href="https://shuai-xin.github.io/HA-7-File-Editor/"/>
-    <id>https://shuai-xin.github.io/HA-7-File-Editor/</id>
+    <link href="https://shuaixin.cc/HA-7-File-Editor/"/>
+    <id>https://shuaixin.cc/HA-7-File-Editor/</id>
     <published>2025-01-12T16:00:00.000Z</published>
     <updated>2025-01-13T07:02:12.324Z</updated>
     
@@ -419,17 +419,17 @@
     
     
     
-    <category term="智能家居" scheme="https://shuai-xin.github.io/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    <category term="智能家居" scheme="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
     
     
-    <category term="Home Assistant" scheme="https://shuai-xin.github.io/tags/Home-Assistant/"/>
+    <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
     
   </entry>
   
   <entry>
     <title>韓文小筆記之零：為什麼韓語發音那麼難？</title>
-    <link href="https://shuai-xin.github.io/Korean-X-IPA-Vowel/"/>
-    <id>https://shuai-xin.github.io/Korean-X-IPA-Vowel/</id>
+    <link href="https://shuaixin.cc/Korean-X-IPA-Vowel/"/>
+    <id>https://shuaixin.cc/Korean-X-IPA-Vowel/</id>
     <published>2025-01-08T16:00:00.000Z</published>
     <updated>2025-04-22T00:17:02.915Z</updated>
     
@@ -444,23 +444,23 @@
     
     
     
-    <category term="語言筆記" scheme="https://shuai-xin.github.io/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/"/>
+    <category term="語言筆記" scheme="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/"/>
     
-    <category term="韓文筆記" scheme="https://shuai-xin.github.io/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E9%9F%93%E6%96%87%E7%AD%86%E8%A8%98/"/>
+    <category term="韓文筆記" scheme="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E9%9F%93%E6%96%87%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="日文" scheme="https://shuai-xin.github.io/tags/%E6%97%A5%E6%96%87/"/>
+    <category term="日文" scheme="https://shuaixin.cc/tags/%E6%97%A5%E6%96%87/"/>
     
-    <category term="韓文" scheme="https://shuai-xin.github.io/tags/%E9%9F%93%E6%96%87/"/>
+    <category term="韓文" scheme="https://shuaixin.cc/tags/%E9%9F%93%E6%96%87/"/>
     
-    <category term="IPA" scheme="https://shuai-xin.github.io/tags/IPA/"/>
+    <category term="IPA" scheme="https://shuaixin.cc/tags/IPA/"/>
     
   </entry>
   
   <entry>
     <title>同位異音、互補分佈、自由變體</title>
-    <link href="https://shuai-xin.github.io/phoneme-allophone-variation/"/>
-    <id>https://shuai-xin.github.io/phoneme-allophone-variation/</id>
+    <link href="https://shuaixin.cc/phoneme-allophone-variation/"/>
+    <id>https://shuaixin.cc/phoneme-allophone-variation/</id>
     <published>2025-01-01T16:00:00.000Z</published>
     <updated>2025-01-03T00:19:44.955Z</updated>
     
@@ -476,17 +476,17 @@
     
     
     
-    <category term="語言筆記" scheme="https://shuai-xin.github.io/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/"/>
+    <category term="語言筆記" scheme="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/"/>
     
     
-    <category term="同位異音" scheme="https://shuai-xin.github.io/tags/%E5%90%8C%E4%BD%8D%E7%95%B0%E9%9F%B3/"/>
+    <category term="同位異音" scheme="https://shuaixin.cc/tags/%E5%90%8C%E4%BD%8D%E7%95%B0%E9%9F%B3/"/>
     
   </entry>
   
   <entry>
     <title>使用 OrCAD Capture 設計電路</title>
-    <link href="https://shuai-xin.github.io/OrCAD-Capture-Demo/"/>
-    <id>https://shuai-xin.github.io/OrCAD-Capture-Demo/</id>
+    <link href="https://shuaixin.cc/OrCAD-Capture-Demo/"/>
+    <id>https://shuaixin.cc/OrCAD-Capture-Demo/</id>
     <published>2024-12-30T16:00:00.000Z</published>
     <updated>2024-12-31T05:42:20.948Z</updated>
     
@@ -504,19 +504,19 @@
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="OrCAD" scheme="https://shuai-xin.github.io/tags/OrCAD/"/>
+    <category term="OrCAD" scheme="https://shuaixin.cc/tags/OrCAD/"/>
     
-    <category term="Capture" scheme="https://shuai-xin.github.io/tags/Capture/"/>
+    <category term="Capture" scheme="https://shuaixin.cc/tags/Capture/"/>
     
   </entry>
   
   <entry>
     <title>關於 C 與 Python</title>
-    <link href="https://shuai-xin.github.io/C-Python-note/"/>
-    <id>https://shuai-xin.github.io/C-Python-note/</id>
+    <link href="https://shuaixin.cc/C-Python-note/"/>
+    <id>https://shuaixin.cc/C-Python-note/</id>
     <published>2024-12-29T16:00:00.000Z</published>
     <updated>2025-02-12T01:09:32.119Z</updated>
     
@@ -533,19 +533,19 @@
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="C++" scheme="https://shuai-xin.github.io/tags/C/"/>
+    <category term="C++" scheme="https://shuaixin.cc/tags/C/"/>
     
-    <category term="Python" scheme="https://shuai-xin.github.io/tags/Python/"/>
+    <category term="Python" scheme="https://shuaixin.cc/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>透過 AIDA64 將 AX206 作為 Windows 的監控副屏</title>
-    <link href="https://shuai-xin.github.io/AX206-AIDA64/"/>
-    <id>https://shuai-xin.github.io/AX206-AIDA64/</id>
+    <link href="https://shuaixin.cc/AX206-AIDA64/"/>
+    <id>https://shuaixin.cc/AX206-AIDA64/</id>
     <published>2024-12-25T16:00:00.000Z</published>
     <updated>2024-12-27T06:51:44.567Z</updated>
     
@@ -564,12 +564,12 @@
     
     
     
-    <category term="其他" scheme="https://shuai-xin.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="AX206" scheme="https://shuai-xin.github.io/tags/AX206/"/>
+    <category term="AX206" scheme="https://shuaixin.cc/tags/AX206/"/>
     
-    <category term="AIDA64" scheme="https://shuai-xin.github.io/tags/AIDA64/"/>
+    <category term="AIDA64" scheme="https://shuaixin.cc/tags/AIDA64/"/>
     
   </entry>
   
