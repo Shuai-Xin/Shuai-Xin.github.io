@@ -6,7 +6,7 @@
   <link href="https://shuaixin.cc/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.cc/"/>
-  <updated>2025-04-06T07:23:21.986Z</updated>
+  <updated>2025-05-25T14:17:07.379Z</updated>
   <id>https://shuaixin.cc/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智能家居 EP11：用反向代理取代端口轉發（NPM+DuckDNS）</title>
+    <link href="https://shuaixin.cc/HA-11-Reverse-Proxy/"/>
+    <id>https://shuaixin.cc/HA-11-Reverse-Proxy/</id>
+    <published>2025-05-23T16:00:00.000Z</published>
+    <updated>2025-05-25T14:17:07.379Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我們在 &lt;a href=&quot;https://shuaixin.cc/HA-X-Remote/&quot;&gt;智能家居 EP9：利用DDNS、通訊埠轉發進行遠端控制&lt;/a&gt; 已經透過 Port Forwarding</summary>
+        
+      
+    
+    
+    
+    <category term="智能家居" scheme="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
+    
+    
+    <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
+    
+    <category term="Proxy" scheme="https://shuaixin.cc/tags/Proxy/"/>
+    
+  </entry>
   
   <entry>
     <title>讀書筆記：《為何三歲開始說謊？》</title>
@@ -539,37 +566,6 @@
     <category term="C++" scheme="https://shuaixin.cc/tags/C/"/>
     
     <category term="Python" scheme="https://shuaixin.cc/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>透過 AIDA64 將 AX206 作為 Windows 的監控副屏</title>
-    <link href="https://shuaixin.cc/AX206-AIDA64/"/>
-    <id>https://shuaixin.cc/AX206-AIDA64/</id>
-    <published>2024-12-25T16:00:00.000Z</published>
-    <updated>2024-12-27T06:51:44.567Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;監控副屏方案比較&quot;&gt;監控副屏方案比較&lt;/h2&gt;
-&lt;h3 id=&quot;雙螢幕&quot;&gt;雙螢幕&lt;/h3&gt;
-&lt;p&gt;直觀來說，我們隨便拿另一顆螢幕來當做副屏不就好了嗎？很遺憾的，如此一來會有幾點問題：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如果你沒有內顯（像我就是</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="AX206" scheme="https://shuaixin.cc/tags/AX206/"/>
-    
-    <category term="AIDA64" scheme="https://shuaixin.cc/tags/AIDA64/"/>
     
   </entry>
   
