@@ -6,7 +6,7 @@
   <link href="https://shuaixin.cc/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.cc/"/>
-  <updated>2025-05-25T14:29:02.278Z</updated>
+  <updated>2025-05-25T15:16:03.090Z</updated>
   <id>https://shuaixin.cc/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://shuaixin.cc/HA-11-Reverse-Proxy/"/>
     <id>https://shuaixin.cc/HA-11-Reverse-Proxy/</id>
     <published>2025-05-23T16:00:00.000Z</published>
-    <updated>2025-05-25T14:29:02.278Z</updated>
+    <updated>2025-05-25T15:16:03.090Z</updated>
     
     
       
@@ -48,7 +48,7 @@
     <link href="https://shuaixin.cc/Why-3-Lie/"/>
     <id>https://shuaixin.cc/Why-3-Lie/</id>
     <published>2025-04-05T16:00:00.000Z</published>
-    <updated>2025-04-06T07:23:21.986Z</updated>
+    <updated>2025-05-25T15:16:03.061Z</updated>
     
     
       
@@ -76,7 +76,7 @@
     <link href="https://shuaixin.cc/Decision-Making-Dharma/"/>
     <id>https://shuaixin.cc/Decision-Making-Dharma/</id>
     <published>2025-03-17T16:00:00.000Z</published>
-    <updated>2025-03-18T04:58:06.567Z</updated>
+    <updated>2025-05-25T15:16:03.071Z</updated>
     
     
       
@@ -100,7 +100,7 @@
     <link href="https://shuaixin.cc/The-Knowledge-Illusion/"/>
     <id>https://shuaixin.cc/The-Knowledge-Illusion/</id>
     <published>2025-03-14T16:00:00.000Z</published>
-    <updated>2025-03-17T00:19:59.341Z</updated>
+    <updated>2025-05-25T15:16:03.057Z</updated>
     
     
       
@@ -126,7 +126,7 @@
     <link href="https://shuaixin.cc/Button-Library-Debounce/"/>
     <id>https://shuaixin.cc/Button-Library-Debounce/</id>
     <published>2025-03-09T16:00:00.000Z</published>
-    <updated>2025-03-10T03:22:25.825Z</updated>
+    <updated>2025-05-25T15:16:03.076Z</updated>
     
     
       
@@ -157,7 +157,7 @@
     <link href="https://shuaixin.cc/ESP32-WROOM/"/>
     <id>https://shuaixin.cc/ESP32-WROOM/</id>
     <published>2025-03-05T16:00:00.000Z</published>
-    <updated>2025-04-21T05:46:38.028Z</updated>
+    <updated>2025-05-25T15:16:03.066Z</updated>
     
     
       
@@ -188,7 +188,7 @@
     <link href="https://shuaixin.cc/Mosquitto-MQTT/"/>
     <id>https://shuaixin.cc/Mosquitto-MQTT/</id>
     <published>2025-03-03T16:00:00.000Z</published>
-    <updated>2025-03-07T06:09:31.347Z</updated>
+    <updated>2025-05-25T15:16:03.070Z</updated>
     
     
       
@@ -217,14 +217,14 @@
     <link href="https://shuaixin.cc/OrCAD-BJT/"/>
     <id>https://shuaixin.cc/OrCAD-BJT/</id>
     <published>2025-02-19T16:00:00.000Z</published>
-    <updated>2025-02-20T03:04:57.645Z</updated>
+    <updated>2025-05-25T15:16:03.079Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;平常我們都把邏輯閘當做最小單位在把玩，但邏輯閘內部是怎麼實踐的呢？我們用電晶體來實作一個反向器看看，走起！（基礎操作請見&lt;a href=&quot;https://shuai-xin.github.io/OrCAD-Capture-Demo/&quot;&gt;使用 OrCAD Capture</summary>
+    <summary type="html">&lt;p&gt;平常我們都把邏輯閘當做最小單位在把玩，但邏輯閘內部是怎麼實踐的呢？我們用電晶體來實作一個反向器看看，走起！（基礎操作請見&lt;a href=&quot;https://shuaixin.cc/OrCAD-Capture-Demo/&quot;&gt;使用 OrCAD Capture</summary>
         
       
     
@@ -244,7 +244,7 @@
     <link href="https://shuaixin.cc/Lessons-to-Achieve-Great-Results/"/>
     <id>https://shuaixin.cc/Lessons-to-Achieve-Great-Results/</id>
     <published>2025-02-07T16:00:00.000Z</published>
-    <updated>2025-02-08T10:29:33.549Z</updated>
+    <updated>2025-05-25T15:16:03.061Z</updated>
     
     
       
@@ -270,7 +270,7 @@
     <link href="https://shuaixin.cc/Mi_Thermometer_Zigbee_LYWSD03MMC/"/>
     <id>https://shuaixin.cc/Mi_Thermometer_Zigbee_LYWSD03MMC/</id>
     <published>2025-02-04T16:00:00.000Z</published>
-    <updated>2025-02-05T05:57:20.686Z</updated>
+    <updated>2025-05-25T15:16:03.088Z</updated>
     
     
       
@@ -296,14 +296,14 @@
     <link href="https://shuaixin.cc/OrCAD-Diode/"/>
     <id>https://shuaixin.cc/OrCAD-Diode/</id>
     <published>2025-02-02T16:00:00.000Z</published>
-    <updated>2025-02-03T02:51:05.977Z</updated>
+    <updated>2025-05-25T15:16:03.071Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;本篇我們來看看半導體的整流。基礎操作請見&lt;a href=&quot;https://shuai-xin.github.io/OrCAD-Capture-Demo/&quot;&gt;使用 OrCAD Capture 設計電路&lt;/a&gt;。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;本篇我們來看看半導體的整流。基礎操作請見&lt;a href=&quot;https://shuaixin.cc/OrCAD-Capture-Demo/&quot;&gt;使用 OrCAD Capture 設計電路&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;我們這次選用 1N4148</summary>
         
       
@@ -324,7 +324,7 @@
     <link href="https://shuaixin.cc/HA-10-Light-Group/"/>
     <id>https://shuaixin.cc/HA-10-Light-Group/</id>
     <published>2025-01-22T16:00:00.000Z</published>
-    <updated>2025-01-23T06:03:36.420Z</updated>
+    <updated>2025-05-25T15:16:03.088Z</updated>
     
     
       
@@ -351,14 +351,14 @@
     <link href="https://shuaixin.cc/OrCAD-Capture-Para/"/>
     <id>https://shuaixin.cc/OrCAD-Capture-Para/</id>
     <published>2025-01-20T16:00:00.000Z</published>
-    <updated>2025-01-21T08:18:35.029Z</updated>
+    <updated>2025-05-25T15:16:03.077Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;在&lt;a href=&quot;https://shuai-xin.github.io/OrCAD-Capture-Demo/&quot;&gt;使用 OrCAD Capture 設計電路&lt;/a&gt;中我們已經學會如何繪製電路圖，並且使用 PSpice</summary>
+    <summary type="html">&lt;p&gt;在&lt;a href=&quot;https://shuaixin.cc/OrCAD-Capture-Demo/&quot;&gt;使用 OrCAD Capture 設計電路&lt;/a&gt;中我們已經學會如何繪製電路圖，並且使用 PSpice</summary>
         
       
     
@@ -378,7 +378,7 @@
     <link href="https://shuaixin.cc/HA-X-Remote/"/>
     <id>https://shuaixin.cc/HA-X-Remote/</id>
     <published>2025-01-19T16:00:00.000Z</published>
-    <updated>2025-01-21T03:26:00.023Z</updated>
+    <updated>2025-05-25T15:16:03.086Z</updated>
     
     
       
@@ -404,7 +404,7 @@
     <link href="https://shuaixin.cc/HA-8-Circadian-Light/"/>
     <id>https://shuaixin.cc/HA-8-Circadian-Light/</id>
     <published>2025-01-15T16:00:00.000Z</published>
-    <updated>2025-01-21T05:16:22.496Z</updated>
+    <updated>2025-05-25T15:16:03.086Z</updated>
     
     
       
@@ -431,7 +431,7 @@
     <link href="https://shuaixin.cc/HA-7-File-Editor/"/>
     <id>https://shuaixin.cc/HA-7-File-Editor/</id>
     <published>2025-01-12T16:00:00.000Z</published>
-    <updated>2025-01-13T07:02:12.324Z</updated>
+    <updated>2025-05-25T15:16:03.089Z</updated>
     
     
       
@@ -458,7 +458,7 @@
     <link href="https://shuaixin.cc/Korean-X-IPA-Vowel/"/>
     <id>https://shuaixin.cc/Korean-X-IPA-Vowel/</id>
     <published>2025-01-08T16:00:00.000Z</published>
-    <updated>2025-04-22T00:17:02.915Z</updated>
+    <updated>2025-05-25T15:16:03.115Z</updated>
     
     
       
@@ -489,7 +489,7 @@
     <link href="https://shuaixin.cc/phoneme-allophone-variation/"/>
     <id>https://shuaixin.cc/phoneme-allophone-variation/</id>
     <published>2025-01-01T16:00:00.000Z</published>
-    <updated>2025-01-03T00:19:44.955Z</updated>
+    <updated>2025-05-25T15:16:03.119Z</updated>
     
     
       
@@ -515,7 +515,7 @@
     <link href="https://shuaixin.cc/OrCAD-Capture-Demo/"/>
     <id>https://shuaixin.cc/OrCAD-Capture-Demo/</id>
     <published>2024-12-30T16:00:00.000Z</published>
-    <updated>2024-12-31T05:42:20.948Z</updated>
+    <updated>2025-05-25T15:16:03.072Z</updated>
     
     
       
@@ -545,7 +545,7 @@
     <link href="https://shuaixin.cc/C-Python-note/"/>
     <id>https://shuaixin.cc/C-Python-note/</id>
     <published>2024-12-29T16:00:00.000Z</published>
-    <updated>2025-02-19T00:59:17.500Z</updated>
+    <updated>2025-05-25T15:16:03.067Z</updated>
     
     
       
