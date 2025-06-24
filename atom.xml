@@ -6,7 +6,7 @@
   <link href="https://shuaixin.cc/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.cc/"/>
-  <updated>2025-06-06T05:56:02.045Z</updated>
+  <updated>2025-06-24T06:51:21.291Z</updated>
   <id>https://shuaixin.cc/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>台語小筆記：留意輕聲，詞義差很多</title>
+    <link href="https://shuaixin.cc/Taiwanese-2-Neutral-Tone/"/>
+    <id>https://shuaixin.cc/Taiwanese-2-Neutral-Tone/</id>
+    <published>2025-06-23T16:00:00.000Z</published>
+    <updated>2025-06-24T06:51:21.291Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;台語作為一門標準的聲調語言（tone language），不同的聲調會有不同的意思表達。&lt;/p&gt;
+&lt;p&gt;上次回外婆家被催婚，其中就有一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;senn nn̄g-ê–ah</summary>
+        
+      
+    
+    
+    
+    <category term="語言筆記" scheme="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/"/>
+    
+    <category term="台語筆記" scheme="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E5%8F%B0%E8%AA%9E%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="台語" scheme="https://shuaixin.cc/tags/%E5%8F%B0%E8%AA%9E/"/>
+    
+    <category term="台羅" scheme="https://shuaixin.cc/tags/%E5%8F%B0%E7%BE%85/"/>
+    
+    <category term="變調" scheme="https://shuaixin.cc/tags/%E8%AE%8A%E8%AA%BF/"/>
+    
+    <category term="聲調" scheme="https://shuaixin.cc/tags/%E8%81%B2%E8%AA%BF/"/>
+    
+  </entry>
   
   <entry>
     <title>智能家居 EP11：用反向代理取代端口轉發（NPM+DuckDNS）</title>
@@ -537,35 +573,6 @@
     <category term="OrCAD" scheme="https://shuaixin.cc/tags/OrCAD/"/>
     
     <category term="Capture" scheme="https://shuaixin.cc/tags/Capture/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>關於 C 與 Python</title>
-    <link href="https://shuaixin.cc/C-Python-note/"/>
-    <id>https://shuaixin.cc/C-Python-note/</id>
-    <published>2024-12-29T16:00:00.000Z</published>
-    <updated>2025-05-25T15:16:03.067Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;弱型別-強型別&quot;&gt;弱型別 &amp;amp; 強型別&lt;/h3&gt;
-&lt;p&gt;Python 是弱型別語言，變數的型別在執行時才決定。所以你可以反覆橫跳也不會報錯：&lt;/p&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="C++" scheme="https://shuaixin.cc/tags/C/"/>
-    
-    <category term="Python" scheme="https://shuaixin.cc/tags/Python/"/>
     
   </entry>
   
