@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水馬克 ShuiMark</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>水馬克</h1>
+        <h4>一個直接前端出圖的文字浮水印小工具</h4>
+
+        <div id="dropzone">
+            <p>拖曳或點擊選圖</p>
+            <input type="file" id="image" accept="image/*" multiple style="display:none"/>
+        </div>
+
+        <div>
+            <label for="mark_txt">浮水印文字</label>
+            <input type="text" id="mark_txt" value="ShuiMark" />
+            <label for="color">顏色</label>
+            <input type="color" id="color" value="#fafafa" />
+            <label for="opacity">透明度</label>
+            <input type="range" id="opacity" min="0" max="255" value="128" />
+        </div>
+
+        <div class="canvas-wrapper">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div>
+            <button id="downloadBtn" style="margin-top: 20px">下載</button>
+        </div>
+
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+<script>
+const imageInput = document.getElementById('image');
+const dropZone = document.getElementById('dropzone');
+const txtInput = document.getElementById('mark_txt');
+const opacityInput = document.getElementById('opacity');
+const colorInput = document.getElementById('color');
+const canvasWrapper = document.querySelector('.canvas-wrapper');
+
+let watermarkText = null;
+let bgImage = null;
+
+const canvas = new fabric.Canvas('canvas', {
+  selection: false,
+  preserveObjectStacking: true
+});
+
+function readFileAsDataURL(file) {
+  return new Promise(resolve => {
+    const reader = new FileReader();
+    reader.onload = e => resolve(e.target.result);
+    reader.readAsDataURL(file);
+  });
+}
+
+function addOrUpdateWatermark() {
+  const text = txtInput.value;
+  const opacity = parseInt(opacityInput.value, 10) / 255;
+  const color = colorInput.value;
+
+  if (!watermarkText) {
+    watermarkText = new fabric.Textbox(text, {
+      left: 50,
+      top: 50,
+      fill: color,
+      opacity: opacity,
+      editable: true,
+      selectable: true,
+      cornerStyle: 'circle',
+      cornerColor: '#007bff',
+      borderColor: '#007bff',
+      objectCaching: false,
+      fontFamily: 'Noto Sans TC',
+      fontWeight: '900',
+      originX: 'left',
+      originY: 'top',
+    });
+    watermarkText.setControlsVisibility({
+        mt: false, // top middle
+        mb: false, // bottom middle
+        ml: false, // middle left
+        mr: false, // middle right
+    });
+    canvas.add(watermarkText);
+    canvas.setActiveObject(watermarkText);
+  } else {
+    watermarkText.set({
+      text: text,
+      fill: color,
+      opacity: opacity,
+    });
+  }
+  canvas.renderAll();
+}
+
+async function processFiles(files) {
+  if (!files.length) return;
+
+  const firstFile = files[0];
+  const firstDataUrl = await readFileAsDataURL(firstFile);
+
+  fabric.Image.fromURL(firstDataUrl, img => {
+    bgImage = img;
+
+    canvas.setWidth(img.width);
+    canvas.setHeight(img.height);
+
+    const scaleFactor = canvasWrapper.offsetWidth / img.width;
+
+    canvas.setZoom(scaleFactor);
+
+    canvas.setDimensions({
+      width: canvasWrapper.offsetWidth,
+      height: img.height * scaleFactor
+    });
+
+    img.set({
+      selectable: false,
+      evented: false,
+      originX: 'left',
+      originY: 'top',
+    });
+
+    canvas.setBackgroundImage(img, canvas.renderAll.bind(canvas));
+    addOrUpdateWatermark();
+  });
+
+}
+
+document.getElementById('downloadBtn').addEventListener('click', () => {
+  canvas.discardActiveObject();
+  canvas.renderAll();
+
+  const currentZoom = canvas.getZoom();
+
+  canvas.setZoom(1);
+
+  canvas.setWidth(bgImage.width);
+  canvas.setHeight(bgImage.height);
+  canvas.renderAll();
+
+  const dataURL = canvas.toDataURL({
+    format: 'png',
+    quality: 1,
+    multiplier: 1 
+  });
+
+  canvas.setZoom(currentZoom);
+  const scaleFactor = canvasWrapper.offsetWidth / bgImage.width;
+  canvas.setDimensions({
+      width: canvasWrapper.offsetWidth,
+      height: bgImage.height * scaleFactor
+  });
+  canvas.renderAll();
+
+  const link = document.createElement('a');
+  link.href = dataURL;
+  link.download = 'watermarked_preview.png';
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+});
+
+
+imageInput.addEventListener('change', e => {
+  processFiles(e.target.files);
+});
+txtInput.addEventListener('input', () => {
+  if (watermarkText) {
+    watermarkText.text = txtInput.value;
+    canvas.renderAll();
+  }
+});
+opacityInput.addEventListener('input', () => {
+  if (watermarkText) {
+    watermarkText.opacity = parseInt(opacityInput.value, 10) / 255;
+    canvas.renderAll();
+  }
+});
+colorInput.addEventListener('input', () => {
+  if (watermarkText) {
+    watermarkText.fill = colorInput.value;
+    canvas.renderAll();
+  }
+});
+window.addEventListener('resize', () => {
+  if (!bgImage) return;
+
+  const scaleFactor = canvasWrapper.offsetWidth / bgImage.width;
+
+  canvas.setZoom(scaleFactor);
+
+  canvas.setDimensions({
+    width: canvasWrapper.offsetWidth,
+    height: bgImage.height * scaleFactor
+  });
+
+  canvas.renderAll();
+});
+
+dropZone.addEventListener('click', () => {
+  imageInput.click();
+});
+dropZone.addEventListener('dragover', (e) => {
+  e.preventDefault();
+  dropZone.classList.add('dragover');
+});
+dropZone.addEventListener('dragleave', (e) => {
+  e.preventDefault();
+  dropZone.classList.remove('dragover');
+});
+dropZone.addEventListener('drop', (e) => {
+  e.preventDefault();
+  dropZone.classList.remove('dragover');
+  processFiles(e.dataTransfer.files);
+});
+
+
+</script>
+
+</body>
+</html>
