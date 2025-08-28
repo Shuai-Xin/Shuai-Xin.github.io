@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的百岳征服紀錄</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <link rel="stylesheet" href="style.css"/> 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js" defer></script>
+  <script type="module"> import "https://font.emtech.cc/emfont.js"; emfont.init(); </script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6" style="position: sticky; top: 0; align-self: flex-start; height: 100vh;">
+        <div id="map"></div>
+      </div>
+      <div class="col-6 overflow-auto">
+        <h1>🏔️</h1>
+        <div class="grid">
+
+    <div class="card">
+      <div class="image-container">
+        <img src="images/mt_zhengyuan.png">
+        <h3 class="emfont-MaokenAssortedSansTC">鎮遠山</h3>
+      </div>
+    </div>
+  
+
+    <div class="card card-hover-container" id="mt_dadong">
+      <div class="image-content">
+        <img class="hover-img" data-src="images/mt_dadong_dy.webp" src="images/mt_dadong.png">
+        <h3 class="emfont-MaokenAssortedSansTC">大棟山</h3>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="image-content">
+        <img src="images/yakou.png">
+        <h3 class="emfont-MaokenAssortedSansTC">啞口</h3>
+      </div>
+    </div>
+
+    <div class="card card-hover-container" id="mt_xiangyang">
+      <div class="image-content">
+        <img class="hover-img" data-src="images/mt_xiangyang_dy.webp" src="images/mt_xiangyang2.png">
+        <h3 class="emfont-MaokenAssortedSansTC">向陽山</h3>
+      </div>
+    </div>
+
+     <div class="card" id="mt_qixing">
+      <div class="image-content">
+        <img src="images/mt_qixing2.jpg">
+        <h3 class="emfont-MaokenAssortedSansTC">七星山</h3>
+      </div>
+    </div>
+
+    <div class="card card-hover-container" id="mt_sancha">
+      <div class="image-container">
+        <img class="hover-img" data-src="images/mt_sancha_dy.webp" src="images/mt_sancha2.png">
+        <h3 class="emfont-MaokenAssortedSansTC">三叉山</h3>
+      </div>
+    </div>
+
+    <div class="card card-hover-container" id="jiaminghu">
+      <div class="image-container">
+        <img class="hover-img" data-src="images/jiaminghu_dy.webp" src="images/jiaminglake.png">
+        <h3 class="emfont-MaokenAssortedSansTC">嘉明湖</h3>
+      </div>
+    </div>
+
+  </div>
+
+      </div>
+      
+    </div>
+  </div>
+
+<script>
+  const cards = document.querySelectorAll('.card-hover-container');
+
+  cards.forEach(card => {
+    const img = card.querySelector('.hover-img');
+    const staticSrc = img.getAttribute('src');
+    const dynamicSrc = img.getAttribute('data-src');
+
+    card.addEventListener('mouseenter', () => {
+      img.src = dynamicSrc;
+    });
+
+    card.addEventListener('mouseleave', () => {
+      img.src = staticSrc;
+    });
+
+  })
+
+</script>
+
+<script type="module">
+  var defaultView = { center: [23.7, 120.87], zoom: 8 };
+  var map = L.map('map').setView(defaultView.center, defaultView.zoom);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19,}).addTo(map);
+
+  const gpxFiles = [
+    {id: "jiaminghu", url: "gpx/jiaminghu.gpx", marker: [23.29319, 121.03419]},
+    {id: "mt_qixing", url: "gpx/mt_qixing.gpx", marker: [25.170733, 121.553514]},
+    {id: "mt_sancha", url: "gpx/jiaminghu.gpx", marker: [23.297201, 121.028677]},
+    {id: "mt_dadong", url: "gpx/mt_dadong.gpx", marker: [24.995799, 121.384123]}
+  ];
+
+  const options = {
+    async: true,
+    polyline_options: { color: "rgba(199, 57, 32, 0.9)" },
+    markers: {
+      startIcon: null, 
+      endIcon: null,   
+      wptIcons: { '': null }
+    }
+  };
+
+  const layers = {};
+
+  gpxFiles.forEach(file => {
+    const btn = document.getElementById(file.id);
+    btn.addEventListener("click", () => {
+      if (!layers[file.id]) {
+        const marker = L.marker(file.marker).addTo(map);
+        const gpx = new L.GPX(file.url, options)
+          .on('loaded', function(e) {
+            map.flyToBounds(e.target.getBounds(), { duration: 0.8 });
+          })
+          .addTo(map);
+
+        layers[file.id] = { gpx, marker, atDefault: false };
+      } else {
+        if (!layers[file.id].atDefault) {
+          map.flyTo(defaultView.center, defaultView.zoom, { duration: 0.8 });
+          layers[file.id].atDefault = true;
+        } else {
+          map.removeLayer(layers[file.id].gpx);
+          map.removeLayer(layers[file.id].marker);
+          delete layers[file.id];
+        }
+      }
+    });
+  });
+
+</script>
+
+</body>
+</html>
