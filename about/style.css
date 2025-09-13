@@ -117,14 +117,14 @@ hr
    max-width:500px;
 }
 
-.decoa, .intro a {
+.decoa, div.intro p a {
 	text-decoration: none;
 	color: #000;
 	/*font-family: 'Noto Serif TC', serif;
 	font-weight: 300;*/
 }
 
-.decoa:link, .intro a:link {
+.decoa:link, div.intro p a:link {
 	background-position-y: 20%;
 	background-image: linear-gradient( transparent 50%, gold 50%);
 	transition: background 500ms ease;
@@ -133,7 +133,7 @@ hr
 }
 
 
-.decoa:hover, .intro a:hover {
+.decoa:hover, div.intro p a:hover {
 	color: #666;
 	background-position-y: 100%;
 }
