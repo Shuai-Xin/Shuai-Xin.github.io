@@ -124,7 +124,7 @@ hr
 	font-weight: 300;*/
 }
 
-.decoa:link, .intro a {
+.decoa:link, .intro a:link {
 	background-position-y: 20%;
 	background-image: linear-gradient( transparent 50%, gold 50%);
 	transition: background 500ms ease;
@@ -133,7 +133,7 @@ hr
 }
 
 
-.decoa:hover {
+.decoa:hover, .intro a:hover {
 	color: #666;
 	background-position-y: 100%;
 }
