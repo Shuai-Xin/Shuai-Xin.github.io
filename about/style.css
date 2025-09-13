@@ -76,6 +76,14 @@ p
 	font-weight: 200;
 }
 
+.intro p {
+	text-align: left;
+}
+
+strong {
+	font-weight: 400;
+}
+
 .button {
 	margin-bottom: 1%;
 	font-weight: 250;
@@ -112,8 +120,8 @@ hr
 .decoa {
 	text-decoration: none;
 	color: #000;
-	font-family: 'Noto Serif TC', serif;
-	font-weight: 300;
+	/*font-family: 'Noto Serif TC', serif;
+	font-weight: 300;*/
 }
 
 .decoa:link {
