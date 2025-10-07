@@ -6,7 +6,7 @@
   <link href="https://shuaixin.cc/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.cc/"/>
-  <updated>2025-08-16T10:49:11.645Z</updated>
+  <updated>2025-10-07T09:08:18.315Z</updated>
   <id>https://shuaixin.cc/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>透過 GPIO 來控制 BrightSign 播放器</title>
+    <link href="https://shuaixin.cc/BrightSign-GPIO/"/>
+    <id>https://shuaixin.cc/BrightSign-GPIO/</id>
+    <published>2025-10-06T16:00:00.000Z</published>
+    <updated>2025-10-07T09:08:18.315Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本文我們來實作可以進行互動的螢幕。怎麼個互動法？這次以兩種為例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;透過 RFID ，刷卡感應後，讓本來循環播放 A 影片的螢幕，改為播放 B 影片。&lt;/li&gt;
+&lt;li&gt;透過超聲波回聲判斷，人靠近（或手懸浮在感應區域）時，讓本來循環播放 A</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="ESP32" scheme="https://shuaixin.cc/tags/ESP32/"/>
+    
+    <category term="BrightSign" scheme="https://shuaixin.cc/tags/BrightSign/"/>
+    
+    <category term="GPIO" scheme="https://shuaixin.cc/tags/GPIO/"/>
+    
+    <category term="ESP8266" scheme="https://shuaixin.cc/tags/ESP8266/"/>
+    
+    <category term="NodeMCU" scheme="https://shuaixin.cc/tags/NodeMCU/"/>
+    
+    <category term="WROOM" scheme="https://shuaixin.cc/tags/WROOM/"/>
+    
+  </entry>
   
   <entry>
     <title>容器化實務操作，以 Taiko-Web 為例</title>
@@ -548,37 +586,6 @@
     
     
     <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>韓文小筆記之零：為什麼韓語發音那麼難？</title>
-    <link href="https://shuaixin.cc/Korean-X-IPA-Vowel/"/>
-    <id>https://shuaixin.cc/Korean-X-IPA-Vowel/</id>
-    <published>2025-01-08T16:00:00.000Z</published>
-    <updated>2025-05-25T15:16:03.115Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/Korean-X-IPA-Vowel/ipa_shuai-6384514.jpg&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="語言筆記" scheme="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/"/>
-    
-    <category term="韓文筆記" scheme="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E9%9F%93%E6%96%87%E7%AD%86%E8%A8%98/"/>
-    
-    
-    <category term="日文" scheme="https://shuaixin.cc/tags/%E6%97%A5%E6%96%87/"/>
-    
-    <category term="韓文" scheme="https://shuaixin.cc/tags/%E9%9F%93%E6%96%87/"/>
-    
-    <category term="IPA" scheme="https://shuaixin.cc/tags/IPA/"/>
     
   </entry>
   
