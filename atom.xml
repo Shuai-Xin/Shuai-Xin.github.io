@@ -6,7 +6,7 @@
   <link href="https://shuaixin.cc/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.cc/"/>
-  <updated>2025-10-12T09:34:23.043Z</updated>
+  <updated>2025-10-16T08:11:22.783Z</updated>
   <id>https://shuaixin.cc/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在 Windows 系統上架設 NTP 伺服器</title>
+    <link href="https://shuaixin.cc/TMS-NTP-Windows/"/>
+    <id>https://shuaixin.cc/TMS-NTP-Windows/</id>
+    <published>2025-10-15T16:00:00.000Z</published>
+    <updated>2025-10-16T08:11:22.783Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;需求背景&quot;&gt;需求背景&lt;/h2&gt;
+&lt;p&gt;此例中，我們要替電影院架設 TMS 系統，所以我們會有一台作為中控的 Windows</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="TMS" scheme="https://shuaixin.cc/tags/TMS/"/>
+    
+    <category term="NTP" scheme="https://shuaixin.cc/tags/NTP/"/>
+    
+    <category term="NetTime" scheme="https://shuaixin.cc/tags/NetTime/"/>
+    
+  </entry>
   
   <entry>
     <title>讀書筆記：《致富心態》（金錢心理學）</title>
@@ -551,33 +581,6 @@
         
     <summary type="html">&lt;h2 id=&quot;出門在外也能控制-Home-Assistant-嗎？&quot;&gt;出門在外也能控制 Home Assistant 嗎？&lt;/h2&gt;
 &lt;p&gt;出門在外也能控制 Home Assistant</summary>
-        
-      
-    
-    
-    
-    <category term="智能家居" scheme="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>智能家居 EP8：讓燈光隨著晝夜節律改變色溫</title>
-    <link href="https://shuaixin.cc/HA-8-Circadian-Light/"/>
-    <id>https://shuaixin.cc/HA-8-Circadian-Light/</id>
-    <published>2025-01-15T16:00:00.000Z</published>
-    <updated>2025-05-25T15:16:03.086Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;如何讓家裡的燈光色溫與自然的晝夜節律同步呢？此篇就來實作！&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;本來這個需求我們選用了 &lt;a</summary>
         
       
     
