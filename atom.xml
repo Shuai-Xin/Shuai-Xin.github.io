@@ -6,7 +6,7 @@
   <link href="https://shuaixin.cc/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.cc/"/>
-  <updated>2025-10-16T08:11:22.783Z</updated>
+  <updated>2025-11-06T05:22:07.699Z</updated>
   <id>https://shuaixin.cc/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker 更換掛載點：將 immich 資料搬遷到外接 SSD</title>
+    <link href="https://shuaixin.cc/immich-move-to-ssd/"/>
+    <id>https://shuaixin.cc/immich-move-to-ssd/</id>
+    <published>2025-11-05T16:00:00.000Z</published>
+    <updated>2025-11-06T05:22:07.699Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;docker 更換掛載點其實非常方便，倒不如說這部分就是 docker 會那麼好用的其中一個重要因素。一般來說，我們只要在 &lt;code&gt;docker-compose.yml&lt;/code&gt; 中把 volumes</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="Self Hosting" scheme="https://shuaixin.cc/tags/Self-Hosting/"/>
+    
+    <category term="Docker" scheme="https://shuaixin.cc/tags/Docker/"/>
+    
+    <category term="immich" scheme="https://shuaixin.cc/tags/immich/"/>
+    
+  </entry>
   
   <entry>
     <title>在 Windows 系統上架設 NTP 伺服器</title>
@@ -564,32 +593,6 @@
     <category term="OrCAD" scheme="https://shuaixin.cc/tags/OrCAD/"/>
     
     <category term="Capture" scheme="https://shuaixin.cc/tags/Capture/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>智能家居 EP9：利用DDNS、通訊埠轉發進行遠端控制</title>
-    <link href="https://shuaixin.cc/HA-X-Remote/"/>
-    <id>https://shuaixin.cc/HA-X-Remote/</id>
-    <published>2025-01-19T16:00:00.000Z</published>
-    <updated>2025-05-25T15:16:03.086Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;出門在外也能控制-Home-Assistant-嗎？&quot;&gt;出門在外也能控制 Home Assistant 嗎？&lt;/h2&gt;
-&lt;p&gt;出門在外也能控制 Home Assistant</summary>
-        
-      
-    
-    
-    
-    <category term="智能家居" scheme="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
     
   </entry>
   
