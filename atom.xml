@@ -6,7 +6,7 @@
   <link href="https://shuaixin.cc/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.cc/"/>
-  <updated>2025-11-07T13:20:32.268Z</updated>
+  <updated>2025-11-22T07:09:41.370Z</updated>
   <id>https://shuaixin.cc/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>讀書筆記：《佛畏系統》</title>
+    <link href="https://shuaixin.cc/System-Thinking-in-Daily-Life/"/>
+    <id>https://shuaixin.cc/System-Thinking-in-Daily-Life/</id>
+    <published>2025-11-15T16:00:00.000Z</published>
+    <updated>2025-11-22T07:09:41.370Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/System-Thinking-in-Daily-Life/foweixitong.png&quot; alt=&quot;foweixitong&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;奈特不確定性&quot;&gt;奈特不確定性&lt;/h3&gt;
+&lt;p&gt;來自 Frank Knight 1921</summary>
+        
+      
+    
+    
+    
+    <category term="讀書筆記" scheme="https://shuaixin.cc/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="5顆星書籍" scheme="https://shuaixin.cc/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>Docker 更換掛載點：將 immich 資料搬遷到外接 SSD</title>
@@ -566,33 +593,6 @@
     
     
     <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>OrCAD Capture 透過 Parameters 討論變數</title>
-    <link href="https://shuaixin.cc/OrCAD-Capture-Para/"/>
-    <id>https://shuaixin.cc/OrCAD-Capture-Para/</id>
-    <published>2025-01-20T16:00:00.000Z</published>
-    <updated>2025-05-25T15:16:03.077Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在&lt;a href=&quot;https://shuaixin.cc/OrCAD-Capture-Demo/&quot;&gt;使用 OrCAD Capture 設計電路&lt;/a&gt;中我們已經學會如何繪製電路圖，並且使用 PSpice</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="OrCAD" scheme="https://shuaixin.cc/tags/OrCAD/"/>
-    
-    <category term="Capture" scheme="https://shuaixin.cc/tags/Capture/"/>
     
   </entry>
   
