@@ -154,11 +154,11 @@
     <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="ESP32" scheme="https://shuaixin.cc/tags/ESP32/"/>
-    
     <category term="BrightSign" scheme="https://shuaixin.cc/tags/BrightSign/"/>
     
     <category term="GPIO" scheme="https://shuaixin.cc/tags/GPIO/"/>
+    
+    <category term="ESP32" scheme="https://shuaixin.cc/tags/ESP32/"/>
     
     <category term="ESP8266" scheme="https://shuaixin.cc/tags/ESP8266/"/>
     
