@@ -22,34 +22,115 @@ clientOptions: { theme: "light", lang: "zh-TW" },
 });
 });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>標籤: CPU | Hi 我劉昕</title><meta name="keywords" content="劉昕,帥昕,椰林之外"><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="劉昕的部落格">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hi 我劉昕">
-<meta property="og:url" content="https://shuaixin.cc/tags/CPU/index.html">
-<meta property="og:site_name" content="Hi 我劉昕">
-<meta property="og:description" content="劉昕的部落格">
-<meta property="og:locale" content="zh_TW">
-<meta property="og:image" content="https://shuaixin.cc/img/shuai_ava.jpg">
-<meta property="article:author" content="Shuai">
-<meta property="article:tag" content="劉昕,帥昕,椰林之外">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://shuaixin.cc/img/shuai_ava.jpg"><link rel="shortcut icon" href="/img/shuai_moji.png"><link rel="canonical" href="https://shuaixin.cc/tags/CPU/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><meta/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>標籤: CPU | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="劉昕的部落格"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/shuai_moji.png"><link rel="canonical" href="https://shuaixin.cc/tags/CPU/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><meta/><link rel="stylesheet" href="/css/index.css?v=5.5.3"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
   google_ad_client: 'ca-pub-1556107858900989',
   enable_page_level_ads: 'true'
-});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-154605966-3"></script><script>window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-154605966-3');
-</script><script>const GLOBAL_CONFIG = { 
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-154605966-3"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'UA-154605966-3')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'UA-154605966-3', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><script>const GLOBAL_CONFIG = {
   root: '/',
-  algolia: {"appId":"NWEBGQI3W2","apiKey":"bf1b01d1f4f3b6a3eba0499353d5ace9","indexName":"sxsite","hits":{"per_page":10},"languages":{"input_placeholder":"搜尋文章","hits_empty":"找不到您查詢的內容：${query}","hits_stats":"找到 ${hits} 條結果，用時 ${time} 毫秒"}},
+  algolia: undefined,
   localSearch: undefined,
   translate: undefined,
-  noticeOutdate: undefined,
-  highlight: {"plugin":"highlighjs","highlightCopy":false,"highlightLang":false,"highlightHeightLimit":false},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
   copy: {
     success: '複製成功',
-    error: '複製錯誤',
+    error: '複製失敗',
     noSupport: '瀏覽器不支援'
   },
   relativeDate: {
@@ -57,150 +138,92 @@ gtag('config', 'UA-154605966-3');
     post: false
   },
   runtime: '',
-  date_suffix: {
+  dateSuffix: {
     just: '剛剛',
     min: '分鐘前',
     hour: '小時前',
     day: '天前',
     month: '個月前'
   },
-  copyright: {"limitCount":50,"languages":{"author":"作者: Shuai","link":"連結: ","source":"來源: Hi 我劉昕","info":"著作權歸作者所有。商業轉載請聯絡作者獲得授權，非商業轉載請註明出處。"}},
-  lightbox: 'fancybox',
-  Snackbar: {"chs_to_cht":"你已切換為繁體","cht_to_chs":"你已切換為簡體","day_to_night":"你已切換為深色模式","night_to_day":"你已切換為淺色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
-  source: {
-    justifiedGallery: {
-      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
-      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
-    }
+  copyright: {"limitCount":50,"languages":{"author":"作者: Shuai","link":"連結: ","source":"來源: Hi 我劉昕","info":"著作權歸作者所有。如需商業轉載，請聯絡作者獲得授權，非商業轉載請註明出處。"}},
+  lightbox: 'null',
+  Snackbar: {"chs_to_cht":"已切換為繁體中文","cht_to_chs":"已切換為簡體中文","day_to_night":"已切換為深色模式","night_to_day":"已切換為淺色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '載入更多'
   },
   isPhotoFigcaption: false,
-  islazyload: false,
-  isAnchor: false
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
   title: '標籤: CPU',
-  isPost: false,
-  isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2025-12-03 07:34:04'
-}</script><noscript><style type="text/css">
-  #nav {
-    opacity: 1
-  }
-  .justified-gallery img {
-    opacity: 1
-  }
-
-  #recent-posts time,
-  #post-meta time {
-    display: inline !important
-  }
-</style></noscript><script>(win=>{
-    win.saveToLocal = {
-      set: function setWithExpiry(key, value, ttl) {
-        if (ttl === 0) return
-        const now = new Date()
-        const expiryDay = ttl * 86400000
-        const item = {
-          value: value,
-          expiry: now.getTime() + expiryDay,
-        }
-        localStorage.setItem(key, JSON.stringify(item))
-      },
-
-      get: function getWithExpiry(key) {
-        const itemStr = localStorage.getItem(key)
-
-        if (!itemStr) {
-          return undefined
-        }
-        const item = JSON.parse(itemStr)
-        const now = new Date()
-
-        if (now.getTime() > item.expiry) {
-          localStorage.removeItem(key)
-          return undefined
-        }
-        return item.value
-      }
-    }
-  
-    win.getScript = url => new Promise((resolve, reject) => {
-      const script = document.createElement('script')
-      script.src = url
-      script.async = true
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    })
-  
-      win.activateDarkMode = function () {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      win.activateLightMode = function () {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
-        }
-      }
-      const t = saveToLocal.get('theme')
-    
-          if (t === 'dark') activateDarkMode()
-          else if (t === 'light') activateLightMode()
-        
-      const asideStatus = saveToLocal.get('aside-status')
-      if (asideStatus !== undefined) {
-        if (asideStatus === 'hide') {
-          document.documentElement.classList.add('hide-aside')
-        } else {
-          document.documentElement.classList.remove('hide-aside')
-        }
-      }
-    
-    const detectApple = () => {
-      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-        document.documentElement.classList.add('apple')
-      }
-    }
-    detectApple()
-    })(window)</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-WDZ4T0TNBX"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag(' js', new Date());gtag('config', 'G-WDZ4T0TNBX');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1556107858900989"crossorigin="anonymous"></script><meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="Hi 我劉昕" type="application/atom+xml">
-</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/shuai_ava.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">159</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">標籤</div><div class="length-num">249</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分類</div><div class="length-num">17</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分類</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於我</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Hi 我劉昕</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜尋</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分類</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="tag"><div class="article-sort-title">標籤 - CPU</div><div class="article-sort"><div class="article-sort-item year">2023</div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-11-14T16:00:00.000Z" title="發表於 2023-11-15 00:00:00">2023-11-15</time></div><a class="article-sort-item-title" href="/2023-PC-Build/" title="2023 雙十一組電腦！">2023 雙十一組電腦！</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-11-09T16:00:00.000Z" title="發表於 2023-11-10 00:00:00">2023-11-10</time></div><a class="article-sort-item-title" href="/Terminal-CPU-Spec/" title="如何看自己電腦的 CPU 規格">如何看自己電腦的 CPU 規格</a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/shuai_ava.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Shuai</div><div class="author-info__description">Hi 我劉昕啦！Shuai 是我的英文名字，唸作帥，取其義。</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">159</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">標籤</div><div class="length-num">249</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分類</div><div class="length-num">17</div></a></div></div><a id="card-info-btn" href="https://shuaixin.cc/about"><i class="fas fa-heart"></i><span>關於我</span></a></div><div class="sticky_layout"><div class="card-widget card-categories"><div class="item-headline">
+  pageType: 'tag'
+}</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-WDZ4T0TNBX"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag(' js', new Date());gtag('config', 'G-WDZ4T0TNBX');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1556107858900989"crossorigin="anonymous"></script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Hi 我劉昕" type="application/atom+xml">
+</head><body><div class="bg-animation" id="web_bg" style="background: linear-gradient(288deg, #ffb6b9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, rgba(178, 204, 198, 0.521) calc(45% + 1px), rgba(178, 204, 198, 0.521) 65%, rgba(176, 178, 214, 0.596) calc(65% + 1px), rgb(176, 178, 214, 0.596) 100%);;"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/shuai_ava.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">159</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">249</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">17</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分類</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於我</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Hi 我劉昕</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分類</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於我</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">CPU</h1></header><main class="layout" id="content-inner"><div id="tag"><div class="article-sort-title">標籤 - CPU</div><div class="article-sort"><div class="article-sort-item year">2023</div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-11-14T16:00:00.000Z" title="發表於 2023-11-15 00:00:00">2023-11-15</time></div><a class="article-sort-item-title" href="/2023-PC-Build/" title="2023 雙十一組電腦！">2023 雙十一組電腦！</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-11-09T16:00:00.000Z" title="發表於 2023-11-10 00:00:00">2023-11-10</time></div><a class="article-sort-item-title" href="/Terminal-CPU-Spec/" title="如何看自己電腦的 CPU 規格">如何看自己電腦的 CPU 規格</a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/shuai_ava.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Shuai</div><div class="author-info-description">Hi 我劉昕啦！Shuai 是我的英文名字，唸作帥，取其義。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">159</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">249</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">17</div></a></div><a id="card-info-btn" href="https://shuaixin.cc/about"><i class="fas fa-heart"></i><span>關於我</span></a></div><div class="sticky_layout"><div class="card-widget card-categories"><div class="item-headline">
             <i class="fas fa-folder-open"></i>
             <span>分類</span>
             
-            </div>
-            <ul class="card-category-list" id="aside-cat-list">
+          </div>
+          <ul class="card-category-list expandBtn" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Self-Hosting/"><span class="card-category-list-name">Self Hosting</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%85%B6%E4%BB%96/"><span class="card-category-list-name">其他</span><span class="card-category-list-count">32</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%8F%B0%E8%82%A1%E7%AD%86%E8%A8%98/"><span class="card-category-list-name">台股筆記</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%92%8C%E5%BC%A6%E7%AD%86%E8%A8%98/"><span class="card-category-list-name">和弦筆記</span><span class="card-category-list-count">18</span></a></li><li class="card-category-list-item parent"><a class="card-category-list-link" href="/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/"><span class="card-category-list-name">家教筆記</span><span class="card-category-list-count">15</span><i class="fas fa-caret-left "></i></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E6%95%B8%E5%AD%B8/"><span class="card-category-list-name">高中數學</span><span class="card-category-list-count">10</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9/"><span class="card-category-list-name">高中生物</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E9%80%9A%E8%AD%98/"><span class="card-category-list-name">高中通識</span><span class="card-category-list-count">2</span></a></li></ul></li><li class="card-category-list-item parent"><a class="card-category-list-link" href="/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/"><span class="card-category-list-name">數位音樂製作</span><span class="card-category-list-count">8</span><i class="fas fa-caret-left "></i></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/Logic-Pro-X/"><span class="card-category-list-name">Logic Pro X</span><span class="card-category-list-count">2</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"><span class="card-category-list-name">智能家居</span><span class="card-category-list-count">12</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/"><span class="card-category-list-name">架站筆記</span><span class="card-category-list-count">14</span></a></li><li class="card-category-list-item parent"><a class="card-category-list-link" href="/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/"><span class="card-category-list-name">語言筆記</span><span class="card-category-list-count">14</span><i class="fas fa-caret-left "></i></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E5%8F%B0%E8%AA%9E%E7%AD%86%E8%A8%98/"><span class="card-category-list-name">台語筆記</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/"><span class="card-category-list-name">日文筆記</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E9%9F%93%E6%96%87%E7%AD%86%E8%A8%98/"><span class="card-category-list-name">韓文筆記</span><span class="card-category-list-count">4</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/"><span class="card-category-list-name">讀書筆記</span><span class="card-category-list-count">39</span></a></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>標籤</span></div><div class="card-tag-cloud"><a href="/tags/%E5%8F%B0%E8%82%A1/" style="font-size: 1.35em; color: rgb(183, 85, 172)">台股</a><a href="/tags/%E5%8D%87%E9%99%8D%E5%96%AE%E4%BD%8D/" style="font-size: 1.15em; color: rgb(164, 40, 192)">升降單位</a><a href="/tags/EPS/" style="font-size: 1.15em; color: rgb(53, 116, 106)">EPS</a><a href="/tags/%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%98/" style="font-size: 1.15em; color: rgb(31, 166, 169)">每股盈餘</a><a href="/tags/%E6%9C%AC%E7%9B%8A%E6%AF%94/" style="font-size: 1.15em; color: rgb(73, 176, 23)">本益比</a><a href="/tags/%E5%80%9F%E5%88%B8/" style="font-size: 1.15em; color: rgb(150, 51, 78)">借券</a><a href="/tags/%E7%8F%BE%E6%B2%96%E8%B3%A3/" style="font-size: 1.15em; color: rgb(37, 115, 197)">現沖賣</a><a href="/tags/%E7%8F%BE%E6%B2%96%E8%B3%A3%E5%87%BA%E5%80%9F/" style="font-size: 1.15em; color: rgb(192, 197, 127)">現沖賣出借</a><a href="/tags/%E9%9B%99%E5%90%91%E5%80%9F%E5%88%B8/" style="font-size: 1.15em; color: rgb(71, 28, 174)">雙向借券</a><a href="/tags/F-I-R/" style="font-size: 1.25em; color: rgb(192, 195, 39)">F.I.R.</a><a href="/tags/%E8%A9%B9%E9%9B%AF%E5%A9%B7/" style="font-size: 1.15em; color: rgb(46, 132, 15)">詹雯婷</a><a href="/tags/%E6%9C%B4%E6%88%90%E6%97%A5/" style="font-size: 1.15em; color: rgb(92, 62, 109)">朴成日</a><a href="/tags/%E8%A2%81%E5%A9%AD%E7%B6%AD/" style="font-size: 1.15em; color: rgb(140, 146, 48)">袁婭維</a><a href="/tags/%E5%AE%8B%E5%BF%B5%E5%AE%87/" style="font-size: 1.15em; color: rgb(65, 131, 72)">宋念宇</a><a href="/tags/%E9%84%A7%E7%B4%AB%E6%A3%8B/" style="font-size: 1.15em; color: rgb(165, 178, 86)">鄧紫棋</a><a href="/tags/Lupo-Groinig/" style="font-size: 1.15em; color: rgb(187, 57, 133)">Lupo Groinig</a><a href="/tags/%E8%97%8D%E5%8F%88%E6%99%82/" style="font-size: 1.15em; color: rgb(183, 199, 76)">藍又時</a><a href="/tags/%E6%A5%8A%E5%AD%90%E6%A8%B8/" style="font-size: 1.15em; color: rgb(200, 200, 77)">楊子樸</a><a href="/tags/%E5%BE%90%E4%B8%96%E7%8F%8D/" style="font-size: 1.15em; color: rgb(163, 131, 99)">徐世珍</a><a href="/tags/%E7%8E%89%E5%9F%8E%E5%8D%83%E6%98%A5/" style="font-size: 1.15em; color: rgb(127, 74, 65)">玉城千春</a><a href="/tags/%E6%96%BD%E4%BA%BA%E8%AA%A0/" style="font-size: 1.15em; color: rgb(121, 38, 7)">施人誠</a><a href="/tags/%E5%8A%89%E8%8B%A5%E8%8B%B1/" style="font-size: 1.15em; color: rgb(186, 154, 160)">劉若英</a><a href="/tags/%E5%90%95%E5%8F%A3%E5%8F%A3/" style="font-size: 1.15em; color: rgb(180, 174, 159)">吕口口</a><a href="/tags/%E5%9C%96%E5%B0%8F%E5%9C%96/" style="font-size: 1.15em; color: rgb(177, 65, 60)">圖小圖</a><a href="/tags/%E6%A2%81%E5%BF%83%E9%A0%A4/" style="font-size: 1.15em; color: rgb(198, 198, 5)">梁心頤</a><a href="/tags/%E5%BC%B5%E5%82%91/" style="font-size: 1.15em; color: rgb(132, 39, 10)">張傑</a><a href="/tags/%E6%B4%AA%E6%95%AC%E5%A0%AF/" style="font-size: 1.15em; color: rgb(165, 140, 124)">洪敬堯</a><a href="/tags/%E3%83%92%E3%82%B0%E3%83%81%E3%82%A2%E3%82%A4/" style="font-size: 1.15em; color: rgb(108, 24, 79)">ヒグチアイ</a><a href="/tags/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA/" style="font-size: 1.15em; color: rgb(183, 112, 183)">進擊的巨人</a><a href="/tags/%E7%8E%8B%E5%B7%A8%E6%98%9F/" style="font-size: 1.15em; color: rgb(58, 23, 60)">王巨星</a><a href="/tags/%E9%99%B8%E8%99%8E/" style="font-size: 1.15em; color: rgb(30, 107, 200)">陸虎</a><a href="/tags/%E5%BC%B5%E7%BF%B0/" style="font-size: 1.15em; color: rgb(157, 41, 181)">張翰</a><a href="/tags/%E5%A4%A7%E7%84%A1%E9%99%90%E6%A8%82%E5%9C%98/" style="font-size: 1.15em; color: rgb(42, 76, 146)">大無限樂團</a><a href="/tags/%E6%9D%8E%E6%A6%AE%E6%B5%A9/" style="font-size: 1.15em; color: rgb(23, 94, 73)">李榮浩</a><a href="/tags/%E4%BF%A1/" style="font-size: 1.15em; color: rgb(72, 186, 180)">信</a><a href="/tags/%E5%91%A8%E6%9D%B0%E5%80%AB/" style="font-size: 1.15em; color: rgb(153, 139, 68)">周杰倫</a><a href="/tags/%E9%BB%83%E4%BF%8A%E9%83%8E/" style="font-size: 1.15em; color: rgb(28, 159, 17)">黃俊郎</a><a href="/tags/%E8%AC%9D%E8%BF%AA/" style="font-size: 1.15em; color: rgb(98, 151, 158)">謝迪</a><a href="/tags/%E9%BB%83%E9%9B%A8%E5%8B%B3/" style="font-size: 1.15em; color: rgb(171, 12, 117)">黃雨勳</a><a href="/tags/%E9%9D%92%E5%B3%B0/" style="font-size: 1.15em; color: rgb(67, 117, 36)">青峰</a><a href="/tags/%E7%B1%B3%E6%9E%9C/" style="font-size: 1.15em; color: rgb(139, 69, 164)">米果</a><a href="/tags/%E3%83%A4%E3%82%AD%E3%83%A2%E3%83%81/" style="font-size: 1.15em; color: rgb(133, 106, 76)">ヤキモチ</a><a href="/tags/%E8%B2%B7%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8/" style="font-size: 1.15em; color: rgb(89, 158, 103)">買辣椒也用券</a><a href="/tags/%E8%AC%9D%E5%AE%A5%E6%85%A7/" style="font-size: 1.15em; color: rgb(76, 84, 129)">謝宥慧</a><a href="/tags/%E8%89%BE%E8%BE%B0/" style="font-size: 1.15em; color: rgb(157, 10, 124)">艾辰</a><a href="/tags/%E9%99%B3%E6%9E%97/" style="font-size: 1.15em; color: rgb(144, 184, 53)">陳林</a><a href="/tags/%E6%9E%97%E4%BF%8A%E5%82%91/" style="font-size: 1.15em; color: rgb(0, 9, 51)">林俊傑</a><a href="/tags/%E7%8E%8B%E9%9B%85%E5%90%9B/" style="font-size: 1.15em; color: rgb(106, 83, 106)">王雅君</a><a href="/tags/%E7%AD%89%E6%AF%94%E7%B4%9A%E6%95%B8/" style="font-size: 1.25em; color: rgb(126, 57, 175)">等比級數</a><a href="/tags/%E4%B9%98%E6%B3%95%E5%85%AC%E5%BC%8F/" style="font-size: 1.15em; color: rgb(194, 91, 43)">乘法公式</a><a href="/tags/%E7%86%B1%E9%87%8F/" style="font-size: 1.15em; color: rgb(135, 16, 52)">熱量</a><a href="/tags/449/" style="font-size: 1.15em; color: rgb(182, 153, 84)">449</a><a href="/tags/Atwater-system/" style="font-size: 1.15em; color: rgb(33, 22, 85)">Atwater system</a><a href="/tags/%E7%B6%93%E8%B7%9D/" style="font-size: 1.15em; color: rgb(3, 99, 119)">經距</a><a href="/tags/%E7%B7%AF%E8%B7%9D/" style="font-size: 1.15em; color: rgb(163, 199, 55)">緯距</a><a href="/tags/%E7%A9%BA%E9%96%93%E6%A6%82%E5%BF%B5/" style="font-size: 1.15em; color: rgb(181, 135, 167)">空間概念</a><a href="/tags/108%E8%AA%B2%E7%B6%B1/" style="font-size: 1.45em; color: rgb(177, 135, 37)">108課綱</a><a href="/tags/%E9%BB%91%E6%9A%97%E7%9A%84%E5%B7%B4%E6%B4%9B%E5%85%8B/" style="font-size: 1.15em; color: rgb(97, 185, 107)">黑暗的巴洛克</a><a href="/tags/%E7%9C%9F%E7%8F%A0%E7%BE%8E%E4%BA%BA%E9%AD%9A/" style="font-size: 1.15em; color: rgb(26, 169, 15)">真珠美人魚</a><a href="/tags/%E5%94%B1K%E5%B0%8F%E9%AD%9A%E4%BB%99/" style="font-size: 1.15em; color: rgb(107, 91, 108)">唱K小魚仙</a></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>網站資訊</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章數目 :</div><div class="item-count">159</div></div><div class="webinfo-item"><div class="item-name">最後更新時間 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-12-02T23:34:03.952Z"></div></div></div></div></div></div></main><footer id="footer" style="background: transparent"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2025 By Shuai</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="淺色和深色模式轉換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到頂部"><i class="fas fa-arrow-up"></i></button></div></div><div id="algolia-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Algolia</span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="search-wrap"><div id="algolia-search-input"></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-stats"></div></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js"></script><script src="/js/search/algolia.js"></script><div class="js-pjax"><script>(() => {
-  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
-  if ($mermaidWrap.length) {
-    window.runMermaid = () => {
-      window.loadMermaid = true
-      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>標籤</span></div><div class="card-tag-cloud"><a href="/tags/%E5%8F%B0%E8%82%A1/" style="font-size: 1.35em; color: rgb(78, 155, 107);">台股</a><a href="/tags/%E5%8D%87%E9%99%8D%E5%96%AE%E4%BD%8D/" style="font-size: 1.15em; color: rgb(54, 60, 150);">升降單位</a><a href="/tags/EPS/" style="font-size: 1.15em; color: rgb(72, 50, 120);">EPS</a><a href="/tags/%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%98/" style="font-size: 1.15em; color: rgb(66, 65, 197);">每股盈餘</a><a href="/tags/%E6%9C%AC%E7%9B%8A%E6%AF%94/" style="font-size: 1.15em; color: rgb(127, 117, 190);">本益比</a><a href="/tags/%E5%80%9F%E5%88%B8/" style="font-size: 1.15em; color: rgb(61, 97, 174);">借券</a><a href="/tags/%E7%8F%BE%E6%B2%96%E8%B3%A3/" style="font-size: 1.15em; color: rgb(93, 147, 146);">現沖賣</a><a href="/tags/%E7%8F%BE%E6%B2%96%E8%B3%A3%E5%87%BA%E5%80%9F/" style="font-size: 1.15em; color: rgb(105, 66, 186);">現沖賣出借</a><a href="/tags/%E9%9B%99%E5%90%91%E5%80%9F%E5%88%B8/" style="font-size: 1.15em; color: rgb(50, 50, 91);">雙向借券</a><a href="/tags/F-I-R/" style="font-size: 1.25em; color: rgb(50, 50, 96);">F.I.R.</a><a href="/tags/%E8%A9%B9%E9%9B%AF%E5%A9%B7/" style="font-size: 1.15em; color: rgb(193, 169, 50);">詹雯婷</a><a href="/tags/%E6%9C%B4%E6%88%90%E6%97%A5/" style="font-size: 1.15em; color: rgb(50, 50, 50);">朴成日</a><a href="/tags/%E8%A2%81%E5%A9%AD%E7%B6%AD/" style="font-size: 1.15em; color: rgb(192, 155, 98);">袁婭維</a><a href="/tags/%E5%AE%8B%E5%BF%B5%E5%AE%87/" style="font-size: 1.15em; color: rgb(173, 50, 162);">宋念宇</a><a href="/tags/%E9%84%A7%E7%B4%AB%E6%A3%8B/" style="font-size: 1.15em; color: rgb(153, 148, 50);">鄧紫棋</a><a href="/tags/Lupo-Groinig/" style="font-size: 1.15em; color: rgb(141, 50, 50);">Lupo Groinig</a><a href="/tags/%E8%97%8D%E5%8F%88%E6%99%82/" style="font-size: 1.15em; color: rgb(134, 147, 108);">藍又時</a><a href="/tags/%E6%A5%8A%E5%AD%90%E6%A8%B8/" style="font-size: 1.15em; color: rgb(197, 170, 119);">楊子樸</a><a href="/tags/%E5%BE%90%E4%B8%96%E7%8F%8D/" style="font-size: 1.15em; color: rgb(59, 50, 104);">徐世珍</a><a href="/tags/%E7%8E%89%E5%9F%8E%E5%8D%83%E6%98%A5/" style="font-size: 1.15em; color: rgb(173, 138, 50);">玉城千春</a><a href="/tags/%E6%96%BD%E4%BA%BA%E8%AA%A0/" style="font-size: 1.15em; color: rgb(170, 50, 50);">施人誠</a><a href="/tags/%E5%8A%89%E8%8B%A5%E8%8B%B1/" style="font-size: 1.15em; color: rgb(74, 50, 50);">劉若英</a><a href="/tags/%E5%90%95%E5%8F%A3%E5%8F%A3/" style="font-size: 1.15em; color: rgb(122, 126, 183);">吕口口</a><a href="/tags/%E5%9C%96%E5%B0%8F%E5%9C%96/" style="font-size: 1.15em; color: rgb(189, 88, 164);">圖小圖</a><a href="/tags/%E6%A2%81%E5%BF%83%E9%A0%A4/" style="font-size: 1.15em; color: rgb(151, 109, 91);">梁心頤</a><a href="/tags/%E5%BC%B5%E5%82%91/" style="font-size: 1.15em; color: rgb(81, 50, 87);">張傑</a><a href="/tags/%E6%B4%AA%E6%95%AC%E5%A0%AF/" style="font-size: 1.15em; color: rgb(50, 128, 192);">洪敬堯</a><a href="/tags/%E3%83%92%E3%82%B0%E3%83%81%E3%82%A2%E3%82%A4/" style="font-size: 1.15em; color: rgb(90, 114, 200);">ヒグチアイ</a><a href="/tags/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA/" style="font-size: 1.15em; color: rgb(163, 50, 177);">進擊的巨人</a><a href="/tags/%E7%8E%8B%E5%B7%A8%E6%98%9F/" style="font-size: 1.15em; color: rgb(150, 158, 99);">王巨星</a><a href="/tags/%E9%99%B8%E8%99%8E/" style="font-size: 1.15em; color: rgb(157, 67, 159);">陸虎</a><a href="/tags/%E5%BC%B5%E7%BF%B0/" style="font-size: 1.15em; color: rgb(160, 100, 50);">張翰</a><a href="/tags/%E5%A4%A7%E7%84%A1%E9%99%90%E6%A8%82%E5%9C%98/" style="font-size: 1.15em; color: rgb(77, 104, 167);">大無限樂團</a><a href="/tags/%E6%9D%8E%E6%A6%AE%E6%B5%A9/" style="font-size: 1.15em; color: rgb(182, 50, 190);">李榮浩</a><a href="/tags/%E4%BF%A1/" style="font-size: 1.15em; color: rgb(141, 74, 157);">信</a><a href="/tags/%E5%91%A8%E6%9D%B0%E5%80%AB/" style="font-size: 1.15em; color: rgb(50, 103, 50);">周杰倫</a><a href="/tags/%E9%BB%83%E4%BF%8A%E9%83%8E/" style="font-size: 1.15em; color: rgb(50, 138, 126);">黃俊郎</a><a href="/tags/%E8%AC%9D%E8%BF%AA/" style="font-size: 1.15em; color: rgb(85, 50, 101);">謝迪</a><a href="/tags/%E9%BB%83%E9%9B%A8%E5%8B%B3/" style="font-size: 1.15em; color: rgb(50, 164, 50);">黃雨勳</a><a href="/tags/%E9%9D%92%E5%B3%B0/" style="font-size: 1.15em; color: rgb(143, 50, 59);">青峰</a><a href="/tags/%E7%B1%B3%E6%9E%9C/" style="font-size: 1.15em; color: rgb(72, 50, 110);">米果</a><a href="/tags/%E3%83%A4%E3%82%AD%E3%83%A2%E3%83%81/" style="font-size: 1.15em; color: rgb(50, 160, 174);">ヤキモチ</a><a href="/tags/%E8%B2%B7%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8/" style="font-size: 1.15em; color: rgb(71, 127, 135);">買辣椒也用券</a><a href="/tags/%E8%AC%9D%E5%AE%A5%E6%85%A7/" style="font-size: 1.15em; color: rgb(50, 50, 59);">謝宥慧</a><a href="/tags/%E8%89%BE%E8%BE%B0/" style="font-size: 1.15em; color: rgb(87, 182, 167);">艾辰</a><a href="/tags/%E9%99%B3%E6%9E%97/" style="font-size: 1.15em; color: rgb(147, 165, 158);">陳林</a><a href="/tags/%E6%9E%97%E4%BF%8A%E5%82%91/" style="font-size: 1.15em; color: rgb(180, 61, 121);">林俊傑</a><a href="/tags/%E7%8E%8B%E9%9B%85%E5%90%9B/" style="font-size: 1.15em; color: rgb(62, 50, 52);">王雅君</a><a href="/tags/%E7%AD%89%E6%AF%94%E7%B4%9A%E6%95%B8/" style="font-size: 1.25em; color: rgb(119, 190, 138);">等比級數</a><a href="/tags/%E4%B9%98%E6%B3%95%E5%85%AC%E5%BC%8F/" style="font-size: 1.15em; color: rgb(119, 50, 121);">乘法公式</a><a href="/tags/%E7%86%B1%E9%87%8F/" style="font-size: 1.15em; color: rgb(89, 144, 50);">熱量</a><a href="/tags/449/" style="font-size: 1.15em; color: rgb(139, 50, 121);">449</a><a href="/tags/Atwater-system/" style="font-size: 1.15em; color: rgb(175, 107, 70);">Atwater system</a><a href="/tags/%E7%B6%93%E8%B7%9D/" style="font-size: 1.15em; color: rgb(136, 151, 189);">經距</a><a href="/tags/%E7%B7%AF%E8%B7%9D/" style="font-size: 1.15em; color: rgb(50, 126, 165);">緯距</a><a href="/tags/%E7%A9%BA%E9%96%93%E6%A6%82%E5%BF%B5/" style="font-size: 1.15em; color: rgb(191, 198, 94);">空間概念</a><a href="/tags/108%E8%AA%B2%E7%B6%B1/" style="font-size: 1.45em; color: rgb(53, 87, 164);">108課綱</a><a href="/tags/%E9%BB%91%E6%9A%97%E7%9A%84%E5%B7%B4%E6%B4%9B%E5%85%8B/" style="font-size: 1.15em; color: rgb(177, 72, 197);">黑暗的巴洛克</a><a href="/tags/%E7%9C%9F%E7%8F%A0%E7%BE%8E%E4%BA%BA%E9%AD%9A/" style="font-size: 1.15em; color: rgb(50, 147, 163);">真珠美人魚</a><a href="/tags/%E5%94%B1K%E5%B0%8F%E9%AD%9A%E4%BB%99/" style="font-size: 1.15em; color: rgb(66, 91, 125);">唱K小魚仙</a></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>網站資訊</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章數量 :</div><div class="item-count">159</div></div><div class="webinfo-item"><div class="item-name">最後更新時間 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-12-26T05:16:20.639Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2022 - 2025 By Shuai</span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日夜模式切換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到頂端"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.3"></script><script src="/js/main.js?v=5.5.3"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.js"></script><div class="js-pjax"><script>(() => {
+  const runMermaid = ele => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
 
-      Array.from($mermaidWrap).forEach((item, index) => {
-        const mermaidSrc = item.firstElementChild
-        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
-        const mermaidID = 'mermaid-' + index
-        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
-        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
-          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
-        })
-      })
-    }
+    ele.forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const config = mermaidSrc.dataset.config ? JSON.parse(mermaidSrc.dataset.config) : {}
+      if (!config.theme) {
+        config.theme = theme
+      }
+      const mermaidThemeConfig = `%%{init: ${JSON.stringify(config)}}%%\n`
+      const mermaidID = `mermaid-${index}`
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
 
-    const loadMermaid = () => {
-      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
-    }
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+      const renderMermaid = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
 
-    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+      // mermaid v9 and v10 compatibility
+      typeof renderFn === 'string' ? renderMermaid(renderFn) : renderFn.then(({ svg }) => renderMermaid(svg))
+    })
   }
-})()</script></div><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js" data-mobile="true" data-text="Youtube搜尋劉昕,Spotify搜尋劉昕,KKbox搜尋劉昕" data-fontsize="14px" data-random="true" async="async"></script></div></body></html>
+
+  const codeToMermaid = () => {
+    const codeMermaidEle = document.querySelectorAll('pre > code.mermaid')
+    if (codeMermaidEle.length === 0) return
+
+    codeMermaidEle.forEach(ele => {
+      const preEle = document.createElement('pre')
+      preEle.className = 'mermaid-src'
+      preEle.hidden = true
+      preEle.textContent = ele.textContent
+      const newEle = document.createElement('div')
+      newEle.className = 'mermaid-wrap'
+      newEle.appendChild(preEle)
+      ele.parentNode.replaceWith(newEle)
+    })
+  }
+
+  const loadMermaid = () => {
+    if (false) codeToMermaid()
+    const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+    if ($mermaid.length === 0) return
+
+    const runMermaidFn = () => runMermaid($mermaid)
+    btf.addGlobalFn('themeChange', runMermaidFn, 'mermaid')
+    window.loadMermaid ? runMermaidFn() : btf.getScript('https://cdn.jsdelivr.net/npm/mermaid@11.12.2/dist/mermaid.min.js').then(runMermaidFn)
+  }
+
+  btf.addGlobalFn('encrypt', loadMermaid, 'mermaid')
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script></div></div></body></html>
