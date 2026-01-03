@@ -64,11 +64,11 @@
     <category term="Self Hosting" scheme="https://shuaixin.cc/categories/Self-Hosting/"/>
     
     
+    <category term="Self Hosting" scheme="https://shuaixin.cc/tags/Self-Hosting/"/>
+    
     <category term="Docker" scheme="https://shuaixin.cc/tags/Docker/"/>
     
     <category term="immich" scheme="https://shuaixin.cc/tags/immich/"/>
-    
-    <category term="Self Hosting" scheme="https://shuaixin.cc/tags/Self-Hosting/"/>
     
   </entry>
   
@@ -190,11 +190,11 @@
     <category term="Self Hosting" scheme="https://shuaixin.cc/categories/Self-Hosting/"/>
     
     
-    <category term="Docker" scheme="https://shuaixin.cc/tags/Docker/"/>
-    
     <category term="Self Hosting" scheme="https://shuaixin.cc/tags/Self-Hosting/"/>
     
     <category term="Taiko" scheme="https://shuaixin.cc/tags/Taiko/"/>
+    
+    <category term="Docker" scheme="https://shuaixin.cc/tags/Docker/"/>
     
   </entry>
   
