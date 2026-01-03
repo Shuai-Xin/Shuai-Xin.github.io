@@ -65,7 +65,7 @@ clientOptions: { theme: "light", lang: "zh-TW" },
       "url": "https://shuaixin.cc"
     }
   ]
-}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://shuaixin.cc/OrCAD-BJT/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.3"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://shuaixin.cc/OrCAD-BJT/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="stylesheet" href="/css/index.css?v=5.5.3"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
     (() => {
       
     const saveToLocal = {
@@ -123,13 +123,13 @@ clientOptions: { theme: "light", lang: "zh-TW" },
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
         }
       }
 
@@ -155,12 +155,22 @@ clientOptions: { theme: "light", lang: "zh-TW" },
     detectApple()
   
     })()
-  </script><script>const GLOBAL_CONFIG = {
+  </script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-1556107858900989',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-154605966-3"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'UA-154605966-3')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'UA-154605966-3', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><script>const GLOBAL_CONFIG = {
   root: '/',
   algolia: undefined,
   localSearch: undefined,
   translate: undefined,
-  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  highlight: {"plugin":"highlight.js","highlightCopy":false,"highlightLang":false,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
   copy: {
     success: '複製成功',
     error: '複製失敗',
@@ -198,8 +208,8 @@ clientOptions: { theme: "light", lang: "zh-TW" },
   isHighlightShrink: false,
   isToc: false,
   pageType: 'post'
-}</script><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="Hi 我劉昕" type="application/atom+xml">
-</head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Hi 我劉昕</span></a><a class="nav-page-title" href="/"><span class="site-name">OrCAD Capture 利用電晶體實作 Not Gate</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首頁</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">OrCAD Capture 利用電晶體實作 Not Gate</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">發表於</span><time class="post-meta-date-created" datetime="2025-02-19T16:00:00.000Z" title="發表於 2025-02-20 00:00:00">2025-02-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新於</span><time class="post-meta-date-updated" datetime="2025-05-25T15:16:03.079Z" title="更新於 2025-05-25 23:16:03">2025-05-25</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%85%B6%E4%BB%96/">其他</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">瀏覽量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>平常我們都把邏輯閘當做最小單位在把玩，但邏輯閘內部是怎麼實踐的呢？我們用電晶體來實作一個反向器看看，走起！（基礎操作請見<a href="https://shuaixin.cc/OrCAD-Capture-Demo/">使用 OrCAD Capture 設計電路</a>）</p>
+}</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-WDZ4T0TNBX"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag(' js', new Date());gtag('config', 'G-WDZ4T0TNBX');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1556107858900989"crossorigin="anonymous"></script><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="Hi 我劉昕" type="application/atom+xml">
+</head><body><div class="bg-animation" id="web_bg" style="background: linear-gradient(288deg, #ffb6b9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, rgba(178, 204, 198, 0.521) calc(45% + 1px), rgba(178, 204, 198, 0.521) 65%, rgba(176, 178, 214, 0.596) calc(65% + 1px), rgb(176, 178, 214, 0.596) 100%);;"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">160</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">249</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">17</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分類</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Hi 我劉昕</span></a><a class="nav-page-title" href="/"><span class="site-name">OrCAD Capture 利用電晶體實作 Not Gate</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首頁</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜尋</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分類</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於我</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">OrCAD Capture 利用電晶體實作 Not Gate</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">發表於</span><time class="post-meta-date-created" datetime="2025-02-19T16:00:00.000Z" title="發表於 2025-02-20 00:00:00">2025-02-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新於</span><time class="post-meta-date-updated" datetime="2025-05-25T15:16:03.079Z" title="更新於 2025-05-25 23:16:03">2025-05-25</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%85%B6%E4%BB%96/">其他</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>平常我們都把邏輯閘當做最小單位在把玩，但邏輯閘內部是怎麼實踐的呢？我們用電晶體來實作一個反向器看看，走起！（基礎操作請見<a href="https://shuaixin.cc/OrCAD-Capture-Demo/">使用 OrCAD Capture 設計電路</a>）</p>
 <p>本次的主角是這顆 Q2N2222，一顆 NPN 電晶體：</p>
 <p><img src="/OrCAD-BJT/image-20250220103052107.png" alt="image-20250220103052107"></p>
 <p>首先搜尋「Q2N2222」找到我們的電晶體：</p>
@@ -236,4 +246,132 @@ clientOptions: { theme: "light", lang: "zh-TW" },
 <p><img src="/OrCAD-BJT/BJT3.png" alt="BJT3"></p>
 <p>結果如圖：</p>
 <p><img src="/OrCAD-BJT/BJT1.png" alt="BJT1"></p>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://shuaixin.cc">Shuai</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章連結: </span><span class="post-copyright-info"><a href="https://shuaixin.cc/OrCAD-BJT/">https://shuaixin.cc/OrCAD-BJT/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版權聲明: </span><span class="post-copyright-info">本部落格所有文章除特別聲明外，均採用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 授權協議。轉載請註明來源 <a href="https://shuaixin.cc" target="_blank">Hi 我劉昕</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/OrCAD/">OrCAD</a><a class="post-meta__tags" href="/tags/Capture/">Capture</a></div><div class="post-share"><div class="social-share" data-image="/img/butterfly-icon.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/Mosquitto-MQTT/" title="Linux 系統架設 MQTT 伺服器"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">Linux 系統架設 MQTT 伺服器</div></div><div class="info-2"><div class="info-item-1">本篇利用 Mosquitto 設置一個 MQTT 伺服器，伺服器的 OS 為 Ubuntu 24.04.1 LTS。 在開始之前，MQTT 預設使用的 Port 號是 1883，防火牆的傳出傳入規則務必要設定一下，記得打開。 安裝 Mosquitto 此例為 Linux 環境，我們利用 apt 進行 Mosquitto 套件的安裝： 1sudo apt install mosquitto mosquitto-clients -y 其中 mosquitto 套件是主要的 Mosquitto 伺服器，而 mosquitto-clients 包含了指令工具如 mosquitto_sub, mosquitto_pub。 而指令開頭的 sudo 的意思是：  Super Idol 的笑容，都沒你的甜。八月正午的陽光，都沒你耀眼。  我開玩笑的，其實是 superuser do。 接著我們透過 configuration 設定一下我們 Mosquitto 的規則。我們在 /etc/mosquitto/conf.d/ 中，加入一個設定檔： 1sudo nano /etc/mosquitto/c...</div></div></div></a><a class="pagination-related" href="/Lessons-to-Achieve-Great-Results/" title="讀書筆記：《人生順利的簡單法則》"><img class="cover" src="/Lessons-to-Achieve-Great-Results/lessons.jpeg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">讀書筆記：《人生順利的簡單法則》</div></div><div class="info-2"><div class="info-item-1"> 拖延、忙碌反而生產力高？ 美國芝加哥大學和中國上海交通大學的研究顯示：即使繁忙程度被迫超過可負荷范圍，人還是會因為繁忙而感到幸福。許多人都相信悠閒會使人幸福，但事實反而相反。 令人遺憾的是，我找不到這篇文獻的出處，書中也沒有附註（事實上，全書沒有半個註腳）。 那拖延呢？這裡引用的是史丹佛大學哲學系教授 John Perry 的招式：待辦事項裡如果有個最棘手的傢伙，那麼其他事項就會顯得誘人。我們利用這點，拖延大魔王，讓其他小兵顯得可愛，我們就會一直去執行那些簡單的任務。 總地來說，其實結論是：忙碌反而會幸福、拖延反而有效率，才對。（「拖延、忙碌反而生產力高？」是書中原本的章節名稱） 姿勢的力量 作者在「想提升效率，從改變姿勢開始」章節中引用了 Cuddy 著名的「高權力姿勢」（Power Pose）。其研究指出，採取象徵自信的姿勢，會使得睪固酮濃度上升、皮質醇的濃度下降。這意味著…… 更多的自信與較低的壓力。而這樣的順序，有悖於我們的直覺——難道不是先「感到」自信，才進而「表現」得自信嗎？ 類似這樣先後順序的討論，濫觴可能是「臉部回饋假說」（Facial Feedback Hyp...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相關推薦</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/OrCAD-Capture-Demo/" title="使用 OrCAD Capture 設計電路"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-31</div><div class="info-item-2">使用 OrCAD Capture 設計電路</div></div><div class="info-2"><div class="info-item-1">OrCAD Capture 一打開，密密麻麻的選單，如何開始？ 這裡簡單帶大家畫兩組電路來運作，給大家一點方向。走起！ 實際操作 打開 OrCAD Capture，起始頁面選擇 New Project。  選擇 PSpice Analog or Mixed A/D，這個我們才能模擬電路實際 run 起來的效果與監看各項參數。 取個名，選個存放位置，OK 走起。  此處我們開一個空白的來動手。  創建後就長這樣： 我們從右側的放置（place）選單裡面選擇部件（part），會發現我們還沒有部件可以使用。此處我們點擊 Add Library：  Cadence 套裝在安裝時應該都有附 Library 了，可以參考以下相對位置，選擇 pspice：  可以選你要的就好，但此處我們為了方便，直接全選後按開啟：  如此就導入進來了。 接著我們找電阻來用。搜尋 r 就可以找到 R/ANALOG。  點選 Place Part，或是直接 enter：  就可以在畫布上放置電阻，我們放四個。放完可以按 esc 結束放置：  用一樣的方法，我們找到 VDC/SOURCE 來放置電壓源，我們放兩個：...</div></div></div></a><a class="pagination-related" href="/OrCAD-Capture-Para/" title="OrCAD Capture 透過 Parameters 討論變數"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-01-21</div><div class="info-item-2">OrCAD Capture 透過 Parameters 討論變數</div></div><div class="info-2"><div class="info-item-1">在使用 OrCAD Capture 設計電路中我們已經學會如何繪製電路圖，並且使用 PSpice 模擬電路的運作情形。 今天我們要在同一個電路架構之下，設定一個參數作為變數，針對不同的輸入值繪製對應的圖形。 先來一個 RC 電路，訊號源是一個漂亮的方波脈衝：  用 PSpice 模擬後發現，誠如我們對 RC 電路的認識，方波被 RC 電路磨去了棱角（方波的高頻諧波被我們過濾掉了）：  那麼現在，我想知道不同的電容值，會對我的方波造成什麼不同的影響。 於是我們要來把圖中的電容（C1）設為變數。 我們從元件裡面搜尋「PARAM」找到「PARAM/SPECIAL」，放到圖中：  接著雙擊 C1，將 C1 的電容值設定為 {C}。其中大括號裡面就是宣告一個變數。  再來雙擊圖中的「PARAMETERS:」，會出現如下畫面，此時點擊「New Property」：  此時添加我們剛剛設定的變數 C，電容值可以先隨便給一個：  添加成功：  回到我們的 PSpice 裡面，點擊左側「Edit Simulation Settings」，或是在電路圖上方選單的「PSpice &gt; Edit S...</div></div></div></a><a class="pagination-related" href="/OrCAD-Diode/" title="OrCAD Capture 二極管半波整流"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-02-03</div><div class="info-item-2">OrCAD Capture 二極管半波整流</div></div><div class="info-2"><div class="info-item-1">本篇我們來看看半導體的整流。基礎操作請見使用 OrCAD Capture 設計電路。 我們這次選用 1N4148 作為我們的二極管：  繪製電路如下：  進行電路模擬：  電路模擬如下：  其中紅色為訊源，而綠色就是經過半波整流後的結果咯。 </div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Shuai</div><div class="author-info-description">劉昕的部落格</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">160</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">249</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">17</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/System-Thinking-in-Daily-Life/" title="讀書筆記：《佛畏系統》"><img src="/System-Thinking-in-Daily-Life/foweixitong.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="讀書筆記：《佛畏系統》"/></a><div class="content"><a class="title" href="/System-Thinking-in-Daily-Life/" title="讀書筆記：《佛畏系統》">讀書筆記：《佛畏系統》</a><time datetime="2025-11-15T16:00:00.000Z" title="發表於 2025-11-16 00:00:00">2025-11-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/immich-move-to-ssd/" title="Docker 更換掛載點：將 immich 資料搬遷到外接 SSD">Docker 更換掛載點：將 immich 資料搬遷到外接 SSD</a><time datetime="2025-11-05T16:00:00.000Z" title="發表於 2025-11-06 00:00:00">2025-11-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/TMS-NTP-Windows/" title="在 Windows 系統上架設 NTP 伺服器">在 Windows 系統上架設 NTP 伺服器</a><time datetime="2025-10-15T16:00:00.000Z" title="發表於 2025-10-16 00:00:00">2025-10-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/The-Psychology-of-Money/" title="讀書筆記：《致富心態》（金錢心理學）"><img src="/The-Psychology-of-Money/zhifuxintai.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="讀書筆記：《致富心態》（金錢心理學）"/></a><div class="content"><a class="title" href="/The-Psychology-of-Money/" title="讀書筆記：《致富心態》（金錢心理學）">讀書筆記：《致富心態》（金錢心理學）</a><time datetime="2025-10-11T16:00:00.000Z" title="發表於 2025-10-12 00:00:00">2025-10-12</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/BrightSign-GPIO/" title="透過 GPIO 來控制 BrightSign 播放器">透過 GPIO 來控制 BrightSign 播放器</a><time datetime="2025-10-06T16:00:00.000Z" title="發表於 2025-10-07 00:00:00">2025-10-07</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By Shuai</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主題 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.3</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="閱讀模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日夜模式切換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到頂端"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.3"></script><script src="/js/main.js?v=5.5.3"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://shuaixin.cc">Shuai</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章連結: </span><span class="post-copyright-info"><a href="https://shuaixin.cc/OrCAD-BJT/">https://shuaixin.cc/OrCAD-BJT/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版權聲明: </span><span class="post-copyright-info">本部落格所有文章除特別聲明外，均採用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 授權協議。轉載請註明來源 <a href="https://shuaixin.cc" target="_blank">Hi 我劉昕</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/OrCAD/">OrCAD</a><a class="post-meta__tags" href="/tags/Capture/">Capture</a></div><div class="post-share"><div class="social-share" data-image="/img/butterfly-icon.png" data-sites="facebook,x"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相關推薦</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/OrCAD-Capture-Demo/" title="使用 OrCAD Capture 設計電路"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-31</div><div class="info-item-2">使用 OrCAD Capture 設計電路</div></div><div class="info-2"><div class="info-item-1">OrCAD Capture 一打開，密密麻麻的選單，如何開始？ 這裡簡單帶大家畫兩組電路來運作，給大家一點方向。走起！ 實際操作 打開 OrCAD Capture，起始頁面選擇 New Project。  選擇 PSpice Analog or Mixed A/D，這個我們才能模擬電路實際 run 起來的效果與監看各項參數。 取個名，選個存放位置，OK 走起。  此處我們開一個空白的來動手。  創建後就長這樣： 我們從右側的放置（place）選單裡面選擇部件（part），會發現我們還沒有部件可以使用。此處我們點擊 Add Library：  Cadence 套裝在安裝時應該都有附 Library 了，可以參考以下相對位置，選擇 pspice：  可以選你要的就好，但此處我們為了方便，直接全選後按開啟：  如此就導入進來了。 接著我們找電阻來用。搜尋 r 就可以找到 R/ANALOG。  點選 Place Part，或是直接 enter：  就可以在畫布上放置電阻，我們放四個。放完可以按 esc 結束放置：  用一樣的方法，我們找到 VDC/SOURCE 來放置電壓源，我們放兩個：...</div></div></div></a><a class="pagination-related" href="/OrCAD-Diode/" title="OrCAD Capture 二極管半波整流"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-02-03</div><div class="info-item-2">OrCAD Capture 二極管半波整流</div></div><div class="info-2"><div class="info-item-1">本篇我們來看看半導體的整流。基礎操作請見使用 OrCAD Capture 設計電路。 我們這次選用 1N4148 作為我們的二極管：  繪製電路如下：  進行電路模擬：  電路模擬如下：  其中紅色為訊源，而綠色就是經過半波整流後的結果咯。 </div></div></div></a><a class="pagination-related" href="/OrCAD-Capture-Para/" title="OrCAD Capture 透過 Parameters 討論變數"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-01-21</div><div class="info-item-2">OrCAD Capture 透過 Parameters 討論變數</div></div><div class="info-2"><div class="info-item-1">在使用 OrCAD Capture 設計電路中我們已經學會如何繪製電路圖，並且使用 PSpice 模擬電路的運作情形。 今天我們要在同一個電路架構之下，設定一個參數作為變數，針對不同的輸入值繪製對應的圖形。 先來一個 RC 電路，訊號源是一個漂亮的方波脈衝：  用 PSpice 模擬後發現，誠如我們對 RC 電路的認識，方波被 RC 電路磨去了棱角（方波的高頻諧波被我們過濾掉了）：  那麼現在，我想知道不同的電容值，會對我的方波造成什麼不同的影響。 於是我們要來把圖中的電容（C1）設為變數。 我們從元件裡面搜尋「PARAM」找到「PARAM/SPECIAL」，放到圖中：  接著雙擊 C1，將 C1 的電容值設定為 {C}。其中大括號裡面就是宣告一個變數。  再來雙擊圖中的「PARAMETERS:」，會出現如下畫面，此時點擊「New Property」：  此時添加我們剛剛設定的變數 C，電容值可以先隨便給一個：  添加成功：  回到我們的 PSpice 裡面，點擊左側「Edit Simulation Settings」，或是在電路圖上方選單的「PSpice &gt; Edit S...</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 評論</span></div></div><div class="comment-wrap"><div><div id="utterances-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Shuai</div><div class="author-info-description">Hi 我劉昕啦！Shuai 是我的英文名字，唸作帥，取其義。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">160</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">249</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">17</div></a></div><a id="card-info-btn" href="https://shuaixin.cc/about"><i class="fas fa-heart"></i><span>關於我</span></a></div><div class="sticky_layout"></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2022 - 2026 By Shuai</span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日夜模式切換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="前往評論"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到頂端"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.3"></script><script src="/js/main.js?v=5.5.3"></script><div class="js-pjax"><script>(() => {
+  const runMermaid = ele => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    ele.forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const config = mermaidSrc.dataset.config ? JSON.parse(mermaidSrc.dataset.config) : {}
+      if (!config.theme) {
+        config.theme = theme
+      }
+      const mermaidThemeConfig = `%%{init: ${JSON.stringify(config)}}%%\n`
+      const mermaidID = `mermaid-${index}`
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+      const renderMermaid = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      // mermaid v9 and v10 compatibility
+      typeof renderFn === 'string' ? renderMermaid(renderFn) : renderFn.then(({ svg }) => renderMermaid(svg))
+    })
+  }
+
+  const codeToMermaid = () => {
+    const codeMermaidEle = document.querySelectorAll('pre > code.mermaid')
+    if (codeMermaidEle.length === 0) return
+
+    codeMermaidEle.forEach(ele => {
+      const preEle = document.createElement('pre')
+      preEle.className = 'mermaid-src'
+      preEle.hidden = true
+      preEle.textContent = ele.textContent
+      const newEle = document.createElement('div')
+      newEle.className = 'mermaid-wrap'
+      newEle.appendChild(preEle)
+      ele.parentNode.replaceWith(newEle)
+    })
+  }
+
+  const loadMermaid = () => {
+    if (false) codeToMermaid()
+    const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+    if ($mermaid.length === 0) return
+
+    const runMermaidFn = () => runMermaid($mermaid)
+    btf.addGlobalFn('themeChange', runMermaidFn, 'mermaid')
+    window.loadMermaid ? runMermaidFn() : btf.getScript('https://cdn.jsdelivr.net/npm/mermaid@11.12.2/dist/mermaid.min.js').then(runMermaidFn)
+  }
+
+  btf.addGlobalFn('encrypt', loadMermaid, 'mermaid')
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+  const getUtterancesTheme = theme => theme === 'dark' ? 'photon-dark' : 'github-light'
+
+  const loadUtterances = (el = document, key) => {
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyUtterances = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+
+    const config = {
+      src: 'https://utteranc.es/client.js',
+      repo: 'Shuai-Xin/Shuai-Xin.github.io',
+      theme: getUtterancesTheme(document.documentElement.getAttribute('data-theme')),
+      crossorigin: 'anonymous',
+      async: true,
+      ...option,
+      'issue-term': isShuoshuo ? key : (option && option['issue-term']) || 'pathname'
+    }
+
+    const ele = document.createElement('script')
+    Object.entries(config).forEach(([key, value]) => ele.setAttribute(key, value))
+    el.querySelector('#utterances-wrap').appendChild(ele)
+  }
+
+  const changeUtterancesTheme = theme => {
+    const iframe = document.querySelector('#utterances-wrap iframe')
+    if (iframe) {
+      const message = {
+        type: 'set-theme',
+        theme: getUtterancesTheme(theme)
+      };
+      iframe.contentWindow.postMessage(message, 'https://utteranc.es')
+    }
+  }
+
+  btf.addGlobalFn('themeChange', changeUtterancesTheme, 'utterances')
+
+  if (isShuoshuo) {
+    'Utterances' === 'Utterances'
+      ? window.shuoshuoComment = { loadComment: loadUtterances }
+      : window.loadOtherComment = loadUtterances
+    return
+  }
+  
+  if ('Utterances' === 'Utterances' || !false) {
+    if (false) btf.loadComment(document.getElementById('utterances-wrap'), loadUtterances)
+    else loadUtterances()
+  } else {
+    window.loadOtherComment = loadUtterances
+  }
+})()</script></div><div class="docsearch-wrap"><div id="docsearch" style="display:none"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@4.3.2/dist/style.min.css"/><script src="https://cdn.jsdelivr.net/npm/@docsearch/js@4.3.2/dist/umd/index.min.js"></script><script>(() => {
+  docsearch(Object.assign({
+    appId: '4KCR59T12U',
+    apiKey: 'd01ae72459d946aa5243aef03e08aedd',
+    indexName: 'shuaixin.cc_crawler',
+    container: '#docsearch',
+    placeholder: '搜尋文章',
+  }, null))
+
+  const handleClick = () => {
+    document.querySelector('.DocSearch-Button').click()
+  }
+
+  const searchClickFn = () => {
+    btf.addEventListenerPjax(document.querySelector('#search-button > .search'), 'click', handleClick)
+  }
+
+  searchClickFn()
+  window.addEventListener('pjax:complete', searchClickFn)
+})()</script></div></div></body></html>
