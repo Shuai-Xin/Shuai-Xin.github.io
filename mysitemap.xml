@@ -1478,6 +1478,20 @@
 
   
   <url>
+    <loc>https://shuaixin.cc/tags/Self-Hosting/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Taiko/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://shuaixin.cc/tags/Docker/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -1492,7 +1506,14 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/Self-Hosting/</loc>
+    <loc>https://shuaixin.cc/tags/%E5%8F%B0%E8%82%A1/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%8D%87%E9%99%8D%E5%96%AE%E4%BD%8D/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1514,20 +1535,6 @@
   
   <url>
     <loc>https://shuaixin.cc/tags/Uptime-Kuma/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%8F%B0%E8%82%A1/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%8D%87%E9%99%8D%E5%96%AE%E4%BD%8D/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1583,503 +1590,6 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E5%85%B5%E5%BD%B9/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Taiko/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/FPS/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/FrameView/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/CPU/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/AX206/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/AIDA64/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/ESP32/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Arduino/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/C/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Python/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/FCPX/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%BD%B1%E7%89%87/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Alpha-Channel/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E7%94%9F%E7%89%A9/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Taxonomy/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/MQTT/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Mosquitto/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/BrightSign/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/GPIO/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/ESP8266/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/NodeMCU/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/WROOM/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Home-Assistant/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/OrCAD/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Capture/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Linux/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Mac/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/GUI/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/SSH/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/X11/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Xquartz/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/VirtualBox/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E6%9C%88%E5%8F%B0/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/TMS/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/NTP/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/NetTime/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/iot/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/internet/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Ventoy/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Rufus/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/windows/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%BF%AB%E6%A8%82/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E6%95%99%E8%82%B2/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Terminal/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Podcast/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/RSS/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/anchor/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Apple-Podcasts/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Google-Podcasts/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/MIDI/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E7%9B%B4%E6%92%AD/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E9%8B%BC%E7%90%B4%E9%8D%B5%E7%9B%A4/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Processing/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E8%A4%87%E5%A7%94%E8%A8%97/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E7%BE%8E%E8%82%A1/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/ETF/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%9C%8B%E6%B3%B0%E8%AD%89%E5%88%B8/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E9%87%91%E5%85%AD%E7%B5%90/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E7%95%B6%E5%85%B5/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E8%BB%8D%E4%BA%8B%E8%A8%93%E7%B7%B4%E5%BD%B9/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%8A%89%E6%98%95/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%8E%9F%E5%89%B5%E4%BD%9C%E5%93%81/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%BC%B7%E8%80%85%E6%88%91%E6%9C%8B%E5%8F%8B%E7%9A%84%E8%B3%AA%E5%95%8F%E4%BF%A1/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/F-I-R/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E8%A9%B9%E9%9B%AF%E5%A9%B7/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/LaTeX/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E6%A2%81%E5%BF%83%E9%A0%A4/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%BC%B5%E5%82%91/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E6%B4%AA%E6%95%AC%E5%A0%AF/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://shuaixin.cc/tags/%E9%84%A7%E7%B4%AB%E6%A3%8B/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2094,14 +1604,14 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E5%90%95%E5%8F%A3%E5%8F%A3/</loc>
+    <loc>https://shuaixin.cc/tags/F-I-R/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E5%9C%96%E5%B0%8F%E5%9C%96/</loc>
+    <loc>https://shuaixin.cc/tags/%E8%A9%B9%E9%9B%AF%E5%A9%B7/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2129,6 +1639,76 @@
   </url>
   
   <url>
+    <loc>https://shuaixin.cc/tags/%E7%8E%89%E5%9F%8E%E5%8D%83%E6%98%A5/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E6%96%BD%E4%BA%BA%E8%AA%A0/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%8A%89%E8%8B%A5%E8%8B%B1/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E6%A2%81%E5%BF%83%E9%A0%A4/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%BC%B5%E5%82%91/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E6%B4%AA%E6%95%AC%E5%A0%AF/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%90%95%E5%8F%A3%E5%8F%A3/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%9C%96%E5%B0%8F%E5%9C%96/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E3%83%92%E3%82%B0%E3%83%81%E3%82%A2%E3%82%A4/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://shuaixin.cc/tags/%E8%97%8D%E5%8F%88%E6%99%82/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2144,20 +1724,6 @@
   
   <url>
     <loc>https://shuaixin.cc/tags/%E5%BE%90%E4%B8%96%E7%8F%8D/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E3%83%92%E3%82%B0%E3%83%81%E3%82%A2%E3%82%A4/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2185,21 +1751,28 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E7%8E%89%E5%9F%8E%E5%8D%83%E6%98%A5/</loc>
+    <loc>https://shuaixin.cc/tags/%E8%AC%9D%E5%AE%A5%E6%85%A7/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E6%96%BD%E4%BA%BA%E8%AA%A0/</loc>
+    <loc>https://shuaixin.cc/tags/%E5%A4%A7%E7%84%A1%E9%99%90%E6%A8%82%E5%9C%98/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E5%8A%89%E8%8B%A5%E8%8B%B1/</loc>
+    <loc>https://shuaixin.cc/tags/%E6%9D%8E%E6%A6%AE%E6%B5%A9/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E4%BF%A1/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2228,62 +1801,6 @@
   
   <url>
     <loc>https://shuaixin.cc/tags/%E9%BB%83%E9%9B%A8%E5%8B%B3/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E6%9D%8E%E6%A6%AE%E6%B5%A9/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E4%BF%A1/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E9%9D%92%E5%B3%B0/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E7%B1%B3%E6%9E%9C/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E3%83%A4%E3%82%AD%E3%83%A2%E3%83%81/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E8%B2%B7%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E8%AC%9D%E5%AE%A5%E6%85%A7/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%A4%A7%E7%84%A1%E9%99%90%E6%A8%82%E5%9C%98/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2388,27 +1905,6 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E7%86%B1%E9%87%8F/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/449/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Atwater-system/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://shuaixin.cc/tags/%E7%AD%89%E6%AF%94%E7%B4%9A%E6%95%B8/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2437,28 +1933,21 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E5%AD%9F%E5%BE%B7%E7%88%BE/</loc>
+    <loc>https://shuaixin.cc/tags/%E7%86%B1%E9%87%8F/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E9%81%BA%E5%82%B3/</loc>
+    <loc>https://shuaixin.cc/tags/449/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E6%8E%92%E5%88%97%E7%B5%84%E5%90%88/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/</loc>
+    <loc>https://shuaixin.cc/tags/Atwater-system/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2480,6 +1969,55 @@
   
   <url>
     <loc>https://shuaixin.cc/tags/%E7%B6%9C%E5%90%88%E9%99%A4%E6%B3%95/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%9C%93%E9%8C%90%E6%9B%B2%E7%B7%9A/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E8%A9%9E%E7%B6%B4/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%AD%9F%E5%BE%B7%E7%88%BE/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E9%81%BA%E5%82%B3/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E6%8E%92%E5%88%97%E7%B5%84%E5%90%88/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%85%83%E8%AA%8D%E7%9F%A5/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%85%83%E5%AD%B8%E7%BF%92/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2514,14 +2052,7 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E5%85%83%E8%AA%8D%E7%9F%A5/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%85%83%E5%AD%B8%E7%BF%92/</loc>
+    <loc>https://shuaixin.cc/tags/%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2549,6 +2080,34 @@
   </url>
   
   <url>
+    <loc>https://shuaixin.cc/tags/%E9%9D%92%E5%B3%B0/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E7%B1%B3%E6%9E%9C/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E3%83%A4%E3%82%AD%E3%83%A2%E3%83%81/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E8%B2%B7%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://shuaixin.cc/tags/%E7%8D%A8%E7%AB%8B%E4%BA%8B%E4%BB%B6/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2570,27 +2129,6 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E7%AD%89%E9%9F%BF%E6%9B%B2%E7%B7%9A/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Kontakt/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Sample-Library/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://shuaixin.cc/tags/%E9%87%91%E9%87%9D%E8%8F%87/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2605,42 +2143,7 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E7%89%88%E7%A8%85/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E4%B8%B2%E6%B5%81%E5%B9%B3%E5%8F%B0/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E5%94%B1%E7%89%87%E5%85%AC%E5%8F%B8/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Channel-Strip/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Plug-in/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/RVOX/</loc>
+    <loc>https://shuaixin.cc/tags/Taxonomy/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2675,14 +2178,406 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E5%9C%93%E9%8C%90%E6%9B%B2%E7%B7%9A/</loc>
+    <loc>https://shuaixin.cc/tags/%E5%85%B5%E5%BD%B9/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E8%A9%9E%E7%B6%B4/</loc>
+    <loc>https://shuaixin.cc/tags/CPU/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/AX206/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/AIDA64/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/ESP32/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Arduino/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/C/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Python/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/FPS/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/FrameView/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/FCPX/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%BD%B1%E7%89%87/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Alpha-Channel/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E7%94%9F%E7%89%A9/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Home-Assistant/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Linux/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Mac/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/GUI/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/SSH/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/X11/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Xquartz/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/VirtualBox/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/OrCAD/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Capture/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/MQTT/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Mosquitto/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Terminal/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/BrightSign/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/GPIO/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/ESP8266/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/NodeMCU/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/WROOM/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/internet/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Ventoy/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Rufus/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/windows/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E6%9C%88%E5%8F%B0/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/iot/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%BF%AB%E6%A8%82/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E6%95%99%E8%82%B2/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/LaTeX/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/MIDI/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E7%9B%B4%E6%92%AD/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E9%8B%BC%E7%90%B4%E9%8D%B5%E7%9B%A4/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Processing/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E9%87%91%E5%85%AD%E7%B5%90/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E7%95%B6%E5%85%B5/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E8%BB%8D%E4%BA%8B%E8%A8%93%E7%B7%B4%E5%BD%B9/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E7%AD%89%E9%9F%BF%E6%9B%B2%E7%B7%9A/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Podcast/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/RSS/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/anchor/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Apple-Podcasts/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Google-Podcasts/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Channel-Strip/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Plug-in/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/RVOX/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2696,7 +2591,63 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/Proxy/</loc>
+    <loc>https://shuaixin.cc/tags/Kontakt/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Sample-Library/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E7%89%88%E7%A8%85/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E4%B8%B2%E6%B5%81%E5%B9%B3%E5%8F%B0/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%94%B1%E7%89%87%E5%85%AC%E5%8F%B8/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E8%A4%87%E5%A7%94%E8%A8%97/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E7%BE%8E%E8%82%A1/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/ETF/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%9C%8B%E6%B3%B0%E8%AD%89%E5%88%B8/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2704,20 +2655,6 @@
   
   <url>
     <loc>https://shuaixin.cc/tags/Hexo/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/Local-Search/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/url/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2732,6 +2669,20 @@
   
   <url>
     <loc>https://shuaixin.cc/tags/KaTeX/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Local-Search/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/url/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2753,20 +2704,6 @@
   
   <url>
     <loc>https://shuaixin.cc/tags/%E9%9B%BB%E5%AD%90%E5%A0%B1/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/ruby/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/html/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2843,6 +2780,20 @@
   </url>
   
   <url>
+    <loc>https://shuaixin.cc/tags/ruby/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/html/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://shuaixin.cc/tags/SEO/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2899,6 +2850,55 @@
   </url>
   
   <url>
+    <loc>https://shuaixin.cc/tags/%E5%8A%89%E6%98%95/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%8E%9F%E5%89%B5%E4%BD%9C%E5%93%81/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%BC%B7%E8%80%85%E6%88%91%E6%9C%8B%E5%8F%8B%E7%9A%84%E8%B3%AA%E5%95%8F%E4%BF%A1/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/TMS/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/NTP/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/NetTime/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/Proxy/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://shuaixin.cc/tags/%E7%94%9F%E7%90%86/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2920,13 +2920,6 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://shuaixin.cc/tags/%E7%B6%93%E6%BF%9F/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2935,6 +2928,20 @@
   
   <url>
     <loc>https://shuaixin.cc/tags/%E9%87%91%E8%9E%8D/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2962,7 +2969,7 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/</loc>
+    <loc>https://shuaixin.cc/tags/%E6%87%89%E7%94%A8/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2976,13 +2983,6 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E6%87%89%E7%94%A8/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://shuaixin.cc/tags/%E5%BF%83%E9%9D%88/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2990,14 +2990,14 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E6%96%87%E5%AD%B8/</loc>
+    <loc>https://shuaixin.cc/tags/%E7%94%9F%E6%B6%AF/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E7%94%9F%E6%B6%AF/</loc>
+    <loc>https://shuaixin.cc/tags/%E6%96%87%E5%AD%B8/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3025,21 +3025,14 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E5%95%86%E6%A5%AD%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E8%87%AA%E5%AA%92%E9%AB%94/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://shuaixin.cc/tags/%E7%B6%93%E7%87%9F%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E5%95%86%E6%A5%AD%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3060,14 +3053,21 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E9%9F%B3%E6%A8%82/</loc>
+    <loc>https://shuaixin.cc/tags/%E5%93%B2%E5%AD%B8/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/tags/%E5%93%B2%E5%AD%B8/</loc>
+    <loc>https://shuaixin.cc/tags/%E8%87%AA%E5%AA%92%E9%AB%94/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/tags/%E9%9F%B3%E6%A8%82/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3123,6 +3123,13 @@
   </url>
   
   <url>
+    <loc>https://shuaixin.cc/tags/%E6%9C%AA%E8%81%9E%E8%8A%B1%E5%90%8D/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://shuaixin.cc/tags/%E6%97%A5%E6%96%87/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -3145,13 +3152,6 @@
   
   <url>
     <loc>https://shuaixin.cc/tags/HNC%E7%BE%85%E9%A6%AC%E5%AD%97%E8%BC%B8%E5%85%A5%E6%B3%95/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/%E6%9C%AA%E8%81%9E%E8%8A%B1%E5%90%8D/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3237,20 +3237,6 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://shuaixin.cc/categories/%E5%92%8C%E5%BC%A6%E7%AD%86%E8%A8%98/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -3265,14 +3251,14 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E6%95%B8%E5%AD%B8/</loc>
+    <loc>https://shuaixin.cc/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9/</loc>
+    <loc>https://shuaixin.cc/categories/%E5%AE%B6%E6%95%99%E7%AD%86%E8%A8%98/%E9%AB%98%E4%B8%AD%E6%95%B8%E5%AD%B8/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3286,7 +3272,14 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/</loc>
+    <loc>https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/categories/%E6%95%B8%E4%BD%8D%E9%9F%B3%E6%A8%82%E8%A3%BD%E4%BD%9C/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3294,6 +3287,13 @@
   
   <url>
     <loc>https://shuaixin.cc/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3314,14 +3314,14 @@
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E9%9F%93%E6%96%87%E7%AD%86%E8%A8%98/</loc>
+    <loc>https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/</loc>
+    <loc>https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E9%9F%93%E6%96%87%E7%AD%86%E8%A8%98/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
