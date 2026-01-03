@@ -3955,12 +3955,12 @@ figure.highlight pre .javascript .function {
   flex-direction: column;
 }
 .page .card-webinfo {
-  -webkit-box-ordinal-group: -99;
-  -moz-box-ordinal-group: -99;
-  -o-box-ordinal-group: -99;
-  -ms-flex-order: -99;
-  -webkit-order: -99;
-  order: -99;
+  -webkit-box-ordinal-group: '-99# Don't modify the setting unless you know how it works';
+  -moz-box-ordinal-group: '-99# Don't modify the setting unless you know how it works';
+  -o-box-ordinal-group: '-99# Don't modify the setting unless you know how it works';
+  -ms-flex-order: '-99# Don't modify the setting unless you know how it works';
+  -webkit-order: '-99# Don't modify the setting unless you know how it works';
+  order: '-99# Don't modify the setting unless you know how it works';
 }
 @-moz-keyframes more-btn-move {
   0%, 100% {
