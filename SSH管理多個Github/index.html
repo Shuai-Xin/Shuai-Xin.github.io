@@ -27,7 +27,7 @@
     });
   });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>透過 SSH 分別管理多個 Github Pages | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言 因為團隊項目需求，包含現在這個部落格，我必須另外再管理兩個 Github Pages 項目。而這件事折騰了我一個晚上，故在此備忘。 其中這兩個項目都以 Hexo 分別架設在不同的 Github 帳號的 Github Pages 上。 理論 一般來說，我們用的 push 都是透過 https protocol 來進行的，方便簡單，除了第一次要輸入帳號密碼，後面都是 add, commit, p">
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>透過 SSH 分別管理多個 Github Pages | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="前言 因為團隊項目需求，包含現在這個部落格，我必須另外再管理兩個 Github Pages 項目。而這件事折騰了我一個晚上，故在此備忘。 其中這兩個項目都以 Hexo 分別架設在不同的 Github 帳號的 Github Pages 上。 理論 一般來說，我們用的 push 都是透過 https protocol 來進行的，方便簡單，除了第一次要輸入帳號密碼，後面都是 add, commit, p">
 <meta property="og:type" content="article">
 <meta property="og:title" content="透過 SSH 分別管理多個 Github Pages">
 <meta property="og:url" content="https://shuaixin.cc/SSH%E7%AE%A1%E7%90%86%E5%A4%9A%E5%80%8BGithub/index.html">
@@ -116,13 +116,13 @@
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
 

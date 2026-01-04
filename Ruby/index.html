@@ -27,7 +27,7 @@
     });
   });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>標註音標、標註片假名：&lt;ruby&gt; | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言劉昕好帥 最近在學日文，理所當然地做點筆記放上來，因此有了標註片假名的需求。 然後就發現了 &lt;ruby&gt; 這個 HTML 原生支援的好東西屌 貨。 語法 1234&lt;ruby&gt;	&lt;rb&gt;我被標註了&lt;&#x2F;rb&gt;  &lt;rt&gt;他被我標註&lt;&#x2F;rt&gt;&lt;&#x2F;ruby&gt; 結果為：  	我被標註了   他被我標註  不過如果你沒有要">
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>標註音標、標註片假名：&lt;ruby&gt; | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="前言劉昕好帥 最近在學日文，理所當然地做點筆記放上來，因此有了標註片假名的需求。 然後就發現了 &lt;ruby&gt; 這個 HTML 原生支援的好東西屌 貨。 語法 1234&lt;ruby&gt;	&lt;rb&gt;我被標註了&lt;&#x2F;rb&gt;  &lt;rt&gt;他被我標註&lt;&#x2F;rt&gt;&lt;&#x2F;ruby&gt; 結果為：  	我被標註了   他被我標註  不過如果你沒有要">
 <meta property="og:type" content="article">
 <meta property="og:title" content="標註音標、標註片假名：&lt;ruby&gt;">
 <meta property="og:url" content="https://shuaixin.cc/Ruby/index.html">
@@ -114,13 +114,13 @@
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
 

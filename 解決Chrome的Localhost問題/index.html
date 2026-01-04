@@ -27,7 +27,7 @@
     });
   });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>解決 Chrome 的 Localhost Error | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="問題 架站時總是會先在瀏覽器上預覽效果，這時通常會採用 localhost 來訪問。 但有好一陣子我的 Chrome 就是直接一個：  這個網站無法提供安全連線， localhost 傳送的回應無效。  並且錯誤代碼為 ERR_SSL_PROTOCOL_ERROR。 原因 究其原因，其實是因為HTTP嚴格傳輸安全（HTTP Strict Transport Security, HSTS）發作了。">
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>解決 Chrome 的 Localhost Error | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="問題 架站時總是會先在瀏覽器上預覽效果，這時通常會採用 localhost 來訪問。 但有好一陣子我的 Chrome 就是直接一個：  這個網站無法提供安全連線， localhost 傳送的回應無效。  並且錯誤代碼為 ERR_SSL_PROTOCOL_ERROR。 原因 究其原因，其實是因為HTTP嚴格傳輸安全（HTTP Strict Transport Security, HSTS）發作了。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="解決 Chrome 的 Localhost Error">
 <meta property="og:url" content="https://shuaixin.cc/%E8%A7%A3%E6%B1%BAChrome%E7%9A%84Localhost%E5%95%8F%E9%A1%8C/index.html">
@@ -115,13 +115,13 @@
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
 

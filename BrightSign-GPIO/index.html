@@ -27,7 +27,7 @@
     });
   });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>透過 GPIO 來控制 BrightSign 播放器 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="本文我們來實作可以進行互動的螢幕。怎麼個互動法？這次以兩種為例：  透過 RFID ，刷卡感應後，讓本來循環播放 A 影片的螢幕，改為播放 B 影片。 透過超聲波回聲判斷，人靠近（或手懸浮在感應區域）時，讓本來循環播放 A 影片的螢幕，改為播放 B 影片。  為了達到以上效果，我們這次需要的設備除了顯示器以外還需要：  數位看板播放器（Digital Signage Players），此處我們選用">
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>透過 GPIO 來控制 BrightSign 播放器 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="本文我們來實作可以進行互動的螢幕。怎麼個互動法？這次以兩種為例：  透過 RFID ，刷卡感應後，讓本來循環播放 A 影片的螢幕，改為播放 B 影片。 透過超聲波回聲判斷，人靠近（或手懸浮在感應區域）時，讓本來循環播放 A 影片的螢幕，改為播放 B 影片。  為了達到以上效果，我們這次需要的設備除了顯示器以外還需要：  數位看板播放器（Digital Signage Players），此處我們選用">
 <meta property="og:type" content="article">
 <meta property="og:title" content="透過 GPIO 來控制 BrightSign 播放器">
 <meta property="og:url" content="https://shuaixin.cc/BrightSign-GPIO/index.html">
@@ -118,13 +118,13 @@
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
 

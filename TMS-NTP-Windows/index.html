@@ -27,7 +27,7 @@
     });
   });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>在 Windows 系統上架設 NTP 伺服器 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="需求背景 此例中，我們要替電影院架設 TMS 系統，所以我們會有一台作為中控的 Windows 電腦，跟數台放在各個影廳的投影機伺服器。 一般來說，設備只要能上網，時間就能透過網際網路定時進行校準，一片蛋糕。但電影院的投影機伺服器為了做到內容保護，在 DCI 認證的規範之下，通常就只用封閉的內網來進行控制、傳輸與播放，於是我們就得迂迴地提供正確的時間給它們。 如果我們的中控電腦有兩張網卡，一張上網">
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>在 Windows 系統上架設 NTP 伺服器 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="需求背景 此例中，我們要替電影院架設 TMS 系統，所以我們會有一台作為中控的 Windows 電腦，跟數台放在各個影廳的投影機伺服器。 一般來說，設備只要能上網，時間就能透過網際網路定時進行校準，一片蛋糕。但電影院的投影機伺服器為了做到內容保護，在 DCI 認證的規範之下，通常就只用封閉的內網來進行控制、傳輸與播放，於是我們就得迂迴地提供正確的時間給它們。 如果我們的中控電腦有兩張網卡，一張上網">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在 Windows 系統上架設 NTP 伺服器">
 <meta property="og:url" content="https://shuaixin.cc/TMS-NTP-Windows/index.html">
@@ -115,13 +115,13 @@
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
 

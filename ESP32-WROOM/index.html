@@ -27,7 +27,7 @@
     });
   });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>ESP32 小筆記 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="電源供應 可以直接從 VIN 供電。 但如果你接上 USB，VIN 就變成 5V 的輸出。 Touch（內建電容觸控） Touch 1 通常沒有 lay 出來。（因為共用了 GPIO0，很難正常作動） Touch 2 共用了 GPIO2 的內建 LED ，注意別一起用。 ADC ADC2 因為 wifi 驅動用了這隻腳，所以跟wifi不能同時使用 UART 通常只看得到 U0 跟 U2，因為 U1">
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>ESP32 小筆記 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="電源供應 可以直接從 VIN 供電。 但如果你接上 USB，VIN 就變成 5V 的輸出。 Touch（內建電容觸控） Touch 1 通常沒有 lay 出來。（因為共用了 GPIO0，很難正常作動） Touch 2 共用了 GPIO2 的內建 LED ，注意別一起用。 ADC ADC2 因為 wifi 驅動用了這隻腳，所以跟wifi不能同時使用 UART 通常只看得到 U0 跟 U2，因為 U1">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ESP32 小筆記">
 <meta property="og:url" content="https://shuaixin.cc/ESP32-WROOM/index.html">
@@ -114,13 +114,13 @@
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
 

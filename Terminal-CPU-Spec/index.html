@@ -27,7 +27,7 @@
     });
   });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>如何看自己電腦的 CPU 規格 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="MacOS 查看 CPU 規格 在 Terminal 中輸入： 1sysctl -n machdep.cpu.brand_string 就可以看到了。 我的 2015 MacBook Pro 的 CPU 是 4770HQ，22 奈米製程，確實是 2014 Q3 的產品，接近十年的老 U 了：  至於我目前的主力 2020 MacBook Pro M1 則是：  嗯，就只有寫 Apple M1，很省">
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>如何看自己電腦的 CPU 規格 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="MacOS 查看 CPU 規格 在 Terminal 中輸入： 1sysctl -n machdep.cpu.brand_string 就可以看到了。 我的 2015 MacBook Pro 的 CPU 是 4770HQ，22 奈米製程，確實是 2014 Q3 的產品，接近十年的老 U 了：  至於我目前的主力 2020 MacBook Pro M1 則是：  嗯，就只有寫 Apple M1，很省">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何看自己電腦的 CPU 規格">
 <meta property="og:url" content="https://shuaixin.cc/Terminal-CPU-Spec/index.html">
@@ -114,13 +114,13 @@
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
 

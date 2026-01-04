@@ -27,7 +27,7 @@
     });
   });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>停止 Windows 自動更新 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="停止 Windows 自動更新 眾所周知，微軟並不希望我們把 windows 的自動更新關掉。即使系統裡面提供了關閉選項，依舊也只能「暫緩」一段時間。 但自動更新就很討厭，反正我就是要關掉。 下面這套方法用的邏輯是：好啊反正你就是不讓我「關掉」自動更新，那我把更新的位置換成本地，你就不可能獲得更新內容了。  注意此篇辦法需使用「本機群組原則編輯器」，只有 Windows 專業版才有。若是家用版，則">
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>停止 Windows 自動更新 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="停止 Windows 自動更新 眾所周知，微軟並不希望我們把 windows 的自動更新關掉。即使系統裡面提供了關閉選項，依舊也只能「暫緩」一段時間。 但自動更新就很討厭，反正我就是要關掉。 下面這套方法用的邏輯是：好啊反正你就是不讓我「關掉」自動更新，那我把更新的位置換成本地，你就不可能獲得更新內容了。  注意此篇辦法需使用「本機群組原則編輯器」，只有 Windows 專業版才有。若是家用版，則">
 <meta property="og:type" content="article">
 <meta property="og:title" content="停止 Windows 自動更新">
 <meta property="og:url" content="https://shuaixin.cc/stop-windows-auto-update/index.html">
@@ -113,13 +113,13 @@
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
 

@@ -27,7 +27,7 @@
     });
   });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>透過 AIDA64 將 AX206 作為 Windows 的監控副屏 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="監控副屏方案比較 雙螢幕 直觀來說，我們隨便拿另一顆螢幕來當做副屏不就好了嗎？很遺憾的，如此一來會有幾點問題：  如果你沒有內顯（像我就是 13400F），副屏就會佔用 GPU 的資源。 就算你有內顯，因為副屏被作業系統視為顯示器，你的滑鼠會跑進去、你開的程式也有機會穿透過去。  舊手機 要避開上述問題，其實舊手機就是個好選擇，完全不佔用圖形處理資源，透過 AIDA64，用內網開個瀏覽器就可以監控">
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>透過 AIDA64 將 AX206 作為 Windows 的監控副屏 | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="監控副屏方案比較 雙螢幕 直觀來說，我們隨便拿另一顆螢幕來當做副屏不就好了嗎？很遺憾的，如此一來會有幾點問題：  如果你沒有內顯（像我就是 13400F），副屏就會佔用 GPU 的資源。 就算你有內顯，因為副屏被作業系統視為顯示器，你的滑鼠會跑進去、你開的程式也有機會穿透過去。  舊手機 要避開上述問題，其實舊手機就是個好選擇，完全不佔用圖形處理資源，透過 AIDA64，用內網開個瀏覽器就可以監控">
 <meta property="og:type" content="article">
 <meta property="og:title" content="透過 AIDA64 將 AX206 作為 Windows 的監控副屏">
 <meta property="og:url" content="https://shuaixin.cc/AX206-AIDA64/index.html">
@@ -114,13 +114,13 @@
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
 

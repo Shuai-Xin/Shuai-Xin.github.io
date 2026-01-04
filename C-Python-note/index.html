@@ -27,7 +27,7 @@
     });
   });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>關於 C 與 Python | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="弱型別 &amp; 強型別 Python 是弱型別語言，變數的型別在執行時才決定。所以你可以反覆橫跳也不會報錯： 12x &#x3D; 10  # x 是整數x &#x3D; &quot;Hello&quot;  # 現在 x 變成字串，大丈夫，不會報錯 但強型別的 C 就不行了，你要先宣告。 然而弱型別會讓效率差一點。你變數換來換去，表面上很方便，其實底層依舊有在幫你找新的地址來存東西，只是你不用自己操心。 為什麼">
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>關於 C 與 Python | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="弱型別 &amp; 強型別 Python 是弱型別語言，變數的型別在執行時才決定。所以你可以反覆橫跳也不會報錯： 12x &#x3D; 10  # x 是整數x &#x3D; &quot;Hello&quot;  # 現在 x 變成字串，大丈夫，不會報錯 但強型別的 C 就不行了，你要先宣告。 然而弱型別會讓效率差一點。你變數換來換去，表面上很方便，其實底層依舊有在幫你找新的地址來存東西，只是你不用自己操心。 為什麼">
 <meta property="og:type" content="article">
 <meta property="og:title" content="關於 C 與 Python">
 <meta property="og:url" content="https://shuaixin.cc/C-Python-note/index.html">
@@ -114,13 +114,13 @@
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
 

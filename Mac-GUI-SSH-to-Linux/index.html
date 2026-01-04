@@ -27,7 +27,7 @@
     });
   });
 </script>
-<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Mac 如何 SSH 到 Linux 去開關 VirtualBox？ | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="環境 想直接從 Mac 控制 Linux 去開關一個運行著 Home Assistant OS 的 VirtualBox 虛擬機。 這個需求主要來自於虛擬機偶爾會閃退掉，想快速從主力電腦直接重啟。但普通的命令行界面（CLI）沒辦法遠端執行 VirtualBox 的圖形界面（GUI），所以有了這個需求。 不過話說，如果知道會有這種需求，其實一開始就應該用 VBoxHeadless，大家可以參考參考。">
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Mac 如何 SSH 到 Linux 去開關 VirtualBox？ | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="環境 想直接從 Mac 控制 Linux 去開關一個運行著 Home Assistant OS 的 VirtualBox 虛擬機。 這個需求主要來自於虛擬機偶爾會閃退掉，想快速從主力電腦直接重啟。但普通的命令行界面（CLI）沒辦法遠端執行 VirtualBox 的圖形界面（GUI），所以有了這個需求。 不過話說，如果知道會有這種需求，其實一開始就應該用 VBoxHeadless，大家可以參考參考。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mac 如何 SSH 到 Linux 去開關 VirtualBox？">
 <meta property="og:url" content="https://shuaixin.cc/Mac-GUI-SSH-to-Linux/index.html">
@@ -119,13 +119,13 @@
       const activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
       const activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
 
