@@ -6,7 +6,7 @@
   <link href="https://shuaixin.cc/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.cc/"/>
-  <updated>2025-11-22T08:35:44.473Z</updated>
+  <updated>2026-01-05T07:02:48.789Z</updated>
   <id>https://shuaixin.cc/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自架 CMS 系統：Ghost + Mailgun</title>
+    <link href="https://shuaixin.cc/ghost-mailgun/"/>
+    <id>https://shuaixin.cc/ghost-mailgun/</id>
+    <published>2026-01-04T16:00:00.000Z</published>
+    <updated>2026-01-05T07:02:48.789Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天來把我們的讀書會&lt;a href=&quot;https://club.1-know.org&quot;&gt;《一個讀書會》&lt;/a&gt;的網站從 Halo 搬家到 Ghost。其實 Halo 算是不錯用的</summary>
+        
+      
+    
+    
+    
+    <category term="Self Hosting" scheme="https://shuaixin.cc/categories/Self-Hosting/"/>
+    
+    
+    <category term="Self Hosting" scheme="https://shuaixin.cc/tags/Self-Hosting/"/>
+    
+    <category term="Ghost" scheme="https://shuaixin.cc/tags/Ghost/"/>
+    
+    <category term="Mailgun" scheme="https://shuaixin.cc/tags/Mailgun/"/>
+    
+    <category term="SMTP" scheme="https://shuaixin.cc/tags/SMTP/"/>
+    
+  </entry>
   
   <entry>
     <title>讀書筆記：《佛畏系統》</title>
@@ -566,33 +597,6 @@
     <category term="OrCAD" scheme="https://shuaixin.cc/tags/OrCAD/"/>
     
     <category term="Capture" scheme="https://shuaixin.cc/tags/Capture/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>智能家居 EP10：將多盞燈組合成燈組</title>
-    <link href="https://shuaixin.cc/HA-10-Light-Group/"/>
-    <id>https://shuaixin.cc/HA-10-Light-Group/</id>
-    <published>2025-01-22T16:00:00.000Z</published>
-    <updated>2025-05-25T15:16:03.088Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;隨著我們的設備越來越多，會發現其實有些裝置總是同進同出，不太有分開來操作的需求，比如說同一組吊燈上的燈泡。&lt;/p&gt;
-&lt;p&gt;此時，我們就可以用到 Group 這個功能。&lt;/p&gt;
-&lt;p&gt;本來認為這應該是很常用，設定上應該要很簡單才對的功能，但 HA</summary>
-        
-      
-    
-    
-    
-    <category term="智能家居" scheme="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
     
   </entry>
   
