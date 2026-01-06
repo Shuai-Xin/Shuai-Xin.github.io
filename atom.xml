@@ -6,7 +6,7 @@
   <link href="https://shuaixin.cc/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.cc/"/>
-  <updated>2026-01-05T07:02:48.789Z</updated>
+  <updated>2026-01-06T06:00:04.436Z</updated>
   <id>https://shuaixin.cc/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>韓文小筆記之四：오跟어怎麼分？</title>
+    <link href="https://shuaixin.cc/Korean-4-O-EO-Difference/"/>
+    <id>https://shuaixin.cc/Korean-4-O-EO-Difference/</id>
+    <published>2026-01-05T16:00:00.000Z</published>
+    <updated>2026-01-06T06:00:04.436Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;安妞，身為一個中文母語使用者，我想問——오（o）跟어（eo）到底怎麼分？今天我們就來釐清這題吧，先上統整圖：&lt;/p&gt;
+&lt;h3 id=&quot;後元音統整圖&quot;&gt;後元音統整圖&lt;/h3&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="語言筆記" scheme="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/"/>
+    
+    <category term="韓文筆記" scheme="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E9%9F%93%E6%96%87%E7%AD%86%E8%A8%98/"/>
+    
+    
+    <category term="韓文" scheme="https://shuaixin.cc/tags/%E9%9F%93%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>自架 CMS 系統：Ghost + Mailgun</title>
@@ -569,34 +598,6 @@
     
     
     <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>OrCAD Capture 二極管半波整流</title>
-    <link href="https://shuaixin.cc/OrCAD-Diode/"/>
-    <id>https://shuaixin.cc/OrCAD-Diode/</id>
-    <published>2025-02-02T16:00:00.000Z</published>
-    <updated>2025-05-25T15:16:03.071Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;本篇我們來看看半導體的整流。基礎操作請見&lt;a href=&quot;https://shuaixin.cc/OrCAD-Capture-Demo/&quot;&gt;使用 OrCAD Capture 設計電路&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;我們這次選用 1N4148</summary>
-        
-      
-    
-    
-    
-    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
-    
-    
-    <category term="OrCAD" scheme="https://shuaixin.cc/tags/OrCAD/"/>
-    
-    <category term="Capture" scheme="https://shuaixin.cc/tags/Capture/"/>
     
   </entry>
   
