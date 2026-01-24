@@ -1,0 +1,418 @@
+<!DOCTYPE html><html lang="zh-TW" data-theme="light"><head><!-- hexo injector head_begin start -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WDZ4T0TNBX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-WDZ4T0TNBX');
+</script>
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1556107858900989" crossorigin="anonymous"></script>
+
+<!-- Reader Revenue Manager -->
+<script async type="application/javascript" src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+<script>
+  (self.SWG_BASIC = self.SWG_BASIC || []).push(basicSubscriptions => {
+    basicSubscriptions.init({
+      type: "NewsArticle",
+      isPartOfType: ["Product"],
+      isPartOfProductId: "CAowhszUCw:openaccess",
+      clientOptions: { theme: "light", lang: "zh-TW" },
+    });
+  });
+</script>
+<!-- hexo injector head_begin end --><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>運籌帷幄的鍵盤操作術：減少手部移動的心流打字方案（Mac 與 Windows 適用） | Hi 我劉昕</title><meta name="author" content="Shuai"><meta name="copyright" content="Shuai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="這是我的「BlogBlog 同樂會 - 2026 年 1 月」的投稿文章。本月主題是「推坑」，由 Wiwi 主持。如果你有自己的部落格，歡迎一起來參加！  欣喜！早就想好好地坐下來，跟世界介紹一下我的這套「運籌帷幄的鍵盤操作術」。原本這只是一篇緩慢堆積的殘破文稿，但在某個風光明媚、隨性上網衝浪的日子裡，碰巧看到了 Wiwi 發起的部落格同樂會，主題是「推坑」——噫！不就是個推坑大家丟掉滑鼠的好日">
+<meta property="og:type" content="article">
+<meta property="og:title" content="運籌帷幄的鍵盤操作術：減少手部移動的心流打字方案（Mac 與 Windows 適用）">
+<meta property="og:url" content="https://shuaixin.cc/Awesome-Keymap/index.html">
+<meta property="og:site_name" content="Hi 我劉昕">
+<meta property="og:description" content="這是我的「BlogBlog 同樂會 - 2026 年 1 月」的投稿文章。本月主題是「推坑」，由 Wiwi 主持。如果你有自己的部落格，歡迎一起來參加！  欣喜！早就想好好地坐下來，跟世界介紹一下我的這套「運籌帷幄的鍵盤操作術」。原本這只是一篇緩慢堆積的殘破文稿，但在某個風光明媚、隨性上網衝浪的日子裡，碰巧看到了 Wiwi 發起的部落格同樂會，主題是「推坑」——噫！不就是個推坑大家丟掉滑鼠的好日">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://shuaixin.cc/Awesome-Keymap/keyboard-layout(14).png">
+<meta property="article:published_time" content="2026-01-23T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-01-24T02:06:31.939Z">
+<meta property="article:author" content="Shuai">
+<meta property="article:tag" content="Mac">
+<meta property="article:tag" content="Windows">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://shuaixin.cc/Awesome-Keymap/keyboard-layout(14).png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "運籌帷幄的鍵盤操作術：減少手部移動的心流打字方案（Mac 與 Windows 適用）",
+  "url": "https://shuaixin.cc/Awesome-Keymap/",
+  "image": "https://shuaixin.cc/Awesome-Keymap/keyboard-layout(14).png",
+  "datePublished": "2026-01-23T16:00:00.000Z",
+  "dateModified": "2026-01-24T02:06:31.939Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Shuai",
+      "url": "https://shuaixin.cc"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/shuai_moji.png"><link rel="canonical" href="https://shuaixin.cc/Awesome-Keymap/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="stylesheet" href="/css/index.css?v=5.5.3"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-1556107858900989',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-154605966-3"></script><script>window.dataLayer = window.dataLayer || []
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date())
+gtag('config', 'UA-154605966-3')
+btf.addGlobalFn('pjaxComplete', () => {
+  gtag('config', 'UA-154605966-3', {'page_path': window.location.pathname})
+}, 'google_analytics')
+</script><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":false,"highlightLang":false,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '複製成功',
+    error: '複製失敗',
+    noSupport: '瀏覽器不支援'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '剛剛',
+    min: '分鐘前',
+    hour: '小時前',
+    day: '天前',
+    month: '個月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '載入更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '運籌帷幄的鍵盤操作術：減少手部移動的心流打字方案（Mac 與 Windows 適用）',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-WDZ4T0TNBX"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag(' js', new Date());gtag('config', 'G-WDZ4T0TNBX');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1556107858900989"crossorigin="anonymous"></script><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="Hi 我劉昕" type="application/atom+xml">
+</head><body><div class="bg-animation" id="web_bg" style="background: linear-gradient(288deg, #ffb6b9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, rgba(178, 204, 198, 0.521) calc(45% + 1px), rgba(178, 204, 198, 0.521) 65%, rgba(176, 178, 214, 0.596) calc(65% + 1px), rgb(176, 178, 214, 0.596) 100%);;"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/shuai_ava.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">162</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">253</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">17</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分類</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Hi 我劉昕</span></a><a class="nav-page-title" href="/"><span class="site-name">運籌帷幄的鍵盤操作術：減少手部移動的心流打字方案（Mac 與 Windows 適用）</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首頁</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜尋</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分類</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於我</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">運籌帷幄的鍵盤操作術：減少手部移動的心流打字方案（Mac 與 Windows 適用）</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">發表於</span><time class="post-meta-date-created" datetime="2026-01-23T16:00:00.000Z" title="發表於 2026-01-24 00:00:00">2026-01-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新於</span><time class="post-meta-date-updated" datetime="2026-01-24T02:06:31.939Z" title="更新於 2026-01-24 10:06:31">2026-01-24</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%85%B6%E4%BB%96/">其他</a></span></div><div class="meta-secondline"></div></div></div><article class="container post-content" id="article-container"><blockquote>
+<p>這是我的「<a target="_blank" rel="noopener" href="https://blogblog.club/party">BlogBlog 同樂會 - 2026 年 1 月</a>」的投稿文章。本月主題是「<a target="_blank" rel="noopener" href="https://wiwi.blog/blog/blogblog-party-jan-2026/">推坑</a>」，由 <a target="_blank" rel="noopener" href="https://wiwi.blog/">Wiwi</a> 主持。如果你有自己的部落格，歡迎一起來參加！</p>
+</blockquote>
+<p>欣喜！早就想好好地坐下來，跟世界介紹一下我的這套「運籌帷幄的鍵盤操作術」。原本這只是一篇緩慢堆積的殘破文稿，但在某個風光明媚、隨性上網衝浪的日子裡，碰巧看到了 Wiwi 發起的部落格同樂會，主題是「推坑」——噫！不就是個推坑大家丟掉滑鼠的好日子嗎？</p>
+<p>（注：若你是其他華語地區讀者，滑鼠與游標你有可能分別稱之為鼠標與光標，後面將使用滑鼠與游標進行指稱。）</p>
+<p>當然，現今的人機互動依舊是替滑鼠設計居多，丟掉滑鼠並不是個好主意。但至少，如果我們在「編輯文字」的時候不用一直在鍵盤跟滑鼠之間切換，那該會有多美妙？</p>
+<p>如果你也曾經在使用 Ctrl+C、Ctrl+V 感到礙虐（gāi-gio̍h），那你可能會對我的解決方案感興趣，不妨留下來看看，互相交流一下思路；但若是情況恰恰相反，你從來沒有覺得 Ctrl+C、Ctrl+V 有什麼不方便的地方……</p>
+<p>這位仁兄，你別走！就是寫給你看的，坐下來讓我推坑你！</p>
+<h3 id="我的理由與方案目標">我的理由與方案目標</h3>
+<p>我這邊的狀況是這樣的。雖然我本來就是 Mac 跟 Windows 雙棲，但文書跟程式部分主要由 Mac 負責，故在鍵盤輸入這塊就沒有特別對 Windows 做太多調教。不過某個時期開始，因案件需要，我被迫必須高頻使用 Windows 筆電進行工作。原本只是偶爾用到，頂多邊吐槽邊複製貼上的我，突然之間避無可避、忍無可忍，所以痛定思痛，來了個大刀闊斧，完成了此項改造。</p>
+<p>而現在，宇宙使我們相遇。本文將分享我的這套鍵盤使用哲學，並交代我對 Windows 跟 Mac 進行的改造設定。使用這套方法將會有以下好處：</p>
+<ul>
+<li>雙系統指法與鍵位統一，降低認知負荷、減少任務切換成本。</li>
+<li>使用方向鍵不用移動前臂。</li>
+<li>使用大部分快捷鍵不用移動前臂。</li>
+<li>熟悉之後，文本操作再也不需要使用滑鼠。（而且也不用移動前臂）</li>
+</ul>
+<p>沒錯，設定好之後，不管用哪個系統，我們的手都可以狠狠地黏在主鍵列（Home Row）上，並且使用相同的邏輯做相同的事。認知負荷降低了，手部移動減少了，整個打字效率就自然提升了。雖然我並不算是一個效率控（這點得感謝<a href="https://shuaixin.cc/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E4%BA%BA%E7%94%9F%E5%9B%9B%E5%8D%83%E5%80%8B%E7%A6%AE%E6%8B%9C/">《人生4千個禮拜》</a>），但一個良好的環境配置有助於心流的進入與保持，誰會不愛心流流淌的感覺呢？</p>
+<p>在此我們將先介紹設計哲學，而實際的改造方式將留在後面闡述。</p>
+<h3 id="手部盡可能保持在主鍵列：改造方向鍵">手部盡可能保持在主鍵列：改造方向鍵</h3>
+<p>首先最重要、也是差異最大的非「方向鍵」莫屬。我之所以前面只對複製貼上碎碎念而沒有抱怨這個，是因為我配置電腦的第一個瞬間就直接改好了，絲毫沒有商量的餘地。</p>
+<p>一般來說，方向鍵在這裡：</p>
+<p><img src="/Awesome-Keymap/keyboard-layout(1).png" alt="keyboard-layout(1)"></p>
+<p>身為一組會被高頻使用的按鍵，似乎是有點太遠了，是吧？如果每次使用方向鍵，整個手部都要特地移動到該區域，使用完再移回來，難道不是一件非常打斷工作流程的步驟嗎？而因為距離實在是太遠了，這個移動的過程中，眼睛幾乎無可避免地會來協助判斷距離與落點，完了，當你眼睛從螢幕上離開，效率不復存在、心流不復流淌。</p>
+<p>此一課題，我們以 Alt(右)+i/j/k/l 解決之（Mac 則是同位置的 Cmd(右)，後將當做同一件事進行指稱），如圖所示：</p>
+<p><img src="/Awesome-Keymap/keyboard-layout(13).png" alt="keyboard-layout(13)"></p>
+<p>舉例來說，我想輸入上上下下左左右右，就會是在右手拇指按著右 Alt 不放的同時，其他指頭依序按 iikkjjll。手腕紋絲不動，穩如老狗。</p>
+<p>此方法中保留了我們對方向鍵的慣用指法（左鍵食指、右鍵無名指、上下中指），用拇指操作 Alt(右) 作為修飾鍵，啪的一聲，直接解決了按個方向鍵要遠渡重洋的問題，豈不香哉？</p>
+<p>然而就我所知，類似的思路中，有些人採取了左手小指操作 Caps Lock 作為修飾鍵的方案。但首當其衝的，如果我要組合 Shift 做選取，閣下如何應對？若是我們的方案，左手小指就可以在選取的過程中，協助使用左 Shift：</p>
+<p><img src="/Awesome-Keymap/keyboard-layout(14).png" alt="keyboard-layout(14)"></p>
+<p>另外，小指的 range of motion（關節活動度）本來就相對較低，故讓小指負責主要修飾鍵這件事，我保持懷疑態度。</p>
+<h3 id="快捷鍵以拇指為主軸：改造快捷鍵">快捷鍵以拇指為主軸：改造快捷鍵</h3>
+<p>我就不諱言了，只要是日常會需要使用到的功能，本來就應極力避免出現在以下圖示的灰色位置上：</p>
+<p><img src="/Awesome-Keymap/keyboard-layout(15).png" alt="keyboard-layout(15)"></p>
+<p>這些位置怎麼按？你若非移動前臂，就是以不舒服的角度扭轉手腕，更遑論拿這些鍵去組成組合鍵的反人類程度了。舉個例子吧，在 Windows 中新增分頁的預設快捷鍵 Ctrl + T 長這個模樣：</p>
+<p><img src="/Awesome-Keymap/keyboard-layout(16).png" alt="keyboard-layout(16)"></p>
+<p>我甚至是用第五掌骨 + 食指去做這件事的，合理嗎？相比之下，雖然複製貼上的 Ctrl+C/V 就沒那麼誇張，但依舊免不了要移動前臂，不甚理想。</p>
+<p>這部分，Mac 的以 Cmd 為主軸的快捷鍵設計就是我們要從善如流的楷模。我們要做的，就是要把 Windows 上以 Ctrl 為主軸的快捷鍵之鍵位，改成與 Mac 上以 Cmd 為主軸的快捷鍵之鍵位相同。此方案中，我們處理的手段是直接把 Windows 的 Alt(左) 與 Ctrl(左) 對調位置。</p>
+<p>如此一來，複製貼上、新增分頁就會是拇指與食指的配合：</p>
+<p><img src="/Awesome-Keymap/keyboard-layout(7).png" alt="keyboard-layout(7)"></p>
+<h3 id="最後一塊拼圖：行首、行尾、與逐詞操作">最後一塊拼圖：行首、行尾、與逐詞操作</h3>
+<p>差不多要禮成奏樂了。在那之前，我們來將 Home 跟 End 納入麾下，完成我們宏圖所剩的最後一塊拼圖。如果你不曾使用鍵盤來將文字遊標引導到行首或行尾，那麼你要嘛是拿起滑鼠來代勞，要嘛是壓著方向鍵慢慢等他走到底。如果是這樣的話，也許你該參考一下這個功能，會發現它是真的很方便快速。</p>
+<p>在 Windows 的邏輯中， Home / End 分別對應行首與行尾，但 Mac 則是對應文件開頭與文件結尾，相差較大。經過多方嘗試與取捨，我這裡給出的選擇是將其對應到行首與行尾，並將 Home / End 的操作映射在 Alt(右)+u/o 之上：</p>
+<p><img src="/Awesome-Keymap/keyboard-layout(8).png" alt="keyboard-layout(8)"></p>
+<p>假設你今天句子打完了，發現前面忘了加上早安之類的問候語，你只需要一個 Alt(右)+u，咻，馬上瞬移到行首，手起刀落，毫無間隙。</p>
+<p>然而 Mac 對行首行尾操作其實有相當不錯的原生處理方式（例如行首就是 Cmd(左) + 左，使用我們的方向鍵方案可以舒服操作），但我們為了達到兩邊系統的一致鍵位，做出了讓步，等等挪作他用。</p>
+<p>至於逐詞操作，如果你沒用過，也推薦你瞭解一下。簡單來說，單純的方向鍵或退格鍵（backspace）按一次只會移動或刪除一個字元（character），但如果逐詞操作就會以詞（word）為單位來進行。舉例來說，今天你要把 <code>Hello world█</code> 裡面的 world 這個詞刪掉，如果你只用退格鍵就要連續按 5 下，但如果此時搭配逐詞的修飾鍵（原生情形之下，Mac 是 Alt、Windows 是 Ctrl）只需要按 1 下，就直接以詞為單位刪除掉。</p>
+<p>而因為 Windows 原生是用 Ctrl 作為逐詞修飾鍵，對我們現在的配置（Alt 與 Ctrl 調換過後）來說非常舒服，哪邊舒服就用哪邊，沒有偏愛誰！所以 Mac 就抱歉了，我們剛好就把剛剛讓步出來的 Cmd 改成逐詞修飾鍵，達到雙系統統一。於是逐詞刪除現在會是這樣按：</p>
+<p><img src="/Awesome-Keymap/keyboard-layout(9).png" alt="keyboard-layout(9)"></p>
+<p>而逐詞移動就會是這樣按：</p>
+<p><img src="/Awesome-Keymap/keyboard-layout(10).png" alt="keyboard-layout(10)"></p>
+<h3 id="文字遊標操作術：滑鼠大可不必">文字遊標操作術：滑鼠大可不必</h3>
+<p>至此，我們的<strong>右手</strong>可以待在主鍵列上操作<strong>方向鍵</strong>與<strong>行首行尾</strong>、<strong>左手</strong>可以待在主鍵列上操作<strong>修飾鍵</strong>與<strong>快捷鍵</strong>，運籌於帷幄之中的條件已然滿足——開始嘗試拋棄滑鼠吧！</p>
+<p>簡單舉例，各位可以自行感受評斷。假設今天我想打出如下句子：</p>
+<blockquote>
+<p>有些事真的沒必要一直炫耀，就比如 2020 年台大畢業歌是我寫的這件事就沒必要天天提。其實又不是只有 2020 年有台大畢業歌，別的年度也有台大畢業歌呀。雖然全部台大畢業歌裡面只有 2020 年的台大畢業歌是全獨立製作的啦，但台大畢業歌就台大畢業歌唄，有啥好說嘴的？就這樣吧，反正 2020 年台大畢業歌是我寫的。</p>
+</blockquote>
+<p>當我打到 <code>有些事真的沒必要一直炫耀，就比如 2020 年台大畢業歌█</code> 時，我知道後面我會一直重複「台大畢業歌」這個詞，此時我可以往前逐詞選取：</p>
+<p><img src="/Awesome-Keymap/keyboard-layout(11).png" alt="keyboard-layout(11)"></p>
+<p>注意目前雙系統的鍵位已經統一，Cmd 就等同 Ctrl。此時的動作是，左手的小指與拇指分別按著 Shift 與 Cmd，右手的拇指按著 Alt，在前面三個修飾鍵按著不放的同時，右手食指按 3 下 j。（根據不同的分詞邏輯，「畢業歌」如果被視為一個詞，那就是按 2 下就好）</p>
+<p>選取後，複製（Cmd(左)+C）並使用行尾（Alt(右)+o）回到句子末端繼續打字。</p>
+<p>整個過程中，我們完成了對「台大畢業歌」的複製，但手依舊維持在主鍵列上，行文未曾中斷，行雲流水，輕鬆寫意。</p>
+<p>總之，以上只是一個簡單的舉例。只要綜合本文提到的技巧與思路，其實所有文本操作場景都不再有使用滑鼠的必要——因為滑鼠比較慢！</p>
+<p>方案說明完畢，如果你有想要嘗試看看，可以繼續參考施工細節。</p>
+<h3 id="Windows-施工方式">Windows 施工方式</h3>
+<p>Windows 最大刀闊斧的部分是 Alt(左) 與 Ctrl(左) 的直接對調。原本希望最好可以全部邏輯都用 AutoHotKey 來處理就好，但如果把這件事交給 AutoHotKey，我們日常依賴的 Alt + Tab 這個工作切換會壞掉，是否有機會完美解決還要請大神指點迷津。</p>
+<p>所以目前的手段是，Alt(左) 與 Ctrl(左) 對調這件事交給微軟的親兒子 PowerToys 來在更底層的層面處理：</p>
+<p><img src="/Awesome-Keymap/awesome-keymap-win.png" alt="awesome-keymap-win"></p>
+<p>而方向鍵跟行首行尾的部分交給 AutoHotKey，腳本如下：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#Requires AutoHotkey v2.0</span></span><br><span class="line"><span class="string">;Made</span> <span class="string">by</span> <span class="string">Shuai</span></span><br><span class="line"></span><br><span class="line"><span class="string">*&gt;!i::Up</span>    <span class="string">;</span> <span class="string">上</span></span><br><span class="line"><span class="string">*&gt;!k::Down</span>  <span class="string">;</span> <span class="string">下</span></span><br><span class="line"><span class="string">*&gt;!j::Left</span>  <span class="string">;</span> <span class="string">左</span></span><br><span class="line"><span class="string">*&gt;!l::Right</span> <span class="string">;</span> <span class="string">右</span></span><br><span class="line"><span class="string">*&gt;!u::Home</span>  <span class="string">;</span> <span class="string">行首</span></span><br><span class="line"><span class="string">*&gt;!o::End</span>   <span class="string">;</span> <span class="string">行尾</span></span><br><span class="line"></span><br><span class="line"><span class="string">LCtrl</span> <span class="string">&amp;</span> <span class="string">Tab::AltTab</span></span><br><span class="line"><span class="string">LCtrl</span> <span class="string">&amp;</span> <span class="string">Capslock::ShiftAltTab</span></span><br></pre></td></tr></table></figure>
+<p>其中 <code>LCtrl &amp; Tab::AltTab</code> 的部分是讓我們在 Alt(左) 與 Ctrl(左) 已經交換的前提之下，依舊可以用原本的鍵位進行工作切換：</p>
+<p><img src="/Awesome-Keymap/keyboard-layout(12).png" alt="keyboard-layout(12)"></p>
+<p>至於 <code>LCtrl &amp; Capslock::ShiftAltTab</code> 就是目前不得已的次佳替代，用 Ctrl(左)+Capslock 來暫時頂著反方向的工作切換，因為搭配 shift 的方式無法在 AutoHotKey 中被實現，還請路過的大神指教。</p>
+<h3 id="Mac-施工方式">Mac 施工方式</h3>
+<p>Mac 就一站式使用 Karabiner-Elements 解決即可，腳本如下：</p>
+<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	<span class="string">&quot;type&quot;</span>: <span class="string">&quot;basic&quot;</span>,</span><br><span class="line">	<span class="string">&quot;from&quot;</span>: &#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;j&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: &#123; <span class="string">&quot;mandatory&quot;</span>: [<span class="string">&quot;right_command&quot;</span>, <span class="string">&quot;left_command&quot;</span>], <span class="string">&quot;optional&quot;</span>: [<span class="string">&quot;any&quot;</span>] &#125; &#125;,</span><br><span class="line">	<span class="string">&quot;to&quot;</span>: [&#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;left_arrow&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: [<span class="string">&quot;left_option&quot;</span>] &#125;]</span><br><span class="line">&#125;,</span><br><span class="line">&#123;</span><br><span class="line">	<span class="string">&quot;type&quot;</span>: <span class="string">&quot;basic&quot;</span>,</span><br><span class="line">	<span class="string">&quot;from&quot;</span>: &#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;l&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: &#123; <span class="string">&quot;mandatory&quot;</span>: [<span class="string">&quot;right_command&quot;</span>, <span class="string">&quot;left_command&quot;</span>], <span class="string">&quot;optional&quot;</span>: [<span class="string">&quot;any&quot;</span>] &#125; &#125;,</span><br><span class="line">	<span class="string">&quot;to&quot;</span>: [&#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;right_arrow&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: [<span class="string">&quot;left_option&quot;</span>] &#125;]</span><br><span class="line">&#125;,</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;type&quot;</span>: <span class="string">&quot;basic&quot;</span>,</span><br><span class="line">  <span class="string">&quot;from&quot;</span>: &#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;i&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: &#123; <span class="string">&quot;mandatory&quot;</span>: [<span class="string">&quot;right_command&quot;</span>], <span class="string">&quot;optional&quot;</span>: [<span class="string">&quot;any&quot;</span>] &#125; &#125;,</span><br><span class="line">  <span class="string">&quot;to&quot;</span>: [&#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;up_arrow&quot;</span> &#125;]</span><br><span class="line">&#125;,</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;type&quot;</span>: <span class="string">&quot;basic&quot;</span>,</span><br><span class="line">  <span class="string">&quot;from&quot;</span>: &#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;j&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: &#123; <span class="string">&quot;mandatory&quot;</span>: [<span class="string">&quot;right_command&quot;</span>], <span class="string">&quot;optional&quot;</span>: [<span class="string">&quot;any&quot;</span>] &#125; &#125;,</span><br><span class="line">  <span class="string">&quot;to&quot;</span>: [&#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;left_arrow&quot;</span> &#125;]</span><br><span class="line">&#125;,</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;type&quot;</span>: <span class="string">&quot;basic&quot;</span>,</span><br><span class="line">  <span class="string">&quot;from&quot;</span>: &#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;k&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: &#123; <span class="string">&quot;mandatory&quot;</span>: [<span class="string">&quot;right_command&quot;</span>], <span class="string">&quot;optional&quot;</span>: [<span class="string">&quot;any&quot;</span>] &#125; &#125;,</span><br><span class="line">  <span class="string">&quot;to&quot;</span>: [&#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;down_arrow&quot;</span> &#125;]</span><br><span class="line">&#125;,</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;type&quot;</span>: <span class="string">&quot;basic&quot;</span>,</span><br><span class="line">  <span class="string">&quot;from&quot;</span>: &#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;l&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: &#123; <span class="string">&quot;mandatory&quot;</span>: [<span class="string">&quot;right_command&quot;</span>], <span class="string">&quot;optional&quot;</span>: [<span class="string">&quot;any&quot;</span>] &#125; &#125;,</span><br><span class="line">  <span class="string">&quot;to&quot;</span>: [&#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;right_arrow&quot;</span> &#125;]</span><br><span class="line">&#125;,</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;type&quot;</span>: <span class="string">&quot;basic&quot;</span>,</span><br><span class="line">  <span class="string">&quot;from&quot;</span>: &#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;u&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: &#123; <span class="string">&quot;mandatory&quot;</span>: [<span class="string">&quot;right_command&quot;</span>], <span class="string">&quot;optional&quot;</span>: [<span class="string">&quot;any&quot;</span>] &#125; &#125;,</span><br><span class="line">  <span class="string">&quot;to&quot;</span>: [&#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;left_arrow&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: [<span class="string">&quot;left_command&quot;</span>] &#125;]</span><br><span class="line">&#125;,</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;type&quot;</span>: <span class="string">&quot;basic&quot;</span>,</span><br><span class="line">  <span class="string">&quot;from&quot;</span>: &#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;o&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: &#123; <span class="string">&quot;mandatory&quot;</span>: [<span class="string">&quot;right_command&quot;</span>], <span class="string">&quot;optional&quot;</span>: [<span class="string">&quot;any&quot;</span>] &#125; &#125;,</span><br><span class="line">  <span class="string">&quot;to&quot;</span>: [&#123; <span class="string">&quot;key_code&quot;</span>: <span class="string">&quot;right_arrow&quot;</span>, <span class="string">&quot;modifiers&quot;</span>: [<span class="string">&quot;left_command&quot;</span>] &#125;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>其中前兩個是將 Cmd(左) 在搭配方向時可以變成逐詞修飾，剩下的就是搭配 Cmd(右) 的方向鍵跟行首行尾操作。</p>
+<p>要注意 Karabiner 有順序權重，如要使用請注意順序，逐詞的部分要設置在方向鍵之前。</p>
+<h3 id="雜症處理">雜症處理</h3>
+<p>太多修飾鍵一起按會觸發很多 Office 365 或是 Copilot 相關的功能。我這邊的情形是，即使只是 Win + Shift + Alt + j/l，雖然我期望的 Win + Shfit + 左右方向鍵（將目前視窗移動到雙螢幕的某一個螢幕）確實有生效，但我的 Copilot 會被呼喚出來，這可不行。</p>
+<p>我們在 PowerShell 中改寫登錄檔來解決：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">REG ADD HKCU\\Software\\Classes\\ms-officeapp\\Shell\\Open\\Command /t REG_SZ /d rundll32</span><br></pre></td></tr></table></figure>
+<h3 id="寫在最後">寫在最後</h3>
+<p>本篇分了幾個階段，從 Mac 筆電、Windows 筆電跟 PC 三個設備輪流接力撰寫，受益於本套操作術，心思從來不曾因設備的異同而有所擾動，可謂下筆如有神、絲毫不分神。</p>
+<p>雖然這次以《運籌帷幄的鍵盤操作術》作為標題，提供了一套方案，形成了所謂「操作術」。然而我個人更想傳達的是一個使用哲學，也就是「運籌帷幄的鍵盤使用哲學」。只要可以讓使用者擁有一個流暢、不中斷、且一致的打字體驗，那在我們的這個使用哲學中，就是好的「術」。</p>
+<p>因此，按照這個邏輯，你要把以上招式套用在 Linux 上自然也是可以的，吧。我個人沒有折騰過這件事，就不多置喙了。</p>
+<p>好的，行文至此，推坑結束！謝謝主持人 Wiwi 舉辦的盛會，給了我寫作動力。如果有大神經過，針對遺留未解的問題，還請指點指點；如有其他思路或想法，我們一起討論討論。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://shuaixin.cc">Shuai</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章連結: </span><span class="post-copyright-info"><a href="https://shuaixin.cc/Awesome-Keymap/">https://shuaixin.cc/Awesome-Keymap/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版權聲明: </span><span class="post-copyright-info">本部落格所有文章除特別聲明外，均採用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 授權協議。轉載請註明來源 <a href="https://shuaixin.cc" target="_blank">Hi 我劉昕</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Mac/">Mac</a><a class="post-meta__tags" href="/tags/Windows/">Windows</a></div><div class="post-share"><div class="social-share" data-image="/Awesome-Keymap/keyboard-layout(14).png" data-sites="facebook,x"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相關推薦</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/Mac-GUI-SSH-to-Linux/" title="Mac 如何 SSH 到 Linux 去開關 VirtualBox？"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-01-05</div><div class="info-item-2">Mac 如何 SSH 到 Linux 去開關 VirtualBox？</div></div><div class="info-2"><div class="info-item-1">環境 想直接從 Mac 控制 Linux 去開關一個運行著 Home Assistant OS 的 VirtualBox 虛擬機。 這個需求主要來自於虛擬機偶爾會閃退掉，想快速從主力電腦直接重啟。但普通的命令行界面（CLI）沒辦法遠端執行 VirtualBox 的圖形界面（GUI），所以有了這個需求。 不過話說，如果知道會有這種需求，其實一開始就應該用 VBoxHeadless，大家可以參考參考。 Server 端設置   修改 /etc/ssh/sshd_config，本來應該是注釋狀態： 12X11Forwarding yesX11DisplayOffset 10   安裝 xauth： 1sudo apt install xauth   Mac 端設置 X11 已經不支援了，所以會使用 XQuartz，可以找安裝檔進行安裝，或是： brew install xquartz 接著使用 XQuartz 自帶的終端 Xterm 進行 SSH 連線： ssh -X user@your.server </div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 評論</span></div></div><div class="comment-wrap"><div><div id="utterances-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/shuai_ava.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Shuai</div><div class="author-info-description">Hi 我劉昕啦！Shuai 是我的英文名字，唸作帥，取其義。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">162</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">253</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">17</div></a></div><a id="card-info-btn" href="https://shuaixin.cc/about"><i class="fas fa-heart"></i><span>關於我</span></a></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目錄</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%88%91%E7%9A%84%E7%90%86%E7%94%B1%E8%88%87%E6%96%B9%E6%A1%88%E7%9B%AE%E6%A8%99"><span class="toc-number">1.</span> <span class="toc-text">我的理由與方案目標</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%89%8B%E9%83%A8%E7%9B%A1%E5%8F%AF%E8%83%BD%E4%BF%9D%E6%8C%81%E5%9C%A8%E4%B8%BB%E9%8D%B5%E5%88%97%EF%BC%9A%E6%94%B9%E9%80%A0%E6%96%B9%E5%90%91%E9%8D%B5"><span class="toc-number">2.</span> <span class="toc-text">手部盡可能保持在主鍵列：改造方向鍵</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%AB%E6%8D%B7%E9%8D%B5%E4%BB%A5%E6%8B%87%E6%8C%87%E7%82%BA%E4%B8%BB%E8%BB%B8%EF%BC%9A%E6%94%B9%E9%80%A0%E5%BF%AB%E6%8D%B7%E9%8D%B5"><span class="toc-number">3.</span> <span class="toc-text">快捷鍵以拇指為主軸：改造快捷鍵</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E5%BE%8C%E4%B8%80%E5%A1%8A%E6%8B%BC%E5%9C%96%EF%BC%9A%E8%A1%8C%E9%A6%96%E3%80%81%E8%A1%8C%E5%B0%BE%E3%80%81%E8%88%87%E9%80%90%E8%A9%9E%E6%93%8D%E4%BD%9C"><span class="toc-number">4.</span> <span class="toc-text">最後一塊拼圖：行首、行尾、與逐詞操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E5%AD%97%E9%81%8A%E6%A8%99%E6%93%8D%E4%BD%9C%E8%A1%93%EF%BC%9A%E6%BB%91%E9%BC%A0%E5%A4%A7%E5%8F%AF%E4%B8%8D%E5%BF%85"><span class="toc-number">5.</span> <span class="toc-text">文字遊標操作術：滑鼠大可不必</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Windows-%E6%96%BD%E5%B7%A5%E6%96%B9%E5%BC%8F"><span class="toc-number">6.</span> <span class="toc-text">Windows 施工方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mac-%E6%96%BD%E5%B7%A5%E6%96%B9%E5%BC%8F"><span class="toc-number">7.</span> <span class="toc-text">Mac 施工方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9B%9C%E7%97%87%E8%99%95%E7%90%86"><span class="toc-number">8.</span> <span class="toc-text">雜症處理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%AB%E5%9C%A8%E6%9C%80%E5%BE%8C"><span class="toc-number">9.</span> <span class="toc-text">寫在最後</span></a></li></ol></div></div></div></div></main><footer id="footer" style="background: transparent;"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2022 - 2026 By Shuai</span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日夜模式切換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目錄"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往評論"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到頂端"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.3"></script><script src="/js/main.js?v=5.5.3"></script><div class="js-pjax"><script>(() => {
+  const runMermaid = ele => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    ele.forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const config = mermaidSrc.dataset.config ? JSON.parse(mermaidSrc.dataset.config) : {}
+      if (!config.theme) {
+        config.theme = theme
+      }
+      const mermaidThemeConfig = `%%{init: ${JSON.stringify(config)}}%%\n`
+      const mermaidID = `mermaid-${index}`
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+      const renderMermaid = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      // mermaid v9 and v10 compatibility
+      typeof renderFn === 'string' ? renderMermaid(renderFn) : renderFn.then(({ svg }) => renderMermaid(svg))
+    })
+  }
+
+  const codeToMermaid = () => {
+    const codeMermaidEle = document.querySelectorAll('pre > code.mermaid')
+    if (codeMermaidEle.length === 0) return
+
+    codeMermaidEle.forEach(ele => {
+      const preEle = document.createElement('pre')
+      preEle.className = 'mermaid-src'
+      preEle.hidden = true
+      preEle.textContent = ele.textContent
+      const newEle = document.createElement('div')
+      newEle.className = 'mermaid-wrap'
+      newEle.appendChild(preEle)
+      ele.parentNode.replaceWith(newEle)
+    })
+  }
+
+  const loadMermaid = () => {
+    if (false) codeToMermaid()
+    const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+    if ($mermaid.length === 0) return
+
+    const runMermaidFn = () => runMermaid($mermaid)
+    btf.addGlobalFn('themeChange', runMermaidFn, 'mermaid')
+    window.loadMermaid ? runMermaidFn() : btf.getScript('https://cdn.jsdelivr.net/npm/mermaid@11.12.2/dist/mermaid.min.js').then(runMermaidFn)
+  }
+
+  btf.addGlobalFn('encrypt', loadMermaid, 'mermaid')
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+  const getUtterancesTheme = theme => theme === 'dark' ? 'photon-dark' : 'github-light'
+
+  const loadUtterances = (el = document, key) => {
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyUtterances = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+
+    const config = {
+      src: 'https://utteranc.es/client.js',
+      repo: 'Shuai-Xin/Shuai-Xin.github.io',
+      theme: getUtterancesTheme(document.documentElement.getAttribute('data-theme')),
+      crossorigin: 'anonymous',
+      async: true,
+      ...option,
+      'issue-term': isShuoshuo ? key : (option && option['issue-term']) || 'pathname'
+    }
+
+    const ele = document.createElement('script')
+    Object.entries(config).forEach(([key, value]) => ele.setAttribute(key, value))
+    el.querySelector('#utterances-wrap').appendChild(ele)
+  }
+
+  const changeUtterancesTheme = theme => {
+    const iframe = document.querySelector('#utterances-wrap iframe')
+    if (iframe) {
+      const message = {
+        type: 'set-theme',
+        theme: getUtterancesTheme(theme)
+      };
+      iframe.contentWindow.postMessage(message, 'https://utteranc.es')
+    }
+  }
+
+  btf.addGlobalFn('themeChange', changeUtterancesTheme, 'utterances')
+
+  if (isShuoshuo) {
+    'Utterances' === 'Utterances'
+      ? window.shuoshuoComment = { loadComment: loadUtterances }
+      : window.loadOtherComment = loadUtterances
+    return
+  }
+  
+  if ('Utterances' === 'Utterances' || !false) {
+    if (false) btf.loadComment(document.getElementById('utterances-wrap'), loadUtterances)
+    else loadUtterances()
+  } else {
+    window.loadOtherComment = loadUtterances
+  }
+})()</script></div><div class="docsearch-wrap"><div id="docsearch" style="display:none"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@4.3.2/dist/style.min.css"/><script src="https://cdn.jsdelivr.net/npm/@docsearch/js@4.3.2/dist/umd/index.min.js"></script><script>(() => {
+  docsearch(Object.assign({
+    appId: '4KCR59T12U',
+    apiKey: 'd01ae72459d946aa5243aef03e08aedd',
+    indexName: 'shuaixin.cc_crawler',
+    container: '#docsearch',
+    placeholder: '搜尋文章',
+  }, null))
+
+  const handleClick = () => {
+    document.querySelector('.DocSearch-Button').click()
+  }
+
+  const searchClickFn = () => {
+    btf.addEventListenerPjax(document.querySelector('#search-button > .search'), 'click', handleClick)
+  }
+
+  searchClickFn()
+  window.addEventListener('pjax:complete', searchClickFn)
+})()</script></div></div></body></html>

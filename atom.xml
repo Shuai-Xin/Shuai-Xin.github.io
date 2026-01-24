@@ -6,7 +6,7 @@
   <link href="https://shuaixin.cc/atom.xml" rel="self"/>
   
   <link href="https://shuaixin.cc/"/>
-  <updated>2026-01-06T06:00:04.436Z</updated>
+  <updated>2026-01-24T02:06:31.939Z</updated>
   <id>https://shuaixin.cc/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>運籌帷幄的鍵盤操作術：減少手部移動的心流打字方案（Mac 與 Windows 適用）</title>
+    <link href="https://shuaixin.cc/Awesome-Keymap/"/>
+    <id>https://shuaixin.cc/Awesome-Keymap/</id>
+    <published>2026-01-23T16:00:00.000Z</published>
+    <updated>2026-01-24T02:06:31.939Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;這是我的「&lt;a href=&quot;https://blogblog.club/party&quot;&gt;BlogBlog 同樂會 - 2026 年 1 月&lt;/a&gt;」的投稿文章。本月主題是「&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="Mac" scheme="https://shuaixin.cc/tags/Mac/"/>
+    
+    <category term="Windows" scheme="https://shuaixin.cc/tags/Windows/"/>
+    
+  </entry>
   
   <entry>
     <title>韓文小筆記之四：오跟어怎麼分？</title>
@@ -572,32 +600,6 @@
     
     
     <category term="3顆星書籍" scheme="https://shuaixin.cc/tags/3%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>將米家藍牙溫濕度計 2 刷成 Zigbee</title>
-    <link href="https://shuaixin.cc/Mi_Thermometer_Zigbee_LYWSD03MMC/"/>
-    <id>https://shuaixin.cc/Mi_Thermometer_Zigbee_LYWSD03MMC/</id>
-    <published>2025-02-04T16:00:00.000Z</published>
-    <updated>2025-06-14T04:53:56.392Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;本文將引導大家「免接線」將「米家藍牙溫濕度計 2」（型號：LYWSD03MMC）刷成 Zigbee，方便後續透過 Zigbee2MQTT 接入 Home Assistant。&lt;/p&gt;
-&lt;p&gt;小米官方在韌體更新到 2.1.1_0159 後（2024</summary>
-        
-      
-    
-    
-    
-    <category term="智能家居" scheme="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/"/>
-    
-    
-    <category term="Home Assistant" scheme="https://shuaixin.cc/tags/Home-Assistant/"/>
     
   </entry>
   
