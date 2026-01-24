@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shuaixin.cc/stop-windows-auto-update/</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shuaixin.cc/TMS-NTP-Windows/</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shuaixin.cc/Awesome-Keymap/</loc>
     
     <lastmod>2026-01-24</lastmod>
@@ -86,15 +104,6 @@
     <loc>https://shuaixin.cc/immich-move-to-ssd/</loc>
     
     <lastmod>2025-11-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/TMS-NTP-Windows/</loc>
-    
-    <lastmod>2025-10-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -921,15 +930,6 @@
   
   <url>
     <loc>https://shuaixin.cc/OrCAD-Capture-Para/</loc>
-    
-    <lastmod>2025-05-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/stop-windows-auto-update/</loc>
     
     <lastmod>2025-05-25</lastmod>
     
@@ -2407,13 +2407,6 @@
   
   <url>
     <loc>https://shuaixin.cc/tags/Terminal/</loc>
-    <lastmod>2026-01-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/tags/windows/</loc>
     <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

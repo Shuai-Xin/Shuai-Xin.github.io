@@ -165,7 +165,7 @@
     <link href="https://shuaixin.cc/TMS-NTP-Windows/"/>
     <id>https://shuaixin.cc/TMS-NTP-Windows/</id>
     <published>2025-10-15T16:00:00.000Z</published>
-    <updated>2025-10-16T08:11:22.783Z</updated>
+    <updated>2026-01-24T02:26:48.661Z</updated>
     
     
       
@@ -187,6 +187,8 @@
     <category term="NTP" scheme="https://shuaixin.cc/tags/NTP/"/>
     
     <category term="NetTime" scheme="https://shuaixin.cc/tags/NetTime/"/>
+    
+    <category term="Windows" scheme="https://shuaixin.cc/tags/Windows/"/>
     
   </entry>
   
