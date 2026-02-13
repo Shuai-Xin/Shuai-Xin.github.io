@@ -15,8 +15,37 @@
     <atom:link href="https://shuaixin.cc/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>劉昕的部落格</description>
-    <pubDate>Wed, 04 Feb 2026 11:38:05 GMT</pubDate>
+    <pubDate>Fri, 13 Feb 2026 09:24:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>用本機帳戶登入 Windows：2026 版本</title>
+      <link>https://shuaixin.cc/Windows-Skip-Login/</link>
+      <guid>https://shuaixin.cc/Windows-Skip-Login/</guid>
+      <pubDate>Thu, 12 Feb 2026 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description></description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>其實我也不知道都 2026 了，是不是還有必要在部落格上面放如題這類的內容，畢竟問題有二：</p><ol><li>軟體層面的迭代速度只會越來越快，技術筆記時效性只會越來越短</li><li>技術問題直接問大語言模型就好啦，誰還自己慢慢搜，還不一定對，笑死</li></ol><p>但填坑沒記錄等於沒填過，就跟吃高檔餐廳一樣，沒發限動就等於沒吃，懂咪？</p><p>把鱒魚做成牛排，懂了。反正記錄就對了，對吧？</p><h2 id="123-abc-com-失效了"><code>123@abc.com</code> 失效了</h2><p>我的經驗，2025 年底裝了三四台 Windows 都是用 <code>123@abc.com</code> 然後隨便給他密碼錯誤，就可以跳過登入環節。</p><p>但 2026 年初如法炮製卻失敗啦！會不斷繼續讓你試密碼，重複好幾次都沒辦法成功跳過。</p><p>有看到網友說耐心一點，很多次以後還是能過。但反正我是沒耐心了，放棄此招。</p><p>順帶一提，同樣的邏輯，<code>no@thankyou.com</code> 也行不通。</p><h2 id="oobe-bypassnro-失效了">oobe\bypassnro 失效了</h2><p>在登入環節，使用 <code>Shift + F10</code> 叫出 cmd，輸入 <code>oobe\bypassnro</code> 來跳過的方式呢？</p><p>2026 年初實測失敗！</p><h2 id="localonly-新招來也">localonly 新招來也</h2><p>一樣在登入環節，使用 <code>Shift + F10</code> 叫出 cmd。</p><p>但我們改輸入 <code>start ms-cxh:localonly</code>，此時會直接出現一個本機帳號的建立視窗，建立完成後就直接進入系統，完成！</p>]]></content:encoded>
+      
+      
+      <category domain="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/">其他</category>
+      
+      
+      <category domain="https://shuaixin.cc/tags/Windows/">Windows</category>
+      
+      
+      <comments>https://shuaixin.cc/Windows-Skip-Login/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>上進病：保暖思進取</title>
@@ -1532,37 +1561,6 @@
       
       
       <comments>https://shuaixin.cc/Thinking-101/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>看《未聞花名》學日文</title>
-      <link>https://shuaixin.cc/Japanese-Anohana-Line/</link>
-      <guid>https://shuaixin.cc/Japanese-Anohana-Line/</guid>
-      <pubDate>Sun, 07 Apr 2024 16:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description></description>
-          
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h2 id="前言">前言</h2><p>學習的事，能算追劇嗎？</p><p>背完 <a href="https://shuaixin.cc/Japanese-N5-Vocabulary/">N5 單字</a>後，學習日文突然沒了方向，所以想找一部番來練練。千裡尋他，發現嗶哩嗶哩的《未聞花名》居然配備了雙語字幕，我一個又驚又喜，果斷充了一個月的大會員（沒想到我的支付寶裡面有錢欸）。抱歉啦巴哈姆特。</p><p>既然是學術使用，當然還是得留下一點筆記，故有此篇，與眾分享。</p><p>首先送大家一張炸毛面麻：</p><p><img src="/Japanese-Anohana-Line/shocked.png" alt="mianma"></p><p>加碼一張害羞安鳴：</p><p><img src="/Japanese-Anohana-Line/shy_anaru.png" alt="shy_anaru"></p><h2 id="芽間（面麻）">芽間（面麻）</h2><p>女主的暱稱是めんま，來自本名「<ruby>本<rt>ほん</rt>間<rt>ま</rt></ruby><ruby>芽衣子<rt>めいこ</rt></ruby>」姓跟名的首尾合併。音譯就是面麻，意譯就是芽間。</p><p>這裡說說「ま」吧，跟 N5 單字的「<ruby>暇<rt>ひま</rt></ruby>」有點關係。話說「ひ」有「日子的日」的意思，而「ま」有「間隙的間」的意思，合在一起不就是「日子裡面的空隙」——閒暇嗎？真棒，單字就是要這樣記。</p><p>後來看著看著還就真的遇到了這個單字（順便看看綁雙辮的安鳴）：</p><p><img src="/Japanese-Anohana-Line/hima.png" alt="hima"></p><p>順帶一提，女二「<ruby>安城<rt>あんじょう</rt>鳴子<rt>なるこ</rt></ruby>」的兒時暱稱則是あなる，嗯，其實跟外來語的肛門同音，於是長大後的鳴子很排斥被這樣叫。<s>這也是為何網友戲稱鳴子為小菊花。</s></p><h2 id="青蛙">青蛙</h2><p><img src="/Japanese-Anohana-Line/kaeru.png" alt="kaeru"></p><blockquote><p>カエルが<ruby>鳴<rt>な</rt></ruby>いたら<ruby>帰<rt>かえ</rt></ruby>る</p></blockquote><p>第二集芽間唱的這首似乎是日本民謠兒歌。驚奇地發現「青蛙」跟「歸返」完全同音，才總算懂了為何日本視青蛙為吉祥物。跟我們將「春」、「福」倒過來取其「春到」、「福到」之意類似，日本人讓青蛙抱著「幸運」、「福氣」，就是讓幸福「回家」的意思咯！</p><h2 id="不可愛">不可愛</h2><p><img src="/Japanese-Anohana-Line/ana.png" alt="ana"></p><blockquote><p>可愛くない</p></blockquote><p>這裡單純是一個い形容詞的否定。但要注意「可愛い」寫成假名是「かわいい」，小心少寫一個「い」。</p><p>此處因為安鳴難得把頭髮放下來，特別讓大家看看（？）</p><h2 id="駄目">駄目</h2><p><img src="/Japanese-Anohana-Line/dame.png" alt="dame"></p><blockquote><p><ruby>駄目<rt>だめ</rt></ruby></p></blockquote><p>這兩個漢字以前常常看到，現在總算懂了，原來就是「打咩」！</p><h2 id="処女">処女</h2><p><img src="/Japanese-Anohana-Line/syojyo.png" alt="syojyo"></p><blockquote><p><ruby><rb>処女</rb><rt>しょじょ</rt></ruby></p></blockquote><p>這裡用片假名書寫可能是一種隱晦手法，雖然感覺一點都不隱晦就是了。</p><h2 id="現充">現充</h2><p><img src="/Japanese-Anohana-Line/riasyu.png" alt="riajuu"></p><blockquote><p>リア<ruby>充<rt>じゅう</rt></ruby></p></blockquote><p>來自「現実生活（リアル）」加上「<ruby><rb>充実</rb><rt>じゅうじつ</rt></ruby>」的合併。就是我們中文所謂的「人生勝利組」咯。</p><h2 id="H-Sketch-Onetouch">H Sketch Onetouch</h2><p><img src="/Japanese-Anohana-Line/sketch.png" alt="sketch"></p><blockquote><p>H Sketch Onetouch</p></blockquote><p>這啥好好笑 XD 網路上用的人不多，但似乎就是一種順口溜，跟 H 進行押韻這樣。</p><p>以防你不知道，H 是 Hentai 的縮寫。</p><p>對了，這裡神配音，推薦大家回去聽一次。</p><h2 id="打工">打工</h2><p><img src="/Japanese-Anohana-Line/baito.png" alt="baito"></p><blockquote><p>バイト</p></blockquote><p>「バイト」來自德語的 <a href="https://zh.wiktionary.org/wiki/Arbeit#%E5%BE%B7%E8%AA%9E">arbeit</a>，在日文裡面比較是「短期打工」的意思，常見於高中大學生這種。</p><p>相對的，「パート」來自於英文的 part-time，在日文裡面比較是「兼職工作」，屬於工時較短的正式員工。</p><p>台灣這邊則是習慣上認為「工讀生」跟「part-time」是一樣的。用法上挺不一樣的，要注意。</p>]]></content:encoded>
-      
-      
-      <category domain="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/">語言筆記</category>
-      
-      <category domain="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/">日文筆記</category>
-      
-      
-      <category domain="https://shuaixin.cc/tags/%E6%9C%AA%E8%81%9E%E8%8A%B1%E5%90%8D/">未聞花名</category>
-      
-      
-      <comments>https://shuaixin.cc/Japanese-Anohana-Line/#disqus_thread</comments>
       
     </item>
     
