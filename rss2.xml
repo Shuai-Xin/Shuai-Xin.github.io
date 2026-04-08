@@ -15,8 +15,39 @@
     <atom:link href="https://shuaixin.cc/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>劉昕的部落格</description>
-    <pubDate>Thu, 02 Apr 2026 07:44:44 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 07:46:54 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>領 AdSense 收益咯！結果被層層剝削orz</title>
+      <link>https://shuaixin.cc/AdSense-Withdrawal-Fees/</link>
+      <guid>https://shuaixin.cc/AdSense-Withdrawal-Fees/</guid>
+      <pubDate>Tue, 07 Apr 2026 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description></description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>幫 Google 打工了那麼久，該來拿我的錢了吧。</p><p>這裡的打工指的是當 Youtube 影片創作者（<a href="https://www.youtube.com/@_shuai_game">台大輟學打東東</a>），跟網頁投放 AdSense 廣告（<a href="https://zeldabotw2.github.io/">圖文網站</a>）這兩件事。模式都是我提供內容吸引觀眾，然後 Google 從這之中做廣告曝光，然後把收益分我一部分這樣。</p><p>本來想領完就開溜（溜去哪？），但沒想到提領收益會遇到<strong>不止一層</strong>且<strong>不算便宜</strong>的手續費，不可不慎！故撰文記之。</p><h3 id="都歸-AdSense-管但分開算">都歸 AdSense 管但分開算</h3><p>首先，不同筆匯款，手續費各別計。</p><p><img src="/AdSense-Withdrawal-Fees/separate.png" alt="separate"></p><p>雖然同賬號之下，Youtube 收益跟網頁收益都是在 AdSense 操作跟提領的，但這兩件事並不能合併計算並出金。</p><p>所以如果天真地認為可以一起算賬，那可以別天真了。出發點很好，但不能出發。</p><h3 id="第一層是稅金">第一層是稅金</h3><p>第一層是出金之前就預扣的稅金，但只有 Youtube 收益的部分被扣，而網頁廣告收益沒有扣。</p><p><img src="/AdSense-Withdrawal-Fees/tax.png" alt="tax"></p><p>據說是根據美國觀眾貢獻的收入的部分去計算，而我的觀眾來自華語圈，所以金額還好，乍看之下可以欣然接受。</p><h3 id="第二層手續費">第二層手續費</h3><p>第二層看起來是中介銀行的跨海電匯手續費：</p><p><img src="/AdSense-Withdrawal-Fees/qq.png" alt="qq"></p><p><img src="/AdSense-Withdrawal-Fees/qqq.png" alt="qqq"></p><p>Youtube 收益跟網頁廣告收益無關金額，都是直接扣掉 12 美元。申請那天的匯率大概是 32，也就是每筆一出海就要吃 384 手續費。</p><p>考量到我兩筆數目都很小，基本上一出海就直接打了九折，holy shit，神聖的狗屎呀。</p><p>你 Google 如果事先講好就算了，但這筆手續費是我在台灣的銀行收到電匯後才知道被扣掉，那個奇摩子是不一樣的，你懂咪？雖然這筆也不是你 Google 拿去的，但作為一個相對固定已知的程序，你也簡單提醒一下嘛。</p><h3 id="第三層手續費">第三層手續費</h3><p>第三層手續費是台灣這邊銀行的解款手續費，每筆 200 NTD，所以我兩筆就是 400 NTD。</p><p><img src="/AdSense-Withdrawal-Fees/yongfeng.png" alt="yongfeng"></p><p>至此，簡單盤一下，我原本的 Youtube 收益 + 網頁廣告收益為 136.55 + 114.4 = 250.95 USD，用最近的匯率 32 來算大概有 8000 NTD。</p><p>但扣掉以上這些以後，我最後拿到的只有 214.37 USD，換算是 6860 NTD ——等於打了八五折！</p><p>holy shit，神聖的狗屎呀。</p><h3 id="第四層手續費">第四層手續費</h3><p>第四層就是外幣帳戶換匯轉入台幣帳戶的手續費，以我永豐為例就是 0.9%，並且低消 100 NTD。</p><p>這個是我本來就知道存在的成本，所以我就還好。</p><h3 id="總結">總結</h3><p>結論就是，本來覺得 Google 在你收益不滿 100 USD 之前不讓你提領是個很流氓的規則。但實際上，如果你不滿 100 USD 就想實際把錢提出來花，你會發現層層關卡抽水抽一抽，幾乎所剩無幾。</p><p>總之，反正這些收益本來就只是樸實無華生活中的錦上添花，以後還是累積多一點再領出來吧。</p>]]></content:encoded>
+      
+      
+      <category domain="https://shuaixin.cc/categories/%E6%9E%B6%E7%AB%99%E7%AD%86%E8%A8%98/">架站筆記</category>
+      
+      
+      <category domain="https://shuaixin.cc/tags/Google/">Google</category>
+      
+      <category domain="https://shuaixin.cc/tags/AdSense/">AdSense</category>
+      
+      
+      <comments>https://shuaixin.cc/AdSense-Withdrawal-Fees/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>關於我的關於我：不小心拿工作崗位來給自己貼標籤</title>
@@ -1542,35 +1573,6 @@
       
       
       <comments>https://shuaixin.cc/HA-1-setup/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>讀書筆記：《為什麼我們這樣生活，那樣工作？》</title>
-      <link>https://shuaixin.cc/The-Power-of-Habit/</link>
-      <guid>https://shuaixin.cc/The-Power-of-Habit/</guid>
-      <pubDate>Fri, 19 Jul 2024 16:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description></description>
-          
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p><img src="/The-Power-of-Habit/habit.png" alt="habit"></p><h3 id="不需要海馬迴也能「記得」你的習慣">不需要海馬迴也能「記得」你的習慣</h3><p>根據一生致力於記憶領域的 Squire 教授在尤金身上的一連串研究，發現就算沒辦法再記得事情（順向失憶症），依舊可以養成習慣。</p><p>這位尤金依舊可以維持數年的日常生活，每天靠著「習慣」起居、出門散步，並且在無法回答（記不得）自己家坐落何處的情形之下自行返家。</p><p>進一步展開記憶遊戲與測驗。內容有八組物品，每一組有一個底下貼著「正確」的標籤。每天玩，但每天忘。然而最終結果是，在 28 天後，尤金的選擇正確率達到了 85%；36 天後，達到 95%！（即使在尤金眼中每天都是全新的遊戲內容）</p><p>我們後來知道，「習慣中樞」位於基底核——啊哈，原始的學習能力大概就是來自這傢伙吧！人就算不記得自己上了什麼課、做了什麼決策，還是能夠學習，以至於後來能夠不知不覺地下決定。<strong>習慣的重要性不亞於記憶與理智，它是我們行為舉止的根本。</strong></p><p>（補充一下，更精確來說，習慣與背側紋狀體有關，而獎酬系統則與腹側紋狀體的伏隔核有關）</p><p>（再補充一下，獎酬系統走的是中腦邊緣路徑，中腦的腹側被蓋區釋放、邊緣系統的伏隔核接收）</p><p>（但習慣的部分我真的查不到詳細的位置了。倒不如說，「習慣」這個概念並沒有在醫學、神經科學之中被詳細定義出來）</p><h3 id="習慣的運作方式：提示、渴望、行為、獎酬">習慣的運作方式：提示、渴望、行為、獎酬</h3><p>沒有獎酬的行為，我們就難以對其產生渴望。這可以解釋為什麼有些習慣容易形成，例如運動、刷牙；有些則否，例如防曬、多喝水、多吃蔬菜、補充維他命。</p><p>運動會促使分泌腦內啡使我們舒服愉悅，但防曬、多喝水云云在短期內並不會有明顯的獎酬發生，於是我們在生理上本來就不容易乖乖多吃蔬菜。</p><p>那麼刷牙呢？牙膏剛被開發出來時確實沒什麼人在用，直到——薄荷醇被加進去。這個涼涼的感覺跟乾淨衛生在我們心裡被畫上了等號，明顯的獎酬產生了，於是我們就愛上了刷牙。</p><p>現在的沐浴乳跟洗髮精都有很強的起泡能力，其內涵與牙膏中的薄荷醇頗有異曲同工之妙。</p><h3 id="改變習慣的方法：以新汰舊與「信任」">改變習慣的方法：以新汰舊與「信任」</h3><p>比起根除習慣，改變習慣更為務實。在相同的提示、渴望、獎酬的前提之下，我們改變行為，來個以新汰舊。</p><p>其中，提示通常來自地點、時間、情緒狀態、其他人、前一個行為，我們要先揪出提示。</p><p>接著，我們透過改變行為來實驗看看真正的獎酬。例如，每到下午三點就想來根煙，那我們改成喝咖啡來試試看。觀察十五分鐘，如果抽煙的渴望消失了，那可能我們真正需要的是生理上的刺激，而不是尼古丁本身。（我們在<a href="https://shuaixin.cc/The-Molecule-of-More/">《欲望分子多巴胺》</a>裡面還知道，尼古丁唯一的機轉就只是引發藥癮，抽煙就是單純體驗解癮的如釋重負感而已）</p><p>另外作者提到，舊習慣容易在生活發生巨變之時重蹈覆轍，但有一群人卻能免疫，這群人要嘛是身在互助會裡、要嘛是擁有信仰。於是作者下了一個「信任」也是抑制舊習的一個重點因素。（我覺得行文間能感覺到作者的一絲心虛）</p><p>不過我們再次透過<a href="https://shuaixin.cc/The-Molecule-of-More/">《欲望分子多巴胺》</a>瞭解到，多巴胺跟「當下分子」——諸如腦內啡、血清素、催產素，有著相互拮抗的關係。當人際互動助長了催產素，讓我們跟隨慾望行動的多巴胺就相對受到壓抑。十分合理。</p><p>同理，讓孕婦戒煙戒酒也會容易許多，跟催產素大概關係匪淺。</p><h3 id="意志力比較像是肌肉——會疲乏，但能越練越強">意志力比較像是肌肉——會疲乏，但能越練越強</h3><p>所言甚是。這題我們在《輕鬆駕馭意志力》看過，意志力會在一天之中持續消耗，於是下班後總是沒辦法成功走進健身房。</p><p>法院裡的誤判容易發生在午後、衝動購物容易發生在深夜，諸如此類的底層邏輯其實十分類似，畢竟我們的前額葉皮質可是很耗能的。</p><p>書中提供的解法是：預先設想好每個瓶頸，將解決方案先寫下來，等遇到就直接照表操課，如此一來就可以不必消耗珍貴的意志力。一言以蔽之，就是走一個 SOP。（吐槽一下，書中的子標題是「如何讓意志力自動運作」。嗯？這樣還算是意志力自己在運作嗎 XD）</p><p>順帶一提，早起也是一解。把最需要判斷力、意志力的事項放在早上進行（與時間做田忌賽馬）。這也是<a href="https://shuaixin.cc/The-Miracle-Morning">《早起的奇跡》</a>的奇跡之處，一日之計在於晨嘛，各位在幾歲之前一直覺得這句是垃圾話呢？我是 27 歲之前啦，慚愧慚愧。</p><h3 id="大眾傾向喜歡聽芭樂歌也是一種習慣">大眾傾向喜歡聽芭樂歌也是一種習慣</h3><p>大腦喜歡熟悉的內容，旋律也不例外。這也是為什麼大家理性地批評華語流行樂千篇一律，但同時卻很感性地重複播放。</p><p>那電台如何推送大家不熟悉的新歌，又不至於害聽眾轉台呢？把當下的熱門歌曲放在新歌的前後——三明治策略，以舊習慣包圍新習慣。</p><h3 id="Other-Good-Points">Other Good Points</h3><ul><li>我們每天有 45% 的活動來自習慣。</li><li>「成癮」跟「習慣」其實很難區分界定。</li><li>下午來一些咖啡因有助於戒煙。（因為部分煙槍只是渴望生理上的刺激，提示跟獎酬不變的情形之下，改變行為）</li><li>想調整習慣？不妨先從核心習慣開始著手，這個核心習慣會創造生活上的「小贏」，蝴蝶效應應運而生。<ul><li>運動習慣就是一個經典好例子。</li></ul></li><li>第二部分話題圍繞在組織上，一開始總覺得作者稍有離題。但其實某方面來說，「企業文化」就是一種組織層級的「習慣」。</li><li>消費者進入超商的習慣：先右轉。</li><li>超商會故意把生鮮放在最開始。這會讓買了健康東西的消費者自我感覺良好，意志力標準降低，後續買更多東西。</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://shuaixin.cc/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/">讀書筆記</category>
-      
-      
-      <category domain="https://shuaixin.cc/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/">4顆星書籍</category>
-      
-      
-      <comments>https://shuaixin.cc/The-Power-of-Habit/#disqus_thread</comments>
       
     </item>
     
