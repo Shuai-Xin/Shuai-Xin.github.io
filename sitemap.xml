@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shuaixin.cc/Ideal-Life/</loc>
+    
+    <lastmod>2026-05-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shuaixin.cc/Synology-Rsync-to-QNAP/</loc>
     
     <lastmod>2026-05-29</lastmod>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>https://shuaixin.cc/Awesome-Keymap/</loc>
-    
-    <lastmod>2026-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shuaixin.cc/Ideal-Life/</loc>
     
     <lastmod>2026-05-09</lastmod>
     
