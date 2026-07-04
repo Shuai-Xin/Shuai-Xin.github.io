@@ -15,8 +15,41 @@
     <atom:link href="https://shuaixin.cc/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>劉昕的部落格</description>
-    <pubDate>Thu, 25 Jun 2026 11:21:07 GMT</pubDate>
+    <pubDate>Sat, 04 Jul 2026 00:44:24 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>我的 MVP 名片</title>
+      <link>https://shuaixin.cc/My-MVP-Card/</link>
+      <guid>https://shuaixin.cc/My-MVP-Card/</guid>
+      <pubDate>Fri, 03 Jul 2026 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description></description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>看到 <a href="https://lq7.tw/mood/my-name-cards/">LQ7 的名片</a>覺得真好看，低頭看看我自己的：</p><p><img src="/My-MVP-Card/mvp_card.jpg" alt="mvp_card"></p><p>哈哈哈哈，我直接跟廠商說正面放名字、背面放 QR code、先印個兩百張、感恩謝謝，東西就在沒有任何設計稿之下誕生啦！</p><p>年少的我如果知道我現在不注重門面成這幅德行一定會嚇死。但隨便啦，先能用就好，其他以後再說，所有東西都先做成 MVP（Minimum Viable Product，最小可行性產品）就開始 pitch 到世界上就對了。</p><p>《The Art of Computer Programming》的<a href="https://www-cs-faculty.stanford.edu/~knuth/">作者</a>說：“Premature optimization is the root of all evil.”，過早最佳化是萬惡之源！所言甚是啊，雖然他書中談論的是程式設計，但我想套用在任何領域上都是如此。BTW，作者今年 88 歲了，《The Art of Computer Programming》系列預計寫七本，目前第四本都還沒正式出版，要不要考慮一下先寫個 MVP 出來？</p><p>總之不想過早最佳化的我的 MVP 名片就是長這副潦草的摸樣。Hmm… 已經發很多出去了，其實我根本過晚最佳化吧（？</p><p>目前我會用掃碼的形式是因為，我計劃做成一個「永久名片」，上面的碼指向一個例如 <code>https://_go_somewhere.shuaixin.cc/</code> 的 URL，然後只要我持續擁有該域名，我就可以隨時改變該 URL 的跳轉終點。所以只要做出一個最終版本之後，理論上它就可以<strong>永久使用</strong>，已經發出去的也可以永遠掃到我的最新狀態，不會因為我換工作、改了頭銜之類的而要汰換掉。難道只有我覺得每次升個官、調個單位就要重印幾百張名片很<a href="https://sutian.moe.edu.tw/zh-hant/su/6753/">討債</a>（thó-tsè，台語表糟蹋、鋪張浪費）嗎？</p><p>目前我讓它被掃描的時候會同時透過 telegram 通知我，所以如果我一段時間內只有發給特定的人的話，其實我可以大致知道對象有沒有掃進去看。我最喜歡這個功能，因為人家沒掃進去就是對我沒興趣嘛，我自己心裡可以有個底。（其實本來擔心這樣做是否有踩線之虞？但實際上我只是在該 URL 被訪問的時候被通知，並沒有追蹤到某個個人，是誰掃的也只是靠猜而已。所以應該是可以的…吧？）</p><p>不過既然最後都是導向某個網頁，那不如一開始就給連結就好？但我覺得實體名片還是比較有溫度耶，而且是個很好用的破冰小物。畢竟如果是完全的新朋友，你一開始也沒有媒介可以給人家連結，交換聯絡訊息就會比較手忙腳亂。但實體名片發出去就完成了，既保留了傳統的有溫度的物理接觸，又兼具了數位化的優雅高效。</p><p>LQ7 在名片上放了他的<a href="https://lq7.tw/thinking/we-suffer-more-often-in-imagination-than-in-reality/">格言</a>，我覺得挺好的，增加資訊密度與名片閱覽停留時間（？），美觀且育樂兼具，而且破冰效果更顯著（句子本身就能成為談資）。但由於我還沒找到我的那<a href="https://shuaixin.cc/Trinity-Motto/">集 slogan、座右銘、墓誌銘於一身的句子</a>，所以沒辦法。但說真的，要不是有<a href="https://eddielv.com/articles/blogblog-party-recap-may-2026/">部落格同樂會</a>讓我有機會反思，我可能真的會在某個版本的名片印上「努力的男人不一定最帥，但一定最累」這種自以為有趣的東東。好險好險。</p><p>目前我覺得有個個人名片可以發確實還不錯，MVP 測試的結果是 OK 可行。再來要來把它弄得好看一點了。</p>]]></content:encoded>
+      
+      
+      <category domain="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/">其他</category>
+      
+      
+      <category domain="https://shuaixin.cc/tags/%E6%87%89%E7%94%A8/">應用</category>
+      
+      <category domain="https://shuaixin.cc/tags/MVP/">MVP</category>
+      
+      <category domain="https://shuaixin.cc/tags/%E5%90%8D%E7%89%87/">名片</category>
+      
+      
+      <comments>https://shuaixin.cc/My-MVP-Card/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>從配子到性染色體：性別是怎麼出現的？</title>
@@ -1576,37 +1609,6 @@
       
       
       <comments>https://shuaixin.cc/stop-windows-auto-update/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>勞動力發展署北基宜花金馬分署物聯網AI系統整合實務筆試詳解</title>
-      <link>https://shuaixin.cc/iot-exam-note/</link>
-      <guid>https://shuaixin.cc/iot-exam-note/</guid>
-      <pubDate>Mon, 25 Nov 2024 16:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description></description>
-          
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>以下題目為「勞動力發展署北基宜花金馬分署 113 年度自辦職前訓練：物聯網-AI 系統整合實務（泰山）第 1 期考題」。</p><p>而以下詳解都是我自己隨手寫下的，僅供參考咯。</p><p>當然，如果有誤還請提點，感謝！</p><h3 id="題目與解析">題目與解析</h3><blockquote><p><strong>電腦網路 OSI 模型的資料鏈結層（data link layer）可以識別下列何者？</strong><br>① 應用系統所採用的 HTTP 或 FTP 等通訊協定<br>② 傳輸時所使用的媒體規格<br>③ 網路卡的實體位址（MAC address）<br>④ 電腦的 IP 位址</p></blockquote><p>某種程度上的網際網路背誦題。七層結構的常見懶人包如下：</p><ul><li>應用程式層：Http, DNS, POP3, Telnet, FTP, DHCP</li><li>展示層：轉碼解碼的都屬於此層</li><li>會議層：比較沒有存粹的會議層的例子</li><li>傳輸層：TCP, UCP</li><li>網路層：IP, ICMP（router比較負責這裡）</li><li>資料連接層：MAC, Wifi, Ethernet（bridge, switch, hub 比較負責這裡）</li><li>實體層：實體硬體基礎設施屬此層（repeater顯然是這裡咯）</li></ul><p>故此題選 MAC address。</p><p>switch 跟 hub 的差別？switch 有記憶體，會負責記得所有設備的 mac 位置；但 hub 每次都用廣播的。</p><p>gateway 跟 router 的差別？在不同協議之間幫忙溝通的是 gateway，而 router 主要只負責 ip 協議內的事。其實可以把 router 想成是一種 ip gateway。</p><p>ARP(address resolution protocol) 是哪層？ARP table 記得 ip 跟 mac 的對應。如果沒有，就廣播問一下，問完就記起來。所以是哪層？偏資料連接層，但其實網路層也算。用戶端主機跟 router 都會維護 ARP table。</p><p>NAT(network address translation) 負責把 private ip 置換成 public ip 出去，回來反之。 因為是改 IP 的標頭，所以是網路層。但其實內網很多設備同時要訪問外網，這時候同一個ip沒辦法同時處理，此時其實會修改到埠號，而埠號就是TCP的活了，所以也會碰到傳輸層。</p><p>例如 port forwarding 就是 NAT 在負責的。我們先告訴 NAT 說如果外網要求訪問某個 port（TCP 負責的埠），那我就給他某個內網的某個 port。</p><p>Port 就是 TCP、UDP 在負責的，乃傳輸層。常見的如 80 for http, 21 for ftp, 22 for ssh, 25 for smtp(e-mail)。</p><blockquote><p><strong>網際網路的通訊方式是採用何種資料交換技術？</strong><br>① 封包交換（packet switching）<br>② 電路交換（circuit switching）<br>③ 數位交換（digital switching）<br>④ 訊息交換（message switching）</p></blockquote><p>這題基本，選封包。</p><blockquote><p><strong>「資料完整性檢查」必須使用到下列哪一種技術？</strong><br>① 金鑰系統<br>② 加密<br>③ 雜湊函數<br>④ 解密</p></blockquote><p>這題選項露餡，加密解密跟金鑰不都一家人嗎？所以腦選雜湊函數。</p><blockquote><p><strong>下列何種記憶體技術，將部分程式暫時儲存於硬式磁碟上，於需要執行之時再進行資料交換（swap）？</strong><br>① 堆疊（stack）記憶體<br>② 佇列（queue）記憶體<br>③ 快取（cache）記憶體<br>④ 虛擬（virtual）記憶體</p></blockquote><p>swap 技術使用的是虛擬記憶體，因為當初即如此命名，比較是名詞定義問題。</p><blockquote><p><strong>駭客發送大量封包，以癱瘓被攻擊者的網路或伺服器，稱為何類攻擊手法？</strong><br>① 邏輯炸彈（Logic Bomb）<br>② 阻斷服務（Denial of Service）<br>③ 巨集病毒（Macro Virus）<br>④ 網路入侵（Network Intrusion）</p></blockquote><p>DDoS 挺常見的，英雄聯盟 S24 世界大賽前，T1 就一直被 DDOS 攻擊。所以選 DoS（蛤）。至於多一個 D 是 Distributed，表示分散式阻斷。其運用各地不同的一堆用戶端發出大量的請求來癱瘓服務器。而畢竟對伺服器來說都是合法的請求（不是少數幾台在大量索求），所以防不勝防。</p><blockquote><p><strong>有關 NOR 閘之敘述，下列何者錯誤？</strong><br>① 先執行 NOT 運算，結果再做 OR 運算<br>② 所有輸入皆為 0 時，輸出才為 1<br>③ 是一種通用邏輯閘（Universal Gate）<br>④ 能夠模擬出 NOT 運算閘</p></blockquote><p>邏輯閘題。Nor 即 Not-OR，就是或閘的相反，其真值表為 001、010、100、110。</p><p>顯然是先或運算再非運算。</p><blockquote><p><strong>下列何者為 CPU 執行指令的正確順序？</strong><br>① 取指令、分析指令、執行、取資料<br>② 取指令、取資料、分析指令、執行<br>③ 取資料、取指令、分析指令、執行<br>④ 取指令、分析指令、取資料、執行</p></blockquote><p>又是一題選項露餡，所以我們只需抉擇「取資料」與「分析指令」之先後。</p><p>試想，並不是每筆指令都需要取資料，所以分析指令的種類顯然必須在先。故選「取指令 → 分析指令 → 取資料 → 執行」。</p><p>認真點講，其實這題就是所謂的「Fetch-Decode-Execute Cycle」。</p><blockquote><p><strong>將運算元的值直接編碼在指令中的是哪一種定址模式？</strong><br>① 暫存器定址（register addressing）<br>② 立即定址（immediate addressing）<br>③ 位移定址（displacement addressing）<br>④ 直接定址（direct addressing）</p></blockquote><p>可能要理解組合語言的邏輯？</p><p>暫存器定址就是直接指定CPU身上的暫存器，讀取速度快，如<code>MOV R1, R2; 把R2的內容放到R1</code>。</p><p>立即定址就是我直接指定某個位置要放某個立即數，比如說<code>MOV R1, 5; 把5這個數字存在R1</code>。（運算元5直接寫在指令裡咯，故選）</p><p>直接定址其實就是指標的概念，如<code>MOV R1, [1000h] ; 將內存地址 1000h 中的值存入 R1</code>。</p><p>位移定址也是指標，但加了 offset，例如<code>MOV R1, [1000h + 4] ; 將 1000h + 4 指向的值存入 R1</code>。</p><blockquote><p><strong>傳統 IP（Internet Protocol）位址包含網路位址與主機位址，網路位址用來辨別所屬的網路；假設網路位址為 140.112，請問有多少 IP 位址可以用來識別網路上的裝置？</strong><br>① 65536<br>② 1024<br>③ 16384<br>④ 32768</p></blockquote><p>這裡的「傳統IP」應該是指 IPv4 吧 XD</p><p>那反正 IP 全長就是 140.112.x.x，後面作為 host ID，共有 16bit，故有 65536 種可能。不過需注意，140.112.0.0 跟 140.112.255.255 會保留不可使用，嚴謹來說是 65534 個可用的地址。</p><blockquote><p><strong>在微處理機中，下列何者負責記錄 CPU 下一個所要執行的指令在記憶體中的位址？</strong><br>① 堆疊指標（stack pointer）<br>② 指令暫存器（instruction register）<br>③ 累加器（accumulator）<br>④ 程式計數器（program counter）</p></blockquote><p>單純是名詞題，就 CPU 按照順序接續執行指令的過程中，會有人在旁邊幫忙數，這人叫 program counter。</p><blockquote><p><strong>硬體上大單元的 ALU，其主要功能為何？</strong><br>① 監控螢幕顯示<br>② 執行磁碟存取<br>③ 執行加法、減法與邏輯運算<br>④ 執行記憶體中的資料傳輸</p></blockquote><p>考首字母縮寫？ALU 是運算邏輯單元，負責運算。</p><blockquote><p><strong>十進位數字 256 減去二進位數字 10001101 後的結果為何？</strong><br>① 十進位的 114<br>② 二進位的 01110011<br>③ 十進位的 36<br>④ 二進位的 01111010</p></blockquote><p>就是 256-141=115。</p><blockquote><p><strong>下列有關並列（Parallel）傳輸和序列（Serial）傳輸的比較，何者有誤？</strong><br>① 並列傳輸一次能傳送較多的資料<br>② 序列傳輸相對的成本較低<br>③ 電腦的 USB 和 SATA 介面都是採用序列傳輸<br>④ 電腦網路大多是透過並列傳輸的方式來傳送資料</p></blockquote><p>兄弟們，USB 是「通用序列匯流排」，S for Serial；而 SATA 的 S 也是 Serial，名字露餡。</p><p>不過只要涉及長距離溝通（超過一個主機板的距離就算很長了），基本上都是用序列的方法，一個時脈只走一個bit。</p><p>所以網路是用序列才對哦。</p><blockquote><p><strong>計算二進位值「1111010111.101」，轉換成十六進位值的結果為何？</strong><br>① 3D7.A<br>② 32C.5<br>③ D25.3<br>④ 259.E</p></blockquote><p>主要是小數點下面對十進制使用者來說都很不直觀，要換算一下。</p><p>0b0.101 換算成十進制是 0.625，也就是 10/16，所以選 0.A 那位。</p><p>沒錯，整數部分不用管，誰理你呀！</p><blockquote><p><strong>下列哪個網路卡實體位址（MAC Address）正確的表示方式？</strong><br>① E2-C3-01-22-97-F4<br>② A3:45:CF:00:00:01:58:DC<br>③ 254. 73. 45. 69<br>④ 67:02:AB:33</p></blockquote><p>這題究極無敵霹靂無聊！反正規範是六個字節。重點是習慣上我們明明就是用冒號相隔，所以這題明顯又無聊又愛騙。</p><blockquote><p><strong>國際標準組織（ISO）所訂定之開放式系統連結（OSI）的參考模式中，其通訊協定第一（底）層為？</strong><br>① 網路層<br>② 資料鏈路層<br>③ 實體層<br>④ 運送層</p></blockquote><p>OSI 背誦題，底層為實體層。</p><blockquote><p><strong>以下何者不是動態網頁中使用的腳本語言？</strong><br>① JavaScript<br>② ASP<br>③ PHP<br>④ PWS</p></blockquote><p>小白過濾題（？），因為 PWS 是一種軟體，不是語言。</p><blockquote><p><strong>在記憶體的階層式（memory hierarchy）架構中，下列那一個的存取時間最短？</strong><br>① CPU 暫存器（register）<br>② 主記憶體（main memory）<br>③ 快取記憶體（cache memory）<br>④ 硬碟（hard disk）</p></blockquote><p>離 CPU 越近越快，故。</p><blockquote><p><strong>下列敘述何者正確？</strong><br>① 乙太網路中的電腦，每次要傳送訊框時都要用 CSMA/CA 方法爭取傳送的機會<br>② 交換式集線器(Switch)可以減少乙太網路資料傳送時，發生碰撞(Collision)的情形<br>③ 乙太網路通常採環狀(Ring)的架構<br>④ Wifi 無線網路是採用乙太網路的邏輯機制建構的</p></blockquote><p>CSMA/CD 是有線的 Ethernet 用的，是 Collision Detection，都發送看看，碰撞再說。</p><p>CSMA/CA 則是無線的 Wifi 用的，是 Collision Avoidance，我發之前會問也會警告大家不要來碰撞。</p><p>Ethernet 用的是星狀拓撲或總線拓撲。</p><blockquote><p><strong>假定有一個一維陣列 A，陣列中每個元素需占用 4 個位元，如果程式執行時 A(60) 的記憶體位址為 600，則 A(310) 的位址為何？</strong><br>① 3100<br>② 1600<br>③ 1240<br>④ 1840</p></blockquote><p>等差數列題（？），相差了 1000 個位元，故選 1600。</p><blockquote><p><strong>Unicode 可容納 65536 個字符編號，包括 128 個 ASCII 字元、英文、中文、日文及非英語系國家常用文字，其係利用多少位元組來表示？</strong><br>① 1<br>② 2<br>③ 3<br>④ 4</p></blockquote><p>換句話說，65536 個資訊，需要至少幾 byte 來容納？需要 16bit 共 2byte。</p><blockquote><p><strong>假設電腦內部整數佔用 16 位元，採用 1 的補數(1’s complement)表示法，則所能表示的整數範圍為：</strong><br>① -32767 到 32767<br>② -32767 到 32768<br>③ -32768 到 32767<br>④ -32768 到 32768</p></blockquote><p>1補數：對人類來說比較直觀，6（0b0110）的相反數-6就直接寫成 0b1001，全部 Not 掉就好。但這樣會讓 0b0000 跟 0b1111 都是 0。</p><p>2補數：算法上會比較簡單，少一個步驟且不用特別設計減法ALU。6（0b0110）的相反數-6是0b1001+1=0b1010。</p><p>此題最大正數是 0111111111111111，最小是 1111111111111111。 故為正負 32767。</p><blockquote><p><strong>下列何種網頁技術是在客戶端(client)的瀏覽器(browser)上執行？</strong><br>① JavaScript<br>② ASP<br>③ PHP<br>④ CGI</p></blockquote><p>前端語言 HTTP, CSS, JS，選 JS。</p><blockquote><p><strong>下列有關 P2P(peer-to-peer) 網路的敘述，何者錯誤？</strong><br>① 一般而言，P2P 網路內，每一部電腦都具有 Server 與 Client 的身份<br>② P2P 網路內，通常有一部以上的 Server 提供 P2P 服務<br>③ P2P 網路內，通常有一部以上的 Client 要求 P2P 服務<br>④ Server 的角色極為重要，所以若某一部 Server 故障，將導致整個 P2P 網路停止運作</p></blockquote><p>同學們，遇到「極限用語」就當錯。「整個」為極限用語，視為錯。（不要教壞小孩）</p><blockquote><p><strong>下列哪一個 IP 位址是屬於 B 級網路的等級？</strong><br>① 62.100.5.2<br>② 129.17.22.25<br>③ 193.6.8.5<br>④ 210.99.56.32</p></blockquote><p>背誦題，好無聊。第一個字節開頭 0 為 A級、10為B級、110為C級。十進制而言，127以內為A級、191以內為B級。</p><blockquote><p><strong>請問十進位數字 125.125，轉為二進位數字的結果為何？</strong><br>① 1111011.110101<br>② 1111111.110101<br>③ 1011111.010101<br>④ 1111101.001</p></blockquote><p>0.125 為 1/8，所以小數點後面是 0.001。喔喔？整數又不用看了，咖薰。（出題老師很心機哦，給個讚。這種可以鑒別小聰明的心機才是良性心機）</p><blockquote><p><strong>使用多個處理器但彼此間並不共享記憶體和時脈的作業系統是：</strong><br>① 批次作業系統<br>② 多工式作業系統<br>③ 即時作業系統<br>④ 分散式作業系統</p></blockquote><p>你知道分散式跟平行式的差別嗎？平行式會共用時脈哦！偶爾甚至會共用記憶體。但這些都是寫死在 CPU 架構裡面了。</p><blockquote><p><strong>下列網路傳輸設備中，何者是用來將網路訊號增強後再送出？</strong><br>① 橋接器 (bridge)<br>② 中繼器 (repeater)<br>③ 路由器 (router)<br>④ 交換器 (switch)</p></blockquote><p>陳冠宇算是一種中繼投手嗎？</p><blockquote><p><strong>資訊安全中最重要的三項目標為 CIA，其中 C 是保密性 (Confidentiality)，I 是完整性 (Integrity)，A 是代表什麼？</strong><br>① 存取 (Access)<br>② 可用性 (Availability)<br>③ 證實 (Affirmation)<br>④ 匿名 (Anonymity)</p></blockquote><p>我原本選了證實QQ 我想說都要MD5之類的校驗一下才對，但其實校驗就是完整性校驗啊，就是完整性的範疇了。其實「可用性」也很重要，否則第三方秉持著「我破解不了但我要毀了你們！」的心態，直接讓資訊對大家都不可用，那也不好。</p><blockquote><p><strong>OSI 網路七層架構中，哪一層服務負責控制傳送的路徑 (Routing)？</strong><br>① 實體層 (Physical Layer)<br>② 資料鏈結層 (Data Link Layer)<br>③ 網路層 (Network Layer)<br>④ 傳輸層 (Transport Layer)</p></blockquote><p>見第一題，routing 就是在搞 IP，所以跟 IP 一起。</p><blockquote><p><strong>在 ASCII 碼中，字元 H 的十六進位表示為 48，請問字元 K 的十六進位表示為何？</strong><br>① 50<br>② 51<br>③ 4A<br>④ 4B</p></blockquote><p>英文字母都是連號，連過去就對了，但記得要十六進制，選 4B。</p><blockquote><p><strong>下列哪一項為電腦中實際使用的負數表示法？</strong><br>① 浮點數表示法<br>② 最高位元表示法<br>③ 1 補數法<br>④ 2 補數法</p></blockquote><p>見…… 忘了第幾題了，我複製過來吧：</p><p>1補數：對人類來說比較直觀，6（0b0110）的相反數-6就直接寫成 0b1001，全部 Not 掉就好。但這樣會讓 0b0000 跟 0b1111 都是 0。</p><p>2補數：算法上會比較簡單，少一個步驟且不用特別設計減法ALU。6（0b0110）的相反數-6是0b1001+1=0b1010。</p><blockquote><p><strong>下列關於網路伺服器的描述，何者正確？</strong><br>① Proxy Server：具有快取功能，加快網頁開啟速度<br>② FTP Server：可以登入遠端伺服器<br>③ DNS Server：可動態分配 IP 位址<br>④ DHCP Server：負責 IP 位址與網域名稱的轉換</p></blockquote><p>FTP 是檔案傳輸；DNS 跟 DHCP 兩個寫反了。</p><blockquote><p><strong>電子商務交易中，參與的角色是企業與其相關夥伴，是屬於下列哪一種型態？</strong><br>① B2B<br>② B2C<br>③ C2C<br>④ G2G</p></blockquote><p>其中 G2G 應該是政府對政府的意思……吧？不確定，請告訴我。</p><blockquote><p><strong>下列有關程式語言之敘述，何者不正確？</strong><br>① 組合語言為低階語言<br>② JAVA 程式可以不依附作業系統執行<br>③ 物件導向語言具封裝、繼承與多型特性<br>④ 組合語言不需要翻譯即可以執行</p></blockquote><p>組合語言也需要組譯器翻譯。</p><blockquote><p><strong>IP 公共位址是利用下列何種協定，可讓多部使用私人 IP 位址的電腦，共同使用一個實體 IP 位址上網路？</strong><br>① TCP<br>② RIP<br>③ DHCP<br>④ NAT</p></blockquote><p>TCP 是傳輸層；RIP 負責 routing 的邏輯，比較是網路層；DHCP 負責分配 IP 給大家，但是是應用層（比較複雜啦我也不知道，嘻嘻）；NAT 負責讓多個用戶端共用 IP，比較偏網路層。</p><blockquote><p><strong>有一應用程式需要以一個變數來表示一年 365（或 366）天中的一天，請問該變數至少需要多少位元組？</strong><br>① 1<br>② 2<br>③ 8<br>④ 9</p></blockquote><p>1byte 256嘛，所以至少2byte。</p><h3 id="補充">補充</h3><p>IaaS, PaaS, SaaS 分別是「Infrastructure as a Service」、「Platform」、「Software」。你跟 google GCP 租虛擬機就是 IaaS；你用 Heroku 假設一個 linebot 的後台就是 Paas；你用 gmail 就是接受 SaaS。</p><p>STP（Spanning Tree Protocol, 生成樹協議）因為實際上網路不總是樹狀拓撲，STP 會算出一棵樹，可以避免掉死回圈。</p>]]></content:encoded>
-      
-      
-      <category domain="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/">其他</category>
-      
-      
-      <category domain="https://shuaixin.cc/tags/internet/">internet</category>
-      
-      <category domain="https://shuaixin.cc/tags/iot/">iot</category>
-      
-      
-      <comments>https://shuaixin.cc/iot-exam-note/#disqus_thread</comments>
       
     </item>
     
