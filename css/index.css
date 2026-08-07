@@ -1741,7 +1741,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: "Noto Serif TC", serif;
+  font-family: "Noto Serif TC", "Noto Serif", "Noto Sans TC", "Noto Sans CJK TC", "Noto Sans CJK JP", "Noto Sans CJK KR", sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   scroll-behavior: smooth;
@@ -2044,7 +2044,7 @@ figure.highlight pre .javascript .function {
 .container pre,
 .container code {
   font-size: 15px;
-  font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft JhengHei', sans-serif !important;
+  font-family: "JetBrains Mono", "Noto Sans Mono", "Noto Sans CJK TC", monospace !important;
   border-radius: 6px;
 }
 .container code {
