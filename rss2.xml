@@ -15,8 +15,70 @@
     <atom:link href="https://shuaixin.cc/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>劉昕的部落格</description>
-    <pubDate>Tue, 04 Aug 2026 04:00:10 GMT</pubDate>
+    <pubDate>Thu, 13 Aug 2026 08:31:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>日文小筆記：吃吃「看」</title>
+      <link>https://shuaixin.cc/Japanese-Try-and-See/</link>
+      <guid>https://shuaixin.cc/Japanese-Try-and-See/</guid>
+      <pubDate>Wed, 12 Aug 2026 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description></description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<blockquote><p>本文同時收錄於<a href="https://shuaixin.cc/Korean-5-Try-and-See/">《韓文小筆記之五：吃吃「看」》</a>，內容幾乎一模一樣喲。</p></blockquote><p>我發現一個驚天大秘密，那就是中日韓三文都可以拿「看」來表達「試著做某事」！</p><h3 id="日文的吃吃看">日文的吃吃看</h3><p>日文中，吃是「<ruby>食<rt>た</rt></ruby>べる」、看是「<ruby>見<rt>み</rt></ruby>る」，我可以直接組裝起來表達「吃吃看」嗎？</p><p>可以！</p><blockquote><p>食べてみる（吃吃看）</p></blockquote><p>其中，食べる是一段動詞，連接兩個動作時去る加て，成為て型的「食べて」。</p><p>而見る也是一段動詞，如果要用禮貌型的話直接去る加ます，成為ます型的「見ます」：</p><blockquote><p>食べてみます（吃吃看）（禮貌形式）</p></blockquote><p>但總而言之，我們把「吃」跟「看」兩個動詞組裝在一起，表達了一個：「試著吃」。</p><p>但其實還是有個小細節要注意：在這樣的句型中，通常會寫成平假名的「食べてみる」而不是漢字的「食べて見る」。</p><h3 id="韓文的吃吃看">韓文的吃吃看</h3><p>韓文中，吃是「먹다」、看是「보다」，我可以直接組裝起來表達「吃吃看」嗎？</p><p>可以！</p><blockquote><p>먹어 보다（吃吃看）</p></blockquote><p>其中，먹다後面接보다要做아/어形變化，因為詞幹먹是陰性母音（非ㅏ或ㅗ），所以去다加어，變成「먹어」。</p><p>而보다如果要用禮貌型的話，因為詞幹보是陽性母音（是ㅏ或ㅗ），所以去다加아요，而보아요連在一起就會合併成봐요：</p><blockquote><p>먹어 봐요（吃吃看）（禮貌形式）</p></blockquote><p>但總而言之，我們把「吃」跟「看」兩個動詞組裝在一起，表達了一個：「試著吃」。</p><p>至於「오」跟「어」的讀音到底怎麼分？這題我們折騰過，請參考：<a href="https://shuaixin.cc/Korean-4-O-EO-Difference/">《韓文小筆記之四：오跟어怎麼分？》</a></p><h3 id="中文的吃吃看">中文的吃吃看</h3><p>中文中，吃是「吃」、看是「看」，我們可以組裝起來表達「吃吃看」嗎？</p><p>可以！</p><p>其實你仔細端詳「吃吃看」這個句式，還真一點都不合理。因為用相同的邏輯來造句的話：「打打踢」、「吃吃跑」，顯然文法錯誤、意義不明。</p><p>也就是說，「看」這個動詞自成了一種句型，語感上是在表達「做某件事，然後『看』做起來後果怎麼樣」。至於日文跟韓文是不是出自同樣的邏輯或語感呢，我來問問看強大的格友<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>——在此發動由 JN 大大開發的魔法卡：IndiePing！在我面前顯現你真正的力量吧！@<a href="https://blog.ikukaroom.com/ichigo-ichie/">Ikuka</a> @<a href="https://www.yozblog.com/">YoZ</a></p><p>另外，「吃吃看」、「吃看看」；「試試看」、「試看看」的意思表達完全一樣，超酷的欸。而如果動詞不是一個字的話，就只能是例如「測試看看」、「拔掉看看」。</p><h3 id="後話">後話</h3><p>把日文韓文兩造放在一起對比之後，更凸顯了它們的相似之處：都是黏著語、都是SOV語序。難怪<strong>阿爾泰語系</strong>的傳說會如此耐人尋味：日文、韓文、蒙古文、土耳其文都是「黏著語+SOV<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>」，他們之間是否真的有著什麼不為人知的歷史淵源呢？若否，為何明明蒙日韓都大量受到漢文化影響，卻沒有走「分析語+SVO」的流派呢？</p><p>本來很糾結這篇要歸類在日文筆記還是韓文筆記，但我一個念頭閃現，發現我是個成熟的自由的靈魂了，嘻嘻，兩邊都放！</p><p>不過其實 Hexo 有提供同一篇文章歸屬在複數個分類的功能，可以在 front matter 這樣宣告就好：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">categories:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">語言筆記</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">日文筆記</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">韓文筆記</span>]</span><br></pre></td></tr></table></figure><p>但由於我的語言筆記已經有系列標題了，為了維持一貫的標題風格，最後還是決定兩個分類都放一篇，最任性那種。嘛，反正我的部落格我做主 :)</p><p>但這麼做對 SEO 而言是 NG 行為就是了，好寶寶不要學哦。</p><hr><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">這題有偷偷在<a href="https://club.1-know.org/">讀書會</a>群組討論過，右衣認為其中可能用到了隱喻、LQ7 認為只是單純省略了「看」後面的「會有什麼結果」</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">SOV 即語序為「主賓動」，例如：我你愛。而中文的「我愛你」則是 SVO，即「主動賓」。</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content:encoded>
+      
+      
+      <category domain="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/">語言筆記</category>
+      
+      <category domain="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E6%97%A5%E6%96%87%E7%AD%86%E8%A8%98/">日文筆記</category>
+      
+      
+      <category domain="https://shuaixin.cc/tags/%E6%97%A5%E6%96%87/">日文</category>
+      
+      
+      <comments>https://shuaixin.cc/Japanese-Try-and-See/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>韓文小筆記之五：吃吃「看」</title>
+      <link>https://shuaixin.cc/Korean-5-Try-and-See/</link>
+      <guid>https://shuaixin.cc/Korean-5-Try-and-See/</guid>
+      <pubDate>Wed, 12 Aug 2026 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description></description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<blockquote><p>本文同時收錄於<a href="https://shuaixin.cc/Japanese-Try-and-See/">《日文小筆記：吃吃「看」》</a>，內容幾乎一模一樣喲。</p></blockquote><p>我發現一個驚天大秘密，那就是中日韓三文都可以拿「看」來表達「試著做某事」！</p><h3 id="韓文的吃吃看">韓文的吃吃看</h3><p>韓文中，吃是「먹다」、看是「보다」，我可以直接組裝起來表達「吃吃看」嗎？</p><p>可以！</p><blockquote><p>먹어 보다（吃吃看）</p></blockquote><p>其中，먹다後面接보다要做아/어形變化，因為詞幹먹是陰性母音（非ㅏ或ㅗ），所以去다加어，變成「먹어」。</p><p>而보다如果要用禮貌型的話，因為詞幹보是陽性母音（是ㅏ或ㅗ），所以去다加아요，而보아요連在一起就會合併成봐요：</p><blockquote><p>먹어 봐요（吃吃看）（禮貌形式）</p></blockquote><p>但總而言之，我們把「吃」跟「看」兩個動詞組裝在一起，表達了一個：「試著吃」。</p><p>至於「오」跟「어」的讀音到底怎麼分？這題我們折騰過，請參考：<a href="https://shuaixin.cc/Korean-4-O-EO-Difference/">《韓文小筆記之四：오跟어怎麼分？》</a></p><h3 id="日文的吃吃看">日文的吃吃看</h3><p>日文中，吃是「食た食た<ruby>食<rt>た</rt></ruby>べる」、看是「見み見み<ruby>見<rt>み</rt></ruby>る」，我可以直接組裝起來表達「吃吃看」嗎？</p><p>可以！</p><blockquote><p>食べてみる（吃吃看）</p></blockquote><p>其中，食べる是一段動詞，連接兩個動作時去る加て，成為て型的「食べて」。</p><p>而見る也是一段動詞，如果要用禮貌型的話直接去る加ます，成為ます型的「見ます」：</p><blockquote><p>食べてみます（吃吃看）（禮貌形式）</p></blockquote><p>但總而言之，我們把「吃」跟「看」兩個動詞組裝在一起，表達了一個：「試著吃」。</p><p>但其實還是有個小細節要注意：在這樣的句型中，通常會寫成平假名的「食べてみる」而不是漢字的「食べて見る」。</p><h3 id="中文的吃吃看">中文的吃吃看</h3><p>中文中，吃是「吃」、看是「看」，我們可以組裝起來表達「吃吃看」嗎？</p><p>可以！</p><p>其實你仔細端詳「吃吃看」這個句式，還真一點都不合理。因為用相同的邏輯來造句的話：「打打踢」、「吃吃跑」，顯然文法錯誤、意義不明。</p><p>也就是說，「看」這個動詞自成了一種句型，語感上是在表達「做某件事，然後『看』做起來後果怎麼樣」。至於日文跟韓文是不是出自同樣的邏輯或語感呢，我來問問看強大的格友<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>——在此發動由 JN 大大開發的魔法卡：IndiePing！在我面前顯現你真正的力量吧！@<a href="https://blog.ikukaroom.com/ichigo-ichie/">Ikuka</a> @<a href="https://www.yozblog.com/">YoZ</a></p><p>另外，「吃吃看」、「吃看看」；「試試看」、「試看看」的意思表達完全一樣，超酷的欸。而如果動詞不是一個字的話，就只能是例如「測試看看」、「拔掉看看」。</p><h3 id="後話">後話</h3><p>把日文韓文兩造放在一起對比之後，更凸顯了它們的相似之處：都是黏著語、都是SOV語序。難怪<strong>阿爾泰語系</strong>的傳說會如此耐人尋味：日文、韓文、蒙古文、土耳其文都是「黏著語+SOV<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>」，他們之間是否真的有著什麼不為人知的歷史淵源呢？若否，為何明明蒙日韓都大量受到漢文化影響，卻沒有走「分析語+SVO」的流派呢？</p><p>本來很糾結這篇要歸類在日文筆記還是韓文筆記，但我一個念頭閃現，發現我是個成熟的自由的靈魂了，嘻嘻，兩邊都放！</p><p>不過其實 Hexo 有提供同一篇文章歸屬在複數個分類的功能，可以在 front matter 這樣宣告就好：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">categories:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">語言筆記</span></span><br><span class="line"><span class="bullet">-</span> [<span class="string">日文筆記</span>]</span><br><span class="line"><span class="bullet">-</span> [<span class="string">韓文筆記</span>]</span><br></pre></td></tr></table></figure><p>但由於我的語言筆記已經有系列標題了，為了維持一貫的標題風格，最後還是決定兩個分類都放一篇，最任性那種。嘛，反正我的部落格我做主 :)</p><p>但這麼做對 SEO 而言是 NG 行為就是了，好寶寶不要學哦。</p><hr><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">這題有偷偷在<a href="https://club.1-know.org/">讀書會</a>群組討論過，右衣認為其中可能用到了隱喻、LQ7 認為只是單純省略了「看」後面的「會有什麼結果」</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">SOV 即語序為「主賓動」，例如：我你愛。而中文的「我愛你」則是 SVO，即「主動賓」。</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content:encoded>
+      
+      
+      <category domain="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/">語言筆記</category>
+      
+      <category domain="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/%E9%9F%93%E6%96%87%E7%AD%86%E8%A8%98/">韓文筆記</category>
+      
+      
+      <category domain="https://shuaixin.cc/tags/%E9%9F%93%E6%96%87/">韓文</category>
+      
+      
+      <comments>https://shuaixin.cc/Korean-5-Try-and-See/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>超級多的「有趣的小知識或冷門概念」：BlogBlog 同樂會主持人回顧文</title>
@@ -1569,66 +1631,6 @@
       
       
       <comments>https://shuaixin.cc/Korean-X-IPA-Vowel/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>同位異音、互補分佈、自由變體</title>
-      <link>https://shuaixin.cc/phoneme-allophone-variation/</link>
-      <guid>https://shuaixin.cc/phoneme-allophone-variation/</guid>
-      <pubDate>Wed, 01 Jan 2025 16:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description></description>
-          
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p><img src="/phoneme-allophone-variation/phoneme.jpg" alt="phoneme"></p><h3 id="互補分佈">互補分佈</h3><blockquote><p>在語言學中，當兩個語言成分（輔音、元音、詞素等）不能在同一個環境中出現，即處於互補分布（Complementary Distribution）。</p></blockquote><p>比如說，「stop」裡面的「t」我們唸不送氣的 /t/，而「tone」裡面的「t」我們唸送氣的 /tʰ/，而反過來並不成立。也就是說，在「stop」這個環境中，「t」不能唸作 /tʰ/；在「tone」這個環境中，「t」不能唸作 /t/。</p><p>於是我們可以說，在英語中， /t/ 跟 /tʰ/ 這兩個音位<strong>是</strong>互補分佈。</p><p>然而，同樣是  /t/ 跟 /tʰ/，在華語裡面並<strong>不是</strong>互補分佈。</p><p>舉例來說，顛（tian）跟天（tʰian）在同一個環境（-ian）之下都成立。</p><h3 id="同位異音">同位異音</h3><blockquote><p>同位異音（allophone）指的是一個音位可以表示多於一個音。</p></blockquote><p>白話來說，就是相同的音位（phoneme），但不同音素（phone）。</p><p>延續剛剛的例子，「stop」跟「tone」裡面的「t」是互補分佈，且發音相似，所以是同位異音。</p><h3 id="自由變體">自由變體</h3><blockquote><p>自由變異（free variation，又稱自由變體）在語音學上是指兩個（或多個）有差異的語音出現在相同的情境中、這兩者（或多者）可互相替代使用，而母語的使用者認為這二者（或多者）相同。</p></blockquote><p>白話來說，就是雖然唸出來不一樣，但完全不影響理解。</p><p>例如，華語中的「我」的發音其實一直被學者爭論究竟是 /o/（半閉後圓唇元音）或是 /ɔ/（半開後圓唇元音）。但其實，更有可能是兩種唸法同時存在。這種時候，無論你唸哪種，都不影響意思表達。此時這兩者就互為自由變體。</p>]]></content:encoded>
-      
-      
-      <category domain="https://shuaixin.cc/categories/%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98/">語言筆記</category>
-      
-      
-      <category domain="https://shuaixin.cc/tags/%E5%90%8C%E4%BD%8D%E7%95%B0%E9%9F%B3/">同位異音</category>
-      
-      
-      <comments>https://shuaixin.cc/phoneme-allophone-variation/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>使用 OrCAD Capture 設計電路</title>
-      <link>https://shuaixin.cc/OrCAD-Capture-Demo/</link>
-      <guid>https://shuaixin.cc/OrCAD-Capture-Demo/</guid>
-      <pubDate>Mon, 30 Dec 2024 16:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description></description>
-          
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>OrCAD Capture 一打開，密密麻麻的選單，如何開始？</p><p>這裡簡單帶大家畫兩組電路來運作，給大家一點方向。走起！</p><h3 id="實際操作">實際操作</h3><p>打開 OrCAD Capture，起始頁面選擇 New Project。</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0018.jpg" alt="OrCAD_Capture_Demo0018"></p><p>選擇 PSpice Analog or Mixed A/D，這個我們才能模擬電路實際 run 起來的效果與監看各項參數。</p><p>取個名，選個存放位置，OK 走起。</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0017.jpg" alt="OrCAD_Capture_Demo0017"></p><p>此處我們開一個空白的來動手。</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0016.jpg" alt="OrCAD_Capture_Demo0016"></p><p>創建後就長這樣：<img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0015.jpg" alt="OrCAD_Capture_Demo0015"></p><p>我們從右側的放置（place）選單裡面選擇部件（part），會發現我們還沒有部件可以使用。此處我們點擊 Add Library：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0014.jpg" alt="OrCAD_Capture_Demo0014"></p><p>Cadence 套裝在安裝時應該都有附 Library 了，可以參考以下相對位置，選擇 pspice：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0013.jpg" alt="OrCAD_Capture_Demo0013"></p><p>可以選你要的就好，但此處我們為了方便，直接全選後按開啟：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0012.jpg" alt="OrCAD_Capture_Demo0012"></p><p>如此就導入進來了。</p><p>接著我們找電阻來用。搜尋 r 就可以找到 R/ANALOG。</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0011.jpg" alt="OrCAD_Capture_Demo0011"></p><p>點選 Place Part，或是直接 enter：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0010.jpg" alt="OrCAD_Capture_Demo0010"></p><p>就可以在畫布上放置電阻，我們放四個。放完可以按 esc 結束放置：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0009.jpg" alt="OrCAD_Capture_Demo0009"></p><p>用一樣的方法，我們找到 VDC/SOURCE 來放置電壓源，我們放兩個：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0008.jpg" alt="OrCAD_Capture_Demo0008"></p><p>接著，我們從右側選單找到接地。或是直接按快捷鍵 G，我們放兩個：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0007.jpg" alt="OrCAD_Capture_Demo0007"></p><p>接下來我們把這些東西用導線接成一組並聯、一組串聯。</p><p>拉導線（wire）的方法，一樣可以右邊選單找，或是快捷鍵 W。連接上很直覺，用滑鼠點擊就可以輕鬆佈線：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0006.jpg" alt="OrCAD_Capture_Demo0006"></p><p>接著我們實際跑跑看這兩組電路。</p><p>上方導覽列選擇 PSpice 中的 New Simulation Profile：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0005.jpg" alt="OrCAD_Capture_Demo0005"></p><p>選擇 PSpice A/D：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0003.jpg" alt="OrCAD_Capture_Demo0003"></p><p>參數可以不要動（我這裡有動，但不影響），直接 OK。</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0002.jpg" alt="OrCAD_Capture_Demo0002"></p><p>接著點擊導覽列上的 Run PSpice，就會發現我們的 wire 上面模擬出了實際的電壓電流值：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0001.jpg" alt="OrCAD_Capture_Demo0001"></p><p>但怎麼都是 0？哈，因為我們的電壓源是 0V，合情合理。我們雙擊我們的電壓源，隨便給它一些電壓，此處我給 50V。</p><p>設定完再 run 一次，就可以看到結果咯：</p><p><img src="/OrCAD-Capture-Demo/OrCAD_Capture_Demo0000.jpg" alt="OrCAD_Capture_Demo0000"></p>]]></content:encoded>
-      
-      
-      <category domain="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/">其他</category>
-      
-      
-      <category domain="https://shuaixin.cc/tags/OrCAD/">OrCAD</category>
-      
-      <category domain="https://shuaixin.cc/tags/Capture/">Capture</category>
-      
-      
-      <comments>https://shuaixin.cc/OrCAD-Capture-Demo/#disqus_thread</comments>
       
     </item>
     
