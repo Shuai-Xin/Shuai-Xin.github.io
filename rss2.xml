@@ -15,8 +15,43 @@
     <atom:link href="https://shuaixin.cc/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>劉昕的部落格</description>
-    <pubDate>Thu, 27 Aug 2026 12:28:56 GMT</pubDate>
+    <pubDate>Tue, 01 Sep 2026 11:09:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>替自架服務加上訪問控制：以 Nginx Proxy Manager 為例</title>
+      <link>https://shuaixin.cc/Access-Control-Through-NPM/</link>
+      <guid>https://shuaixin.cc/Access-Control-Through-NPM/</guid>
+      <pubDate>Mon, 31 Aug 2026 16:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description></description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="背景與需求">背景與需求</h2><p>自 <a href="https://shuaixin.cc/HA-11-Reverse-Proxy/">**智能家居 EP11：用反向代理取代端口轉發</a>** 之後，我的 home server 已經不需要替每個服務逐個開端口轉發了。大部分的服務我都是透過 VPN 連回家來進行訪問，而少部分需要外網訪問的需求就用跟智能家居 EP11 一樣的反向代理來處理。</p><p>邏輯簡單捋一下：域名服務商（我現在用 Cloudflare）替我做純 DNS，透過 CNAME 去指向我的 DDNS 服務商（我現在用 DuckDNS），而 DDNS 幫我導到我 server 的 IP 位置，此時外網就能訪問到我的反向代理服務（我一直都是用自架的 Nginx Proxy Manager，下稱 NPM），此時根據我輸入的網址，NPM 會再幫我導向目標服務。</p><p><img src="/Access-Control-Through-NPM/self-host-app.png" alt="self-host-app"></p><p>在這種設定方式之下，只要有該服務的網址，就能訪問。此時如果服務有自己的訪問控制方式（比如說帳號密碼登入）那倒就無妨，但已經 2026 年了，其實很多服務我們是 vibe coding 詠唱出來自用的，是否有方法可以不用自己刻訪問控制呢？畢竟很多小功能並不值得消耗 token 來多做這一層。</p><h2 id="解決方案">解決方案</h2><p>其實有現成的方法在眼前，NPM 本身就自帶訪問控制，太好了，來實做吧！</p><p>假設我的 home server 在內網中的 IP 是 <code>192.168.87.87</code>，並且我讓這次架設的服務 run 在 port 5487，那麼此時在 NPM 裡面：</p><p><img src="/Access-Control-Through-NPM/self-host-app-1.png" alt="self-host-app-1"></p><ul><li>A 填入訪問網址，比如 <code>fuwu.mydomain.tw</code></li><li>B 填入內網目標，此例中就是 <code>http://192.168.87.87:5487</code></li></ul><p>此例中的 NPM 與服務都位於可信任的內網，因此目標填寫 <code>http</code> 即可；外部 HTTPS 連線會在 NPM 終止，再由 NPM 透過內網 HTTP 連向服務。</p><p>接著我們在 Access Lists 中進行設置，其中：</p><p><img src="/Access-Control-Through-NPM/self-host-2.png" alt="self-host-2"></p><ul><li>由 A 進入設置。</li><li>B 我這裡設 allow all，這樣我就可以從任意位置訪問進來。但若要嚴謹一點，也可以僅僅加入你的 IP 白名單就好。</li><li>C 的部分就可以設置帳號密碼。</li></ul><p>最後回到該服務，選擇剛剛設置好的 access list：</p><p><img src="/Access-Control-Through-NPM/self-host-3.png" alt="self-host-3"></p><p>並且注意，<strong>Force SSL 記得要開</strong>，否則 HTTP 訪問時輸入帳密會是明文。</p><p>至此設置完畢！</p><p>如此一來，以後這個服務就可以由外網訪問，但同時有一層訪問控制，使其不至於裸奔。</p>]]></content:encoded>
+      
+      
+      <category domain="https://shuaixin.cc/categories/Self-Hosting/">Self Hosting</category>
+      
+      
+      <category domain="https://shuaixin.cc/tags/Self-Hosting/">Self Hosting</category>
+      
+      <category domain="https://shuaixin.cc/tags/Docker/">Docker</category>
+      
+      <category domain="https://shuaixin.cc/tags/Proxy/">Proxy</category>
+      
+      <category domain="https://shuaixin.cc/tags/NPM/">NPM</category>
+      
+      
+      <comments>https://shuaixin.cc/Access-Control-Through-NPM/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>享受使用權，放棄佔有欲 2</title>
@@ -1600,35 +1635,6 @@
       
       
       <comments>https://shuaixin.cc/HA-X-Remote/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>智能家居 EP8：讓燈光隨著晝夜節律改變色溫</title>
-      <link>https://shuaixin.cc/HA-8-Circadian-Light/</link>
-      <guid>https://shuaixin.cc/HA-8-Circadian-Light/</guid>
-      <pubDate>Wed, 15 Jan 2025 16:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description></description>
-          
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>如何讓家裡的燈光色溫與自然的晝夜節律同步呢？此篇就來實作！</p><blockquote><p>本來這個需求我們選用了 <a href="https://github.com/claytonjn/hass-circadian_lighting?tab=readme-ov-file">hass-circadian_lighting</a> 的方案，但必須操作 configuration.yaml。</p><p>後來發現了 <a href="https://github.com/basnijholt/adaptive-lighting?tab=readme-ov-file#gear-configuration">adaptive-lighting</a>，可以純粹用圖形界面就搞定，那我們從善如流咯！</p></blockquote><h3 id="下載位置">下載位置</h3><p>首先在 HACS 中搜尋「Adaptive Lighting」，找到並點擊：</p><p><img src="/HA-8-Circadian-Light/Adaptive_Lighting_0008.jpg" alt="Adaptive_Lighting_0008"></p><p>就是這傢伙，咱們選擇下載：</p><p><img src="/HA-8-Circadian-Light/Adaptive_Lighting_0007.jpg" alt="Adaptive_Lighting_0007"></p><p>撰文當下版本為 v1.25.0：</p><p><img src="/HA-8-Circadian-Light/Adaptive_Lighting_0006.jpg" alt="Adaptive_Lighting_0006"></p><h3 id="安裝設定">安裝設定</h3><p>下載後，到「設定 &gt; 裝置與整合」中搜尋我們的 Adaptive Lighting：</p><p><img src="/HA-8-Circadian-Light/Adaptive_Lighting_0005.jpg" alt="Adaptive_Lighting_0005"></p><p>點擊設定：</p><p><img src="/HA-8-Circadian-Light/Adaptive_Lighting_0003.jpg" alt="Adaptive_Lighting_0003"></p><p>找到我們要套用的燈具：</p><p><img src="/HA-8-Circadian-Light/Adaptive_Lighting_0001.jpg" alt="Adaptive_Lighting_0001"></p><p>進行細節調整：</p><p><img src="/HA-8-Circadian-Light/Adaptive_Lighting_0000.jpg" alt="Adaptive_Lighting_0000"></p><p>此處我將最低色溫調整到 3000，因為再暖就真的太紅了，我個人不太適應。而最低亮度我也沒給太低，不然能見度真的快看不到了。</p><p>如此一來，我們的燈光就自動與目前的晝夜節律同步咯 :)</p>]]></content:encoded>
-      
-      
-      <category domain="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/">智能家居</category>
-      
-      
-      <category domain="https://shuaixin.cc/tags/Home-Assistant/">Home Assistant</category>
-      
-      
-      <comments>https://shuaixin.cc/HA-8-Circadian-Light/#disqus_thread</comments>
       
     </item>
     
