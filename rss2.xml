@@ -71,11 +71,11 @@
       <category domain="https://shuaixin.cc/categories/Self-Hosting/">Self Hosting</category>
       
       
-      <category domain="https://shuaixin.cc/tags/Self-Hosting/">Self Hosting</category>
-      
       <category domain="https://shuaixin.cc/tags/Docker/">Docker</category>
       
       <category domain="https://shuaixin.cc/tags/immich/">immich</category>
+      
+      <category domain="https://shuaixin.cc/tags/Self-Hosting/">Self Hosting</category>
       
       <category domain="https://shuaixin.cc/tags/Dawarich/">Dawarich</category>
       
@@ -110,13 +110,13 @@
       <category domain="https://shuaixin.cc/categories/Self-Hosting/">Self Hosting</category>
       
       
-      <category domain="https://shuaixin.cc/tags/Self-Hosting/">Self Hosting</category>
-      
       <category domain="https://shuaixin.cc/tags/Docker/">Docker</category>
       
-      <category domain="https://shuaixin.cc/tags/Proxy/">Proxy</category>
+      <category domain="https://shuaixin.cc/tags/Self-Hosting/">Self Hosting</category>
       
       <category domain="https://shuaixin.cc/tags/NPM/">NPM</category>
+      
+      <category domain="https://shuaixin.cc/tags/Proxy/">Proxy</category>
       
       
       <comments>https://shuaixin.cc/Access-Control-Through-NPM/#disqus_thread</comments>
@@ -174,11 +174,11 @@
       <category domain="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/">其他</category>
       
       
-      <category domain="https://shuaixin.cc/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E5%90%8C%E6%A8%82%E6%9C%83/">部落格同樂會</category>
-      
       <category domain="https://shuaixin.cc/tags/%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97/">自由意志</category>
       
       <category domain="https://shuaixin.cc/tags/%E5%BF%83%E6%99%BA/">心智</category>
+      
+      <category domain="https://shuaixin.cc/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E5%90%8C%E6%A8%82%E6%9C%83/">部落格同樂會</category>
       
       
       <comments>https://shuaixin.cc/1-qi-1-hui/#disqus_thread</comments>
@@ -634,13 +634,13 @@
       <category domain="https://shuaixin.cc/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/">讀書筆記</category>
       
       
-      <category domain="https://shuaixin.cc/tags/%E7%94%9F%E7%90%86/">生理</category>
-      
-      <category domain="https://shuaixin.cc/tags/%E8%85%A6%E7%A7%91%E5%AD%B8/">腦科學</category>
+      <category domain="https://shuaixin.cc/tags/%E6%99%BA%E6%85%A7/">智慧</category>
       
       <category domain="https://shuaixin.cc/tags/5%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/">5顆星書籍</category>
       
-      <category domain="https://shuaixin.cc/tags/%E6%99%BA%E6%85%A7/">智慧</category>
+      <category domain="https://shuaixin.cc/tags/%E7%94%9F%E7%90%86/">生理</category>
+      
+      <category domain="https://shuaixin.cc/tags/%E8%85%A6%E7%A7%91%E5%AD%B8/">腦科學</category>
       
       <category domain="https://shuaixin.cc/tags/%E5%93%B2%E5%AD%B8/">哲學</category>
       
@@ -836,15 +836,15 @@
       <category domain="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/">其他</category>
       
       
+      <category domain="https://shuaixin.cc/tags/%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97/">自由意志</category>
+      
+      <category domain="https://shuaixin.cc/tags/%E5%BF%83%E6%99%BA/">心智</category>
+      
       <category domain="https://shuaixin.cc/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E5%90%8C%E6%A8%82%E6%9C%83/">部落格同樂會</category>
       
       <category domain="https://shuaixin.cc/tags/%E5%A4%9A%E5%B7%B4%E8%83%BA/">多巴胺</category>
       
       <category domain="https://shuaixin.cc/tags/%E4%B8%8A%E9%80%B2%E5%BF%83/">上進心</category>
-      
-      <category domain="https://shuaixin.cc/tags/%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97/">自由意志</category>
-      
-      <category domain="https://shuaixin.cc/tags/%E5%BF%83%E6%99%BA/">心智</category>
       
       <category domain="https://shuaixin.cc/tags/%E5%B7%AE%E5%80%BC%E5%A4%96%E5%8C%85/">差值外包</category>
       
@@ -1067,11 +1067,11 @@
       <category domain="https://shuaixin.cc/categories/Self-Hosting/">Self Hosting</category>
       
       
-      <category domain="https://shuaixin.cc/tags/Self-Hosting/">Self Hosting</category>
-      
       <category domain="https://shuaixin.cc/tags/Docker/">Docker</category>
       
       <category domain="https://shuaixin.cc/tags/immich/">immich</category>
+      
+      <category domain="https://shuaixin.cc/tags/Self-Hosting/">Self Hosting</category>
       
       
       <comments>https://shuaixin.cc/immich-move-to-ssd/#disqus_thread</comments>
@@ -1135,9 +1135,9 @@
       <category domain="https://shuaixin.cc/categories/%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98/">讀書筆記</category>
       
       
-      <category domain="https://shuaixin.cc/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/">4顆星書籍</category>
-      
       <category domain="https://shuaixin.cc/tags/%E9%87%91%E8%9E%8D/">金融</category>
+      
+      <category domain="https://shuaixin.cc/tags/4%E9%A1%86%E6%98%9F%E6%9B%B8%E7%B1%8D/">4顆星書籍</category>
       
       
       <comments>https://shuaixin.cc/The-Psychology-of-Money/#disqus_thread</comments>
@@ -1166,11 +1166,11 @@
       <category domain="https://shuaixin.cc/categories/%E5%85%B6%E4%BB%96/">其他</category>
       
       
-      <category domain="https://shuaixin.cc/tags/ESP32/">ESP32</category>
-      
       <category domain="https://shuaixin.cc/tags/BrightSign/">BrightSign</category>
       
       <category domain="https://shuaixin.cc/tags/GPIO/">GPIO</category>
+      
+      <category domain="https://shuaixin.cc/tags/ESP32/">ESP32</category>
       
       <category domain="https://shuaixin.cc/tags/ESP8266/">ESP8266</category>
       
@@ -1205,9 +1205,9 @@
       <category domain="https://shuaixin.cc/categories/Self-Hosting/">Self Hosting</category>
       
       
-      <category domain="https://shuaixin.cc/tags/Self-Hosting/">Self Hosting</category>
-      
       <category domain="https://shuaixin.cc/tags/Docker/">Docker</category>
+      
+      <category domain="https://shuaixin.cc/tags/Self-Hosting/">Self Hosting</category>
       
       <category domain="https://shuaixin.cc/tags/Taiko/">Taiko</category>
       
@@ -1310,9 +1310,9 @@
       <category domain="https://shuaixin.cc/categories/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/">智能家居</category>
       
       
-      <category domain="https://shuaixin.cc/tags/Home-Assistant/">Home Assistant</category>
-      
       <category domain="https://shuaixin.cc/tags/Proxy/">Proxy</category>
+      
+      <category domain="https://shuaixin.cc/tags/Home-Assistant/">Home Assistant</category>
       
       
       <comments>https://shuaixin.cc/HA-11-Reverse-Proxy/#disqus_thread</comments>

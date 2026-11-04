@@ -145,12 +145,6 @@ export default [
     "height": 1080
   },
   {
-    "id": "IMG_7097.webp",
-    "src": "./photos/IMG_7097.webp",
-    "width": 811,
-    "height": 1070
-  },
-  {
     "id": "f47968768_cr.webp",
     "src": "./photos/f47968768_cr.webp",
     "width": 1920,
