@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="Hi 最近新手上路開始拍照，目前的器材是 a6700 + SEL70350G，起心動念是拍鳥鳥，請多指教！">
+  <title>劉昕拍ㄉ東東</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./fonts/liuxin-title-heavy.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#gallery">跳至照片</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="劉昕拍ㄉ東東首頁"><span class="title-font">劉昕拍ㄉ東東</span></a>
+    <a class="blog-link" href="https://shuaixin.cc/">回到部落格 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title" class="sr-only">劉昕拍ㄉ東東</h1>
+      <p>Hi 最近新手上路開始拍照，<br>目前的器材是 a6700 + SEL70350G，<br>起心動念是拍鳥鳥，<br>請多指教！</p>
+    </section>
+    <div id="gallery" class="gallery" aria-label="照片牆" tabindex="-1"></div>
+    <noscript><p class="gallery-message">請啟用 JavaScript 以瀏覽照片牆。</p></noscript>
+    <p id="gallery-message" class="gallery-message" role="status" hidden></p>
+    <div id="scroll-sentinel" aria-hidden="true"></div>
+    <footer class="site-footer"><span>拷貝右邊屬於劉昕ㄛ</span><button id="back-to-top" type="button">回到最上方 <span aria-hidden="true">↑</span></button></footer>
+  </main>
+  <dialog id="lightbox" aria-label="照片放大檢視">
+    <div class="lightbox-header"><span class="lightbox-brand title-font">劉昕拍ㄉ東東</span><span id="lightbox-count" aria-live="polite"></span><button id="close-lightbox" class="icon-button" type="button" aria-label="關閉照片"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></div>
+    <div class="lightbox-stage"><button id="previous-photo" class="icon-button previous" type="button" aria-label="上一張照片"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7"/></svg></button><img id="lightbox-image" alt=""><button id="next-photo" class="icon-button next" type="button" aria-label="下一張照片"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 5 7 7-7 7"/></svg></button></div>
+    <div class="lightbox-caption"><a id="photo-credit" target="_blank" rel="noopener noreferrer" hidden></a><span class="keyboard-hint">← → 切換　ESC 關閉</span></div>
+    <p id="lightbox-error" role="status" hidden>照片暫時無法載入，請稍後再試。</p>
+  </dialog>
+</body>
+</html>
