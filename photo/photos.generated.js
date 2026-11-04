@@ -1,192 +1,117 @@
 // Generated automatically from photos/. Do not edit.
 export default [
   {
-    "id": "demo-01.jpg",
-    "src": "./photos/demo-01.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbnail": "./thumbnails/demo-01.jpg",
-    "author": "Da-shika",
-    "source": "https://unsplash.com/photos/0Xz9C_5nkpc"
+    "id": "DSC00266_cr.webp",
+    "src": "./photos/DSC00266_cr.webp",
+    "width": 1920,
+    "height": 1080
   },
   {
-    "id": "demo-02.jpg",
-    "src": "./photos/demo-02.jpg",
-    "width": 900,
-    "height": 1600,
-    "thumbnail": "./thumbnails/demo-02.jpg",
-    "author": "Andrew Leu",
-    "source": "https://unsplash.com/photos/yX0qIBEl6O8"
+    "id": "DSC00737_cr.webp",
+    "src": "./photos/DSC00737_cr.webp",
+    "width": 1080,
+    "height": 1920
   },
   {
-    "id": "demo-03.jpg",
-    "src": "./photos/demo-03.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbnail": "./thumbnails/demo-03.jpg",
-    "author": "",
-    "source": "https://unsplash.com/photos/eipONewJygc"
+    "id": "DSC00761_cr.webp",
+    "src": "./photos/DSC00761_cr.webp",
+    "width": 1920,
+    "height": 1079
   },
   {
-    "id": "demo-04.jpg",
-    "src": "./photos/demo-04.jpg",
-    "width": 900,
-    "height": 1600,
-    "thumbnail": "./thumbnails/demo-04.jpg",
-    "author": "Olivia Kim",
-    "source": "https://unsplash.com/photos/MAavXSIBLkc"
+    "id": "DSC02004_cr.webp",
+    "src": "./photos/DSC02004_cr.webp",
+    "width": 1920,
+    "height": 1079
   },
   {
-    "id": "demo-05.jpg",
-    "src": "./photos/demo-05.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbnail": "./thumbnails/demo-05.jpg",
-    "author": "Yuka Sue",
-    "source": "https://unsplash.com/photos/7TAXBV9xP30"
+    "id": "DSC02439.webp",
+    "src": "./photos/DSC02439.webp",
+    "width": 1920,
+    "height": 1080
   },
   {
-    "id": "demo-06.jpg",
-    "src": "./photos/demo-06.jpg",
-    "width": 900,
-    "height": 1600,
-    "thumbnail": "./thumbnails/demo-06.jpg",
-    "author": "",
-    "source": "https://unsplash.com/photos/F7-G2mW73QE"
+    "id": "DSC03393.webp",
+    "src": "./photos/DSC03393.webp",
+    "width": 1920,
+    "height": 1080
   },
   {
-    "id": "demo-07.jpg",
-    "src": "./photos/demo-07.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbnail": "./thumbnails/demo-07.jpg",
-    "author": "Weichao Deng",
-    "source": "https://unsplash.com/photos/E0bj4Q53_Dw"
+    "id": "DSC03506.webp",
+    "src": "./photos/DSC03506.webp",
+    "width": 1920,
+    "height": 1080
   },
   {
-    "id": "demo-08.jpg",
-    "src": "./photos/demo-08.jpg",
-    "width": 900,
-    "height": 1600,
-    "thumbnail": "./thumbnails/demo-08.jpg",
-    "author": "Aditya Rao",
-    "source": "https://unsplash.com/photos/alrVkrZlvNQ"
+    "id": "DSC03781_cr.webp",
+    "src": "./photos/DSC03781_cr.webp",
+    "width": 1920,
+    "height": 1079
   },
   {
-    "id": "demo-09.jpg",
-    "src": "./photos/demo-09.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbnail": "./thumbnails/demo-09.jpg",
-    "author": "",
-    "source": "https://unsplash.com/photos/GLnEsYGmXy0"
+    "id": "DSC03904_cr.webp",
+    "src": "./photos/DSC03904_cr.webp",
+    "width": 1920,
+    "height": 1079
   },
   {
-    "id": "demo-10.jpg",
-    "src": "./photos/demo-10.jpg",
-    "width": 900,
-    "height": 1600,
-    "thumbnail": "./thumbnails/demo-10.jpg",
-    "author": "Marek Piwnicki",
-    "source": "https://unsplash.com/photos/cdt_pAG0sSI"
+    "id": "DSC05688_cr.webp",
+    "src": "./photos/DSC05688_cr.webp",
+    "width": 1920,
+    "height": 1079
   },
   {
-    "id": "demo-11.jpg",
-    "src": "./photos/demo-11.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbnail": "./thumbnails/demo-11.jpg",
-    "author": "Atul Vinayak",
-    "source": "https://unsplash.com/photos/kSwMHdHrFqc"
+    "id": "DSC05766_cr.webp",
+    "src": "./photos/DSC05766_cr.webp",
+    "width": 1080,
+    "height": 1920
   },
   {
-    "id": "demo-12.jpg",
-    "src": "./photos/demo-12.jpg",
-    "width": 900,
-    "height": 1600,
-    "thumbnail": "./thumbnails/demo-12.jpg",
-    "author": "Jason Ortego",
-    "source": "https://unsplash.com/photos/buF62ewDLcQ"
+    "id": "DSC06021_cr.webp",
+    "src": "./photos/DSC06021_cr.webp",
+    "width": 1920,
+    "height": 1079
   },
   {
-    "id": "demo-13.jpg",
-    "src": "./photos/demo-13.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbnail": "./thumbnails/demo-13.jpg",
-    "author": "Jerry Shen",
-    "source": "https://unsplash.com/photos/ld4I1YL70YI"
+    "id": "DSC06235_crr_cr.webp",
+    "src": "./photos/DSC06235_crr_cr.webp",
+    "width": 955,
+    "height": 1698
   },
   {
-    "id": "demo-14.jpg",
-    "src": "./photos/demo-14.jpg",
-    "width": 900,
-    "height": 1600,
-    "thumbnail": "./thumbnails/demo-14.jpg",
-    "author": "Ditmar Lange",
-    "source": "https://unsplash.com/photos/ZscEtLn8NGY"
+    "id": "DSC06247_cr.webp",
+    "src": "./photos/DSC06247_cr.webp",
+    "width": 1920,
+    "height": 1080
   },
   {
-    "id": "demo-15.jpg",
-    "src": "./photos/demo-15.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbnail": "./thumbnails/demo-15.jpg",
-    "author": "BREAKIFY",
-    "source": "https://unsplash.com/photos/zF8A3iWBPA8"
+    "id": "DSC06404_cr.webp",
+    "src": "./photos/DSC06404_cr.webp",
+    "width": 1080,
+    "height": 1920
   },
   {
-    "id": "demo-16.jpg",
-    "src": "./photos/demo-16.jpg",
-    "width": 900,
-    "height": 1600,
-    "thumbnail": "./thumbnails/demo-16.jpg",
-    "author": "Lerone Pieters",
-    "source": "https://unsplash.com/photos/pJHu-dGaw4o"
+    "id": "DSC06555_crr.webp",
+    "src": "./photos/DSC06555_crr.webp",
+    "width": 1920,
+    "height": 1080
   },
   {
-    "id": "demo-17.jpg",
-    "src": "./photos/demo-17.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbnail": "./thumbnails/demo-17.jpg",
-    "author": "Marek Piwnicki",
-    "source": "https://unsplash.com/photos/I5R0jlqSOto"
+    "id": "DSC06631_cr.webp",
+    "src": "./photos/DSC06631_cr.webp",
+    "width": 1080,
+    "height": 1920
   },
   {
-    "id": "demo-18.jpg",
-    "src": "./photos/demo-18.jpg",
-    "width": 900,
-    "height": 1600,
-    "thumbnail": "./thumbnails/demo-18.jpg",
-    "author": "Falco Negenman",
-    "source": "https://unsplash.com/photos/ZfYaEgLvS3c"
+    "id": "DSC06759.webp",
+    "src": "./photos/DSC06759.webp",
+    "width": 1920,
+    "height": 1079
   },
   {
-    "id": "demo-19.jpg",
-    "src": "./photos/demo-19.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbnail": "./thumbnails/demo-19.jpg",
-    "author": "",
-    "source": "https://unsplash.com/photos/gkvNbfekNNI"
-  },
-  {
-    "id": "demo-20.jpg",
-    "src": "./photos/demo-20.jpg",
-    "width": 900,
-    "height": 1600,
-    "thumbnail": "./thumbnails/demo-20.jpg",
-    "author": "Daniel Klein",
-    "source": "https://unsplash.com/photos/gako_x0wxmM"
-  },
-  {
-    "id": "demo-21.jpg",
-    "src": "./photos/demo-21.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbnail": "./thumbnails/demo-21.jpg",
-    "author": "jupter moon",
-    "source": "https://unsplash.com/photos/iRXMtJ-p0tY"
+    "id": "DSC09220.webp",
+    "src": "./photos/DSC09220.webp",
+    "width": 1920,
+    "height": 1080
   }
 ];
