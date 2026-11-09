@@ -4,15 +4,16 @@ const $ = s => document.querySelector(s);
 const gallery = $('#gallery'), dialog = $('#lightbox'), sentinel = $('#scroll-sentinel');
 let photos = [], rows = [], renderedRows = 0, activeIndex = 0, observer, previousWidth = 0, resizeFrame, openerId;
 const number = n => String(n).padStart(2, '0');
+const orientation = photo => photo.width === photo.height ? '方形' : photo.width > photo.height ? '橫幅' : '直幅';
 
 function createPhoto(photo) {
   const button = document.createElement('button');
   button.type = 'button'; button.className = 'photo'; button.dataset.id = photo.id;
-  const index = photos.indexOf(photo), orientation = photo.width >= photo.height ? '橫幅' : '直幅';
-  button.setAttribute('aria-label', `放大第 ${index + 1} 張照片（${orientation}）`);
+  const index = photos.indexOf(photo), shape = orientation(photo);
+  button.setAttribute('aria-label', `放大第 ${index + 1} 張照片（${shape}）`);
   const img = new Image();
   img.src = photo.thumbnail || photo.src;
-  img.alt = `第 ${index + 1} 張${orientation}照片`;
+  img.alt = `第 ${index + 1} 張${shape}照片`;
   img.width = photo.width; img.height = photo.height;
   img.loading = renderedRows === 0 ? 'eager' : 'lazy'; img.decoding = 'async';
   if (renderedRows === 0) img.fetchPriority = 'high';
@@ -28,9 +29,10 @@ function appendRows(amount = 3) {
   for (; renderedRows < end; renderedRows++) {
     const row = rows[renderedRows], element = document.createElement('div');
     element.className = 'photo-row'; element.style.height = `${row.height}px`;
+    element.dataset.justified = String(row.justified);
     for (const photo of row.items) {
       const button = createPhoto(photo);
-      button.style.width = `${(photo.width / photo.height) / row.sum * 100}%`;
+      button.style.width = `${photo.width / photo.height * row.height}px`;
       element.append(button);
     }
     fragment.append(element);
@@ -88,7 +90,7 @@ function showPhoto(index) {
   activeIndex = Math.max(0, Math.min(photos.length - 1, index));
   const photo = photos[activeIndex], img = $('#lightbox-image');
   $('#lightbox-error').hidden = true;
-  img.alt = `第 ${activeIndex + 1} 張${photo.width >= photo.height ? '橫幅' : '直幅'}照片`;
+  img.alt = `第 ${activeIndex + 1} 張${orientation(photo)}照片`;
   img.src = photo.src;
   $('#lightbox-count').textContent = `${number(activeIndex + 1)} / ${number(photos.length)}`;
   const credit = $('#photo-credit');

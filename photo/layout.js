@@ -1,24 +1,33 @@
-// Justified rows: every photo keeps its supplied aspect ratio; rows fill the width.
-// Optimize the whole sequence so the last row cannot become an oversized orphan.
-export function makeRows(photos, width, spacious = false) {
-  if (!photos.length || width <= 0) return [];
-  const target = width < 700 ? (spacious ? 330 : 245) : (spacious ? 440 : 310);
-  const n = photos.length, cost = Array(n + 1).fill(Infinity), next = Array(n);
-  cost[n] = 0;
-  for (let i = n - 1; i >= 0; i--) {
-    let sum = 0;
-    for (let j = i; j < Math.min(n, i + 9); j++) {
-      sum += photos[j].width / photos[j].height;
-      const height = width / sum;
-      const score = Math.pow(Math.log(height / target), 2) + cost[j + 1];
-      if (score < cost[i]) { cost[i] = score; next[i] = j + 1; }
-    }
+import justifiedLayout from './vendor/justified-layout.js';
+
+/** Group arbitrary image sizes into justified rows without cropping. */
+export function makeRows(photos, width) {
+  if (!photos.length || !Number.isFinite(width) || width <= 0) return [];
+  if (photos.some(photo => !Number.isFinite(photo.width) || !Number.isFinite(photo.height) || photo.width <= 0 || photo.height <= 0)) {
+    throw new RangeError('Photos must have positive, finite original dimensions');
   }
-  const rows = [];
-  for (let i = 0; i < n; i = next[i]) {
-    const items = photos.slice(i, next[i]);
-    const sum = items.reduce((total, p) => total + p.width / p.height, 0);
-    rows.push({ items, height: width / sum, sum });
-  }
-  return rows;
+  const target = width < 700 ? 220 : 300;
+  const geometry = justifiedLayout(photos, {
+    containerWidth: width,
+    containerPadding: 0,
+    boxSpacing: 0,
+    targetRowHeight: target,
+    targetRowHeightTolerance: .25,
+    forceAspectRatio: false,
+    showWidows: true
+  });
+  const groups = [];
+  geometry.boxes.forEach((box, index) => {
+    if (!groups.length || groups[groups.length - 1].top !== box.top) groups.push({ top: box.top, items: [] });
+    groups[groups.length - 1].items.push(photos[index]);
+  });
+  return groups.map((group, index) => {
+    const sum = group.items.reduce((total, photo) => total + photo.width / photo.height, 0);
+    const justified = index < groups.length - 1 || geometry.widowCount === 0;
+    // The library caps extreme row heights, which can change its box ratios.
+    // Recompute from original dimensions to preserve even very wide panoramas.
+    // An unfinished final row stays at a natural height rather than stretching.
+    const height = justified ? width / sum : Math.min(target, width / sum);
+    return { items: group.items, height, width: height * sum, justified };
+  });
 }
