@@ -145,6 +145,18 @@ export default [
     "height": 1080
   },
   {
+    "id": "PixPin_2026-10-15_20-22-32.webp",
+    "src": "./photos/PixPin_2026-10-15_20-22-32.webp",
+    "width": 696,
+    "height": 1245
+  },
+  {
+    "id": "PixPin_2026-10-19_14-00-48.webp",
+    "src": "./photos/PixPin_2026-10-19_14-00-48.webp",
+    "width": 1520,
+    "height": 1520
+  },
+  {
     "id": "PixPin_2026-11-05_14-15-50.webp",
     "src": "./photos/PixPin_2026-11-05_14-15-50.webp",
     "width": 1914,
