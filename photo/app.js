@@ -29,6 +29,7 @@ function appendRows(amount = 3) {
   for (; renderedRows < end; renderedRows++) {
     const row = rows[renderedRows], element = document.createElement('div');
     element.className = 'photo-row'; element.style.height = `${row.height}px`;
+    element.style.columnGap = `${row.gap}px`;
     element.dataset.justified = String(row.justified);
     for (const photo of row.items) {
       const button = createPhoto(photo);
@@ -48,7 +49,8 @@ function fillViewport() {
 
 function rebuild(preserveCount = 0) {
   previousWidth = gallery.clientWidth;
-  rows = makeRows(photos, previousWidth);
+  const gap = Number.parseFloat(getComputedStyle(gallery).rowGap) || 0;
+  rows = makeRows(photos, previousWidth, gap);
   gallery.replaceChildren(); renderedRows = 0;
   let amount = 3, count = 0;
   if (preserveCount) {

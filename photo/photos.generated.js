@@ -139,6 +139,24 @@ export default [
     "height": 1079
   },
   {
+    "id": "DSC06959_cr.webp",
+    "src": "./photos/DSC06959_cr.webp",
+    "width": 4548,
+    "height": 2558
+  },
+  {
+    "id": "DSC07434_cr.webp",
+    "src": "./photos/DSC07434_cr.webp",
+    "width": 3511,
+    "height": 1975
+  },
+  {
+    "id": "DSC07677_cr.webp",
+    "src": "./photos/DSC07677_cr.webp",
+    "width": 4264,
+    "height": 3198
+  },
+  {
     "id": "DSC09220.webp",
     "src": "./photos/DSC09220.webp",
     "width": 1920,
@@ -161,6 +179,12 @@ export default [
     "src": "./photos/PixPin_2026-11-05_14-15-50.webp",
     "width": 1914,
     "height": 1075
+  },
+  {
+    "id": "PixPin_2026-11-11_14-07-00.webp",
+    "src": "./photos/PixPin_2026-11-11_14-07-00.webp",
+    "width": 2027,
+    "height": 1520
   },
   {
     "id": "f47968768_cr.webp",
