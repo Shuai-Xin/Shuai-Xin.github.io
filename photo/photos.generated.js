@@ -37,6 +37,12 @@ export default [
     "height": 1079
   },
   {
+    "id": "DSC00825_cr.webp",
+    "src": "./photos/DSC00825_cr.webp",
+    "width": 5709,
+    "height": 3211
+  },
+  {
     "id": "DSC02004_cr.webp",
     "src": "./photos/DSC02004_cr.webp",
     "width": 1920,
@@ -109,6 +115,12 @@ export default [
     "height": 1698
   },
   {
+    "id": "DSC06242_cr.webp",
+    "src": "./photos/DSC06242_cr.webp",
+    "width": 3300,
+    "height": 1856
+  },
+  {
     "id": "DSC06247_cr.webp",
     "src": "./photos/DSC06247_cr.webp",
     "width": 1920,
@@ -145,6 +157,12 @@ export default [
     "height": 2558
   },
   {
+    "id": "DSC07202.webp",
+    "src": "./photos/DSC07202.webp",
+    "width": 6192,
+    "height": 3480
+  },
+  {
     "id": "DSC07434_cr.webp",
     "src": "./photos/DSC07434_cr.webp",
     "width": 3511,
@@ -161,6 +179,18 @@ export default [
     "src": "./photos/DSC09220.webp",
     "width": 1920,
     "height": 1080
+  },
+  {
+    "id": "IMG_7097.webp",
+    "src": "./photos/IMG_7097.webp",
+    "width": 811,
+    "height": 1070
+  },
+  {
+    "id": "PixPin_2026-10-07_13-38-48.webp",
+    "src": "./photos/PixPin_2026-10-07_13-38-48.webp",
+    "width": 2280,
+    "height": 1283
   },
   {
     "id": "PixPin_2026-10-15_20-22-32.webp",
@@ -185,6 +215,12 @@ export default [
     "src": "./photos/PixPin_2026-11-11_14-07-00.webp",
     "width": 2027,
     "height": 1520
+  },
+  {
+    "id": "backham.webp",
+    "src": "./photos/backham.webp",
+    "width": 1340,
+    "height": 1536
   },
   {
     "id": "f47968768_cr.webp",
